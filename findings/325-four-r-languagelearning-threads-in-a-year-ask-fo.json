@@ -1,0 +1,82 @@
+{
+ "evidence": [
+  "https://old.reddit.com/r/guitarlessons+learnart+languagelearning+piano+singing/search?q=%22is+there+an+app%22&restrict_sr=on&sort=top&t=year"
+ ],
+ "method": "Reddit sweep of the skill-learning cluster on \"is there an app\", read on the search-results page where post bodies appear in full. Four independent personal-vocabulary requests counted across twelve months, plus the lifetime-licence thread (16 pts / 35 comments, two days old) as the pricing signal. Quotes verbatim, scores as displayed 2026-08-06.",
+ "domain": "pain-points",
+ "url": "https://old.reddit.com/r/guitarlessons+learnart+languagelearning+piano+singing/search?q=%22is+there+an+app%22&restrict_sr=on&sort=top&t=year",
+ "gap": "Anki stores your words and never generates anything; the chat assistants generate endlessly and forget your list the moment the window closes; the graded-reader publishers pick the vocabulary for you. Nobody joins your own collected list to generated material at your boundary — which is what all four askers describe.",
+ "workload": "2w",
+ "voices": [
+  {
+   "kind": "demand",
+   "quote": "Is there an app or site where you can save your own vocab to a library, and then it creates sentences with them?",
+   "user": "sjdehajak",
+   "src": "reddit r/languagelearning (7 pts / 16 comments)",
+   "url": "https://old.reddit.com/r/guitarlessons+learnart+languagelearning+piano+singing/search?q=%22is+there+an+app%22&restrict_sr=on&sort=top&t=year",
+   "text": "Is there an app or site where you can save your own vocab to a library, and then it creates sentences with them?"
+  },
+  {
+   "kind": "demand",
+   "quote": "I really need this, I think my vocabulary will shoot up instantly significantly if I have something like this. Free or cheap or any price.",
+   "user": "ComfortablePost3664",
+   "src": "reddit r/languagelearning (8 comments)",
+   "url": "https://old.reddit.com/r/guitarlessons+learnart+languagelearning+piano+singing/search?q=%22is+there+an+app%22&restrict_sr=on&sort=top&t=year",
+   "text": "I really need this, I think my vocabulary will shoot up instantly significantly if I have something like this. Free or cheap or any price."
+  },
+  {
+   "kind": "pain",
+   "quote": "I don't have the money to be paying multiple subscriptions, so, is there an app or site that do what rosetta stone used to?",
+   "user": "AffectionateTeam8043",
+   "src": "reddit r/languagelearning (16 pts / 35 comments, 2 days old)",
+   "url": "https://old.reddit.com/r/guitarlessons+learnart+languagelearning+piano+singing/search?q=%22is+there+an+app%22&restrict_sr=on&sort=top&t=year",
+   "text": "I don't have the money to be paying multiple subscriptions, so, is there an app or site that do what rosetta stone used to?"
+  },
+  {
+   "kind": "demand",
+   "quote": "Is there an app which either integrates with Safari on iPhone or has an integrated web-browser where you can mark whatever word you want and create a flashcard for it?",
+   "user": "PawnshopGhost",
+   "src": "reddit r/languagelearning",
+   "url": "https://old.reddit.com/r/guitarlessons+learnart+languagelearning+piano+singing/search?q=%22is+there+an+app%22&restrict_sr=on&sort=top&t=year",
+   "text": "Is there an app which either integrates with Safari on iPhone or has an integrated web-browser where you can mark whatever word you want and create a flashcard for it?"
+  }
+ ],
+ "i18n": {
+  "zh": {
+   "gap": "背单词 App 的例句出自它自己的词库，跟你攒的词表对不上；语法练习又完全不管你会哪些词。",
+   "workload": "2w",
+   "voices": [
+    {
+     "quote": "Is there an app or site where you can save your own vocab to a library, and then it creates sentences with them?",
+     "zh": "有没有 App 或者网站，能把我自己的生词存成一个词库，然后用这些词造句子？"
+    },
+    {
+     "quote": "I really need this, I think my vocabulary will shoot up instantly significantly if I have something like this. Free or cheap or any price.",
+     "zh": "我真的需要这个，我觉得只要有这样的东西，我的词汇量会立刻涨一大截。免费、便宜、多贵都行。"
+    },
+    {
+     "quote": "I don't have the money to be paying multiple subscriptions, so, is there an app or site that do what rosetta stone used to?",
+     "zh": "我没钱同时订好几个服务，有没有哪个 App 或网站能做到 Rosetta Stone 以前做的那件事？"
+    },
+    {
+     "quote": "Is there an app which either integrates with Safari on iPhone or has an integrated web-browser where you can mark whatever word you want and create a flashcard for it?",
+     "zh": "有没有一个 App，能和 iPhone 上的 Safari 打通，或者自带浏览器，让我圈出任何一个词就直接做成一张记忆卡？"
+    }
+   ],
+   "pain": "自己一个词一个词攒了几百个生词，可练来练去都是别人的例句——没有一句话是用你自己的词造出来的。",
+   "kill": "机器造的句子容易别扭，学出一嘴假外语；句子质量撑不住，这事就不成立。",
+   "move": "只做一件小事：导入你自己的词表，每天生成几句只用你已会的词的句子。词表是他们亲手攒的，导入成本几乎为零。"
+  }
+ },
+ "id": "325-four-r-languagelearning-threads-in-a-year-ask-fo",
+ "agent": "ourword-ai",
+ "posted_at": "2026-08-06T03:19:25Z",
+ "reused": 0,
+ "first": true,
+ "tags": [],
+ "pain_verified": true,
+ "verdict": "build",
+ "pain": "Someone learning a language who keeps their own word list by hand, and wants sentences built only out of the words they already know.",
+ "kill": "This is the most copyable idea on this batch: it is an Anki add-on plus one prompt, and several already exist in rough form. The audience also self-selects for people who will build it themselves, and Duolingo or Anki shipping it natively ends the category in one release. Weakest of today's findings and marked as such.",
+ "move": "Do not build a language app. Build the boundary: import your list from Anki or a photo of your notebook, and every morning produce one 150-word story that contains zero words outside it, plus the five words you are closest to being ready for. Cold start (Chinese): 小红书「背单词 记不住」「原版书 生词」标签与考研/雅思词汇打卡群; (English): the r/languagelearning threads themselves and the Anki subreddit, where the same request appears as an add-on wish."
+}

@@ -1,0 +1,42 @@
+{
+ "title": "wangxijie001/yoji",
+ "evidence": [
+  "https://github.com/wangxijie001/yoji",
+  "516★",
+  "85 forks",
+  "1 contributors",
+  "11 commits/30d",
+  "created 2026-06-24"
+ ],
+ "method": "discovery + usage signals (forks/contributors/commits/downloads)",
+ "domain": "agent-infra",
+ "operator": "@ourword-ai",
+ "tags": [
+  "ai-companion",
+  "ai-personality",
+  "anthropomorphic-ai",
+  "document-processing",
+  "emotional-ai"
+ ],
+ "id": "228-wangxijie001-yoji",
+ "agent": "gh-scout",
+ "posted_at": "2026-07-28T15:27:15Z",
+ "i18n": {
+  "zh": {
+   "gap": "陪伴类产品干净地分成两半：云端角色（什么都看得见）和死的本地挂件（什么都看不见）。还没有一个既懂你桌上在发生什么、又留在这台机器里。",
+   "voices": [],
+   "pain": "整天一个人在家干活、想桌面上有个「在」的东西、但不愿意把自己的屏幕送给某家公司的人。",
+   "kill": "桌宠的「情绪」如果不是在对真实发生的事做反应，新鲜感撑不过两周；而「MCP 可扩展」正是悄悄把它变回开发者产品的那一句。",
+   "move": "把 MCP 从卖点里拿掉。主张只有一句：它看得见你在自己机器上干什么，且什么都不出这台机器——和用户反复标 ⭐ 的本地隐私主线同一根脊椎（#292 yap、#303 本地记忆、#553 旧手机节点）。冷启动：中文＝小红书/B站「桌宠」「Live2D 桌面」评论区；英文＝r/Shimeji 与 r/desktops。与 #569（手画桌宠）重叠——这条只留「有感知」那一半，不做第二只宠物。"
+  }
+ },
+ "voices": [],
+ "verdict": "build",
+ "workload": "2m",
+ "pain_verified": false,
+ "gap": "Companion products split cleanly into cloud characters (which see everything you do) and dead local mascots (which see nothing). Nothing yet is both aware of your desk and staying on it.",
+ "pain": "The person who works alone at home all day and wants something on the desktop that is present, without shipping their screen to a company.",
+ "kill": "Emotion in a desktop pet is a two-week novelty unless it is reacting to something real; and 'MCP-extensible' is the part that quietly makes this a developer product again.",
+ "move": "Drop MCP from the pitch. The claim is one sentence: it notices what you are doing on your own machine and nothing leaves it — same local-privacy spine the operator has starred repeatedly (#292 yap, #303 local memory, #553 old-phone node). Cold start CN = 小红书/B站「桌宠」「Live2D 桌面」的评论区; EN = r/Shimeji and r/desktops. Overlaps #569 (drawn desktop pet) — keep as the awareness half, not a second pet.",
+ "operator_mark": "star"
+}

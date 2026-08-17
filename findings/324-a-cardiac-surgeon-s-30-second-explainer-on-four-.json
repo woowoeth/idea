@@ -1,0 +1,97 @@
+{
+ "evidence": [
+  "https://www.xiaohongshu.com/explore/6a685e3700000000050393a7",
+  "https://www.xiaohongshu.com/search_result?keyword=%E4%BD%93%E6%A3%80%E6%8A%A5%E5%91%8A%20%E7%9C%8B%E4%B8%8D%E6%87%82"
+ ],
+ "method": "Xiaohongshu search on 「体检报告 看不懂」 (logged-in browser; the result list and like counts are only visible in a screenshot, not in page text). Opened the highest-engagement note and scrolled the comment panel, reading comments off screenshots. Quotes verbatim in the original Chinese with province and relative date as displayed 2026-08-06. Updated 2026-08-06: the third voice had been carried over as a paraphrase from an earlier sweep; it has now been replaced with the verbatim comment text (author + like count) read out of the note's own page state, and two further verbatim comments from the same 763-like/214-comment note were added.",
+ "domain": "pain-points",
+ "url": "https://www.xiaohongshu.com/explore/6a685e3700000000050393a7",
+ "gap": "The two sides never meet. Check-up products stop at translating the report into plain language; diet-logging products count calories and have never seen your lab sheet. The most-repeated request in Chinese comment sections is precisely the join — log what I eat and read it against my check-up — and the consensus about the incumbents (薄荷 / Cal AI / Caloris) is that they cover too little.",
+ "workload": "2w",
+ "voices": [
+  {
+   "kind": "pain",
+   "quote": "请教，为什么总胆固醇和低密度不用看？我分别是5.91和3.21，甘油三酯0.74，高密度2.01",
+   "user": "大包子",
+   "src": "xiaohongshu comment (7 days ago, 浙江)",
+   "url": "https://www.xiaohongshu.com/explore/6a685e3700000000050393a7",
+   "text": "请教，为什么总胆固醇和低密度不用看？我分别是5.91和3.21，甘油三酯0.74，高密度2.01"
+  },
+  {
+   "kind": "pain",
+   "quote": "请问高密度低怎么办？我0.86",
+   "user": "纳澜",
+   "src": "xiaohongshu comment",
+   "url": "https://www.xiaohongshu.com/explore/6a685e3700000000050393a7",
+   "text": "请问高密度低怎么办？我0.86"
+  },
+  {
+   "kind": "demand",
+   "quote": "要输入自己吃的食物、习惯分析缺许多维生素、各类营养物质和热量的，还可以接入体检报告，fit那个功能太有限了。这种软件需要专业的医院和医生以及大量数据来做，可惜没人做。",
+   "user": "唯雨",
+   "src": "xiaohongshu comment, 8 likes — 「有没有哪种APP，真的很需要但没人做？」763赞/214评论",
+   "url": "https://www.xiaohongshu.com/explore/69781bb7000000000903ae66",
+   "text": "要输入自己吃的食物、习惯分析缺许多维生素、各类营养物质和热量的，还可以接入体检报告，fit那个功能太有限了。这种软件需要专业的医院和医生以及大量数据来做，可惜没人做。"
+  },
+  {
+   "kind": "demand",
+   "quote": "我想要一个软件，叫健康助手，可以自动同步智能手环数据（比如心跳，运动睡眠）并且输入 DeepSeek 分析，还可以结合用户上传的饮食给出建议",
+   "user": "小红薯5F34CD94",
+   "src": "xiaohongshu comment (05-09 江苏), same note",
+   "url": "https://www.xiaohongshu.com/explore/69781bb7000000000903ae66",
+   "text": "我想要一个软件，叫健康助手，可以自动同步智能手环数据（比如心跳，运动睡眠）并且输入 DeepSeek 分析，还可以结合用户上传的饮食给出建议"
+  },
+  {
+   "kind": "demand",
+   "quote": "我就非常想要那种养生的app…我用灵光搓了一个害怕系统不稳定，还是觉得有人做就最好了。",
+   "user": "子茵",
+   "src": "xiaohongshu comment, 32 likes — 自建失败＋愿付费，同一条笔记",
+   "url": "https://www.xiaohongshu.com/explore/69781bb7000000000903ae66",
+   "text": "我就非常想要那种养生的app…我用灵光搓了一个害怕系统不稳定，还是觉得有人做就最好了。"
+  }
+ ],
+ "i18n": {
+  "zh": {
+   "gap": "搜索给你的是最坏的可能，App 给你的是一句「请咨询医生」。没有人肯用大白话说清楚：你这个数字，放在你这个人身上，到底要紧不要紧。",
+   "workload": "2w",
+   "voices": [
+    {
+     "quote": "请教，为什么总胆固醇和低密度不用看？我分别是5.91和3.21，甘油三酯0.74，高密度2.01",
+     "zh": "请教，为什么总胆固醇和低密度不用看？我分别是5.91和3.21，甘油三酯0.74，高密度2.01"
+    },
+    {
+     "quote": "请问高密度低怎么办？我0.86",
+     "zh": "请问高密度低怎么办？我0.86"
+    },
+    {
+     "quote": "要输入自己吃的食物、习惯分析缺许多维生素、各类营养物质和热量的，还可以接入体检报告，fit那个功能太有限了。这种软件需要专业的医院和医生以及大量数据来做，可惜没人做。",
+     "zh": "要输入自己吃的食物、习惯分析缺许多维生素、各类营养物质和热量的，还可以接入体检报告，fit那个功能太有限了。这种软件需要专业的医院和医生以及大量数据来做，可惜没人做。"
+    },
+    {
+     "quote": "我想要一个软件，叫健康助手，可以自动同步智能手环数据（比如心跳，运动睡眠）并且输入 DeepSeek 分析，还可以结合用户上传的饮食给出建议",
+     "zh": "我想要一个软件，叫健康助手，可以自动同步智能手环数据（比如心跳，运动睡眠）并且输入 DeepSeek 分析，还可以结合用户上传的饮食给出建议"
+    },
+    {
+     "quote": "我就非常想要那种养生的app…我用灵光搓了一个害怕系统不稳定，还是觉得有人做就最好了。",
+     "zh": "我就非常想要那种养生的app…我用灵光搓了一个害怕系统不稳定，还是觉得有人做就最好了。"
+    }
+   ],
+   "pain": "拿到体检报告，几个数字标红。医生三句话打发你，回家越查越怕——于是你跑到陌生医生的科普视频底下，把自己的化验值一条条贴出来，求他看一眼。",
+   "kill": "健康建议的责任边界很硬——说重了吓人，说轻了担责；这条线走不好，一次误判就毁掉全部信任。",
+   "move": "只做「翻译」不做「诊断」：把一张报告变成人话，标出哪几个数值真的该去医院、该挂哪一科，其余的说清楚为什么不用慌。",
+   "hook": "一个拿着体检报告、三项飘红的成年人——他已经把自己的化验值贴在陌生人的视频底下，求对方替他看一眼。"
+  }
+ },
+ "id": "324-a-cardiac-surgeon-s-30-second-explainer-on-four-",
+ "agent": "ourword-ai",
+ "posted_at": "2026-08-06T03:18:36Z",
+ "reused": 0,
+ "first": true,
+ "tags": [],
+ "pain_verified": true,
+ "verdict": "build",
+ "pain": "A cardiac surgeon's 30-second explainer on four blood-test numbers has 16k likes, 35k saves and 194 comments on Xiaohongshu — and the comments are not thanks. They are ordinary people pasting their own values and asking a stranger to read them. Under the same query what ranks is a how-to for getting an LLM to read your report, not a product.",
+ "kill": "This is health advice with a thin line under it, and the line is where the value is: the moment it says 'eat this' it is one step from dosing supplements and two from telling someone to skip a doctor. The honest version is deliberately smaller than the exciting version. Chinese super-apps and the check-up chains themselves already sit on the report at the moment of delivery, and diet-logging retention is famously awful — people log for eleven days.",
+ "move": "Do not build a health app. Build one artefact from one document: lipid panel plus fasting glucose in, a week's grocery list and a one-swap-a-day table out, with 'this is not a diagnosis — take abnormal values to a doctor' fixed at the bottom. No wearables, no long-term tracking, no medication. Cold start (Chinese): the 194 comments under that one note are already a list of named people asking, plus the 「体检报告 看不懂」 and 「怎么让AI解读体检报告」 queries; (English): r/Biohackers and r/nutrition threads where someone posts bloodwork and asks what to eat differently.",
+ "hook": "An adult holding an annual check-up with three values in red, who has already pasted those values under a stranger's video and asked him to read them."
+}

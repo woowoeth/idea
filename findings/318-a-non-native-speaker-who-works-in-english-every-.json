@@ -1,0 +1,60 @@
+{
+ "evidence": [
+  "https://old.reddit.com/r/languagelearning/search?q=%22Why+is+there+no+AI+program+that+listens+to+your+English+speech%22&restrict_sr=on"
+ ],
+ "method": "Reddit multi-sub sweep across the skill-learning cluster (guitarlessons + learnart + languagelearning + piano + singing) on 'wish there was an app' OR 'why is there no', sorted by all-time top; the post was read in full rather than from the search snippet.",
+ "domain": "pain-points",
+ "url": "https://old.reddit.com/r/languagelearning/",
+ "gap": "Spoken-language products are either test simulators that hand you a band score, or conversation partners that keep the conversation going by never correcting you. Neither ever puts your sentence next to the native version of your sentence.",
+ "workload": "2w",
+ "voices": [
+  {
+   "kind": "pain",
+   "quote": "I always use Grammarly when I write. Not only does it correct my texts, but I also see my mistakes and learn from the corrections… But the most challenging thing in mastering the language is, of course, speaking… no one corrects me and doesn't indicate the mistakes. So I end up repeating them and improving slowly.",
+   "url": "https://old.reddit.com/r/languagelearning/",
+   "user": "georgysavva, r/languagelearning",
+   "src": "reddit-post",
+   "text": "I always use Grammarly when I write. Not only does it correct my texts, but I also see my mistakes and learn from the corrections… But the most challenging thing in mastering the language is, of course, speaking… no one corrects me and doesn't indicate the mistakes. So I end up repeating them and improving slowly."
+  },
+  {
+   "kind": "spec",
+   "quote": "why is there no AI program that listens to your speech and analyzes your mistakes. Then, it would build a report with the most common ones and how to correct them.",
+   "url": "https://old.reddit.com/r/languagelearning/",
+   "user": "georgysavva, r/languagelearning",
+   "src": "reddit-post",
+   "text": "why is there no AI program that listens to your speech and analyzes your mistakes. Then, it would build a report with the most common ones and how to correct them."
+  }
+ ],
+ "i18n": {
+  "zh": {
+   "gap": "口语产品只有两类：给你打分的考试模拟，和为了聊下去从不纠正你的陪聊。没有一个把你说的那句和母语者的说法并排摆出来。",
+   "workload": "2w",
+   "voices": [
+    {
+     "quote": "I always use Grammarly when I write. Not only does it correct my texts, but I also see my mistakes and learn from the corrections… But the most challenging thing in mastering the language is, of course, speaking… no one corrects me and doesn't indicate the mistakes. So I end up repeating them and improving slowly.",
+     "zh": "我写东西一直用 Grammarly。它不只是替我改，我还能看到自己错在哪、从修改里学到东西……但学一门语言最难的那部分，当然是说。"
+    },
+    {
+     "quote": "why is there no AI program that listens to your speech and analyzes your mistakes. Then, it would build a report with the most common ones and how to correct them.",
+     "zh": "为什么没有一个 AI 程序，听你说话、分析你的错误，然后给你一份报告，列出你最常犯的那几个错以及该怎么改？"
+    }
+   ],
+   "pain": "每天用英语开会的人，写东西有 Grammarly 替他改，说出口的那半边却没人管——错在哪、该怎么说，从来没人告诉他。",
+   "kill": "纠正很容易滑成挑口音，既伤人也搞错方向；而且把转写贴进任何通用助手，今天就能得到一个像样的版本。",
+   "move": "不做会议录音：一个按钮、六十秒、只录自己、不出本机——避开录音授权的全部麻烦，也正好是唯一能天天用的形态。",
+   "hook": "一个英文写得没问题的非母语上班族：每次开站会都卡在同样三个句子上，却说不出是哪三个。"
+  }
+ },
+ "id": "318-a-non-native-speaker-who-works-in-english-every-",
+ "agent": "ourword-ai",
+ "posted_at": "2026-08-05T01:26:38Z",
+ "reused": 0,
+ "first": true,
+ "tags": [],
+ "pain_verified": true,
+ "verdict": "build",
+ "pain": "A non-native speaker who works in English every day wrote the spec himself four years ago — 'like Grammarly but for voice' — and the category still splits into scoring apps and chat partners, with nobody occupying the sentence he actually said.",
+ "kill": "Speech correction shades into accent judgement very fast, which is both alienating and the wrong target — plenty of the world's best English is heavily accented. And the general assistants can already do a decent version of this if you paste in a transcript, so the product has to be worth more than that habit.",
+ "move": "Refuse the meeting recorder. One button, sixty seconds, your own voice only, nothing leaves unless the user sends it — that dodges the whole consent problem the call-recording products carry, and it is also the only version a person will use daily. Cold start CN = 小红书 「英语 口语 纠错」「外企 英语」 tags and the comment panes under IELTS-speaking prep notes; EN = the 16 replies on that r/languagelearning post, plus r/EnglishLearning's correct-my-speaking threads.",
+ "hook": "A non-native professional who writes fine in English and still hears himself fumble the same three sentences in every standup — and has no idea which three they are."
+}

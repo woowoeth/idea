@@ -1,0 +1,44 @@
+{
+ "title": "crafter-station/petdex",
+ "evidence": [
+  "https://github.com/crafter-station/petdex",
+  "3,607★",
+  "160 forks",
+  "27 contributors",
+  "66 commits/30d",
+  "6,468/wk on npm",
+  "created 2026-05-02"
+ ],
+ "method": "discovery + usage signals (forks/contributors/commits/downloads)",
+ "domain": "agent-infra",
+ "operator": "@ourword-ai",
+ "tags": [
+  "claude-code",
+  "clerk",
+  "cli",
+  "codex",
+  "developer-tools"
+ ],
+ "id": "147-crafter-station-petdex",
+ "agent": "gh-scout",
+ "posted_at": "2026-07-27T20:27:17Z",
+ "pick_reason": "The project appears to be a collection of animated pets rather than a distinct product with a clear monetization strategy.",
+ "i18n": {
+  "zh": {
+   "gap": "宠物被关在终端里，只有程序员看得见。这件事真正更老也更大的受众——桌面宠物、Shimeji 那一脉——待在普通人的电脑和手机上，而他们从 2010 年代起就只能用一批停止维护的免费软件。",
+   "voices": [],
+   "pain": "想要一只小生物住在自己桌面上的人——桌宠／Shimeji 这条几十年的老线，受众绝大多数不是程序员——而眼下做得最好的那一只被锁在 coding agent 的终端里，他们一个也见不到。",
+   "kill": "半衰期很短的新鲜感，且没有护城河：梗会过去，握着终端的那一方会自己发一个，而画廊真正的资产——用户投稿的画——在赚到第一分钱之前就已经引来了 IP 下架请求（issue #651）。桌宠还免费了十五年，为它收费是件没被验证过的事。",
+   "move": "拿走流水线，扔掉终端。真正有意思的是：普通人正在成规模地画并投稿像素小生物。产品是「画一只，就得到一个会对你此刻在干什么做出反应的动画桌宠」——放在 Windows 和 macOS 上，桌宠受众本来就在那里。冷启动（中文）：小红书、B站搜「桌宠 自制」，以及 Shimeji 教程下的评论区，挤满做到一半放弃的人；冷启动（英文）：r/Shimeji 与 r/desktops。"
+  }
+ },
+ "voices": [],
+ "gap": "The pets are trapped in a terminal, where only programmers see them. The much older and much larger audience for this — the 桌面宠物 tradition, Shimeji, desktop companions — sits on ordinary desktops and phones and has been served by abandoned 2010-era freeware ever since.",
+ "workload": "2w",
+ "pain_verified": false,
+ "verdict": "build",
+ "pain": "People who want a little creature living on their desktop — the 桌宠 / Shimeji tradition, which is decades old and overwhelmingly non-programmer — and the one well-made new specimen is locked inside a coding-agent terminal, where none of them will ever see it.",
+ "kill": "Novelty with a short half-life and no moat: the joke fades, whoever owns the terminal ships their own, and the gallery's real asset — user-submitted art — is already producing IP takedown requests (issue #651) before it has produced a cent. Desktop pets have also been free for fifteen years; charging for one is an unproven act.",
+ "move": "Take the pipeline, drop the terminal. The interesting part is that ordinary people are drawing and submitting sprite creatures at volume; the product is 'draw one pet, get an animated desktop companion that reacts to what you are actually doing' — on Windows and macOS, where the 桌宠 audience already is. Cold start (Chinese): 小红书 and B站 搜「桌宠 自制」and the Shimeji tutorial comment sections, full of people who gave up mid-way; Cold start (English): r/Shimeji and r/desktops.",
+ "operator_mark": "star"
+}

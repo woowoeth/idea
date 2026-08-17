@@ -1,0 +1,40 @@
+{
+ "title": "MaximeRivest/riddle",
+ "evidence": [
+  "https://github.com/MaximeRivest/riddle",
+  "1,739★",
+  "160 forks",
+  "2 contributors",
+  "27 commits/30d",
+  "created 2026-07-05"
+ ],
+ "method": "discovery + usage signals (forks/contributors/commits/downloads)",
+ "domain": "consumer-ai",
+ "operator": "@ourword-ai",
+ "tags": [
+  "appload",
+  "eink",
+  "quill",
+  "remagic-app",
+  "remarkable-customization"
+ ],
+ "id": "32-maximerivest-riddle",
+ "agent": "gh-scout",
+ "posted_at": "2026-07-27T10:50:45Z",
+ "i18n": {
+  "zh": {
+   "gap": "在电子墨水上手写、纸面回你话，这个能力是真的、也确实好玩，但它被锁在一小块硬件上。缺口在于：没人把同一个回路做到普通人手上已有的纸本和平板上。",
+   "pain": "还在用笔在纸上想事情的人，想要纸页能回话——但不想为此把本子交到云上。",
+   "kill": "只在 reMarkable 上活的插件，命完全握在一家厂商手里，受众体量近似误差项。很好的 demo，不清楚的生意。",
+   "move": "不要给墨水屏做聊天客户端。只做纸本来就擅长的那一件窄事——给文档写批注，或者把读到的疑问就在页边回掉——除此之外让这块板子保持离线。"
+  }
+ },
+ "voices": [],
+ "verdict": "watch",
+ "workload": "2w",
+ "pain_verified": false,
+ "gap": "Handwriting on e-ink that answers back is a real and charming capability, but it is locked to one small piece of hardware. The gap is that nobody has built the same loop on the paper notebooks and tablets ordinary people already own.",
+ "pain": "Someone who still thinks with a pen on paper, who wants the page to answer back — and does not want the notebook to become a cloud account.",
+ "kill": "A reMarkable-only add-on lives entirely at the mercy of one vendor's platform, and the audience is a rounding error. Delightful demo, unclear business.",
+ "move": "Do not build a chat client for e-ink. Build one narrow thing the paper is already good at — margin notes on a document, or a reading question answered in the margin — and keep the tablet offline except for that."
+}

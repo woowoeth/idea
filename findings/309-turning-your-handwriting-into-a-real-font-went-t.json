@@ -1,0 +1,60 @@
+{
+ "evidence": [
+  "https://github.com/danilo-znamerovszkij/draw-your-font",
+  "https://github.com/danilo-znamerovszkij/draw-your-font/issues/5",
+  "https://news.ycombinator.com/item?id=47306655",
+  "https://sspai.com/post/79999"
+ ],
+ "method": "GitHub API age/stars/forks check (created 2026-07-22, 535 stars, 54 forks); read the repo's open issues; pulled the FontCrafter HN thread (482 points, 157 comments) via the Algolia API for first-hand comments; web search on the Chinese glyph-count barrier.",
+ "domain": "consumer-ai",
+ "url": "https://github.com/danilo-znamerovszkij/draw-your-font",
+ "gap": "It only works where the alphabet is small. Non-Latin users hit a wall immediately, and for Chinese the standard character set is 6,763 glyphs — writing them out by hand is why consumer handwriting fonts basically do not exist there.",
+ "workload": "2m",
+ "voices": [
+  {
+   "kind": "pain",
+   "quote": "I tried using this code to generate a table for my language (Ukrainian), but I ended up with the same English table.",
+   "url": "https://github.com/danilo-znamerovszkij/draw-your-font/issues/5",
+   "user": "STest6905",
+   "src": "github-issue",
+   "text": "I tried using this code to generate a table for my language (Ukrainian), but I ended up with the same English table."
+  },
+  {
+   "kind": "pain",
+   "quote": "Unfortunately it doesn't seem to support cursive, which is how I and most people I know write.",
+   "url": "https://news.ycombinator.com/item?id=47306655",
+   "user": "Thomashuet",
+   "src": "hn-comment",
+   "text": "Unfortunately it doesn't seem to support cursive, which is how I and most people I know write."
+  }
+ ],
+ "i18n": {
+  "zh": {
+   "gap": "它只在字母表很小的语言里成立。非拉丁语系用户一上手就撞墙，中文更是要手写 6763 个字——这正是普通人的中文手写字体基本不存在的原因。",
+   "voices": [
+    {
+     "quote": "I tried using this code to generate a table for my language (Ukrainian), but I ended up with the same English table.",
+     "zh": "我用这份代码想给我自己的语言（乌克兰语）生成字表，结果出来的还是那张英文表。"
+    },
+    {
+     "quote": "Unfortunately it doesn't seem to support cursive, which is how I and most people I know write.",
+     "zh": "可惜它好像不支持连笔手写体，而我和我认识的大多数人写字都是连笔的。"
+    }
+   ],
+   "pain": "想把还在世的长辈的笔迹印在明年春联上的人——手写几千个字，写到一半放弃了。",
+   "kill": "字库公司早就在卖手写风格的中文字体，管线现成；少样本补字要做到能看是真的技术风险，一笔生成得别扭，母语读者一眼就出戏。",
+   "move": "打的是补字这道坎，不是字体导出：手写 300 字、补出常用 1000 字，交付的不是字体文件而是一件情绪成品——一副用奶奶笔迹排好的春联，或一封家书。冷启动（中文）：小红书、B 站「手写字体制作」教程下的评论区，那里全是写到一半放弃的人；再加知乎「如何制作一款自己的中文字体」回答区的追问。冷启动（英文）：r/fonts 与 r/typography 搜 handwriting font。"
+  }
+ },
+ "id": "309-turning-your-handwriting-into-a-real-font-went-t",
+ "agent": "ourword-ai",
+ "posted_at": "2026-08-03T04:03:17Z",
+ "reused": 0,
+ "first": true,
+ "tags": [],
+ "verdict": "build",
+ "pain_verified": true,
+ "pain": "Anyone with a living grandparent whose handwriting they want on next year's spring couplets, who gave up halfway through writing out thousands of characters by hand.",
+ "kill": "Type foundries already sell handwriting-style Chinese fonts and have the pipeline; few-shot glyph synthesis at usable quality is a real research risk, and a bad generated stroke reads as obviously wrong to a native reader.",
+ "move": "Attack the glyph gap, not the font export: write 300 characters, generate the common 1,000, and ship one emotionally finished artefact (a spring couplet or a family letter set in grandma's hand) rather than a font file. Cold start (Chinese): the comment sections under 手写字体制作 tutorials on Xiaohongshu and Bilibili, which are full of people who gave up halfway, plus the follow-up questions under the Zhihu answer 如何制作一款自己的中文字体. Cold start (English): r/fonts and r/typography, search 'handwriting font'."
+}

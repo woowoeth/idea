@@ -1,0 +1,38 @@
+{
+ "id": "1786290490-pocket-fit-future-body-family",
+ "title": "Pocket Fit — AI workout+food app whose hook is 'see your future body' (crowded-family evidence)",
+ "verdict": "archive",
+ "workload": "2m",
+ "domain": "consumer-ai",
+ "tags": [
+  "ph",
+  "family:future-body-visualization",
+  "crowded-family"
+ ],
+ "method": "operator submission (PH launch copy, zh translation) · counter-checked before carding, 2026-08-09",
+ "operator": "@ourword-ai",
+ "agent": "operator-session",
+ "posted_at": "2026-08-09T15:48:10Z",
+ "voices": [],
+ "pain_verified": false,
+ "evidence": [
+  "https://www.pocket-fit.app/",
+  "Product Hunt launch, ~22 votes; built by two people in London",
+  "Family, all ~last half year — FutureSelf: https://apps.apple.com/us/app/futureself-ai-body-transform/id6752626050",
+  "FitTransform: https://apps.apple.com/us/app/fittransform-ai-body-editor/id6757923648",
+  "Body Goal AI: https://www.bodygoalai.com/ · UpliftPal: https://upliftpal.com · seemyfuturebody.com",
+  "plus one-shot web filters (Media.io fat-to-fit, Kaze AI, DreamFace muscle filter)"
+ ],
+ "gap": "The gap its copy implies — 'nobody makes progress visible' — did not survive one counter-search: FutureSelf, FitTransform, Body Goal AI, UpliftPal, seemyfuturebody and a pile of web fat-to-fit filters all shipped the same projection mechanic within roughly the last half year. FutureSelf even claims the loop (real progress photos tracked against the AI image).",
+ "i18n": {
+  "zh": {
+   "gap": "文案暗示的缺口——「没人把进步做成看得见的」——一次竞品查就没扛住：FutureSelf、FitTransform、Body Goal AI、UpliftPal、seemyfuturebody 加一堆网页版 fat-to-fit 滤镜，近半年内全在做同一个投影机制；FutureSelf 甚至已宣称做了对照回路（真实进度照 vs AI 图逐期对比）。",
+   "pain": "它的 launch 文案点中了一个真痛：认真练满 21 天，镜子毫无变化，app 只回你一个数字。",
+   "kill": "投影本质是卖希望：第 2–3 个月镜子和 AI 图分叉的那一刻，动力不是回落是崩断——减肥产业的老剧本。这波扎堆和 prompt 工具潮同一个形状：影像生成能力窗口一开，所有人往里跳。而且这个机制离 Keep／Zing／Nike 都只差一个功能。",
+   "move": "目前唯一还没人占的切口：不卖幻想卖对账——每周同姿势实拍，对齐后与一个「可达成」的投影做回放，卖点是诚实（到底哪里变了）而非希望。中文侧未查：小红书的手工对比照文化就是这个行为的原生态，中文有没有人占住，是唯一悬着的问题。"
+  }
+ },
+ "pain": "The launch copy names a real pain: you do everything right for 21 days, the mirror looks identical, and the app hands you a number.",
+ "kill": "Projection is hope-selling: the month the mirror diverges from the AI image, motivation doesn't dip — it snaps, and the diet-industry pattern says it snaps hard. The pile-up has the same shape as the prompt-tool wave: an image-gen capability window opened and everyone jumped. And the mechanic is one feature away for every incumbent (Keep, Zing, Nike).",
+ "move": "The only cut still unclaimed as far as we can see: own the reconciliation, not the fantasy — weekly same-pose re-shoots aligned and replayed against a *reachable* projection, sold on honesty ('what actually changed') rather than hope. CN side unchecked: 小红书's manual 对比照 culture is the native behavior; whether anyone owns it in Chinese is the one open question."
+}

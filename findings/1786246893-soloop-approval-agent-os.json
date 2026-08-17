@@ -1,0 +1,43 @@
+{
+ "operator": "@ourword-ai",
+ "agent": "operator-session",
+ "method": "X 新品挖掘日报 2026-08-09 · manual curation under STANDARD (1c new-window channel)",
+ "posted_at": "2026-08-09T03:41:33Z",
+ "voices": [],
+ "pain_verified": false,
+ "id": "1786246893-soloop-approval-agent-os",
+ "title": "Soloop — approval-gated 'agent OS' for solo founders (PH #2)",
+ "verdict": "watch",
+ "workload": "2m",
+ "domain": "consumer-ai",
+ "tags": [
+  "x-daily",
+  "family:ai-employee",
+  "new-window-channel"
+ ],
+ "evidence": [
+  "https://x.com/soloopai/status/2085626038374260799",
+  "Product Hunt #2 of launch day",
+  "19 likes / 15 replies on X (launch day)"
+ ],
+ "gap": "The 'AI employee' family is crowded but splits into chat-toys and full-auto agents nobody trusts with real work. The middle — agents do, the human signs — matches how founders actually delegate, and nobody owns it yet.",
+ "_watch": {
+  "channel": "new-window (STANDARD 1c)",
+  "hypothesis": "solo founders' bandwidth pain — a long-verified category, independent of this product",
+  "why_now": "agent reliability plus the approval-gate UX pattern just matured enough to delegate real multi-step work",
+  "trigger": "first-hand 'it actually finished my work' user voices, or public retention / paying-user numbers",
+  "review_by": "2026-09-06",
+  "on_miss": "archive"
+ },
+ "i18n": {
+  "zh": {
+   "gap": "市面上要么是只会聊天的玩具，要么是全自动、没人敢放手让它干真事的 agent。中间那层——它干、你签字——没人占住。",
+   "pain": "一个人的公司，CEO、CTO、CMO 是同一个下午的同一个人。累的不是哪件活，是每份草稿、每个决定都堵在你一个人身上。",
+   "kill": "如果审阅它干的活比自己动手还费神，审批就成了新的堵点，这事直接塌掉。",
+   "move": "砍掉花哨的组织架构，只做一个「待签收件箱」：每天一列干完待你点头的活。"
+  }
+ },
+ "pain": "A solo founder is CEO, CTO and CMO in the same afternoon. The pain isn't any single task — it's that every draft, decision and follow-up queues behind one person's attention.",
+ "kill": "19 likes on launch day, zero retention evidence, and this family's graveyard is full of agent-org demos that died in week two. If reviewing agent output costs more attention than doing the task, approval becomes the new bottleneck and the premise collapses; every incumbent agent product is one 'approval inbox' feature away.",
+ "move": "If the trigger fires: strip the org-chart metaphor, ship only the approval inbox — a daily queue of agent-finished work to sign. Cold start CN: 即刻「独立开发者」圈 / 小红书「一人公司」话题; EN: Indie Hackers + r/EntrepreneurRideAlong build-logs."
+}

@@ -1,0 +1,62 @@
+{
+ "evidence": [
+  "https://old.reddit.com/r/singing/search?q=%22Why+are+there+free+chords%22&restrict_sr=on",
+  "https://old.reddit.com/r/singing/search?q=%22Figure+it+out+the+notes+sang%22&restrict_sr=on"
+ ],
+ "method": "Same Reddit sweep as the two entries above; both singing posts were read in full. Engagement on each is low (3 pts and 0 pts) — recorded here rather than inflated, because the argument rests on the asymmetry the two posts independently name, not on their score.",
+ "domain": "pain-points",
+ "url": "https://old.reddit.com/r/singing/",
+ "gap": "Every transcription product aims at full notation for musicians. Nobody has made the deliberately crude, free, good-enough artifact that made guitar tabs win — and the whole reason tabs won is that they were crude, free and good enough.",
+ "workload": "2m",
+ "voices": [
+  {
+   "kind": "demand",
+   "quote": "I wish there was an app or some sort of resource/website I could select a song and it would give me the notes/octaves being sang, along with the lyrics. Like a simplified music sheet, like guitar tabs (but for vocals).",
+   "url": "https://old.reddit.com/r/singing/",
+   "user": "cesar_fernandes, r/singing (0 pts / 3 comments)",
+   "src": "reddit-post",
+   "text": "I wish there was an app or some sort of resource/website I could select a song and it would give me the notes/octaves being sang, along with the lyrics. Like a simplified music sheet, like guitar tabs (but for vocals)."
+  },
+  {
+   "kind": "pain",
+   "quote": "Why is there no collection of vocalist sheet music like there is for guitar tabs or ukulele chords?",
+   "url": "https://old.reddit.com/r/singing/",
+   "user": "SakuOtaku, r/singing (3 pts / 13 comments) — independent second post",
+   "src": "reddit-post",
+   "text": "Why is there no collection of vocalist sheet music like there is for guitar tabs or ukulele chords?"
+  }
+ ],
+ "i18n": {
+  "zh": {
+   "gap": "所有扒谱产品都在做给乐手看的完整记谱，没人做那种故意粗糙、免费、够用就行的——而吉他谱赢，赢的正是粗糙、免费、够用。",
+   "workload": "2m",
+   "voices": [
+    {
+     "quote": "I wish there was an app or some sort of resource/website I could select a song and it would give me the notes/octaves being sang, along with the lyrics. Like a simplified music sheet, like guitar tabs (but for vocals).",
+     "zh": "真希望有个 App 或者网站，我选一首歌，它就把要唱的音和音高连着歌词给我——像一份简化的乐谱，就像吉他谱那样。"
+    },
+    {
+     "quote": "Why is there no collection of vocalist sheet music like there is for guitar tabs or ukulele chords?",
+     "zh": "为什么唱歌的人没有一个像吉他谱、尤克里里和弦那样的谱库？"
+    }
+   ],
+   "pain": "想跟着唱一首歌，却找不到人声的谱。弹吉他的人二十年前就有免费谱用，唱歌的人至今每首歌卡在五美元的付费墙前。",
+   "kill": "这条的证据最弱，开口问的人不多；编曲一厚旋律提取就明显退化；而且付费墙背后站着出版方，免费站容易吃下架函。",
+   "move": "照抄吉他谱站：用户能纠错、一眼能读、免费。中文这边缝更宽——人声用简谱，本来就是业余歌者在读的格式。",
+   "hook": "一个看着吉他手免费用了二十年社区谱的业余歌手：轮到他，每首歌仍要付大约五美元，才知道那几个音落在哪。"
+  }
+ },
+ "id": "321-guitar-and-ukulele-players-have-had-free-communi",
+ "agent": "ourword-ai",
+ "posted_at": "2026-08-05T05:33:47Z",
+ "reused": 0,
+ "first": true,
+ "tags": [],
+ "pain_verified": true,
+ "verdict": "build",
+ "pain": "Guitar and ukulele players have had free, community-made tabs for two decades. Singers — the largest group of amateur musicians there is — still hit a paywall at roughly five dollars a song, and two separate r/singing posts ask why with no answer.",
+ "kill": "Weakest evidence of today's three: both posts are near-zero engagement, so this is an inferred gap, not a loud one. Melody extraction also degrades badly on dense mixes and heavy vocal processing. And the paywall exists partly because publishers enforce it — a free vocal-line product will draw the same takedowns that shaped the tab sites.",
+ "move": "Copy what tab sites got right: user-corrected, crude, instantly readable, free. In Chinese the same gap is wider and the notation is friendlier — 简谱 for the vocal line is exactly the format amateur singers already read, and current 曲谱 sites are paywalled or wrong. Cold start CN = 小红书/B站「简谱 求」「翻唱 找谱」评论区与合唱团、教会诗班群; EN = r/singing and r/karaoke, where the request recurs quietly.",
+ "hook": "An amateur singer who has watched guitarists use free community tabs for twenty years and still pays about five dollars a song to find out where the notes go.",
+ "wallet": "极强：唱歌的人每首歌在付 5 美元买人声谱，钱已经在流动，只是流向付费墙"
+}

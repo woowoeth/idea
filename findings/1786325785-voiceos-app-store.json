@@ -1,0 +1,34 @@
+{
+ "operator": "@ourword-ai",
+ "agent": "operator-session",
+ "method": "X 新品挖掘日报 2026-08-10 · manual curation under STANDARD (evidence-as-bonus + 1c)",
+ "posted_at": "2026-08-10T01:36:25Z",
+ "voices": [],
+ "pain_verified": false,
+ "id": "1786325785-voiceos-app-store",
+ "title": "VoiceOS App Store — voice-native assistant + a store of installable voice workflows",
+ "verdict": "archive",
+ "workload": "no",
+ "domain": "consumer-ai",
+ "tags": [
+  "ph",
+  "x-daily",
+  "family:voice-agent",
+  "platform-shadow"
+ ],
+ "evidence": [
+  "https://x.com/kai_brokering/status/2086482247100801426 (166 likes / 14.1K views)"
+ ],
+ "gap": "The gap it claims — assistants that execute — is real but sits on land the platform owners hold: deep cross-app control belongs to Apple and Google at the OS level.",
+ "i18n": {
+  "zh": {
+   "gap": "它宣称的缺口——「会执行的助手」——是真的，但地皮在平台手里：深度跨 App 控制是 Apple／Google 的 OS 级领地。",
+   "pain": "它指向的痛真实且古老：十年的语音助手听得见你，却什么都干不了。",
+   "kill": "第三方「语音 OS」在 iOS/Android 上先天残疾；这个同族的坟场里已经躺着两台硬件（Rabbit R1、Humane）和每一波 agent 助手。商店角度＝快捷指令画廊换皮。",
+   "move": "我们无从下手——留档当注意力标记：「终于会动手的助手」这个承诺至今仍有 166 个赞的热度。"
+  }
+ },
+ "pain": "The pain it points at is real and ancient: a decade of assistants that hear you but can't actually do anything.",
+ "kill": "Third-party 'voice OS' is structurally hamstrung on iOS/Android, and the family graveyard already holds two hardware flameouts (Rabbit R1, Humane) plus every agent-assistant wave since. The store angle is Shortcuts-gallery redux.",
+ "move": "None for us — archived as the attention marker for how hot the 'assistant that finally acts' promise still runs (166 likes on a launch tweet)."
+}

@@ -1,0 +1,74 @@
+{
+ "title": "tandpfun/wardrobe",
+ "evidence": [
+  "https://github.com/tandpfun/wardrobe",
+  "1,576★",
+  "233 forks",
+  "1 contributors",
+  "9 commits/30d",
+  "created 2026-07-16"
+ ],
+ "method": "discovery + usage signals (forks/contributors/commits/downloads) Chinese-side corroboration added 2026-08-06: the same ask surfaced twice independently, from two different commenters, inside one 1.7万-like / 6097-comment Xiaohongshu note — read out of the note's own page state rather than from a search snippet.",
+ "domain": "consumer-ai",
+ "operator": "@ourword-ai",
+ "tags": [],
+ "id": "244-tandpfun-wardrobe",
+ "agent": "gh-scout",
+ "posted_at": "2026-07-28T20:04:47Z",
+ "i18n": {
+  "zh": {
+   "gap": "只有极客能用——npm、.env、API key、参考照——而'穿在我身上看看'恰恰是现有衣橱应用（Whering、Acloset、Indyx）还没做好的那一件事。",
+   "voices": [
+    {
+     "quote": "Many other similar apps have a 'recommendations' or 'combinations' feature… combined with generated images of the combination of items on the model would be amazing.",
+     "zh": "很多同类 App 都有「推荐搭配」的功能……要是还能把这套搭配生成穿在模特身上的图，那就太棒了。"
+    },
+    {
+     "quote": "服装搭配的APP，把自己的衣服全都录入，ai生成穿搭照片的APP",
+     "zh": "服装搭配的APP，把自己的衣服全都录入，ai生成穿搭照片的APP"
+    },
+    {
+     "quote": "我觉得可以给女生出一个记录衣服的app，记录我现在有多少件白衬衫，白T，牛仔裤，并且可以一键穿衣推荐",
+     "zh": "我觉得可以给女生出一个记录衣服的app，记录我现在有多少件白衬衫，白T，牛仔裤，并且可以一键穿衣推荐"
+    }
+   ],
+   "pain": "想要一个以自己为模特的数字衣橱的人——但今天得 git clone、配 OpenAI key、放参考照片，只有极客能看到自己的穿搭册。",
+   "kill": "衣橱类是消费级产品的坟场：留存低、老玩家已占住非技术用户，按图生成的成本会吃掉微薄的订阅毛利；仓库只有 1 个贡献者，上线当天后再无提交。",
+   "move": "跳过衣橱管理的红海，只卖那一个魔法时刻——传 20 张衣服照片，得到一本自己试穿的穿搭册——做成付费移动端流程。 冷启动第一步：中文＝小红书「衣柜整理」「穿搭记录」笔记评论区，免费替人把二十件衣服拍成一本本人上身的搭配册；英文＝r/femalefashionadvice 与 r/declutter 的衣橱盘点帖，一帖一本免费搭配册。"
+  }
+ },
+ "pick_reason": "The project offers a clear product that helps users manage their wardrobe, which can be monetized through a subscription or one-time fee.",
+ "voices": [
+  {
+   "quote": "Many other similar apps have a 'recommendations' or 'combinations' feature… combined with generated images of the combination of items on the model would be amazing.",
+   "url": "https://github.com/tandpfun/wardrobe/issues/9",
+   "src": "github",
+   "kind": "pain",
+   "text": "Many other similar apps have a 'recommendations' or 'combinations' feature… combined with generated images of the combination of items on the model would be amazing."
+  },
+  {
+   "kind": "demand",
+   "quote": "服装搭配的APP，把自己的衣服全都录入，ai生成穿搭照片的APP",
+   "user": "苹果味的风",
+   "src": "xiaohongshu comment, 67 likes / 18 replies (山东) — 「大家觉得市面上还缺哪种APP？」1.7万赞/6097评论",
+   "url": "https://www.xiaohongshu.com/explore/665351440000000015011534",
+   "text": "服装搭配的APP，把自己的衣服全都录入，ai生成穿搭照片的APP"
+  },
+  {
+   "kind": "demand",
+   "quote": "我觉得可以给女生出一个记录衣服的app，记录我现在有多少件白衬衫，白T，牛仔裤，并且可以一键穿衣推荐",
+   "user": "(xiaohongshu, 北京)",
+   "src": "xiaohongshu comment, 20 likes — same note; a reply under it reads 「哈哈哈哈哈哈哈 我需要」",
+   "url": "https://www.xiaohongshu.com/explore/665351440000000015011534",
+   "text": "我觉得可以给女生出一个记录衣服的app，记录我现在有多少件白衬衫，白T，牛仔裤，并且可以一键穿衣推荐"
+  }
+ ],
+ "pain_verified": true,
+ "gap": "Only geeks can use it — npm, .env, API key, reference photo — while the 'see it on me' generation feature is exactly what existing closet apps (Whering, Acloset, Indyx) don't do well yet.",
+ "workload": "2m",
+ "verdict": "build",
+ "pain": "People who want a digital closet with themselves as the model — but today that takes git clone, an OpenAI key and a reference PNG, so only geeks get the lookbook.",
+ "kill": "Closet apps are a graveyard of low-retention consumer products, incumbents already own the non-technical audience, and per-image generation costs eat thin subscription margins; 1 contributor, no commits since launch day.",
+ "move": "Skip the closet-manager race; sell the one magic moment — upload 20 photos of your clothes, get a modeled lookbook of yourself — as a paid mobile flow. Cold start (Chinese): 小红书「衣柜整理」「穿搭记录」笔记评论区，免费替人把二十件衣服拍成一本本人上身的搭配册; Cold start (English): r/femalefashionadvice and r/declutter closet-inventory threads, one free lookbook per thread.",
+ "operator_mark": "star"
+}

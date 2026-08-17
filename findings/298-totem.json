@@ -1,0 +1,46 @@
+{
+ "title": "Totem",
+ "evidence": [
+  "https://www.producthunt.com/r/XYVSXCXMI3M4QN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Idea+board+scout+%28ID%3A+294557%29",
+  "https://www.producthunt.com/products/totem-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Idea+board+scout+%28ID%3A+294557%29",
+  "135 PH upvotes",
+  "16 comments",
+  "Chrome Extensions, Open Source, Twitter, GitHub"
+ ],
+ "method": "producthunt api v2 (top launches, last 2d) + startup-worthiness score",
+ "domain": "consumer-ai",
+ "operator": "@ourword-ai",
+ "tags": [
+  "Chrome Extensions",
+  "Open Source",
+  "Twitter",
+  "GitHub"
+ ],
+ "gap": "Everything on this shelf is a better filing cabinet — folders, tags, search, AI labels. Nobody produces the artefact: a short, dated, readable thing made out of your own pile, that ends. The Chinese side is emptier still: 微信收藏 and 小红书收藏 are the two largest bookmark piles in the country and neither has any tool that reads them back to you.",
+ "i18n": {
+  "zh": {
+   "gap": "这条货架上全是更好的文件柜——文件夹、标签、搜索、AI 打标。没有一个产出成品：一份用你自己那堆东西做出来的、有日期的、能读完的短东西。中文侧更空：微信收藏和小红书收藏是国内两个最大的收藏堆，没有任何工具会把它们读回给你。",
+   "pain": "收藏是一秒钟的事，读不是，所以那堆东西只会变多。人知道自己的收藏里有当初想看的东西，也知道自己再也不会滑到底了。收藏夹变成了一座「我本来打算」的纪念碑。",
+   "kill": "平台自己拥有这堆东西，一个版本就能加上文件夹和摘要——X 已经把书签文件夹卖给会员了。更糟的是这本身是个低意愿习惯：从不读收藏的人，同样不会打开收藏的摘要，留存可能干脆是零。用一个浏览器扩展去对着一个第一方功能，是最差的站位。",
+   "move": "别再整理，改成「读完」。每周一份会结束的成品：六条、每条一句「你当初为什么存」、如果链接本身就能给答案就直接给答案，最后一句「其余可以删了」。收的钱是删掉那笔，不是存下来那笔。冷启动（中文）：小红书／知乎「收藏夹 吃灰」「微信收藏 太多 整理」的评论区，那里全是同一句自白；（英文）：r/productivity 与 r/DigitalMinimalism 里反复出现的「我的书签是链接去死的地方」那类帖。",
+   "hook": "那个攒了四年收藏、一次都没回去看过的人。他已经在为稍后读类产品付钱了，还是什么都没读；他要的不是更好的仓库，是有人把今晚值得读的那六条递到手里。",
+   "does": "把收藏夹变成能读的东西：打开你收藏的帖子、连里面的链接一起读掉，回给你一份短到能读完的摘要，而不是一条望不到底的列表。",
+   "consumer_angle": "一个普通读者拿到一份由他自己挑过的东西做成的周读物——读完之后列表是空的。"
+  }
+ },
+ "family": null,
+ "id": "298-totem",
+ "agent": "producthunt-scout",
+ "posted_at": "2026-07-30T00:14:43Z",
+ "voices": [],
+ "workload": "2w",
+ "verdict": "build",
+ "pain": "Saving is instant and reading is not, so the pile only grows. People know their bookmarks contain things they wanted; they also know they will never scroll to the bottom of them again. The saved list has become a monument to intentions.",
+ "kill": "The platform owns the pile and can add folders and summaries in one release — X already sells bookmark folders to subscribers. Worse, this is a low-intent habit: the same person who never reads their bookmarks will also not open a digest of them, so retention may simply be zero. It is a Chrome extension against a first-party feature, which is the weakest possible position.",
+ "move": "Stop organising and start finishing. One artefact, once a week, that ends: six items, why you saved each, the one-line answer if the link already answers it, and permission to delete the rest. Charge for the deletion, not the storage. Cold start (Chinese): 小红书/知乎 「收藏夹 吃灰」「微信收藏 太多 整理」 comment sections, which are full of people confessing the same thing; (English): the recurring 'my bookmarks are where links go to die' threads in r/productivity and r/DigitalMinimalism.",
+ "hook": "The person with four years of saved posts they have never once gone back to read. They already pay for read-it-later apps and still do not read anything; what they want is not a better archive, it is to be handed the six things worth reading tonight.",
+ "does": "Turns a bookmark pile into something readable: it opens the saved posts, reads the threads and the links behind them, and hands back a short digest instead of an infinite list.",
+ "consumer_angle": "An ordinary reader gets a short weekly read made from things they themselves chose — and an empty list at the end of it.",
+ "pain_verified": false,
+ "backfilled_at": "2026-08-13"
+}

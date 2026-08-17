@@ -1,0 +1,33 @@
+{
+ "operator": "@ourword-ai",
+ "agent": "operator-session",
+ "method": "X 新品挖掘日报 2026-08-09 · manual curation under STANDARD (1c new-window channel)",
+ "posted_at": "2026-08-09T03:41:33Z",
+ "voices": [],
+ "pain_verified": false,
+ "id": "1786246893-slate-oss-prompt-generator",
+ "title": "SLATE — free OSS prompt generator for image/video/music models",
+ "verdict": "archive",
+ "workload": "2w",
+ "domain": "consumer-ai",
+ "tags": [
+  "x-daily",
+  "family:prompt-tools"
+ ],
+ "evidence": [
+  "https://x.com/SamJWasserman/status/2085469672489799752",
+  "109 likes / 16 replies / 17.6K views"
+ ],
+ "gap": "Only a shrinking one: a Chinese-model version (即梦/可灵/海螺) doesn't exist — but the underlying pain is being absorbed by the models themselves.",
+ "i18n": {
+  "zh": {
+   "gap": "只剩一条在收窄的缝：中文模型侧（即梦/可灵/海螺）还没有对应版本——但这个痛本身正在被模型吸收。",
+   "pain": "创作者知道自己想看到什么，却不知道模型想听哪句咒语。",
+   "kill": "提示词优化是每个生成平台的内置功能，且模型每迭代一代就更不需要它。给正在合拢的缝贴创可贴——是功能，不是公司。",
+   "move": "若真要碰：做中文模型适配版，在即梦/可灵社区当工作流卖——但诚实的判断是窗口在关。"
+  }
+ },
+ "pain": "A creator who knows what they want to see, but not the incantation the model wants to hear.",
+ "kill": "Prompt optimisation is a feature every generation platform ships natively, and each model generation needs it less. A band-aid on a closing gap — a feature, not a company.",
+ "move": "If touched at all: the Chinese-model adaptation, sold as a workflow inside 即梦/可灵 communities — but the honest read is the window is closing."
+}

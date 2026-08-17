@@ -1,0 +1,66 @@
+{
+ "id": "1786597025-continuum-manager-private-notes",
+ "title": "Continuum — private local notes on your direct reports (gap falsified by the incumbent)",
+ "domain": "consumer-ai",
+ "verdict": "archive",
+ "workload": "2w",
+ "pain_verified": true,
+ "agent": "operator-session",
+ "operator": "@ourword-ai",
+ "method": "PH submission 2026-08-13, counter-checked against the 1:1-tooling shelf before carding",
+ "posted_at": "2026-08-13T04:57:05Z",
+ "pain": "Review season arrives and a manager with seven reports can remember the last two weeks and nothing else — so the review gets written from recency and vibes, not from what the person actually did in March.",
+ "gap": "The gap it implies did not survive the counter-check. Fellow already ships private manager notes — one manager says plainly he upgraded to the paid tier precisely to get notes his reports could not see — and Ask Fellow drafts the review from real examples pulled out of every 1:1 transcript. Confab is already the indie 'built by a manager, enterprise tools are too rigid' version. What Continuum owns is the axis, not the job: no ratings, no reports, never leaves the Mac.",
+ "kill": "Local storage does not make notes safe. Subjective written impressions about named employees are discoverable in employment disputes, and in the EU/UK an employee can subject-access them wherever they sit — a manager's honest 'I think she is bored and will leave' is a liability the moment it is typed. Add the bias mechanism: private impressions accumulate unchallenged and then get spent at promotion time. And by the pain-age test this is an old pain against an old capability — which is why the shelf is already full rather than empty.",
+ "move": "Nothing to take. The residue — managers whose legal counsel tells them to keep no notes at all — is a reason not to build this, not a wedge.",
+ "wallet": "强，且是一手的：有管理者明说「为了拿到下属看不见的私密笔记，我从免费档升到了付费档」，Fellow $7/人/月、Hypercontext $7/人/月、Lattice 企业档——钱确实在流动，只是流向已经在位的产品",
+ "voices": [
+  {
+   "kind": "first-hand",
+   "quote": "I moved to the Team plan once I needed private notes I did not want visible to my reports",
+   "source": "manager review of Fellow (peoplegoal 1:1 software roundup)",
+   "url": "https://www.peoplegoal.com/blog/1-on-1-meeting-software/",
+   "zh": "等到我需要「下属看不见的私密笔记」时，我就从免费档升到了付费的团队档"
+  },
+  {
+   "kind": "secondary",
+   "quote": "Existing tools were designed around rigid 1:1 structures and enterprise workflows",
+   "source": "Confab 的自我定位（AlternativeTo）",
+   "url": "https://alternativeto.net/software/fellow",
+   "zh": "现有工具都是围着僵硬的一对一流程和企业工作流设计的——一个管理者因此自己做了一个"
+  }
+ ],
+ "evidence": [
+  "https://www.producthunt.com/products/continuum — PH 131 票、当日精选、2026-08-11",
+  "https://www.peoplegoal.com/blog/1-on-1-meeting-software/ — Fellow 私密笔记在付费档，管理者第一手升级理由",
+  "https://fellow.ai/blog/best-one-on-one-meeting-tools-a-guide-for-managers-and-leaders/ — Ask Fellow 直接用 1:1 转写里的真实例子替你起草绩效评估（该文为 Fellow 自家博客，打折看）",
+  "https://alternativeto.net/software/fellow — Confab、Witful、Peoplebox 等：独立开发者版本早已存在"
+ ],
+ "tags": [
+  "ph",
+  "family:manager-tooling",
+  "local-privacy",
+  "crowded-family"
+ ],
+ "i18n": {
+  "zh": {
+   "pain": "到了写绩效的时候，带七个人的管理者只记得最近两周，其余一片空白——于是评估写的是近因和印象，不是这个人三月份到底做了什么。",
+   "gap": "它暗示的缺口没扛过竞品查。Fellow 早就有「下属看不见的私密笔记」，而且有管理者明说他就是为这个从免费档升到付费档；Ask Fellow 还能直接从每次一对一的转写里抓真实例子替你起草评估。Confab 更是现成的「一个管理者嫌企业工具太僵硬，自己做了一个」。Continuum 真正占住的是那根轴，不是那件活：不打分、不出报告、永不离开这台 Mac。",
+   "kill": "存在本地不等于安全。关于具名员工的主观文字，在劳动争议里是可调取的；在欧盟英国，员工有权要求查看这些记录，不管它躺在谁的硬盘上——「我觉得她已经无聊了，半年内会走」这句话，敲下去的那一刻就是负债。再加上偏见机制：私下印象无人质疑地累积，然后在晋升时被花掉。而按痛龄尺子，这是老痛 × 老能力——所以货架是满的，不是空的。",
+   "move": "没有可拿的东西。剩下的那点残余——法务告诉他「一个字都别记」的管理者——是不做的理由，不是切口。",
+   "wallet": "强，且是一手的：有管理者明说「为了拿到下属看不见的私密笔记，我从免费档升到付费档」。钱确实在流动，只是流向已经在位的产品",
+   "voices": [
+    {
+     "quote": "I moved to the Team plan once I needed private notes I did not want visible to my reports",
+     "zh": "等到我需要「下属看不见的私密笔记」时，我就从免费档升到了付费的团队档",
+     "source": "Fellow 用户（一对一工具横评）"
+    },
+    {
+     "quote": "Existing tools were designed around rigid 1:1 structures and enterprise workflows",
+     "zh": "现有工具都是围着僵硬的一对一流程和企业工作流设计的——一个管理者因此自己做了一个",
+     "source": "Confab 自述"
+    }
+   ]
+  }
+ }
+}

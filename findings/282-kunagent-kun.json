@@ -1,0 +1,36 @@
+{
+ "title": "KunAgent/Kun",
+ "evidence": [
+  "https://github.com/KunAgent/Kun",
+  "5,503★",
+  "536 forks",
+  "26 contributors",
+  "758 commits/30d",
+  "created 2026-05-21"
+ ],
+ "method": "discovery + usage signals (forks/contributors/commits/downloads)",
+ "domain": "agent-infra",
+ "operator": "@ourword-ai",
+ "tags": [],
+ "i18n": {
+  "zh": {
+   "gap": "串起来不是稀缺的那一环；稀缺的是第一环——把一个模糊的「我想要」问成一份规格的那场澄清访谈。这条赛道上所有工具都默认你带着写好的规格来。",
+   "pain": "有清楚想法、没有团队的人——现在得找四种不同的人帮忙，才能从「我想要这个」走到「能拿出手的东西」。",
+   "kill": "多段式 agent 工作区是 2026 年最拥挤的品类，绝大多数死在第二次交接：前面一个小误解，四步之后放大成一个没法用的产物。",
+   "move": "只留第一环，单独卖：一场澄清访谈，结束时给出一页规格——普通人可以拿它去找真人外包，也可以喂给任何 agent。冷启动：中文＝小红书/即刻「找人做个小程序被坑」的帖子；英文＝r/freelance 与 r/Upwork 里客户拿不出 brief 的讨论。"
+  }
+ },
+ "pick_reason": "KunAgent/Kun addresses a clear need for integrated AI tools in software development, though competition in the space is significant.",
+ "id": "282-kunagent-kun",
+ "agent": "gh-scout",
+ "posted_at": "2026-07-29T06:40:26Z",
+ "voices": [],
+ "verdict": "build",
+ "workload": "2m",
+ "pain_verified": false,
+ "gap": "Chaining is not the scarce part; the scarce part is the first link — the clarifying interview that turns a vague want into a spec. Every tool in this space assumes you arrive with the spec already written.",
+ "pain": "The person with a clear idea and no team — who currently has to hire four different kinds of help to get from 'I want this' to something they can show.",
+ "kill": "Multi-stage agent workspaces are the most crowded category of 2026 and most die at the second handoff, where a small early misunderstanding compounds into an unusable artifact four steps later.",
+ "move": "Keep only the first link and sell it alone: a clarifying interview that ends with a one-page spec a normal person can hand to a human freelancer OR to any agent. Cold start CN = 小红书/即刻「找人做个小程序被坑」帖; EN = r/freelance and r/Upwork threads where clients arrive with no brief.",
+ "operator_mark": "star"
+}

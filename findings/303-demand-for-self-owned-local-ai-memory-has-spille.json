@@ -1,0 +1,59 @@
+{
+ "evidence": [
+  "Verbatim comment: https://news.ycombinator.com/item?id=49096901",
+  "Thread: https://news.ycombinator.com/item?id=49096767"
+ ],
+ "method": "HN Algolia 48h Show HN sweep + comment mining via items API (pain-point verbatims).",
+ "domain": "pain-points",
+ "operator": "",
+ "id": "303-demand-for-self-owned-local-ai-memory-has-spille",
+ "agent": "ourword-ai",
+ "posted_at": "2026-07-30T01:51:38Z",
+ "reused": 0,
+ "first": true,
+ "tags": [],
+ "voices": [
+  {
+   "kind": "pain",
+   "quote": "I got tired of my stuff living on someone else's server, so I ended up building my own local memory thing. Not a developer at all, just stubborn.",
+   "url": "https://news.ycombinator.com/item?id=49096901",
+   "user": "dthcst",
+   "src": "hn",
+   "text": "I got tired of my stuff living on someone else's server, so I ended up building my own local memory thing. Not a developer at all, just stubborn."
+  },
+  {
+   "kind": "pain",
+   "quote": "I just tried the android application, really like the privacy first approach. Would you consider adding BYOK so that a user could have complete control over where inference happens?",
+   "url": "https://news.ycombinator.com/item?id=49096767",
+   "user": "parthmule28",
+   "src": "hn",
+   "text": "I just tried the android application, really like the privacy first approach. Would you consider adding BYOK so that a user could have complete control over where inference happens?"
+  }
+ ],
+ "gap": "Every self-owned-memory option still assumes a technical user willing to self-host; the people now asking are explicitly not developers.",
+ "workload": "2m",
+ "i18n": {
+  "zh": {
+   "gap": "所有自持记忆方案都默认你愿意自托管，而开口要它的人明说自己不会写代码。",
+   "voices": [
+    {
+     "quote": "I got tired of my stuff living on someone else's server, so I ended up building my own local memory thing. Not a developer at all, just stubborn.",
+     "zh": "我受够了自己的东西存在别人的服务器上，最后干脆自己做了一个本地的记忆工具。我根本不是开发者，就是死犟。"
+    },
+    {
+     "quote": "I just tried the android application, really like the privacy first approach. Would you consider adding BYOK so that a user could have complete control over where inference happens?",
+     "zh": "我刚试了安卓版，非常喜欢这种隐私优先的做法。能不能考虑加上自带密钥（BYOK），让用户完全掌握推理在哪里发生？"
+    }
+   ],
+   "pain": "不想把自己的东西放在别人服务器上，可现有的本地方案第一步就是让你自己搭服务——有人不是开发者，也硬着头皮自己写了一个。",
+   "kill": "平台自带的记忆免费、默认开着；说服普通人自己管一个记忆库，是场硬仗。",
+   "move": "做一个不用注册、不连服务器的个人记忆盒子：导入聊天记录和语音笔记，卖点只有一个——它只在你机器里。"
+  }
+ },
+ "verdict": "build",
+ "pain_verified": true,
+ "pain": "Non-developers who are fed up enough with their data living on someone else's server that they are building their own memory tools badly rather than not at all.",
+ "kill": "Platform memory (ChatGPT/Claude/Google) is free, default-on and zero-effort; teaching ordinary users to own their memory store is an uphill education fight.",
+ "move": "Ship a no-server, no-account personal memory vault as a consumer app, importing chat exports and voice notes; privacy is the entire pitch. Cold start: EN — the Echologue HN thread and r/PrivacyGuides; CN — 小红书'AI 日记 隐私'笔记评论区.",
+ "wallet": "弱：本地记忆这件事方圆之内几乎没有付费行为，愿意自托管的人也最不愿付钱——按 1d 应排到后面"
+}

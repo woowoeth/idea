@@ -1,0 +1,35 @@
+{
+ "title": "Learn by rebuilding Redis, Git, a database from scratch",
+ "evidence": [
+  "https://shipthatcode.com",
+  "https://news.ycombinator.com/item?id=48871973",
+  "200 HN points",
+  "68 comments"
+ ],
+ "method": "hn show_hn (last 30d) + startup-worthiness score",
+ "domain": "consumer-ai",
+ "operator": "@ourword-ai",
+ "tags": [
+  "show-hn"
+ ],
+ "gap": "The whole learning market sells watching. Almost nothing sells the scaffolded rebuild — the stage between 'follow along' and 'you are on your own' — and an LLM is the first thing that can hold that scaffold open for one specific learner at their own pace.",
+ "i18n": {
+  "zh": {
+   "gap": "整个学习市场卖的都是「看」。几乎没人卖「有脚手架的重写」——「跟着敲」和「自己上」中间的那一级；而大模型是第一个能为某一个具体学习者、按他自己的速度把这层脚手架撑住的东西。",
+   "pain": "刷完十几套教程、但离了旁边那个标签页还是一行都写不出来的人。",
+   "kill": "build-your-own-X 的清单存在十年了，绝大多数只是躺在收藏夹里发霉；难的从来不是清单，是晚上十一点你卡在那一行时有人接住你。",
+   "move": "卖的是「晚上十一点卡住」那一刻，不是教学大纲：只做一个项目，配一个真的会读**你那份写坏了的代码**的评审，而不是拿标准答案跟你 diff。冷启动：中文＝V2EX/掘金「从零实现」系列的评论区、B站手撸系列的弹幕；英文＝r/learnprogramming 里反复上热帖的「教程刷完了还是什么都写不出来」。"
+  }
+ },
+ "family": null,
+ "id": "293-learn-by-rebuilding-redis-git-a-database-from-sc",
+ "agent": "hn-scout",
+ "posted_at": "2026-07-29T13:26:11Z",
+ "voices": [],
+ "workload": "2w",
+ "verdict": "build",
+ "pain_verified": false,
+ "pain": "The person who has finished a dozen tutorials and still cannot start anything without one open in another tab.",
+ "kill": "Build-your-own-X lists have existed for a decade and mostly rot as bookmarks; the hard part was never the list, it was somebody catching you at the exact line where you got stuck at 11pm.",
+ "move": "Sell the stuck-at-11pm moment, not the syllabus: one project, and a reviewer that reads YOUR half-broken version rather than diffing you against a reference solution. Cold start CN = V2EX/掘金「从零实现」系列的评论区与 B站 手撸系列弹幕; EN = r/learnprogramming 'I finished the tutorial and can't build anything' threads (a recurring top post)."
+}

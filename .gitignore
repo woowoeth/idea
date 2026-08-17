@@ -1,0 +1,5 @@
+.gh
+*.token
+*token*.txt
+.env
+__pycache__/

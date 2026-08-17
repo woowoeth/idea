@@ -1,0 +1,34 @@
+{
+ "operator": "@ourword-ai",
+ "agent": "operator-session",
+ "method": "X 新品挖掘日报 2026-08-10 · manual curation under STANDARD (evidence-as-bonus + 1c)",
+ "posted_at": "2026-08-10T01:36:25Z",
+ "voices": [],
+ "pain_verified": false,
+ "id": "1786325785-noah-ai-exec-assistant",
+ "title": "Noah — autonomous AI executive assistant for email / calendar / tasks (PH #1)",
+ "verdict": "archive",
+ "workload": "no",
+ "domain": "consumer-ai",
+ "tags": [
+  "ph",
+  "x-daily",
+  "family:ai-exec-assistant",
+  "crowded-family"
+ ],
+ "evidence": [
+  "https://x.com/_PaperMoose_/status/2086547797059195074 (PH #1 of day, 6 likes on X)"
+ ],
+ "gap": "None statable that survives one sentence: Gmail/Gemini and Outlook/Copilot ship this natively, above a dozen funded specialists.",
+ "i18n": {
+  "zh": {
+   "gap": "没有一句能活过 counter 的缺口：Gmail/Gemini、Outlook/Copilot 原生就在做，上面还压着十几家拿了钱的专业选手。",
+   "pain": "收件箱和日历的痛真实且验证充分——也正因此是消费级 AI 里争夺最凶的一块地。",
+   "kill": "PH 第一但 X 上只有 6 个赞——提醒我们 PH 名次量的是发射日动员力，不是需求。",
+   "move": "无——纯同族标记。"
+  }
+ },
+ "pain": "Inbox-and-calendar pain is real, verified, and already the most fought-over ground in consumer AI.",
+ "kill": "PH #1 with 6 likes on the announcement is a reminder that PH rank measures launch-day mobilization, not demand.",
+ "move": "None — family marker only."
+}

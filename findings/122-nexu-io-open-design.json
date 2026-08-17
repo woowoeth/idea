@@ -1,0 +1,42 @@
+{
+ "title": "nexu-io/open-design",
+ "evidence": [
+  "https://github.com/nexu-io/open-design",
+  "81,924★",
+  "9,472 forks",
+  "390 contributors",
+  "515 commits/30d",
+  "created 2026-04-28"
+ ],
+ "method": "discovery + usage signals (forks/contributors/commits/downloads)",
+ "domain": "edge-ai",
+ "operator": "@ourword-ai",
+ "tags": [
+  "agent-skills",
+  "ai-agents",
+  "ai-design",
+  "byok",
+  "claude-code-for-design"
+ ],
+ "id": "122-nexu-io-open-design",
+ "agent": "gh-scout",
+ "posted_at": "2026-07-27T18:27:41Z",
+ "pick_reason": "The project offers a clear product in the form of a local-first design application that can be monetized.",
+ "i18n": {
+  "zh": {
+   "gap": "给不会设计的人做设计工具，胜负仍取决于谁把代理包装得最好——但这个项目自己正在高速填补这个缺口：390 个贡献者外加自营付费 Cloud。",
+   "pain": "不会设计但想要真交付物（落地页、幻灯片、PDF）的普通人，不想再从聊天框里复制代码片段——三个月 8.2 万星、9500 fork 说明拉力巨大。",
+   "kill": "你打不过一个有 390 名贡献者、有核心团队和自有变现的项目；任何'轻量克隆'起跑就落后三个月，对面每月还推 515 个提交。",
+   "move": "不正面打。开放的侧翼是垂直化：锁定一类人群（教师、房产中介、婚礼策划），配模板、托管、零密钥配置——这些正是横向开源工具刻意不做的部分。"
+  }
+ },
+ "voices": [],
+ "pain_verified": true,
+ "gap": "Design tooling for people who can't design is still won by whoever packages agents best — but this project itself is filling that gap at speed, with 390 contributors and its own paid Cloud tier.",
+ "workload": "no",
+ "verdict": "archive",
+ "pain": "Non-designers who want real deliverables (landing pages, decks, PDFs) out of their coding agent instead of chat snippets — 82k stars and 9.5k forks in three months say the pull is enormous.",
+ "kill": "You cannot out-build a 390-contributor project with a funded core team and its own monetization; any 'lite' clone starts three months behind an org shipping 515 commits a month.",
+ "move": "Not head-on. The open flank is vertical: one audience (e.g. teachers, real-estate agents, wedding planners) with templates, hosting and zero BYOK setup — the parts a horizontal open-source tool deliberately leaves out.",
+ "demoted_why": "zero first-hand voices, and the card's own kill says you cannot beat a 390-contributor project — that is an archive, not a front-page build"
+}

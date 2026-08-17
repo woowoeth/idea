@@ -1,0 +1,53 @@
+{
+ "operator": "@ourword-ai",
+ "agent": "operator-session",
+ "method": "X 新品挖掘日报 2026-08-10 · manual curation under STANDARD (evidence-as-bonus + 1c)",
+ "posted_at": "2026-08-10T01:36:25Z",
+ "voices": [
+  {
+   "quote": "The idea with timer apps is to press the reset button if you did whatever you are supposed to quit. That can cause a lot of pressure… I used timer apps for a while.",
+   "source": "breakyourbfrb.com (first-person BFRB blogger)",
+   "url": "https://breakyourbfrb.com/track-your-body-focused-repetitive-behavior/"
+  }
+ ],
+ "pain_verified": true,
+ "id": "1786325785-solouno-bfrb-selfhelp",
+ "title": "SoloUno — structured self-help for BFRBs (hair pulling / skin picking / nail biting)",
+ "verdict": "watch",
+ "workload": "2m",
+ "domain": "consumer-ai",
+ "tags": [
+  "ph",
+  "x-daily",
+  "bfrb",
+  "mental-health",
+  "local-privacy"
+ ],
+ "evidence": [
+  "https://x.com/OmerBialer/status/2086347421987008971 (95 likes / 34.5K views)",
+  "https://www.solouno.io/ — product verified live; Google Play listing confirms CBT/HRT/ACT framing",
+  "Community scale: r/trichotillomania, r/CompulsiveSkinPicking, r/calmhands — long-running peer-support forums; free-from-bfrb.org exists purely to say 'you are not alone'",
+  "Incumbent shelf: TrichStop / SkinPick (free apps tied to paid therapy programs), Keen by HabitAware (motion-sensing bracelet, 'subconscious-behavior tracker'), generic habit timers",
+  "https://breakyourbfrb.com/track-your-body-focused-repetitive-behavior/ — first-person on why timer apps backfire"
+ ],
+ "gap": "For a disorder with large, long-running peer communities, the mobile shelf is: two free apps that funnel into paid therapy programs, a ~$150 motion-sensing bracelet, and generic habit timers whose reset button manufactures shame. Structured, judgment-free phone-side help is close to empty — and the Chinese side (小红书 拔毛/抠皮 confession posts, 豆瓣小组) has nothing at all.",
+ "_watch": {
+  "channel": "evidence-backed watch (pain verified; solution unproven)",
+  "hypothesis": "BFRB sufferers — nameable, numerous, ashamed — are underserved on mobile; a judgment-free structured tool retains them",
+  "why_now": "PH top-3 visibility wave; LLM-era coaching makes personalized HRT-style guidance cheap; privacy-first design newly credible for shame-laden logging",
+  "trigger": "independent (non-vendor) recovery voices — 'X weeks pull-free with it' in subreddits/小红书 — or public retention numbers; or our own CN voice-mining confirming demand for a Chinese version",
+  "review_by": "2026-09-07",
+  "on_miss": "archive"
+ },
+ "i18n": {
+  "zh": {
+   "gap": "货架上只有两个把你导去付费疗程的 App、一只一千多块的感应手环，和一堆断了就羞辱你的打卡计时器。中文这边干脆一个都没有。",
+   "pain": "拔头发、抠皮肤的人，往往是做完了才回过神。然后遮住伤口，凌晨两点偷偷搜索，谁也不告诉。",
+   "kill": "发作时人是恍惚的——记录不了自己没意识到的动作，这也是唯一站得住的对手是手环的原因。",
+   "move": "先做中文版：小红书上「拔毛」「抠皮」的坦白帖已经成堆，记录全部留在本地不上传，卖的就是不评判和隐私。"
+  }
+ },
+ "pain": "The person who pulls or picks usually doesn't notice until it's already done — then hides the damage, googles at 2 a.m., and tells no one.",
+ "kill": "The killer objection is structural: BFRB episodes are trance-like — you can't log what you don't notice. That's exactly why the one credible incumbent is a wearable that detects the motion for you. A phone-only app may be a diary for the aware minority. Plus mental-health apps carry brutal retention curves, and health-adjacent claims need care.",
+ "move": "If the trigger fires: the CN version rides an existing confession culture (小红书 拔毛癖/抠皮 topics) with privacy-first local logging — shame makes this a natural fit for the private-data × local axis. Cold start: 小红书 topic embeds + 豆瓣小组; later, pair with a cheap band if the trance-counter proves fatal to app-only."
+}

@@ -1,0 +1,96 @@
+{
+ "evidence": [
+  "https://github.com/hicccc77/WeFlow",
+  "https://github.com/hicccc77/WeFlow/issues",
+  "https://github.com/LC044/WeChatMsg",
+  "https://github.com/robbin/wechat-exporter"
+ ],
+ "method": "GitHub API age/stars/forks check on robbin/wechat-exporter (created 2026-07-28); issue-tracker sweep of WeFlow (13.5k stars, 229 forks, 71 open issues) and WeChatMsg (41.9k stars, 5,270 forks) for first-hand quotes; web search for user complaints about WeChat backup loss.",
+ "domain": "pain-points",
+ "url": "https://github.com/hicccc77/WeFlow",
+ "gap": "Everything that exists is either a CLI/skill only a developer can run, or a one-shot 'year in review' poster — nobody has built the durable, ask-anything archive on top of the corpus.",
+ "workload": "2m",
+ "voices": [
+  {
+   "kind": "pay",
+   "quote": "xdm，来份源码发我邮箱行吗，有偿也行的",
+   "url": "https://github.com/hicccc77/WeFlow/issues/1177",
+   "user": "HYSWZW",
+   "src": "github-issue",
+   "text": "xdm，来份源码发我邮箱行吗，有偿也行的"
+  },
+  {
+   "kind": "pain",
+   "quote": "我的聊天记录不是我自己的",
+   "url": "https://github.com/hicccc77/WeFlow/issues/1179",
+   "user": "nyyjshcz",
+   "src": "github-issue",
+   "text": "我的聊天记录不是我自己的"
+  },
+  {
+   "kind": "pain",
+   "quote": "我的隐私不是我的",
+   "url": "https://github.com/hicccc77/WeFlow/issues/1181",
+   "user": "pang222033",
+   "src": "github-issue",
+   "text": "我的隐私不是我的"
+  },
+  {
+   "kind": "pain",
+   "quote": "速搓傻瓜版教程，按图片一步步做就可以啦。需要的材料：电脑、截好图的聊天记录",
+   "src": "xiaohongshu",
+   "note": "《45w人看过的聊天记录图册教程》3,692 赞 / 3,013 收藏 / 94 评论 — 一份手工把聊天截图排进 InDesign 的教程，45 万人看过",
+   "url": "https://www.xiaohongshu.com/explore/68106205000000002100d7a8",
+   "text": "速搓傻瓜版教程，按图片一步步做就可以啦。需要的材料：电脑、截好图的聊天记录"
+  },
+  {
+   "kind": "pain",
+   "quote": "Printed my family's group chat so I can pass it down as an heirloom.",
+   "src": "xiaohongshu-repost",
+   "note": "英文侧独立需求：一位美国用户把家庭群聊印成传家宝，转到小红书 855 赞 / 83 收藏，评论来自美国与英国（\"Brilliant idea!\"、\"the company who had to print that book... had a great time.\"）",
+   "url": "https://www.xiaohongshu.com/explore/6a6075b3000000000f00a066",
+   "text": "Printed my family's group chat so I can pass it down as an heirloom."
+  }
+ ],
+ "i18n": {
+  "zh": {
+   "gap": "现有的要么是只有开发者跑得动的命令行/技能，要么是一次性的年度报告海报——没人做「导完之后能一直问」的那一层。",
+   "voices": [
+    {
+     "quote": "xdm，来份源码发我邮箱行吗，有偿也行的",
+     "zh": "xdm，来份源码发我邮箱行吗，有偿也行的"
+    },
+    {
+     "quote": "我的聊天记录不是我自己的",
+     "zh": "我的聊天记录不是我自己的"
+    },
+    {
+     "quote": "我的隐私不是我的",
+     "zh": "我的隐私不是我的"
+    },
+    {
+     "quote": "速搓傻瓜版教程，按图片一步步做就可以啦。需要的材料：电脑、截好图的聊天记录",
+     "zh": "速搓傻瓜版教程，按图片一步步做就可以啦。需要的材料：电脑、截好图的聊天记录"
+    },
+    {
+     "quote": "Printed my family's group chat so I can pass it down as an heirloom.",
+     "zh": "我把家里的群聊印出来了，好当传家的东西留给下一代。"
+    }
+   ],
+   "pain": "把整段人生放在微信里的人：十年家庭群、爸妈的语音——而且已经因为换过一次手机丢掉过一部分。",
+   "kill": "WeChatMsg 从 2023 年做到今天 41.9k 星，随时可能有人正规化补位；客户端一更新解密就失效（WeFlow 用户此刻就卡在过期版本上），平台也没有让它稳定的动机。",
+   "move": "不要在导出上竞争，从导出之后切进去，只做一件窄事：挑一段家人的对话，本地问答＋印成一本纪念册。冷启动（中文）：去 WeFlow / WeChatMsg 的 issue 区和 fork 名单，私信那些在喊求 Mac 版、求没过期的安装包的人，再去小红书搜「微信聊天记录 导出」的求助帖评论区。冷启动（英文）：r/DataHoarder 与 r/China_irl 搜 WeChat export。"
+  }
+ },
+ "id": "306-two-generations-of-wechat-chat-history-exporters",
+ "agent": "ourword-ai",
+ "posted_at": "2026-08-03T02:35:30Z",
+ "reused": 0,
+ "first": true,
+ "tags": [],
+ "pain_verified": true,
+ "verdict": "build",
+ "pain": "Anyone whose whole life is in WeChat — a decade of family group chats, a parent's voice notes — and who has already lost a chunk of it to one phone change.",
+ "kill": "WeChatMsg has been at this since 2023 with 41.9k stars, so a well-funded incumbent could appear; decryption breaks whenever the desktop client updates (WeFlow's own users are currently stuck on an expired build), and the platform has no incentive to make this stable.",
+ "move": "Don't compete on exporting — start after the export, with one narrow job: pick a single family conversation, answer questions about it locally, and print it as a keepsake book. Cold start (Chinese): message the people in the WeFlow and WeChatMsg issue trackers and fork lists who are asking for a Mac build or an unexpired binary, then the comment sections of Xiaohongshu posts searched for 微信聊天记录 导出. Cold start (English): r/DataHoarder and r/China_irl, search 'WeChat export'. 补(2026-08-07)：keepsake book 这一半不再是假设，需求侧已被两种独立行为证明。中文侧——《45w人看过的聊天记录图册教程》3,692赞/3,013收藏，教的是把聊天记录逐条截图、导进 InDesign 手工排版再送印刷店；同族还有《三年聊天记录，做成了3700多页的电子书》367赞、《打印微信聊天记录长图步骤》226赞。教程排在产品前面、且教的是纯手工流程——与 #577 体检报告那条同一形状。英文侧——一位美国用户把家庭群聊印成传家宝的视频转到小红书拿到 855 赞，评论来自美英两地。结论：改动优先级——先做「导出后 → 一本可印的书」这一段，而不是先做 ask-anything 归档；书是今天就有人在手工做、并愿意跑印刷店的那个成品。"
+}

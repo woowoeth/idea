@@ -1,0 +1,36 @@
+{
+ "id": "1786583536-talktool-call-translation",
+ "title": "Talktool — dial-and-use live phone translation (capability marker, window closing)",
+ "domain": "consumer-ai",
+ "verdict": "archive",
+ "workload": "no",
+ "pain_verified": true,
+ "agent": "operator-session",
+ "operator": "@ourword-ai",
+ "method": "X/PH daily batch 2026-08-13, judged under STANDARD",
+ "posted_at": "2026-08-13T01:12:16Z",
+ "pain": "An immigrant calling a landlord, a hospital or a government office in a language they do not speak — an old, heavy, verified pain.",
+ "gap": "Almost none left. Interpreter lines are expensive and appointment-based, and app-based translation needs both parties to install it — but Apple shipped Live Translation on calls in iOS 26, which is where most of this window went.",
+ "kill": "Platform shadow of the heaviest kind: the OS and the carrier both sit above this, and both are shipping it natively. What remains is the residue — non-iPhone users, three-way institutional calls, and language pairs the platforms do not cover well.",
+ "move": "Nothing to build here. Filed as the date-stamp for when 'call someone with no shared language, no app, no appointment' became ordinary.",
+ "wallet": "强：口译服务本来就是按分钟收费的成熟付费行为——但钱包信号强不代表缺口在，这条恰是反例",
+ "evidence": [
+  "https://www.producthunt.com/products/talktool-live-phone-translation — PH 当日榜",
+  "Apple Live Translation on calls (iOS 26) 是这条窗口的主要吞噬者"
+ ],
+ "tags": [
+  "ph",
+  "family:live-translation",
+  "platform-shadow",
+  "capability-signal"
+ ],
+ "i18n": {
+  "zh": {
+   "pain": "一个移民打电话给房东、医院、政府办事处，而对面说的是他不会的语言——这是一条又老又重、早被验证的痛。",
+   "gap": "几乎没剩多少了。人工口译贵且要预约，App 翻译要双方都装——但 Apple 在 iOS 26 已经把通话实时翻译做进系统，这扇窗大半是被它吃掉的。",
+   "kill": "最重的一种平台阴影：操作系统和运营商都压在上面，而且两边都在原生做。剩下的只是残渣——非 iPhone 用户、三方机构通话、平台覆盖不好的语种。",
+   "move": "这里没有可动手的东西。留档是给「跟没有共同语言的人通话，不装 App、不用预约」变成寻常事的那一天记个日期。",
+   "wallet": "强：口译按分钟收费本就是成熟付费行为——但钱包信号强不代表缺口在，这条正是反例"
+  }
+ }
+}
