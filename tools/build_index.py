@@ -18,13 +18,15 @@ OUT  = os.environ.get("OUT",  os.path.join(ROOT, "index.html"))
 SITE = "https://ourword.ai/idea/"
 
 ORDER = {"build": 0, "watch": 1, "archive": 2}
-SECLABEL = {"build": "build · 值得两周", "watch": "watch · 挂着看", "archive": "archive · 留档"}
+SECLABEL = {"build": "值得两周", "watch": "挂着看", "archive": "留档"}
 CONTRACT = ("hook","does","voices","gap","counter","differentiator","workload","consumer_angle")
 # 75/75 覆盖的四条骨架，永远先渲染；其余字段有才渲染
-SPINE = (("pain","痛在哪"), ("gap","缺口"), ("move","两周怎么做"), ("kill","什么情况直接杀"))
-EXTRA = (("hook","谁在痛"), ("does","做什么"), ("counter","反驳"),
-         ("differentiator","冷启动"), ("consumer_angle","普通人侧"),
-         ("why_use","为何用"), ("edge","边缘"), ("value","价值"), ("risk","风险"))
+SPINE = (("pain","痛点"), ("gap","缺口"))
+RISKK = (("kill","风险"), ("risk","风险"))
+VERDICT_ZH = {"build":"值得两周","watch":"挂着看","archive":"留档"}
+WORKLOAD_ZH = {"2w":"两周","2m":"两个月","1w":"一周","no":"不做","2d":"两天"}
+TITLES = {}
+VOICES_ZH = {}
 
 CSS = """
 :root{
@@ -75,7 +77,7 @@ body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Pi
 .era-label.v-build{color:var(--up);background:var(--up-bg)}
 .era-line{flex:1;height:1px;background:var(--line)}
 .card h2{font-family:"Huiwen-mincho",serif;font-size:16.5px;font-weight:700;line-height:1.5;letter-spacing:-.01em;margin:0 0 2px}
-.f{margin:9px 0;display:grid;grid-template-columns:56px 1fr;gap:14px;align-items:start}
+.f{margin:11px 0;display:grid;grid-template-columns:44px 1fr;gap:14px;align-items:start}
 .k{font-size:10px;font-weight:600;color:var(--ink-30);text-transform:uppercase;letter-spacing:.1em;padding-top:4px;white-space:nowrap}
 .v{font-size:14px;color:var(--ink-70);line-height:1.75}
 ul.q{margin:0;padding:0;list-style:none}
@@ -90,7 +92,10 @@ ul.q li{padding:12px 14px;border-left:2px solid var(--sulfur);background:var(--t
 .marks .m:hover{opacity:.6;background:var(--tint)}
 .marks .m[aria-pressed=true]{opacity:1;background:var(--tint-hover)}
 .marks .m:focus-visible{outline:0;box-shadow:var(--shadow-focus)}
-.f.lead .v{font-size:15px;color:var(--ink);line-height:1.8}
+p.lead{margin:0 0 14px;font-size:14.5px;color:var(--ink);line-height:1.8}
+.v .orig{display:block;margin-top:5px;font-size:12px;color:var(--ink-30);font-style:normal;line-height:1.6}
+.v.verify .scale{display:inline-block;font-size:11.5px;color:var(--ink);background:var(--tint);border-radius:20px;padding:2px 10px;margin-bottom:6px;font-variant-numeric:tabular-nums}
+.v.verify .how{display:block;font-size:12.5px;color:var(--ink-50);line-height:1.7}
 .era-label.miss{color:var(--down);background:var(--down-bg);cursor:help}
 .cnt{font-size:10.5px;color:var(--ink-30);font-variant-numeric:tabular-nums;white-space:nowrap}
 ul.q li cite{display:block;margin-top:6px;font-style:normal;font-size:11.5px;color:var(--ink-30)}
@@ -169,10 +174,6 @@ JS = """
       applyFilter();
     });
   });
-  document.getElementById("lang").addEventListener("click",function(){
-    var h=document.documentElement, en=h.dataset.lang==="en";
-    h.dataset.lang = en ? "zh" : "en"; this.textContent = en ? "EN" : "中";
-  });
   document.getElementById("export").addEventListener("click",function(){
     var m=load(), t=JSON.stringify(m,null,2), b=this;
     if(navigator.clipboard) navigator.clipboard.writeText(t);
@@ -233,51 +234,72 @@ def render_card(c, i):
     cid = c.get("id") or ("card-%d" % i)
     verdict = c.get("verdict") or "watch"
     zh = (c.get("i18n") or {}).get("zh", {})
-    t_en = field(c, "title") or field(c, "claim") or cid
-    t_zh = zh.get("title") or zh.get("claim") or ""
 
-    rows = []
-    for key, lab in SPINE + EXTRA:
-        en, z = field(c, key), field(c, key, True)
-        if not (en or z): continue
-        cls = "f lead" if key == "pain" else "f"
-        rows.append('<div class="%s"><span class="k">%s</span><div class="v en">%s</div><div class="v zh">%s</div></div>'
-                    % (cls, e(lab), e(en or ""), e(z or en or "")))
+    # 标题：一句中文说清这是什么（覆盖文件 → zh.title → zh.claim → 英文兜底）
+    title = TITLES.get(cid) or zh.get("title") or zh.get("claim") or c.get("title") or c.get("claim") or cid
 
-    def qlist(vs):
-        out = []
-        for v in vs:
+    parts = []
+    lead = zh.get("move") or c.get("move")
+    if lead:
+        parts.append('<p class="lead">%s</p>' % e(lead))
+
+    for key, lab in SPINE:
+        t = zh.get(key) or c.get(key)
+        if t: parts.append('<div class="f"><span class="k">%s</span><div class="v">%s</div></div>' % (e(lab), e(t)))
+
+    # 验证：怎么查到的 + 证据规模
+    ev = sources(c)
+    vs = voices(c)
+    m = zh.get("method") or c.get("method")
+    if m or ev or vs:
+        bits = []
+        if vs or ev:
+            bits.append('<span class="scale">%d 条原声 · %d 个来源</span>' % (len(vs), len(ev)))
+        if m: bits.append('<span class="how">%s</span>' % e(m))
+        parts.append('<div class="f"><span class="k">验证</span><div class="v verify">%s</div></div>' % "".join(bits))
+
+    # 风险
+    risk = zh.get("kill") or c.get("kill")
+    extra_risk = zh.get("risk") or c.get("risk")
+    if extra_risk and extra_risk != risk:
+        risk = (risk + " ") if risk else ""
+        risk += extra_risk
+    if risk:
+        parts.append('<div class="f"><span class="k">风险</span><div class="v">%s</div></div>' % e(risk))
+
+    # 原声：中译在上，原文在下
+    if vs:
+        lis = []
+        for n, q in enumerate(vs):
+            zhq = VOICES_ZH.get("@%s#%d" % (cid, n))
+            zv = voices(c, True)
+            if not zhq and n < len(zv) and re.search(r"[\u4e00-\u9fff]", zv[n]["quote"]):
+                zhq = zv[n]["quote"]
+            body = e(zhq) if zhq else e(q["quote"])
+            orig = ('<span class="orig">%s</span>' % e(q["quote"])) if zhq else ""
             cite = ""
-            if v["src"]:
-                cite = ('<cite><a href="%s" target="_blank" rel="noopener">%s</a></cite>' % (e(v["url"]), e(v["src"]))
-                        if v["url"] else "<cite>%s</cite>" % e(v["src"]))
-            out.append("<li>%s%s</li>" % (e(v["quote"]), cite))
-        return "".join(out)
-    ve, vz = voices(c), voices(c, True)
-    if ve or vz:
-        rows.append('<div class="f"><span class="k">原声</span><ul class="v en q">%s</ul><ul class="v zh q">%s</ul></div>'
-                    % (qlist(ve), qlist(vz or ve)))
+            if q["src"]:
+                cite = ('<cite><a href="%s" target="_blank" rel="noopener">%s</a></cite>' % (e(q["url"]), e(q["src"]))
+                        if q["url"] else "<cite>%s</cite>" % e(q["src"]))
+            lis.append("<li>%s%s%s</li>" % (body, orig, cite))
+        parts.append('<div class="f"><span class="k">原声</span><ul class="v q">%s</ul></div>' % "".join(lis))
 
-    urls = sources(c)
-    if urls:
+    # 来源
+    if ev:
         links = "".join('<a class="src" href="%s" target="_blank" rel="noopener"><span class="n">%d</span>%s</a>'
-                        % (e(u), n + 1, e(host(u))) for n, u in enumerate(urls))
-        rows.append('<div class="f"><span class="k">来源</span><div class="v srcs">%s</div></div>' % links)
-
-    m = c.get("method")
-    if m:
-        rows.append('<details class="method"><summary>怎么查到的</summary><p>%s</p></details>' % e(m))
+                        % (e(u), n + 1, e(host(u))) for n, u in enumerate(ev))
+        parts.append('<div class="f"><span class="k">来源</span><div class="v srcs">%s</div></div>' % links)
 
     miss = missing(c)
-    head = ['<span class="era-label v-%s">%s</span>' % (e(verdict), e(verdict))]
-    if c.get("workload"): head.append('<span class="era-label">%s</span>' % e(c["workload"]))
+    head = ['<span class="era-label v-%s">%s</span>' % (e(verdict), e(VERDICT_ZH.get(verdict, verdict)))]
+    w = c.get("workload")
+    if w: head.append('<span class="era-label">工作量 %s</span>' % e(WORKLOAD_ZH.get(w, w)))
     if miss: head.append('<span class="era-label miss" title="%s">缺 %d 项</span>' % (e("、".join(miss)), len(miss)))
     head.append('<span class="era-line"></span>')
-    head.append('<span class="cnt">%d 来源</span>' % len(urls))
 
     return ('<article class="card" id="%s" data-id="%s" data-verdict="%s" data-miss="%d">\n'
             '  <div class="card-head">%s</div>\n'
-            '  <h2 class="en">%s</h2>\n  <h2 class="zh">%s</h2>\n'
+            '  <h2>%s</h2>\n'
             '  <div class="fields">%s</div>\n'
             '  <footer><div class="meta"></div>\n'
             '    <div class="marks" role="group" aria-label="标记">\n'
@@ -285,10 +307,21 @@ def render_card(c, i):
             '      <button class="m" data-m="maybe" title="待定" aria-label="待定">\U0001f914</button>\n'
             '      <button class="m" data-m="no" title="不要" aria-label="不要">\u274c</button>\n'
             '    </div>\n  </footer>\n</article>'
-            % (e(cid), e(cid), e(verdict), len(miss), "".join(head),
-               e(t_en), e(t_zh or t_en), "".join(rows)))
+            % (e(cid), e(cid), e(verdict), len(miss), "".join(head), e(title), "".join(parts)))
+
+def load_overrides():
+    global TITLES, VOICES_ZH
+    here = os.path.dirname(os.path.abspath(__file__))
+    for name, target in (("titles.zh.json", "T"), ("voices.zh.json", "V")):
+        for p in (os.path.join(here, name), os.path.join(ROOT, "docs", name)):
+            if os.path.exists(p):
+                d = json.load(open(p, encoding="utf-8"))
+                if target == "T": TITLES.update(d)
+                else: VOICES_ZH.update(d)
+                break
 
 def main():
+    load_overrides()
     feed = json.load(open(FEED, encoding="utf-8"))
     cards = [c for c in feed.get("findings", []) if not str(c.get("id", "")).startswith("_")]
     cards.sort(key=lambda c: (ORDER.get(c.get("verdict"), 9), str(c.get("id"))))
@@ -333,21 +366,20 @@ def main():
   </div>
   <div class="hd-stats">
     <div class="stat"><b>%d</b> 张卡</div>
-    <div class="stat">build <b>%d</b></div>
-    <div class="stat">watch <b>%d</b></div>
-    <div class="stat">archive <b>%d</b></div>
+    <div class="stat">值得两周 <b>%d</b></div>
+    <div class="stat">挂着看 <b>%d</b></div>
+    <div class="stat">留档 <b>%d</b></div>
     <div class="stat">更新于 %s</div>
   </div>
   <nav class="bar" aria-label="筛选">
     <button data-filter="all" aria-pressed="true">全部</button>
-    <button data-filter="build" aria-pressed="false">build</button>
-    <button data-filter="watch" aria-pressed="false">watch</button>
-    <button data-filter="archive" aria-pressed="false">archive</button>
+    <button data-filter="build" aria-pressed="false">值得两周</button>
+    <button data-filter="watch" aria-pressed="false">挂着看</button>
+    <button data-filter="archive" aria-pressed="false">留档</button>
     <button data-filter="marked" aria-pressed="false">已标记</button>
     <button data-filter="unmarked" aria-pressed="false">未标记</button>
     <button data-filter="todo" aria-pressed="false">待回填</button>
     <span class="spacer"></span>
-    <button id="lang">EN</button>
     <button id="export">导出标记</button>
   </nav>
 </header>
