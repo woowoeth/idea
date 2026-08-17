@@ -256,6 +256,7 @@ def sources(c):
 def missing(c):
     return [k for k in CONTRACT if c.get(k) in (None, "", [], {})]
 
+
 def render_card(c, i):
     cid = c.get("id") or ("card-%d" % i)
     verdict = c.get("verdict") or "watch"
@@ -390,7 +391,7 @@ def main():
   <div class="brand">PAINPOINT RADAR</div>
   <div class="hd-row">
     <h1 class="hd-title">普通人的痛点雷达</h1>
-    <span class="hd-en">指得出具体的人，说得出他拿到什么成品</span>
+    <span class="hd-en">痛点足够痛，付费意愿足够强</span>
   </div>
   <div class="hd-stats">
     <div class="stat"><b>%d</b> 张卡</div>
