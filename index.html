@@ -77,8 +77,10 @@ body{color:var(--ink);font-family:var(--font);font-size:var(--fs-strong);line-he
 p.lead{margin:0 0 var(--sp-4);font-size:var(--fs-body);color:var(--ink-70);line-height:1.8}
 
 .f{margin:var(--sp-3) 0;display:grid;grid-template-columns:44px 1fr;gap:var(--sp-4);align-items:start}
+/* grid 子项默认 min-width:auto，长链接会把轨道撑破视口——必须显式归零 */
+.f>*{min-width:0}
 .k{font-size:var(--fs-caption);font-weight:700;color:var(--ink-50);letter-spacing:.07em;padding-top:var(--sp-1);white-space:nowrap}
-.v{font-size:var(--fs-strong);color:var(--ink-70);line-height:1.8}
+.v{font-size:var(--fs-strong);color:var(--ink-70);line-height:1.8;overflow-wrap:anywhere}
 
 /* 原声：浅灰底块承载，不用描边 */
 ul.q{margin:0;padding:0;list-style:none}
@@ -86,7 +88,8 @@ ul.q li{padding:var(--sp-3) var(--sp-4);background:var(--tint);border-radius:var
   font-size:var(--fs-body);color:var(--ink-70);line-height:1.8;margin-bottom:var(--sp-2)}
 .v .orig{display:block;margin-top:var(--sp-1);font-size:var(--fs-caption);color:var(--ink-50);line-height:1.6}
 ul.q li cite{display:block;margin-top:var(--sp-2);font-style:normal;font-size:var(--fs-caption);color:var(--ink-50)}
-ul.q li cite a{color:var(--ink-50);text-decoration:none;border-bottom:1px solid var(--ink-30)}
+ul.q li cite a{display:inline-block;min-height:24px;line-height:24px;color:var(--ink-50);
+  text-decoration:none;border-bottom:1px solid var(--ink-30);overflow-wrap:anywhere}
 ul.q li cite a:hover{color:var(--ink)}
 
 .v.verify .scale{display:inline-block;font-size:var(--fs-caption);font-weight:700;color:var(--ink);
@@ -95,8 +98,8 @@ ul.q li cite a:hover{color:var(--ink)}
 .v.verify .how{display:block;font-size:var(--fs-body);color:var(--ink-50);line-height:1.7}
 
 .srcs{display:flex;flex-direction:column;gap:var(--sp-1)}
-a.src{display:inline-flex;align-items:baseline;gap:var(--sp-2);font-size:var(--fs-body);color:var(--ink-50);
-  text-decoration:none;font-variant-numeric:tabular-nums}
+a.src{display:inline-flex;align-items:center;gap:var(--sp-2);min-height:24px;font-size:var(--fs-body);
+  color:var(--ink-50);text-decoration:none;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
 a.src:hover{color:var(--ink)}
 a.src .n{display:inline-block;min-width:16px;font-size:var(--fs-caption);color:var(--ink-50)}
 
