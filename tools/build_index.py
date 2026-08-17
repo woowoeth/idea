@@ -113,7 +113,7 @@ ul.q li{padding:var(--sp-3) var(--sp-4);background:var(--tint);border-radius:var
   font-size:var(--fs-body);color:var(--ink-70);line-height:1.8;margin-bottom:var(--sp-2)}
 .v .orig{display:block;margin-top:var(--sp-1);font-size:var(--fs-caption);color:var(--ink-50);line-height:1.6}
 ul.q li cite{display:block;margin-top:var(--sp-2);font-style:normal;font-size:var(--fs-caption);color:var(--ink-50)}
-ul.q li cite a{display:inline-block;min-height:24px;line-height:24px;color:var(--ink-50);
+ul.q li cite a{display:inline-block;min-height:24px;min-width:24px;line-height:24px;text-align:left;color:var(--ink-50);
   text-decoration:none;border-bottom:1px solid var(--ink-30);overflow-wrap:anywhere}
 ul.q li cite a:hover{color:var(--ink)}
 
