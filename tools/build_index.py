@@ -18,7 +18,11 @@ OUT  = os.environ.get("OUT",  os.path.join(ROOT, "index.html"))
 SITE = "https://ourword.ai/idea/"
 
 ORDER = {"build": 0, "watch": 1, "archive": 2}
+DATEFMT = "%s 年 %s 月 %s 日"
 SECLABEL = {"build": "值得两周", "watch": "挂着看", "archive": "留档"}
+def date_label(d):
+    y, m, dd = d[:4], d[5:7], d[8:10]
+    return DATEFMT % (y, m.lstrip("0"), dd.lstrip("0"))
 CONTRACT = ("hook","does","voices","gap","counter","differentiator","workload","consumer_angle")
 # 75/75 覆盖的四条骨架，永远先渲染；其余字段有才渲染
 SPINE = (("pain","痛点"), ("gap","缺口"))
@@ -92,6 +96,7 @@ body{color:var(--ink);font-family:var(--font);font-size:var(--fs-strong);line-he
   background:var(--tint);font-variant-numeric:tabular-nums}
 .era-label.v-build{color:var(--ink)}
 .era-label.miss{color:var(--down)}
+.era-label.date{color:var(--ink-50);background:transparent;padding:0 var(--sp-1)}
 .era-line{flex:1;height:1px;background:var(--hairline)}
 .card h2{font-size:var(--fs-heading);font-weight:700;line-height:1.5;letter-spacing:-.01em;margin:0 0 var(--sp-2)}
 p.lead{margin:0 0 var(--sp-4);font-size:var(--fs-body);color:var(--ink-70);line-height:1.8}
@@ -315,6 +320,8 @@ def render_card(c, i):
     head = ['<span class="era-label v-%s">%s</span>' % (e(verdict), e(VERDICT_ZH.get(verdict, verdict)))]
     w = c.get("workload")
     if w: head.append('<span class="era-label">工作量 %s</span>' % e(WORKLOAD_ZH.get(w, w)))
+    d = str(c.get("posted_at") or "")[:10]
+    if d: head.append('<span class="era-label date">%s</span>' % e(d[5:].replace("-", "/")))
     if miss: head.append('<span class="era-label miss" title="%s">缺 %d 项</span>' % (e("、".join(miss)), len(miss)))
     head.append('<span class="era-line"></span>')
 
@@ -345,7 +352,8 @@ def main():
     load_overrides()
     feed = json.load(open(FEED, encoding="utf-8"))
     cards = [c for c in feed.get("findings", []) if not str(c.get("id", "")).startswith("_")]
-    cards.sort(key=lambda c: (ORDER.get(c.get("verdict"), 9), str(c.get("id"))))
+    # 首页按时间倒序（最新在最前）；档位从分组维度降为筛选维度
+    cards.sort(key=lambda c: (str(c.get("posted_at") or ""), str(c.get("id"))), reverse=True)
     counts = {k: sum(1 for c in cards if c.get("verdict") == k) for k in ORDER}
     gen = str(feed.get("generated_at") or datetime.date.today().isoformat())[:10]
 
@@ -358,10 +366,10 @@ def main():
 
     body, cur = [], None
     for i, c in enumerate(cards):
-        v = c.get("verdict") or "watch"
-        if v != cur:
-            body.append('<h2 class="sec">%s</h2>' % e(SECLABEL.get(v, v)))
-            cur = v
+        d = str(c.get("posted_at") or "")[:10]
+        if d != cur:
+            body.append('<h2 class="sec" data-date="%s">%s</h2>' % (e(d), e(date_label(d) if d else "未标注日期")))
+            cur = d
         body.append(render_card(c, i))
 
     doc = """<!DOCTYPE html>
@@ -392,7 +400,7 @@ def main():
     <div class="stat">更新于 %s</div>
   </div>
   <nav class="bar" aria-label="筛选">
-    <button data-filter="all" aria-pressed="true">全部</button>
+    <button data-filter="all" aria-pressed="true">最新</button>
     <button data-filter="build" aria-pressed="false">值得两周</button>
     <button data-filter="watch" aria-pressed="false">挂着看</button>
     <button data-filter="archive" aria-pressed="false">留档</button>
