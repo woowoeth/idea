@@ -44,7 +44,12 @@
    "pain": "买了台入门意式机加一台磨，每一杯都是酸的。一次改三样，越改越糟，豆子没了：有人一公斤下去，准备把机器退了。通用建议——磨细一点、1:2、25 到 30 秒——到处都是，一碰上他手里那台磨就失效，而这恰恰是社区要把机型写进方括号的原因。",
    "gap": "社区已经免费把最难的那张表定义好了：求助帖标题一律带 [Sage Barista Express]、[Breville Bambino Plus]、[Bambino Plus + Turin DF54]，因为所有人都知道答案与机器绑定。没人把它做成产品。记录类 app 只记你干了什么，推断留给你；配方站给的是目标不是下一步；而新手最典型的失败是一次改好几个变量，任何记录都纠正不了这一点。缺的那件东西很小很具体：这一次只改这一个数、改这么多，如果你猜对了，下一杯应该尝到什么。",
    "kill": "意式圈意见极强，判错会被喷；而同一批新手正被告知诚实答案是「问题在你那台磨，换一台」，软件解决不了。天花板不高——调准一次就不再需要你——所以这条只有在能顺势接住下一件事（豆子到配方、换机器）时才成立，而那第二步没被验证过。",
-   "move": "只做两种味道——酸与苦——覆盖三台最常见的入门机。输入＝机型＋磨＋粉重／出液／时间＋一个味道词。输出是一张单变量卡：只改哪一个、改多少、猜对的话下一杯该尝到什么变化、猜错回退到哪一步，全程不超过五杯。拒绝一次改两样，并把理由写在卡上。冷启动第一步：中文＝小红书搜「意式咖啡机 萃取 太酸 怎么调」，评论区免费出卡；英文＝r/espresso 的 what am I doing wrong 帖，一帖一张卡。"
+   "move": "只做两种味道——酸与苦——覆盖三台最常见的入门机。输入＝机型＋磨＋粉重／出液／时间＋一个味道词。输出是一张单变量卡：只改哪一个、改多少、猜对的话下一杯该尝到什么变化、猜错回退到哪一步，全程不超过五杯。拒绝一次改两样，并把理由写在卡上。冷启动第一步：中文＝小红书搜「意式咖啡机 萃取 太酸 怎么调」，评论区免费出卡；英文＝r/espresso 的 what am I doing wrong 帖，一帖一张卡。",
+   "hook": "一公斤豆子下去、准备把攒钱买的机器退掉的那个人——每一杯都是酸的，而他每次修都同时改三样。",
+   "does": "输入：机型、磨、粉量、出液量、秒数，加一个词——酸还是苦。输出：只改一个设置、改多少、如果这次猜对了下一杯应该是什么味。",
+   "counter": "论坛最终都会跟他说实话：问题在磨，去买台好的。软件磨不细。如果真正的地板是硬件，这东西就只是一句客气的「再花两百块」，他买完磨当天就会卸掉。天花板也低——真调明白了的人就不需要它了。",
+   "differentiator": "单变量纪律：每杯只动一个数，并预测味道，所以猜错很便宜、猜对可验证。现有工具全是记录本——它记你冲了什么，从不告诉你下一步动哪个数。冷启动英文：在 r/espresso 带机型方括号的求助帖下，只回一个变量加一句味道预测。中文：小红书「意式咖啡 萃取 太酸」评论区同法。",
+   "consumer_angle": "买主是那个花几百块买台家用机、想省下买咖啡钱、结果一个人在厨房喝酸水的人。交付物就是下一杯。"
   }
  },
  "id": "336-r-espresso-help-threads-carry-the-machine-in-the",
@@ -53,5 +58,10 @@
  "novelty": 0.66,
  "corroborations": 0,
  "reused": 0,
- "first": false
+ "first": false,
+ "hook": "Someone a full kilo of beans down, about to return a machine they saved up for, because every cup is sour and every attempt to fix it changes three things at once.",
+ "does": "You give it the machine, the grinder, the dose, the yield, the seconds and one word — sour or bitter. It returns one setting to change, by how much, and what the next cup should taste like if the guess was right.",
+ "counter": "Every espresso forum will eventually tell this person the honest answer: the grinder is the problem, buy a better one. No software grinds finer. If the true floor is hardware, this ships a polite way of saying 'spend $200' and gets deleted the day they do. Ceiling is modest too — someone who dials in successfully stops needing it.",
+ "differentiator": "Single-variable discipline: it changes exactly one number per cup and predicts the taste, so a wrong call is cheap and a right one is provable. Every existing tool is a log — it records what you did and never tells you what to do next. Cold start EN: answer the '[machine name]' help posts in r/espresso with one variable plus the predicted taste. 中文冷启动：小红书「意式咖啡 萃取 太酸」下逐条回复，只给一个数和一句「下一杯应该是什么味」。",
+ "consumer_angle": "The buyer is a person who spent a few hundred on a home machine to stop buying lattes and is now drinking sour ones alone in their kitchen. The deliverable is the next cup."
 }
