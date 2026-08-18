@@ -50,7 +50,12 @@
    "pain": "照着配方做，蛋糕塌了、里面是湿的，手里只有一张照片和一句「我是这么做的」。知识不缺——中文侧 2651／3476／2516 赞的通用清单把戚风为什么回缩讲得很全——但通用清单够不到真正决定答案的那一层：他家灶台上那台机器。中文帖里众人最后的结论直接是「蒸烤一体就别烤了，再买一台平炉」。代价不是钱是材料：「真是心疼我的鸡蛋」。",
    "gap": "两边都把缺的那个输入**建制化**了，而不是补上。r/Sourdough 把「不交配方不许求助」写成第 6 条版规——社区强制你交过程，因为没有过程无法诊断——然后把诊断留给路过的人。路过就是缺口的另一半：r/Baking 该分类最高赞求助帖（3461 分 / 513 评论）里，第一名评论 5738 分是个玩笑（「你该把值钱东西藏这儿」），真正讲排气与整形的答案排在它下面。菜谱 app 都在生成菜谱，没有一个肯读残骸。",
    "kill": "只凭一张照片加自述过程做诊断确实难，而一个自信的错答案再废掉一炉，恰好是这个人已经失去的那点信任。频率真实但有季节性，且这一格紧挨着「留存极差的菜谱 app 坟场」。诚实的做法是把范围切窄——一个品类、一种失败——再宽一点就变成又一个 AI 大厨。",
-   "move": "只做一个品类：戚风与古早，最常翻车的两种。输入＝断面照＋照抄的配方＋**那台机器**（蒸烤一体／风炉／平炉／电饭煲）＋三个是非题。输出不是解释，是**一份改过数的配方**——上下火 160/140、第 28 分钟前别开门、蛋白打到这个状态就停——并把每一条「这是你那台机器特有的」单独标出来。不做社区、不做记录。冷启动第一步：中文＝小红书搜「戚风 塌陷／缩腰 求助」，在评论区免费出一页修正配方；英文＝r/Baking 与 r/Sourdough 的 what went wrong 帖，一帖一份免费诊断。"
+   "move": "只做一个品类：戚风与古早，最常翻车的两种。输入＝断面照＋照抄的配方＋**那台机器**（蒸烤一体／风炉／平炉／电饭煲）＋三个是非题。输出不是解释，是**一份改过数的配方**——上下火 160/140、第 28 分钟前别开门、蛋白打到这个状态就停——并把每一条「这是你那台机器特有的」单独标出来。不做社区、不做记录。冷启动第一步：中文＝小红书搜「戚风 塌陷／缩腰 求助」，在评论区免费出一页修正配方；英文＝r/Baking 与 r/Sourdough 的 what went wrong 帖，一帖一份免费诊断。",
+   "hook": "一个刚出炉就塌了的家庭烘焙者，手里只有一张剖面照片和一句「我是这么做的」，而她算成本是按鸡蛋算的。",
+   "does": "输入：剖面照片、照着写的那份配方、实际用的那台机器。输出不是解释，是一份改过三个数的配方。",
+   "counter": "从一张照片加自述工序里读出病因本来就难，而一个自信的错答案要她再废一炉——那正是她已经花掉的信任。更硬的一条：这些帖子评论区自己给的答案往往是对的——蒸烤一体机就别烤戚风了，去买台平炉。软件买不了烤箱。",
+   "differentiator": "输出是一份重写过的配方而不是一段诊断，且重写以她那台机器为条件——那恰是所有 2000 赞级通用清单停在上面的一层。永不只给一个答案：排出最可能的两个原因，并说明下一炉怎么把这两个分开。冷启动中文：小红书「戚风 塌陷」求助帖下回一份改过数的配方而不是清单；英文：r/Sourdough 那些必须附配方的求助帖。",
+   "consumer_angle": "周末在家烤的人，成本以鸡蛋和面粉计。交付物是下一炉是对的。"
   }
  },
  "id": "335-r-sourdough-had-to-write-include-recipe-no-low-e",
@@ -59,5 +64,10 @@
  "novelty": 0.81,
  "corroborations": 0,
  "reused": 0,
- "first": true
+ "first": true,
+ "hook": "A home baker at the end of a failed bake, holding one cross-section photo and a sentence about what she did, counting the cost in eggs.",
+ "does": "In: the cross-section photo, the recipe as written, and which machine it was actually baked in. Out: not an explanation — a rewritten recipe with three changed numbers.",
+ "counter": "Reading a cause out of one photo plus a self-reported process is genuinely hard, and a confident wrong answer costs her another batch — the exact trust she has already spent. Harder still: the comments in these threads are often right. That combi-steam oven will never do chiffon; buy a deck oven. Software cannot buy the oven.",
+ "differentiator": "The output is a rewritten recipe, not a diagnosis paragraph, and the rewrite is conditioned on her machine — precisely the layer every 2000-like general checklist stops above. It never gives one answer: it ranks the two likeliest causes and says which the next bake will separate. Cold start 中文: reply under 小红书 chiffon-collapse posts with a rewritten recipe instead of a checklist. EN: the recipe-required help posts in r/Sourdough.",
+ "consumer_angle": "Someone baking at home on weekends whose cost is measured in eggs and flour. The deliverable is the next batch coming out right."
 }
