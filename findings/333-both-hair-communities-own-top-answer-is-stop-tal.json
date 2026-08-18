@@ -55,7 +55,12 @@
    "pain": "一个普通人马上要坐进理发椅，花钱买一件三个月内撑不回来的事，而他手里只有一张陌生人的头发截图。两边社区都已经把答案想好了——r/Hair 里分数最高的帖子是一位发型师自己发的，叫大家别描述、拿图来——可这个答案照样失效，因为参考图里是另一个底色、另一颗头。中文侧形状一模一样且量更大：「怎么和理发师沟通」的笔记一串串，其中一篇的作者就是理发师本人，他只写了一句：直接拿图2️⃣给我。",
    "gap": "卖的东西全在椅子的错那一边。AI 换发型 App（轻颜、YouCam 之类）本质是自拍滤镜：给个好看的预览就结束，既不告诉你那颗被盒染过的 4 级底色能不能一次到位，也产不出任何能递给拿剁子的人的东西；而沙龙那边的系统都是卖给店里的预约与会员。没人做跟你一起进店的那一页：先可行性（几次、要不要褪、发尾承不承得住），再是贴在你自己头上的预览，最后是用发型师的词写的说明——包括每个帖子都在说、但没一个产品帮你写的那句：哪里绝对不能动。",
    "kill": "发型师可能当场翻脸——「AI 说能做」对上他十二年的手，这一层介入很容易被读成不信任，产品就死在椅子旁。而且这是一年四次、几乎零留存的一次性场景，获客成本大概率高于 LTV——这也正是它空着的原因；美图/轻颜加一个「贴到我自己头上」滤镜就吃掉一半，而剩下的可行性判定恰好是可能自信地算错的一半——算错一次，你就把人的头发勝熟了。",
-   "move": "只做染发一件事，其余全拒。两张图进（现状、参考），三样东西出：能不能一次做到、贴在你自己头上的预览、一页可打印的发型师用语说明（含「绝对不能动的地方」）。不碰价格、不做事后维权存证——那是另一个更难看的产品。中文冷启动：小红书「怎么和理发师沟通」「男生碎盖」笔记评论区，免费替人出那一页。英文冷启动：r/Hair 与 r/femalehairadvice 的 what I asked for vs what I got 帖，一帖一份免费 brief。"
+   "move": "只做染发一件事，其余全拒。两张图进（现状、参考），三样东西出：能不能一次做到、贴在你自己头上的预览、一页可打印的发型师用语说明（含「绝对不能动的地方」）。不碰价格、不做事后维权存证——那是另一个更难看的产品。中文冷启动：小红书「怎么和理发师沟通」「男生碎盖」笔记评论区，免费替人出那一页。英文冷启动：r/Hair 与 r/femalehairadvice 的 what I asked for vs what I got 帖，一帖一份免费 brief。",
+   "hook": "一个马上要坐进理发椅、为一件三个月撤不回来的事付钱的人，而他形容这件事的全部词汇，是一张陌生人头发的截图。",
+   "does": "输入两张照片——你现在的头发、你想要的那张。输出三件：这能不能一次做完、贴在你自己头上的预览、一页用发型师行话写的可打印说明，末尾一行「不要动的地方」。",
+   "counter": "发型师完全可能把那一页读成侮辱——一个 App 在质疑他十二年的手——事情就在椅子上死掉。而这是一年四次、几乎没有留存的差事：获客成本很可能高过生命周期价值。",
+   "differentiator": "它回答所有 AI 换发型滤镜都绕开的那一个问题：你这颗染过的四级底色，一次能不能到那个灰调金；不能的话要几次。滤镜卖的是好看的预览，这个卖的是可行性裁决加那一页交接。冷启动英文：r/Hair 里「I showed her that picture multiple times」那类翻车帖；中文：小红书「怎么和理发师沟通」笔记评论区。",
+   "consumer_angle": "卖给椅子上那个人，不卖给沙龙。交付物是一页可打印说明加一个能不能。"
   }
  },
  "id": "333-both-hair-communities-own-top-answer-is-stop-tal",
@@ -64,5 +69,10 @@
  "novelty": 0.89,
  "corroborations": 0,
  "reused": 0,
- "first": true
+ "first": true,
+ "hook": "Someone about to sit in a salon chair and pay for something that cannot be undone for three months, whose entire vocabulary for it is a screenshot of a stranger's hair.",
+ "does": "Two photos in — your hair now, the inspo. Three things out: whether it can be done in one sitting, a preview rendered on your own head, and a printable page in stylist vocabulary with a 'do not touch' line.",
+ "counter": "A stylist may read that page as an insult — an app second-guessing twelve years of their hands — and the whole thing dies at the chair. And this is a four-times-a-year errand with near-zero retention: acquisition cost plausibly exceeds lifetime value.",
+ "differentiator": "It answers the one question every AI-hair filter refuses to: whether your level-4 box-dyed hair reaches that ash blonde in one sitting, and if not, how many. Filters sell the pretty preview; this sells the feasibility verdict and the handoff page. Cold start EN: the 'I showed her that picture multiple times' threads in r/Hair. 中文: 小红书「怎么和理发师沟通」笔记评论区。",
+ "consumer_angle": "Sold to the person in the chair, not the salon. The deliverable is one printable page plus a yes or no."
 }
