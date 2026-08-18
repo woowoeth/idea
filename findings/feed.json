@@ -346,7 +346,12 @@
      "pain": "买了台入门意式机加一台磨，每一杯都是酸的。一次改三样，越改越糟，豆子没了：有人一公斤下去，准备把机器退了。通用建议——磨细一点、1:2、25 到 30 秒——到处都是，一碰上他手里那台磨就失效，而这恰恰是社区要把机型写进方括号的原因。",
      "gap": "社区已经免费把最难的那张表定义好了：求助帖标题一律带 [Sage Barista Express]、[Breville Bambino Plus]、[Bambino Plus + Turin DF54]，因为所有人都知道答案与机器绑定。没人把它做成产品。记录类 app 只记你干了什么，推断留给你；配方站给的是目标不是下一步；而新手最典型的失败是一次改好几个变量，任何记录都纠正不了这一点。缺的那件东西很小很具体：这一次只改这一个数、改这么多，如果你猜对了，下一杯应该尝到什么。",
      "kill": "意式圈意见极强，判错会被喷；而同一批新手正被告知诚实答案是「问题在你那台磨，换一台」，软件解决不了。天花板不高——调准一次就不再需要你——所以这条只有在能顺势接住下一件事（豆子到配方、换机器）时才成立，而那第二步没被验证过。",
-     "move": "只做两种味道——酸与苦——覆盖三台最常见的入门机。输入＝机型＋磨＋粉重／出液／时间＋一个味道词。输出是一张单变量卡：只改哪一个、改多少、猜对的话下一杯该尝到什么变化、猜错回退到哪一步，全程不超过五杯。拒绝一次改两样，并把理由写在卡上。冷启动第一步：中文＝小红书搜「意式咖啡机 萃取 太酸 怎么调」，评论区免费出卡；英文＝r/espresso 的 what am I doing wrong 帖，一帖一张卡。"
+     "move": "只做两种味道——酸与苦——覆盖三台最常见的入门机。输入＝机型＋磨＋粉重／出液／时间＋一个味道词。输出是一张单变量卡：只改哪一个、改多少、猜对的话下一杯该尝到什么变化、猜错回退到哪一步，全程不超过五杯。拒绝一次改两样，并把理由写在卡上。冷启动第一步：中文＝小红书搜「意式咖啡机 萃取 太酸 怎么调」，评论区免费出卡；英文＝r/espresso 的 what am I doing wrong 帖，一帖一张卡。",
+     "hook": "一公斤豆子下去、准备把攒钱买的机器退掉的那个人——每一杯都是酸的，而他每次修都同时改三样。",
+     "does": "输入：机型、磨、粉量、出液量、秒数，加一个词——酸还是苦。输出：只改一个设置、改多少、如果这次猜对了下一杯应该是什么味。",
+     "counter": "论坛最终都会跟他说实话：问题在磨，去买台好的。软件磨不细。如果真正的地板是硬件，这东西就只是一句客气的「再花两百块」，他买完磨当天就会卸掉。天花板也低——真调明白了的人就不需要它了。",
+     "differentiator": "单变量纪律：每杯只动一个数，并预测味道，所以猜错很便宜、猜对可验证。现有工具全是记录本——它记你冲了什么，从不告诉你下一步动哪个数。冷启动英文：在 r/espresso 带机型方括号的求助帖下，只回一个变量加一句味道预测。中文：小红书「意式咖啡 萃取 太酸」评论区同法。",
+     "consumer_angle": "买主是那个花几百块买台家用机、想省下买咖啡钱、结果一个人在厨房喝酸水的人。交付物就是下一杯。"
     }
    },
    "id": "336-r-espresso-help-threads-carry-the-machine-in-the",
@@ -355,7 +360,12 @@
    "novelty": 0.66,
    "corroborations": 0,
    "reused": 0,
-   "first": false
+   "first": false,
+   "hook": "Someone a full kilo of beans down, about to return a machine they saved up for, because every cup is sour and every attempt to fix it changes three things at once.",
+   "does": "You give it the machine, the grinder, the dose, the yield, the seconds and one word — sour or bitter. It returns one setting to change, by how much, and what the next cup should taste like if the guess was right.",
+   "counter": "Every espresso forum will eventually tell this person the honest answer: the grinder is the problem, buy a better one. No software grinds finer. If the true floor is hardware, this ships a polite way of saying 'spend $200' and gets deleted the day they do. Ceiling is modest too — someone who dials in successfully stops needing it.",
+   "differentiator": "Single-variable discipline: it changes exactly one number per cup and predicts the taste, so a wrong call is cheap and a right one is provable. Every existing tool is a log — it records what you did and never tells you what to do next. Cold start EN: answer the '[machine name]' help posts in r/espresso with one variable plus the predicted taste. 中文冷启动：小红书「意式咖啡 萃取 太酸」下逐条回复，只给一个数和一句「下一杯应该是什么味」。",
+   "consumer_angle": "The buyer is a person who spent a few hundred on a home machine to stop buying lattes and is now drinking sour ones alone in their kitchen. The deliverable is the next cup."
   },
   {
    "claim": "r/Sourdough had to write \"Include recipe - no low effort posts\" into its rules and r/espresso's help threads carry the machine model in the title — both communities have institutionalised the one thing no product does: read the wreck plus the specific oven or grinder in front of this person and hand back changed numbers",
@@ -409,7 +419,12 @@
      "pain": "照着配方做，蛋糕塌了、里面是湿的，手里只有一张照片和一句「我是这么做的」。知识不缺——中文侧 2651／3476／2516 赞的通用清单把戚风为什么回缩讲得很全——但通用清单够不到真正决定答案的那一层：他家灶台上那台机器。中文帖里众人最后的结论直接是「蒸烤一体就别烤了，再买一台平炉」。代价不是钱是材料：「真是心疼我的鸡蛋」。",
      "gap": "两边都把缺的那个输入**建制化**了，而不是补上。r/Sourdough 把「不交配方不许求助」写成第 6 条版规——社区强制你交过程，因为没有过程无法诊断——然后把诊断留给路过的人。路过就是缺口的另一半：r/Baking 该分类最高赞求助帖（3461 分 / 513 评论）里，第一名评论 5738 分是个玩笑（「你该把值钱东西藏这儿」），真正讲排气与整形的答案排在它下面。菜谱 app 都在生成菜谱，没有一个肯读残骸。",
      "kill": "只凭一张照片加自述过程做诊断确实难，而一个自信的错答案再废掉一炉，恰好是这个人已经失去的那点信任。频率真实但有季节性，且这一格紧挨着「留存极差的菜谱 app 坟场」。诚实的做法是把范围切窄——一个品类、一种失败——再宽一点就变成又一个 AI 大厨。",
-     "move": "只做一个品类：戚风与古早，最常翻车的两种。输入＝断面照＋照抄的配方＋**那台机器**（蒸烤一体／风炉／平炉／电饭煲）＋三个是非题。输出不是解释，是**一份改过数的配方**——上下火 160/140、第 28 分钟前别开门、蛋白打到这个状态就停——并把每一条「这是你那台机器特有的」单独标出来。不做社区、不做记录。冷启动第一步：中文＝小红书搜「戚风 塌陷／缩腰 求助」，在评论区免费出一页修正配方；英文＝r/Baking 与 r/Sourdough 的 what went wrong 帖，一帖一份免费诊断。"
+     "move": "只做一个品类：戚风与古早，最常翻车的两种。输入＝断面照＋照抄的配方＋**那台机器**（蒸烤一体／风炉／平炉／电饭煲）＋三个是非题。输出不是解释，是**一份改过数的配方**——上下火 160/140、第 28 分钟前别开门、蛋白打到这个状态就停——并把每一条「这是你那台机器特有的」单独标出来。不做社区、不做记录。冷启动第一步：中文＝小红书搜「戚风 塌陷／缩腰 求助」，在评论区免费出一页修正配方；英文＝r/Baking 与 r/Sourdough 的 what went wrong 帖，一帖一份免费诊断。",
+     "hook": "一个刚出炉就塌了的家庭烘焙者，手里只有一张剖面照片和一句「我是这么做的」，而她算成本是按鸡蛋算的。",
+     "does": "输入：剖面照片、照着写的那份配方、实际用的那台机器。输出不是解释，是一份改过三个数的配方。",
+     "counter": "从一张照片加自述工序里读出病因本来就难，而一个自信的错答案要她再废一炉——那正是她已经花掉的信任。更硬的一条：这些帖子评论区自己给的答案往往是对的——蒸烤一体机就别烤戚风了，去买台平炉。软件买不了烤箱。",
+     "differentiator": "输出是一份重写过的配方而不是一段诊断，且重写以她那台机器为条件——那恰是所有 2000 赞级通用清单停在上面的一层。永不只给一个答案：排出最可能的两个原因，并说明下一炉怎么把这两个分开。冷启动中文：小红书「戚风 塌陷」求助帖下回一份改过数的配方而不是清单；英文：r/Sourdough 那些必须附配方的求助帖。",
+     "consumer_angle": "周末在家烤的人，成本以鸡蛋和面粉计。交付物是下一炉是对的。"
     }
    },
    "id": "335-r-sourdough-had-to-write-include-recipe-no-low-e",
@@ -418,7 +433,12 @@
    "novelty": 0.81,
    "corroborations": 0,
    "reused": 0,
-   "first": true
+   "first": true,
+   "hook": "A home baker at the end of a failed bake, holding one cross-section photo and a sentence about what she did, counting the cost in eggs.",
+   "does": "In: the cross-section photo, the recipe as written, and which machine it was actually baked in. Out: not an explanation — a rewritten recipe with three changed numbers.",
+   "counter": "Reading a cause out of one photo plus a self-reported process is genuinely hard, and a confident wrong answer costs her another batch — the exact trust she has already spent. Harder still: the comments in these threads are often right. That combi-steam oven will never do chiffon; buy a deck oven. Software cannot buy the oven.",
+   "differentiator": "The output is a rewritten recipe, not a diagnosis paragraph, and the rewrite is conditioned on her machine — precisely the layer every 2000-like general checklist stops above. It never gives one answer: it ranks the two likeliest causes and says which the next bake will separate. Cold start 中文: reply under 小红书 chiffon-collapse posts with a rewritten recipe instead of a checklist. EN: the recipe-required help posts in r/Sourdough.",
+   "consumer_angle": "Someone baking at home on weekends whose cost is measured in eggs and flour. The deliverable is the next batch coming out right."
   },
   {
    "id": "1786583536-talktool-call-translation",
@@ -609,7 +629,12 @@
      "pain": "第一次纹身的人手里只有一种感觉、一个故事、三张截图，可他得在沟通里把这些变成位置、尺寸（厘米）、线条粗细、黑灰还是彩、哪些地方可以由对方改。他既怕失礼，又怕这东西一辈子在身上。中文侧最高赞的那份指南结尾把心理门槛写得很白：「千万别社恐」。两边都把清单写好了，但没人替你填。",
      "gap": "清单存在且很火——1185 赞的小红书笔记把开针前该谈的七件事列得清清楚楚，英文帖也直说带一份参考资料进店比张嘴描述强——但清单是一张空表，而第一次纹身的人恰好是填不出来的那个人。同时市面上所有 AI 纹身产品都在拼命生成图案，而那恰好是这个圈子明确抵触的事：礼仪帖里信息量最大的一条说的是「得让人相信你没拄别人的稿」。工具全撑在禁区那一半，想要的那一半没人做。",
      "kill": "需求沟通本来就是纹身师自己的活，你插一层可能两头得罪；频率极低（一生几次），获客成本远高于客单；而圈子对 AI 的敷意不是抽象的——一旦你做的东西被读成「AI 稿」，你赖以获客的渠道当天全部关闭，所以产品必须看得见、证得明它不是个生图器。",
-     "move": "只交需求书，坚持不出图。一轮短问答（一句由来、位置、尺寸、黑灰或彩、必须保留的元素、可自由发挥的部分）→ 一页中英双语需求书，附文字逐字拼写核对表与中文清单里本来就列了的计费三问。参考图只整理并标注来源，绝不生成，且页首就写明这一点。中文冷启动：小红书「第一次纹身」「纹身沟通」评论区免费替人出需求书。英文冷启动：r/tattooadvice 的 how to describe this style 帖，一帖一份。"
+     "move": "只交需求书，坚持不出图。一轮短问答（一句由来、位置、尺寸、黑灰或彩、必须保留的元素、可自由发挥的部分）→ 一页中英双语需求书，附文字逐字拼写核对表与中文清单里本来就列了的计费三问。参考图只整理并标注来源，绝不生成，且页首就写明这一点。中文冷启动：小红书「第一次纹身」「纹身沟通」评论区免费替人出需求书。英文冷启动：r/tattooadvice 的 how to describe this style 帖，一帖一份。",
+     "hook": "第一次纹身的人：手里一种感觉、一个故事、三张截图，只有一次沟通能把这些变成厘米，同时怕两件事——怕失礼，也怕这东西一辈子在身上。",
+     "does": "一段简短问答——为什么、在身体哪儿、多大（厘米）、黑灰还是彩、哪些必须保留、哪些可以由对方随意改——输出一页中英双语的需求书，赴约前发过去。它绝不出图。",
+     "counter": "沟通本来就是纹身师自己的活，中间插一层可能同时得罪两头。而这个圈子对 AI 的敌意不是抽象的：那一页只要看起来像机器画的，在椅子上就是一种侮辱。频次也残酷——一辈子几次——获客成本可能高过单价。",
+     "differentiator": "它拒绝出图，而出图恰是所有 AI 纹身产品都在做的事、也正是这个圈子画下的红线；同时那一页会写明：没有抄任何一位纹身师的稿。冷启动英文：在 r/tattooadvice「拿自己画的稿算不算失礼」的帖下，给一页填好的需求书。中文：小红书「纹身沟通」笔记评论区。",
+     "consumer_angle": "第一次走进纹身店的人。交付物是他递出去的那一页，以及一次没跑偏的沟通。"
     }
    },
    "id": "334-in-r-tattooadvice-the-client-asks-whether-handin",
@@ -618,7 +643,12 @@
    "novelty": 0.76,
    "corroborations": 0,
    "reused": 0,
-   "first": true
+   "first": true,
+   "hook": "Someone booking a first tattoo with a feeling, a story and three saved screenshots, one consultation in which to turn that into centimetres, and two fears at once: being rude, and wearing a mistake for life.",
+   "does": "A short interview — why, where on the body, size in cm, black-and-grey or colour, what must survive, what the artist may freely change — and out comes one bilingual page to send before the appointment. It never draws.",
+   "counter": "Consultation is the artist's own job, so a layer in between can offend both ends at once. And the hostility to AI here is not abstract: the moment the page looks machine-made it is an insult in the chair. Frequency is brutal — a handful of tattoos in a lifetime — so acquisition cost can exceed the ticket.",
+   "differentiator": "It refuses to produce artwork, which is the one thing every AI-tattoo product does and the exact red line this community has drawn; and it states in writing that no other artist's design was copied. Cold start EN: answer the 'is handing over a sketch rude' threads in r/tattooadvice with a filled-in brief. 中文：小红书「纹身沟通」笔记评论区，替提问的人把那七件事填出来。",
+   "consumer_angle": "A first-timer walking into a shop. The deliverable is one page they hand over, and a consultation that does not go sideways."
   },
   {
    "claim": "Both hair communities' own top answer is 'stop talking, show the picture' — but the highest-scoring failure post shows the picture was shown repeatedly and still missed, because a photo of someone else's hair never answers whether your head can get there",
@@ -677,7 +707,12 @@
      "pain": "一个普通人马上要坐进理发椅，花钱买一件三个月内撑不回来的事，而他手里只有一张陌生人的头发截图。两边社区都已经把答案想好了——r/Hair 里分数最高的帖子是一位发型师自己发的，叫大家别描述、拿图来——可这个答案照样失效，因为参考图里是另一个底色、另一颗头。中文侧形状一模一样且量更大：「怎么和理发师沟通」的笔记一串串，其中一篇的作者就是理发师本人，他只写了一句：直接拿图2️⃣给我。",
      "gap": "卖的东西全在椅子的错那一边。AI 换发型 App（轻颜、YouCam 之类）本质是自拍滤镜：给个好看的预览就结束，既不告诉你那颗被盒染过的 4 级底色能不能一次到位，也产不出任何能递给拿剁子的人的东西；而沙龙那边的系统都是卖给店里的预约与会员。没人做跟你一起进店的那一页：先可行性（几次、要不要褪、发尾承不承得住），再是贴在你自己头上的预览，最后是用发型师的词写的说明——包括每个帖子都在说、但没一个产品帮你写的那句：哪里绝对不能动。",
      "kill": "发型师可能当场翻脸——「AI 说能做」对上他十二年的手，这一层介入很容易被读成不信任，产品就死在椅子旁。而且这是一年四次、几乎零留存的一次性场景，获客成本大概率高于 LTV——这也正是它空着的原因；美图/轻颜加一个「贴到我自己头上」滤镜就吃掉一半，而剩下的可行性判定恰好是可能自信地算错的一半——算错一次，你就把人的头发勝熟了。",
-     "move": "只做染发一件事，其余全拒。两张图进（现状、参考），三样东西出：能不能一次做到、贴在你自己头上的预览、一页可打印的发型师用语说明（含「绝对不能动的地方」）。不碰价格、不做事后维权存证——那是另一个更难看的产品。中文冷启动：小红书「怎么和理发师沟通」「男生碎盖」笔记评论区，免费替人出那一页。英文冷启动：r/Hair 与 r/femalehairadvice 的 what I asked for vs what I got 帖，一帖一份免费 brief。"
+     "move": "只做染发一件事，其余全拒。两张图进（现状、参考），三样东西出：能不能一次做到、贴在你自己头上的预览、一页可打印的发型师用语说明（含「绝对不能动的地方」）。不碰价格、不做事后维权存证——那是另一个更难看的产品。中文冷启动：小红书「怎么和理发师沟通」「男生碎盖」笔记评论区，免费替人出那一页。英文冷启动：r/Hair 与 r/femalehairadvice 的 what I asked for vs what I got 帖，一帖一份免费 brief。",
+     "hook": "一个马上要坐进理发椅、为一件三个月撤不回来的事付钱的人，而他形容这件事的全部词汇，是一张陌生人头发的截图。",
+     "does": "输入两张照片——你现在的头发、你想要的那张。输出三件：这能不能一次做完、贴在你自己头上的预览、一页用发型师行话写的可打印说明，末尾一行「不要动的地方」。",
+     "counter": "发型师完全可能把那一页读成侮辱——一个 App 在质疑他十二年的手——事情就在椅子上死掉。而这是一年四次、几乎没有留存的差事：获客成本很可能高过生命周期价值。",
+     "differentiator": "它回答所有 AI 换发型滤镜都绕开的那一个问题：你这颗染过的四级底色，一次能不能到那个灰调金；不能的话要几次。滤镜卖的是好看的预览，这个卖的是可行性裁决加那一页交接。冷启动英文：r/Hair 里「I showed her that picture multiple times」那类翻车帖；中文：小红书「怎么和理发师沟通」笔记评论区。",
+     "consumer_angle": "卖给椅子上那个人，不卖给沙龙。交付物是一页可打印说明加一个能不能。"
     }
    },
    "id": "333-both-hair-communities-own-top-answer-is-stop-tal",
@@ -686,7 +721,12 @@
    "novelty": 0.89,
    "corroborations": 0,
    "reused": 0,
-   "first": true
+   "first": true,
+   "hook": "Someone about to sit in a salon chair and pay for something that cannot be undone for three months, whose entire vocabulary for it is a screenshot of a stranger's hair.",
+   "does": "Two photos in — your hair now, the inspo. Three things out: whether it can be done in one sitting, a preview rendered on your own head, and a printable page in stylist vocabulary with a 'do not touch' line.",
+   "counter": "A stylist may read that page as an insult — an app second-guessing twelve years of their hands — and the whole thing dies at the chair. And this is a four-times-a-year errand with near-zero retention: acquisition cost plausibly exceeds lifetime value.",
+   "differentiator": "It answers the one question every AI-hair filter refuses to: whether your level-4 box-dyed hair reaches that ash blonde in one sitting, and if not, how many. Filters sell the pretty preview; this sells the feasibility verdict and the handoff page. Cold start EN: the 'I showed her that picture multiple times' threads in r/Hair. 中文: 小红书「怎么和理发师沟通」笔记评论区。",
+   "consumer_angle": "Sold to the person in the chair, not the salon. The deliverable is one printable page plus a yes or no."
   },
   {
    "operator": "@ourword-ai",
@@ -1161,7 +1201,12 @@
      ],
      "pain": "晚上九点，幼儿园的手工作业明天要交，拿着剪刀的那位家长自己就不会做手工——于是她自己动手做得也不好看，孩子第二天交上去一件他自己都嫌丑的东西。",
      "kill": "这些帖子里最响的共识是「这件事本来就不该存在」——央广网评「手工作业还是形式主义？」被转成 198 赞的帖子。做一个帮家长把作业做得更漂亮的东西，是站在被骂的那一侧。同帖里一位小学美术老师的判断：家长自己卷自己，才把这件事搞坏的。而母婴生态里任何一家小程序都能在一周内加上这个功能。",
-     "move": "刻意站在反内卷那一侧：永不输出「大人做的那一版」，不做作品评比与打分，每一步都标清楚大人可以碰哪里。这不是修饰，这是它与平台上已经在接单的代做服务之间唯一的分界，也正好是那条 529 赞评论在伸手要的东西。冷启动·中文＝「幼儿园手工作业家长崩溃」「逼疯家长」两个词落地的评论区，以及「有没有需要幼儿园手工作业的家长」这条联想词背后已经在接单的那批人。冷启动·英文＝r/Parenting 与 r/Teachers 每年万圣节服装与 science fair 前一周准时出现的「我孩子的作业明天就要交」帖。"
+     "move": "刻意站在反内卷那一侧：永不输出「大人做的那一版」，不做作品评比与打分，每一步都标清楚大人可以碰哪里。这不是修饰，这是它与平台上已经在接单的代做服务之间唯一的分界，也正好是那条 529 赞评论在伸手要的东西。冷启动·中文＝「幼儿园手工作业家长崩溃」「逼疯家长」两个词落地的评论区，以及「有没有需要幼儿园手工作业的家长」这条联想词背后已经在接单的那批人。冷启动·英文＝r/Parenting 与 r/Teachers 每年万圣节服装与 science fair 前一周准时出现的「我孩子的作业明天就要交」帖。",
+     "hook": "晚上九点，幼儿园手工作业明天要交，拿着剪刀的那位家长自己就不会做手工——于是她替孩子做了，做得很丑，孩子第二天交上去一件自己都嫌丑的东西。",
+     "does": "拍下家里真正有的东西——那个纸箱、那卷胶带、剩下的四十分钟——加上孩子的年龄和老师给的主题；输出一份孩子自己能做完的步骤，逐步标明哪一步大人可以碰。",
+     "counter": "这些帖子里声音最大的共识是这作业根本就不该存在，官媒都发过「手工作业是不是形式主义」并被转发。任何帮家长把作业做得更好看的工具，都是在给家长自己在抱怨的那场军备竞赛添柴。更难的一条：代做这门生意已经有人在小红书接单收钱，你要跟「直接替孩子做完」的人竞争。",
+     "differentiator": "它故意站在反外包那一侧：永不输出大人做的那一版、不给结果打分或排名、每一步都标明大人可碰的边界——这也正是它与本板 R5「代际代劳」排除区的分界：产物是反代劳，不替孩子做，让孩子自己做得完。冷启动中文：小红书「幼儿园手工作业」帖下，按对方晒出的材料回一份孩子能自己做完的步骤；英文：r/Parenting 的 craft-homework 吐槽帖。",
+     "consumer_angle": "买主是一位手笨的家长。交付物是睡前完成、且是孩子自己做的那一件。"
     }
    },
    "tags": [
@@ -1183,7 +1228,12 @@
    "pain": "It is nine at night, the kindergarten craft assignment is due tomorrow, and the parent holding the scissors cannot make things — so she makes it herself, badly, and her child hands in something he is embarrassed by.",
    "kill": "The loudest consensus in these threads is that the assignment should not exist at all — state media ran a piece asking whether craft homework is just performative, and it was reposted for 198 likes. Building anything that helps parents produce nicer homework stands on the side people are angry at. A primary-school art teacher in the same thread: parents competing with each other is what ruined it. And any maternal-and-baby WeChat mini-program could add this in a week.",
    "move": "Take the anti-arms-race side deliberately: never output the adult-made version, never rank or score results, and always mark which step the grown-up may touch. That is not a garnish — it is what separates this from the outsourcing services already selling on the platform, and it is the exact thing the highest-signal voice in the thread was reaching for. Cold start, Chinese: the comment sections under 幼儿园手工作业家长崩溃 and 逼疯家长, plus the people already taking paid orders behind the suggestion 有没有需要幼儿园手工作业的家长. Cold start, English: r/Parenting and r/Teachers every year in the week before Halloween costumes and the science fair, where 'my kid's project is due tomorrow' arrives on schedule.",
-   "wallet": "强：淘宝上代做手工作业的服务已经在接单收钱"
+   "wallet": "强：淘宝上代做手工作业的服务已经在接单收钱",
+   "hook": "It is nine at night, the kindergarten craft assignment is due tomorrow, and the parent holding the scissors cannot make things — so she makes it herself, badly, and her child hands in something he is embarrassed by.",
+   "does": "Photograph what is actually in the house — the cardboard box, the tape, the forty minutes left — plus the child's age and the teacher's theme. Out comes a plan the child can execute, step by step, marked with which parts the grown-up may touch.",
+   "counter": "The loudest consensus in these threads is that the assignment should not exist at all; state media ran a piece asking whether craft homework is performative and it was reposted widely. Anything that helps parents produce nicer homework is fuel for the arms race the parents are complaining about. And there is already a paid outsourcing market — you would be competing with people who simply do it for the child.",
+   "differentiator": "Deliberately anti-outsourcing: it never outputs the adult-made version, never scores or ranks results, and marks every step the grown-up may touch — which is also the line separating it from the board's 代际代劳 exclusion, since the artefact is anti-proxy by construction. Cold start 中文: reply under 小红书 craft-homework threads with a plan built from the materials they photographed. EN: the craft-homework vent threads in r/Parenting.",
+   "consumer_angle": "The buyer is a parent who is bad at crafts. The deliverable is a finished piece, made by the child, before bedtime."
   },
   {
    "evidence": [
@@ -1257,7 +1307,12 @@
      ],
      "pain": "为了班里孩子每天坐在前面的那面墙，幼师十点还在教室剪纸——因为这面墙是要被打分的：园长看、参观的看、家长开放日也看。",
      "kill": "环创的评分标准就是「好看」和「卷得过隔壁班」，所以一眼看出是机器出的，就在唯一被打分的那条轴上先输了。真正的瓶颈也可能是剪贴那三个小时的体力，而不是设计那半小时——那这就省错了地方。成品环创套装在 1688、拼多多和 TPT 上都很便宜，园所预算买的就是那个。而且需求并不稳定：同一条帖子下 481 赞的评论是「我们园长说了，搞这些没用的东西，还不如专心把孩子带好」。",
-     "move": "卖给老师，不卖给园——所有已经进到机构里的工具都是园长买的管理 SaaS。保证素材包不管的两件事：按真实尺寸的 A4 拼版加剪裁线，以及黑白打印出来也好看（用线条和留白，不用大色块）。把孩子自己的画排进版面里，结果就不可能通用。冷启动·中文＝1864／4455／2.1万赞那几条环创吐槽帖的评论区，以及「幼师环创app」「幼儿园环创不熬夜方案」两个搜索联想词落地的笔记——她们已经在自己拿 DeepSeek 干了（「环创用DeepSeek」211赞、「AI救大命！搞定主题墙，手残党逆袭环创大神」312赞）。冷启动·英文＝r/Teachers 每年 8 月准时回来的 bulletin board 帖，以及 TPT 上 decor bundle 的差评区。"
+     "move": "卖给老师，不卖给园——所有已经进到机构里的工具都是园长买的管理 SaaS。保证素材包不管的两件事：按真实尺寸的 A4 拼版加剪裁线，以及黑白打印出来也好看（用线条和留白，不用大色块）。把孩子自己的画排进版面里，结果就不可能通用。冷启动·中文＝1864／4455／2.1万赞那几条环创吐槽帖的评论区，以及「幼师环创app」「幼儿园环创不熬夜方案」两个搜索联想词落地的笔记——她们已经在自己拿 DeepSeek 干了（「环创用DeepSeek」211赞、「AI救大命！搞定主题墙，手残党逆袭环创大神」312赞）。冷启动·英文＝r/Teachers 每年 8 月准时回来的 bulletin board 帖，以及 TPT 上 decor bundle 的差评区。",
+     "hook": "一位幼师十点多还在剪纸，因为她班上孩子面前那面墙是要被打分的——园长打、来访检查打、开放日每一位家长都在打。",
+     "does": "输入那面墙的尺寸、柜子里已有的边角料、孩子们的画；输出可打印的 A4 拼版，带裁切线，且在黑白打印机上仍然认得出。",
+     "counter": "环创评的是气派、评的是有没有压过隔壁班，所以任何看起来像机器生成的东西，在唯一被打分的那个维度上直接输。而真正的瓶颈可能是那三个小时的剪和贴，不是那半个小时的设计——那样的话这东西省的是错的那一半。",
+     "differentiator": "它卖给老师，不卖给幼儿园——现有能碰到那面墙的工具全是园长采购的管理 SaaS——并保证素材包一律忽略的两件事：真实尺寸的 A4 拼版带裁切线，以及黑白打印仍可辨认，因为学校没有彩色打印机。冷启动中文：小红书「环创 加班」帖；英文：r/Teachers 里 bulletin board 被按 rubric 打分的那些帖。",
+     "consumer_angle": "这是老师自掏腰包的东西。交付物是今晚就能开始剪的那一叠纸。"
     }
    },
    "tags": [
@@ -1278,7 +1333,12 @@
    "first": true,
    "pain": "A kindergarten teacher is staying past ten to cut paper, because the wall her class sits in front of is graded — by the director, by visiting inspectors, and by every parent at open house.",
    "kill": "环创 is judged on looking impressive and on out-doing the classroom next door, so anything that looks machine-generic loses on the only axis that is scored. The real bottleneck may also be the three hours of cutting and gluing, not the half hour of designing — in which case this saves the wrong step. Finished decor kits already sell cheaply on 1688 and Pinduoduo and on TPT, and school budgets buy those. And the demand is not stable: under the same post, 481 likes went to a teacher saying her director banned the whole practice as a waste of time better spent on the children.",
-   "move": "Sell to the teacher, not to the kindergarten — every existing tool that reaches the institution is a management SaaS bought by the director. Guarantee the two things the asset packs ignore: real-size A4 tiling with cut lines, and legibility when printed in black and white (line and negative space, not big colour fills). Put the children's own drawings in the layout so the result cannot be generic. Cold start, Chinese: the comment sections under the 1,864 / 4,455 / 21k-like 环创 complaint notes, plus whatever lands on the search suggestions 幼师环创app and 幼儿园环创不熬夜方案 — those teachers are already trying to do this with DeepSeek (环创用DeepSeek, 211 likes; 'AI saved my life: theme wall for the clumsy-handed', 312 likes). Cold start, English: the r/Teachers bulletin-board threads that reappear every August, and the one-star reviews under TPT decor bundles."
+   "move": "Sell to the teacher, not to the kindergarten — every existing tool that reaches the institution is a management SaaS bought by the director. Guarantee the two things the asset packs ignore: real-size A4 tiling with cut lines, and legibility when printed in black and white (line and negative space, not big colour fills). Put the children's own drawings in the layout so the result cannot be generic. Cold start, Chinese: the comment sections under the 1,864 / 4,455 / 21k-like 环创 complaint notes, plus whatever lands on the search suggestions 幼师环创app and 幼儿园环创不熬夜方案 — those teachers are already trying to do this with DeepSeek (环创用DeepSeek, 211 likes; 'AI saved my life: theme wall for the clumsy-handed', 312 likes). Cold start, English: the r/Teachers bulletin-board threads that reappear every August, and the one-star reviews under TPT decor bundles.",
+   "hook": "A kindergarten teacher still cutting paper past ten, because the wall her class sits in front of is graded — by the director, by visiting inspectors, and by every parent at open house.",
+   "does": "In: the wall's measurements, the scraps already in the cupboard, the children's drawings. Out: printable A4 tiles with cut lines, still legible on a black-and-white printer.",
+   "counter": "环创 is judged on looking impressive and on out-doing the classroom next door, so anything that reads as machine-generic loses on the only axis being scored. And the real bottleneck may be the three hours of cutting and gluing rather than the half hour of designing — in which case this saves the wrong half.",
+   "differentiator": "It sells to the teacher, not the kindergarten — every existing tool that reaches the wall is management SaaS bought by the director — and it guarantees the two things asset packs ignore: true-size A4 tiling with cut lines, and legibility in black and white, because the school has no colour printer. Cold start 中文: 小红书「环创 加班」threads. EN: the rubric-graded bulletin-board threads in r/Teachers.",
+   "consumer_angle": "This comes out of the teacher's own pocket. The deliverable is a stack of paper she can start cutting tonight."
   },
   {
    "operator": "@ourword-ai",
@@ -1607,7 +1667,12 @@
      ],
      "pain": "晚上十一点，手里一张看不懂的化验单，医院已经关门，也分不出这到底算不算急症。",
      "kill": "它有可能被直接判成「人的体检报告族的换皮」而整条毙掉——正反两种判法都已经写进雷达条目里。除此之外：宠物在线问诊已经能用一杯咖啡的钱买到真兽医的意见；一个危急值读错就是一条命；而这个品类必须自限，自限本身就压住了它能有多好用。",
-     "move": "坚决不诊断。把别人没有的「认机器、按机器参考区间读」这一层做出来，让输出变成主人能拿去跟自己兽医对话的东西。英文冷启动＝去 r/AskVet 每天都有的「help me interpret」帖下面，免费回一份解读加三个问题；中文冷启动＝小红书那几条几百赞「一分钟教你看懂宠物血常规」教程的评论区，那里全是贴自己报告照片的人。"
+     "move": "坚决不诊断。把别人没有的「认机器、按机器参考区间读」这一层做出来，让输出变成主人能拿去跟自己兽医对话的东西。英文冷启动＝去 r/AskVet 每天都有的「help me interpret」帖下面，免费回一份解读加三个问题；中文冷启动＝小红书那几条几百赞「一分钟教你看懂宠物血常规」教程的评论区，那里全是贴自己报告照片的人。",
+     "hook": "晚上十一点，主人手里拿着一张读不懂的化验单，医院关门了，也没法判断这件事能不能等到早上。",
+     "does": "拍下那张打印单。它先认出这是哪台机器打的，再按这台机器、这个物种的参考区间逐项读，最后给回明天该问自己兽医的三个问题。",
+     "counter": "它可能被判成人的体检报告族的长尾换皮，光这一条就够杀——两种判法都写进了雷达条目。此外，宠物远程问诊已经在用一份订阅费的价钱卖真兽医的意见，跟真兽医比，「给你三个问题」是个弱产品，除非认机器那一层真的做对。而这里的在位者不是产品，是一位三班倒的检验科技师在免费回陌生人。",
+     "differentiator": "没人做过的那一层：认机器的参考区间——IDEXX、迈瑞、Seamaty 对同一物种打出的范围就不一样，通用模型正是在这儿读错。输出永远是一段能和自己兽医展开的对话，绝不是诊断。冷启动英文：在 r/AskVet 每天的求解读帖下免费读一份加三个问题。中文：小红书「宠物 化验单 看不懂」那条 481 条评论的队尾。",
+     "consumer_angle": "深夜在家的宠物主人。交付物是三个问题，加一个判断：这能等到早上，或者不能。"
     }
    },
    "id": "329-five-unrelated-r-askvet-threads-in-twelve-months",
@@ -1620,7 +1685,12 @@
    "verdict": "build",
    "pain": "A pet owner at eleven at night holding a lab report they cannot read, with the clinic shut and no way to tell whether this is an emergency.",
    "kill": "This may be judged a skin-swap of the human lab-report family and killed on that basis alone — the honest case for and against is written into the radar entry. Beyond that: veterinary telemedicine services already sell a real vet's opinion for around the price of a coffee, a wrong reading of a critical value is a dead animal, and the category forces hard self-limits that cap how useful the product is allowed to be.",
-   "move": "Refuse to diagnose. Ship the analyser-aware reference layer nobody else has, and make the output a conversation the owner can have with their own vet. Cold start EN = answer the daily 'help me interpret' posts in r/AskVet with a free read plus three questions; cold start CN = the comment sections under the 410/446/518-like Xiaohongshu 'learn to read a pet blood panel in one minute' tutorials, where people are already posting photos of their own reports."
+   "move": "Refuse to diagnose. Ship the analyser-aware reference layer nobody else has, and make the output a conversation the owner can have with their own vet. Cold start EN = answer the daily 'help me interpret' posts in r/AskVet with a free read plus three questions; cold start CN = the comment sections under the 410/446/518-like Xiaohongshu 'learn to read a pet blood panel in one minute' tutorials, where people are already posting photos of their own reports.",
+   "hook": "A pet owner at eleven at night holding a lab report they cannot read, the clinic shut, with no way to tell whether this waits until morning.",
+   "does": "Photograph the printout. It identifies which analyser produced it, reads every value against that analyser's own reference interval for that species, and hands back three questions to ask your own vet tomorrow.",
+   "counter": "This may be judged a skin-swap of the human lab-report family and killed on that alone — the honest case both ways is written into the radar entry. Beyond that, veterinary telemedicine already sells a real vet's opinion for roughly the price of a subscription, and against a real vet 'here are three questions' is a weak product unless the analyser layer is genuinely right. The incumbent here is not a product, it is a shift-working lab technician answering strangers for free.",
+   "differentiator": "The analyser-aware reference layer nobody has built: IDEXX, Mindray and Seamaty print different ranges for the same species, which is exactly where a general model reads it wrong. And the output is a conversation with your own vet, never a diagnosis. Cold start EN: answer the daily 'help me interpret' posts in r/AskVet with a free read plus three questions. 中文：小红书「宠物 化验单 看不懂」下那条 481 条评论的队尾。",
+   "consumer_angle": "A pet owner at home at night. The deliverable is three questions and one verdict: this can wait until morning, or it cannot."
   },
   {
    "evidence": [
@@ -2040,7 +2110,11 @@
      "pain": "拿到体检报告，几个数字标红。医生三句话打发你，回家越查越怕——于是你跑到陌生医生的科普视频底下，把自己的化验值一条条贴出来，求他看一眼。",
      "kill": "健康建议的责任边界很硬——说重了吓人，说轻了担责；这条线走不好，一次误判就毁掉全部信任。",
      "move": "只做「翻译」不做「诊断」：把一张报告变成人话，标出哪几个数值真的该去医院、该挂哪一科，其余的说清楚为什么不用慌。",
-     "hook": "一个拿着体检报告、三项飘红的成年人——他已经把自己的化验值贴在陌生人的视频底下，求对方替他看一眼。"
+     "hook": "一个拿着体检报告、三项飘红的成年人——他已经把自己的化验值贴在陌生人的视频底下，求对方替他看一眼。",
+     "does": "输入一份文件——血脂加空腹血糖。输出这一周的买菜清单和一张「每天换一样」的表，底部固定写着：这不是诊断，异常值请拿去看医生。不接手环，不打分，不做连续打卡。",
+     "counter": "营养这排货架已经挤了，而且还在挤进来——Macrobite、BitePad、Leanup 今年都上了，Vidaya 一路拿到 240 多票，做的是拿手环、化验和 DNA 给你算一个健康分。只要有一家拿到钱的记录类产品把体检报告读取接上去，这里唯一守得住的那一块就没了。而这本身是底下有一根细线的健康建议：离「补哪个维生素、吃多少」一步，离「那我就不用去医院了」两步。",
+     "differentiator": "那排货架上的每一个都是从「你吃了什么」开始的，没有一个见过你的化验单。这个接口正是中文评论区反复在要、也正是没人做的那一段——包括拿到钱的那几家，它们给你打分，不告诉你去买什么。一份文件进，一张买菜清单出，且永不给你评级。冷启动中文：那条 1.6 万赞血脂科普的评论区，替贴出数字的人做一份买菜清单；英文：r/Cholesterol 的「刚拿到结果」帖。",
+     "consumer_angle": "一位体检单上有三个红箭头的成年人，他已经把那几个数贴到陌生人视频底下问过了。交付物是这一周的买菜清单。"
     }
    },
    "id": "324-a-cardiac-surgeon-s-30-second-explainer-on-four-",
@@ -2054,7 +2128,11 @@
    "pain": "A cardiac surgeon's 30-second explainer on four blood-test numbers has 16k likes, 35k saves and 194 comments on Xiaohongshu — and the comments are not thanks. They are ordinary people pasting their own values and asking a stranger to read them. Under the same query what ranks is a how-to for getting an LLM to read your report, not a product.",
    "kill": "This is health advice with a thin line under it, and the line is where the value is: the moment it says 'eat this' it is one step from dosing supplements and two from telling someone to skip a doctor. The honest version is deliberately smaller than the exciting version. Chinese super-apps and the check-up chains themselves already sit on the report at the moment of delivery, and diet-logging retention is famously awful — people log for eleven days.",
    "move": "Do not build a health app. Build one artefact from one document: lipid panel plus fasting glucose in, a week's grocery list and a one-swap-a-day table out, with 'this is not a diagnosis — take abnormal values to a doctor' fixed at the bottom. No wearables, no long-term tracking, no medication. Cold start (Chinese): the 194 comments under that one note are already a list of named people asking, plus the 「体检报告 看不懂」 and 「怎么让AI解读体检报告」 queries; (English): r/Biohackers and r/nutrition threads where someone posts bloodwork and asks what to eat differently.",
-   "hook": "An adult holding an annual check-up with three values in red, who has already pasted those values under a stranger's video and asked him to read them."
+   "hook": "An adult holding an annual check-up with three values in red, who has already pasted those values under a stranger's video and asked him to read them.",
+   "does": "One document in — a lipid panel plus fasting glucose. Out comes this week's grocery list and a one-swap-a-day table, with 'this is not a diagnosis, take abnormal values to a doctor' fixed at the bottom. No wearables, no scores, no streaks.",
+   "counter": "The nutrition shelf is crowded and getting more so — Macrobite, BitePad and Leanup all shipped this year, and Vidaya now scores you off wearables, labs and DNA on the way past 240 votes. If one funded logger bolts on a lab-report reader, the only defensible piece here is gone. And this is health advice with a thin line under it: one step from dosing supplements, two from someone skipping a doctor.",
+   "differentiator": "Every product on that shelf starts from what you ate; not one of them has ever seen your lab sheet. That join is exactly what the Chinese comment sections keep asking for and exactly what nobody ships — including the funded ones, which score you rather than tell you what to buy. One document in, one grocery list out, and it never grades you. Cold start 中文：那条 1.6 万赞血脂科普的评论区，替贴出数字的人做一份买菜清单；EN: the 'just got my results' threads in r/Cholesterol.",
+   "consumer_angle": "An adult holding an annual check-up with three values in red, who has already pasted those values under a stranger's video. The deliverable is this week's grocery list."
   },
   {
    "evidence": [
