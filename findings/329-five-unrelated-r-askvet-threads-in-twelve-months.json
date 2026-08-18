@@ -68,7 +68,12 @@
    ],
    "pain": "晚上十一点，手里一张看不懂的化验单，医院已经关门，也分不出这到底算不算急症。",
    "kill": "它有可能被直接判成「人的体检报告族的换皮」而整条毙掉——正反两种判法都已经写进雷达条目里。除此之外：宠物在线问诊已经能用一杯咖啡的钱买到真兽医的意见；一个危急值读错就是一条命；而这个品类必须自限，自限本身就压住了它能有多好用。",
-   "move": "坚决不诊断。把别人没有的「认机器、按机器参考区间读」这一层做出来，让输出变成主人能拿去跟自己兽医对话的东西。英文冷启动＝去 r/AskVet 每天都有的「help me interpret」帖下面，免费回一份解读加三个问题；中文冷启动＝小红书那几条几百赞「一分钟教你看懂宠物血常规」教程的评论区，那里全是贴自己报告照片的人。"
+   "move": "坚决不诊断。把别人没有的「认机器、按机器参考区间读」这一层做出来，让输出变成主人能拿去跟自己兽医对话的东西。英文冷启动＝去 r/AskVet 每天都有的「help me interpret」帖下面，免费回一份解读加三个问题；中文冷启动＝小红书那几条几百赞「一分钟教你看懂宠物血常规」教程的评论区，那里全是贴自己报告照片的人。",
+   "hook": "晚上十一点，主人手里拿着一张读不懂的化验单，医院关门了，也没法判断这件事能不能等到早上。",
+   "does": "拍下那张打印单。它先认出这是哪台机器打的，再按这台机器、这个物种的参考区间逐项读，最后给回明天该问自己兽医的三个问题。",
+   "counter": "它可能被判成人的体检报告族的长尾换皮，光这一条就够杀——两种判法都写进了雷达条目。此外，宠物远程问诊已经在用一份订阅费的价钱卖真兽医的意见，跟真兽医比，「给你三个问题」是个弱产品，除非认机器那一层真的做对。而这里的在位者不是产品，是一位三班倒的检验科技师在免费回陌生人。",
+   "differentiator": "没人做过的那一层：认机器的参考区间——IDEXX、迈瑞、Seamaty 对同一物种打出的范围就不一样，通用模型正是在这儿读错。输出永远是一段能和自己兽医展开的对话，绝不是诊断。冷启动英文：在 r/AskVet 每天的求解读帖下免费读一份加三个问题。中文：小红书「宠物 化验单 看不懂」那条 481 条评论的队尾。",
+   "consumer_angle": "深夜在家的宠物主人。交付物是三个问题，加一个判断：这能等到早上，或者不能。"
   }
  },
  "id": "329-five-unrelated-r-askvet-threads-in-twelve-months",
@@ -81,5 +86,10 @@
  "verdict": "build",
  "pain": "A pet owner at eleven at night holding a lab report they cannot read, with the clinic shut and no way to tell whether this is an emergency.",
  "kill": "This may be judged a skin-swap of the human lab-report family and killed on that basis alone — the honest case for and against is written into the radar entry. Beyond that: veterinary telemedicine services already sell a real vet's opinion for around the price of a coffee, a wrong reading of a critical value is a dead animal, and the category forces hard self-limits that cap how useful the product is allowed to be.",
- "move": "Refuse to diagnose. Ship the analyser-aware reference layer nobody else has, and make the output a conversation the owner can have with their own vet. Cold start EN = answer the daily 'help me interpret' posts in r/AskVet with a free read plus three questions; cold start CN = the comment sections under the 410/446/518-like Xiaohongshu 'learn to read a pet blood panel in one minute' tutorials, where people are already posting photos of their own reports."
+ "move": "Refuse to diagnose. Ship the analyser-aware reference layer nobody else has, and make the output a conversation the owner can have with their own vet. Cold start EN = answer the daily 'help me interpret' posts in r/AskVet with a free read plus three questions; cold start CN = the comment sections under the 410/446/518-like Xiaohongshu 'learn to read a pet blood panel in one minute' tutorials, where people are already posting photos of their own reports.",
+ "hook": "A pet owner at eleven at night holding a lab report they cannot read, the clinic shut, with no way to tell whether this waits until morning.",
+ "does": "Photograph the printout. It identifies which analyser produced it, reads every value against that analyser's own reference interval for that species, and hands back three questions to ask your own vet tomorrow.",
+ "counter": "This may be judged a skin-swap of the human lab-report family and killed on that alone — the honest case both ways is written into the radar entry. Beyond that, veterinary telemedicine already sells a real vet's opinion for roughly the price of a subscription, and against a real vet 'here are three questions' is a weak product unless the analyser layer is genuinely right. The incumbent here is not a product, it is a shift-working lab technician answering strangers for free.",
+ "differentiator": "The analyser-aware reference layer nobody has built: IDEXX, Mindray and Seamaty print different ranges for the same species, which is exactly where a general model reads it wrong. And the output is a conversation with your own vet, never a diagnosis. Cold start EN: answer the daily 'help me interpret' posts in r/AskVet with a free read plus three questions. 中文：小红书「宠物 化验单 看不懂」下那条 481 条评论的队尾。",
+ "consumer_angle": "A pet owner at home at night. The deliverable is three questions and one verdict: this can wait until morning, or it cannot."
 }
