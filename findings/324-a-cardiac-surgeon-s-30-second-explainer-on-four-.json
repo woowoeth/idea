@@ -79,7 +79,11 @@
    "pain": "拿到体检报告，几个数字标红。医生三句话打发你，回家越查越怕——于是你跑到陌生医生的科普视频底下，把自己的化验值一条条贴出来，求他看一眼。",
    "kill": "健康建议的责任边界很硬——说重了吓人，说轻了担责；这条线走不好，一次误判就毁掉全部信任。",
    "move": "只做「翻译」不做「诊断」：把一张报告变成人话，标出哪几个数值真的该去医院、该挂哪一科，其余的说清楚为什么不用慌。",
-   "hook": "一个拿着体检报告、三项飘红的成年人——他已经把自己的化验值贴在陌生人的视频底下，求对方替他看一眼。"
+   "hook": "一个拿着体检报告、三项飘红的成年人——他已经把自己的化验值贴在陌生人的视频底下，求对方替他看一眼。",
+   "does": "输入一份文件——血脂加空腹血糖。输出这一周的买菜清单和一张「每天换一样」的表，底部固定写着：这不是诊断，异常值请拿去看医生。不接手环，不打分，不做连续打卡。",
+   "counter": "营养这排货架已经挤了，而且还在挤进来——Macrobite、BitePad、Leanup 今年都上了，Vidaya 一路拿到 240 多票，做的是拿手环、化验和 DNA 给你算一个健康分。只要有一家拿到钱的记录类产品把体检报告读取接上去，这里唯一守得住的那一块就没了。而这本身是底下有一根细线的健康建议：离「补哪个维生素、吃多少」一步，离「那我就不用去医院了」两步。",
+   "differentiator": "那排货架上的每一个都是从「你吃了什么」开始的，没有一个见过你的化验单。这个接口正是中文评论区反复在要、也正是没人做的那一段——包括拿到钱的那几家，它们给你打分，不告诉你去买什么。一份文件进，一张买菜清单出，且永不给你评级。冷启动中文：那条 1.6 万赞血脂科普的评论区，替贴出数字的人做一份买菜清单；英文：r/Cholesterol 的「刚拿到结果」帖。",
+   "consumer_angle": "一位体检单上有三个红箭头的成年人，他已经把那几个数贴到陌生人视频底下问过了。交付物是这一周的买菜清单。"
   }
  },
  "id": "324-a-cardiac-surgeon-s-30-second-explainer-on-four-",
@@ -93,5 +97,9 @@
  "pain": "A cardiac surgeon's 30-second explainer on four blood-test numbers has 16k likes, 35k saves and 194 comments on Xiaohongshu — and the comments are not thanks. They are ordinary people pasting their own values and asking a stranger to read them. Under the same query what ranks is a how-to for getting an LLM to read your report, not a product.",
  "kill": "This is health advice with a thin line under it, and the line is where the value is: the moment it says 'eat this' it is one step from dosing supplements and two from telling someone to skip a doctor. The honest version is deliberately smaller than the exciting version. Chinese super-apps and the check-up chains themselves already sit on the report at the moment of delivery, and diet-logging retention is famously awful — people log for eleven days.",
  "move": "Do not build a health app. Build one artefact from one document: lipid panel plus fasting glucose in, a week's grocery list and a one-swap-a-day table out, with 'this is not a diagnosis — take abnormal values to a doctor' fixed at the bottom. No wearables, no long-term tracking, no medication. Cold start (Chinese): the 194 comments under that one note are already a list of named people asking, plus the 「体检报告 看不懂」 and 「怎么让AI解读体检报告」 queries; (English): r/Biohackers and r/nutrition threads where someone posts bloodwork and asks what to eat differently.",
- "hook": "An adult holding an annual check-up with three values in red, who has already pasted those values under a stranger's video and asked him to read them."
+ "hook": "An adult holding an annual check-up with three values in red, who has already pasted those values under a stranger's video and asked him to read them.",
+ "does": "One document in — a lipid panel plus fasting glucose. Out comes this week's grocery list and a one-swap-a-day table, with 'this is not a diagnosis, take abnormal values to a doctor' fixed at the bottom. No wearables, no scores, no streaks.",
+ "counter": "The nutrition shelf is crowded and getting more so — Macrobite, BitePad and Leanup all shipped this year, and Vidaya now scores you off wearables, labs and DNA on the way past 240 votes. If one funded logger bolts on a lab-report reader, the only defensible piece here is gone. And this is health advice with a thin line under it: one step from dosing supplements, two from someone skipping a doctor.",
+ "differentiator": "Every product on that shelf starts from what you ate; not one of them has ever seen your lab sheet. That join is exactly what the Chinese comment sections keep asking for and exactly what nobody ships — including the funded ones, which score you rather than tell you what to buy. One document in, one grocery list out, and it never grades you. Cold start 中文：那条 1.6 万赞血脂科普的评论区，替贴出数字的人做一份买菜清单；EN: the 'just got my results' threads in r/Cholesterol.",
+ "consumer_angle": "An adult holding an annual check-up with three values in red, who has already pasted those values under a stranger's video. The deliverable is this week's grocery list."
 }
