@@ -55,7 +55,12 @@
    "pain": "第一次纹身的人手里只有一种感觉、一个故事、三张截图，可他得在沟通里把这些变成位置、尺寸（厘米）、线条粗细、黑灰还是彩、哪些地方可以由对方改。他既怕失礼，又怕这东西一辈子在身上。中文侧最高赞的那份指南结尾把心理门槛写得很白：「千万别社恐」。两边都把清单写好了，但没人替你填。",
    "gap": "清单存在且很火——1185 赞的小红书笔记把开针前该谈的七件事列得清清楚楚，英文帖也直说带一份参考资料进店比张嘴描述强——但清单是一张空表，而第一次纹身的人恰好是填不出来的那个人。同时市面上所有 AI 纹身产品都在拼命生成图案，而那恰好是这个圈子明确抵触的事：礼仪帖里信息量最大的一条说的是「得让人相信你没拄别人的稿」。工具全撑在禁区那一半，想要的那一半没人做。",
    "kill": "需求沟通本来就是纹身师自己的活，你插一层可能两头得罪；频率极低（一生几次），获客成本远高于客单；而圈子对 AI 的敷意不是抽象的——一旦你做的东西被读成「AI 稿」，你赖以获客的渠道当天全部关闭，所以产品必须看得见、证得明它不是个生图器。",
-   "move": "只交需求书，坚持不出图。一轮短问答（一句由来、位置、尺寸、黑灰或彩、必须保留的元素、可自由发挥的部分）→ 一页中英双语需求书，附文字逐字拼写核对表与中文清单里本来就列了的计费三问。参考图只整理并标注来源，绝不生成，且页首就写明这一点。中文冷启动：小红书「第一次纹身」「纹身沟通」评论区免费替人出需求书。英文冷启动：r/tattooadvice 的 how to describe this style 帖，一帖一份。"
+   "move": "只交需求书，坚持不出图。一轮短问答（一句由来、位置、尺寸、黑灰或彩、必须保留的元素、可自由发挥的部分）→ 一页中英双语需求书，附文字逐字拼写核对表与中文清单里本来就列了的计费三问。参考图只整理并标注来源，绝不生成，且页首就写明这一点。中文冷启动：小红书「第一次纹身」「纹身沟通」评论区免费替人出需求书。英文冷启动：r/tattooadvice 的 how to describe this style 帖，一帖一份。",
+   "hook": "第一次纹身的人：手里一种感觉、一个故事、三张截图，只有一次沟通能把这些变成厘米，同时怕两件事——怕失礼，也怕这东西一辈子在身上。",
+   "does": "一段简短问答——为什么、在身体哪儿、多大（厘米）、黑灰还是彩、哪些必须保留、哪些可以由对方随意改——输出一页中英双语的需求书，赴约前发过去。它绝不出图。",
+   "counter": "沟通本来就是纹身师自己的活，中间插一层可能同时得罪两头。而这个圈子对 AI 的敌意不是抽象的：那一页只要看起来像机器画的，在椅子上就是一种侮辱。频次也残酷——一辈子几次——获客成本可能高过单价。",
+   "differentiator": "它拒绝出图，而出图恰是所有 AI 纹身产品都在做的事、也正是这个圈子画下的红线；同时那一页会写明：没有抄任何一位纹身师的稿。冷启动英文：在 r/tattooadvice「拿自己画的稿算不算失礼」的帖下，给一页填好的需求书。中文：小红书「纹身沟通」笔记评论区。",
+   "consumer_angle": "第一次走进纹身店的人。交付物是他递出去的那一页，以及一次没跑偏的沟通。"
   }
  },
  "id": "334-in-r-tattooadvice-the-client-asks-whether-handin",
@@ -64,5 +69,10 @@
  "novelty": 0.76,
  "corroborations": 0,
  "reused": 0,
- "first": true
+ "first": true,
+ "hook": "Someone booking a first tattoo with a feeling, a story and three saved screenshots, one consultation in which to turn that into centimetres, and two fears at once: being rude, and wearing a mistake for life.",
+ "does": "A short interview — why, where on the body, size in cm, black-and-grey or colour, what must survive, what the artist may freely change — and out comes one bilingual page to send before the appointment. It never draws.",
+ "counter": "Consultation is the artist's own job, so a layer in between can offend both ends at once. And the hostility to AI here is not abstract: the moment the page looks machine-made it is an insult in the chair. Frequency is brutal — a handful of tattoos in a lifetime — so acquisition cost can exceed the ticket.",
+ "differentiator": "It refuses to produce artwork, which is the one thing every AI-tattoo product does and the exact red line this community has drawn; and it states in writing that no other artist's design was copied. Cold start EN: answer the 'is handing over a sketch rude' threads in r/tattooadvice with a filled-in brief. 中文：小红书「纹身沟通」笔记评论区，替提问的人把那七件事填出来。",
+ "consumer_angle": "A first-timer walking into a shop. The deliverable is one page they hand over, and a consultation that does not go sideways."
 }
