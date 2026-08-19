@@ -10,18 +10,45 @@
  "url": "https://github.com/crafter-station/petdex",
  "gap": "Only geeks can see it. The capability, the art pipeline and the audience sit in three different places: the pets live in a terminal, the people who want a companion on screen are on ordinary Windows and macOS desktops, and the newest piece — turning one hand-drawn picture into a full animated spritesheet — is wired to neither.",
  "workload": "2w",
- "voices": [],
+ "voices": [
+  {
+   "kind": "behaviour",
+   "quote": "请问如何移动宠物",
+   "user": "Benbenaaa, issue #707",
+   "src": "GitHub issues — a non-technical Chinese user opening a GitHub issue to ask how to move the pet on screen",
+   "url": "https://github.com/crafter-station/petdex/issues/707",
+   "zh": "请问如何移动宠物"
+  },
+  {
+   "kind": "behaviour",
+   "quote": "[Submit fail] 若兰学姐",
+   "user": "Milkkkk1204, issues #716 and #717 — the same failed upload filed twice",
+   "src": "GitHub issues — the repo now ships an issue template whose only job is to rescue failed pet uploads",
+   "url": "https://github.com/crafter-station/petdex/issues/717",
+   "zh": "「上传失败」若兰学姐 —— 同一次失败的投稿，她连开了两个 issue"
+  },
+  {
+   "kind": "pain",
+   "quote": "pet renders but ignores all mouse input",
+   "user": "milesc1616-hue, issue #703 (Windows 11)",
+   "src": "GitHub issues",
+   "url": "https://github.com/crafter-station/petdex/issues/703",
+   "zh": "宠物画出来了，但完全不理鼠标"
+  }
+ ],
  "pain_verified": false,
  "i18n": {
   "zh": {
    "gap": "只有极客能看见它。能力、美术管线和人群分在三个地方：宠物住在终端里，想要屏幕上有个同伴的人在普通 Windows 和 macOS 桌面上，而最新的那一环——把一张手绘图变成整套动画序列——两边都没接上。",
-   "voices": [],
+   "voices": "见 voices 字段（GitHub issue 逐字，均附中文）",
    "pain": "人们已经在画像素小生物、成百上百地上传了——而唯一能放它的地方是一个终端窗口，他家孩子、他妈、以及任何他想拿去炫的人，都永远不会打开那东西。",
    "kill": "桌宠免费了十五年，为它收钱这件事从未被验证过，天花板可能干脆是零。它是半衰期很短的新奇：笑点过了就关掉，没有第二天回来的理由。更糟的是，「画→动画序列」这一步就是整个产品，而它恰恰最容易出错——把孩子的怪物画歪一点，不是可爱，是让孩子难过。",
    "move": "交付管线，不是图鉴：拍一张画，当分钟就得到一只在桌面上走的同伴；而给它第二天的理由是——让它对这台机器真正知道的那一件事有反应，比如电脑闲着的时候它就睡觉。永远不做交易市集，永远不放别人的生物。冷启动（中文）：小红书／B站「桌宠」「孩子画的怪物」评论区，以及儿童画账号下面排队的那批人；（英文）：r/desktoppets 与 r/Unity3D 的业余圈，加上这个项目自己的提交队列——那里已经全是普通人在上传自己画的生物。",
    "hook": "今天下午孩子画了一只怪物，问能不能让它住进电脑里的那个人。已经有好几百人在手工画这些东西并往一个项目里提交，而那个项目唯一的显示界面是一个终端窗口。",
    "does": "一堆住在你机器里的像素小生物。切口是：把一张手绘图变成一只在普通 Windows／macOS 桌面上走动的动画同伴。",
-   "consumer_angle": "一个家长和一个孩子，看着孩子今天下午画的那只东西在家里的笔记本上走过去。不用终端，不用编译。"
+   "consumer_angle": "一个家长和一个孩子，看着孩子今天下午画的那只东西在家里的笔记本上走过去。不用终端，不用编译。",
+   "counter": "上游项目在我们看着的这段时间里已经转身走了：最近的 PR 是 Codex／Claude／Gemini 的会话恢复、DeepSeek harness 插件、CI 护栏——它正在变成一块给 coding agent 用的桌面面板，还有用户报告桌面版一周写了 3.2 GB 诊断日志。掌握着那条美术管线的人，不会把它做成给家长用的产品。而它要进的那个品类已经二十岁且很挤：国内 Windows 上的桌面精灵／萌宠，Steam 上的 Desktop Goose 和 Wallpaper Engine。更别说「画一张变成伙伴」只是一个晚上的惊喜，之后就是一个小人在任务栏上来回走——那是屏保，不是产品。",
+   "differentiator": "一张画进去，一个会动的伙伴出来，就在普通的 Windows 或 macOS 桌面上——不用终端、不用 npx、不用 GitHub 账号。而这恰恰正是今天真实用户明明白白掉队的那两步，证据就在那个 issue 区，还是用中文写的。冷启动第一步：中文＝小红书「桌面宠物」「像素宠物」那批笔记，以及已经在用中文开 issue 的那些人；英文＝仓库里那条「上传失败」的队伍，手工替他们转好再发回去。"
   }
  },
  "tags": [
@@ -42,5 +69,7 @@
  "hook": "The person whose kid drew a creature this afternoon and asked whether it could live in the computer. Hundreds of people are already drawing and submitting these by hand into a project whose only display surface is a terminal window.",
  "does": "A collection of sprite creatures that live on your machine. The wedge: turn one hand-drawn picture into an animated companion that walks around an ordinary Windows or macOS desktop.",
  "consumer_angle": "A parent and a child watch the thing the child drew this afternoon walk across the family laptop. No terminal, no build step.",
- "backfilled_at": "2026-08-13"
+ "backfilled_at": "2026-08-13",
+ "counter": "The upstream project has turned away from this audience while we were watching: its recent pull requests are Codex/Claude/Gemini session recovery, a DeepSeek harness plugin and CI guardrails — it is becoming a desktop panel for coding agents, and one user reports the desktop build wrote a 3.2 GB diagnostic log in a week. The people who own the art pipeline are not going to productise it for parents. Meanwhile the category it would enter is twenty years old and full: 桌面精灵 / 萌宠 on Windows in China, Desktop Goose and Wallpaper Engine on Steam. And drawing-to-companion is one evening of magic followed by a sprite pacing the taskbar — that is a screensaver, not a product.",
+ "differentiator": "One picture in, one animated companion out, on an ordinary Windows or macOS desktop — no terminal, no npx, no GitHub account. Those are precisely the two steps where real users are visibly falling off today, in Chinese, in the issue tracker. Cold start — Chinese: 小红书 「桌面宠物」 / 「像素宠物」 posts, plus the Chinese users already filing issues in Chinese on the repo; English: the failed-submission queue in the repo itself — convert each failed upload by hand and send it back."
 }
