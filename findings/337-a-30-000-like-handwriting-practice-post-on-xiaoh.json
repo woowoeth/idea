@@ -156,7 +156,8 @@
      "zh": "上周刚开始，这几个大写字母要了我的命。"
     }
    ],
-   "kill": "最强的竞品不是产品，是那位免费回帖的老师——她的答案带着安慰，AI 的答案带着评分；而练字极易放弃（2493 赞那位「这么多年也一直没有改进」就是典型），一个把你的字挑得更细的东西，很可能只是把放弃提前。第二个死法：从一张斜拍、带格子、笔画粘连的照片里逐字判结构，错一个就当场失去信任，而书法圈对「AI 评字」有天然敌意。第三个死法：字帖是十几块钱的实体商品，很多人的诚实答案是再买一本。"
+   "kill": "最强的竞品不是产品，是那位免费回帖的老师——她的答案带着安慰，AI 的答案带着评分；而练字极易放弃（2493 赞那位「这么多年也一直没有改进」就是典型），一个把你的字挑得更细的东西，很可能只是把放弃提前。第二个死法：从一张斜拍、带格子、笔画粘连的照片里逐字判结构，错一个就当场失去信任，而书法圈对「AI 评字」有天然敌意。第三个死法：字帖是十几块钱的实体商品，很多人的诚实答案是再买一本。",
+   "consumer_angle": "练了几年没进步的成年人，或者一年级孩子的家长，今晚就能打印出一张 A4 字帖——字表就是他自己写坏的那十几个字。不用报班、不用订阅、不用进群。"
   }
  },
  "id": "337-a-30-000-like-handwriting-practice-post-on-xiaoh",
@@ -166,5 +167,6 @@
  "corroborations": 0,
  "reused": 0,
  "first": true,
- "kill": "The strongest competitor is not a product, it is the teacher who answers for free — her reply comes with reassurance, an AI's comes with a score, and handwriting practice is abnormally easy to quit. A tool that itemises your faults more precisely may simply bring the quitting forward. Second, reading structure per character from a tilted phone photo through a grid with strokes running together is genuinely hard, and one wrong call loses trust on the spot — the calligraphy crowd is already sceptical of machine judgement. Third, a copybook is a very cheap physical object; the honest answer for many people is to buy another one."
+ "kill": "The strongest competitor is not a product, it is the teacher who answers for free — her reply comes with reassurance, an AI's comes with a score, and handwriting practice is abnormally easy to quit. A tool that itemises your faults more precisely may simply bring the quitting forward. Second, reading structure per character from a tilted phone photo through a grid with strokes running together is genuinely hard, and one wrong call loses trust on the spot — the calligraphy crowd is already sceptical of machine judgement. Third, a copybook is a very cheap physical object; the honest answer for many people is to buy another one.",
+ "consumer_angle": "An adult who has practised on and off for years, or the parent of a first-grader, prints one A4 sheet tonight whose character list came out of their own page. No class, no subscription, no community to join."
 }
