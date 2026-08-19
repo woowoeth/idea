@@ -101,6 +101,28 @@ GitHub supplied 100 of 129 entries at a 13% hit rate: it is structurally a devel
 firehose and must not be the default intake. Weight Product Hunt and consumer-pain sources up,
 GitHub down, and go looking where ordinary people describe their own problems in their own words.
 
+### 1a-ii. The artefact gate (added 2026-08-19, from two operator ❌ on 2026-08-18)
+
+Naming the person is necessary and not sufficient. **Also name the thing they take away.** On
+2026-08-18 the operator rejected two cards whose pain was real and whose user was an ordinary
+person — an audio-first flashcard app (the learner walks away with *another review session*) and
+private manager notes on direct reports (the manager walks away with *another note*) — and starred
+one whose user walks away with a printable practice sheet made out of their own mistakes.
+
+So: if the output of a session is another round of practice, another log entry, another archive or
+another better-organised list, the entry does not qualify, however verified the pain. What must be
+true is that the person ends the session holding something they did not have before and can use
+outside the product tonight: a printed page, a pattern, a shopping list, a script to hand to
+someone, a finished story, an album. This is the same rule the board already keeps as its one
+exception to the developer ban — *AI that directly produces a deliverable a person can hold* —
+promoted here to a general test.
+
+Both rejected entries also failed the same second check, which is worth stating: **the gap did not
+survive the counter-check.** One was a plugin-shaped improvement to an existing ecosystem (Anki
+plus a TTS add-on, and a direct competitor, Linforge, launched the same week); the other was
+already shipped by the incumbent (Fellow). Verified pain plus a gap that closes when you look at it
+is an archive entry, not a build.
+
 ## 1b. One card shape, no exceptions (added 2026-08-03)
 
 Every entry ships the same fields regardless of which source it came from — Reddit, Xiaohongshu,
@@ -411,6 +433,23 @@ issue 区也会把真话埋掉。所以**行为算较弱的一手证据**：fork
 GitHub 一家贡献了 129 条里的 100 条，命中率只有 13%：它在结构上就是一根开发者工具的消防水管，
 **不能再当默认进料口**。Product Hunt 与"普通人吐槽"类源加权，GitHub 降权，
 并且要主动去普通人用自己的话描述自己问题的地方找。
+
+### 1a-ii. 成品闸门（2026-08-19 新增，依据 2026-08-18 用户否掉的两条）
+
+说得出人是必要条件，不是充分条件。**还要说得出他拿走的那件东西。** 2026-08-18 用户否掉了两条——
+"音频优先的记忆卡"（学的人拿走的是*又一轮复习*）与"管理者对下属的私密笔记"（管理者拿走的是*又一条笔记*）——
+两条的痛都真、用户也都是普通人；而同一天他标为值得做的那条，用户拿走的是**一张用自己写错的字生成的、
+今晚就能打印的字帖**。
+
+于是：如果一次使用的产物是又一轮练习、又一条记录、又一个归档、又一份整理得更整齐的清单，
+那么无论痛点验证得多硬，这条都不算过关。必须成立的是——**这个人用完手里多出一件他原来没有的东西，
+而且今晚就能拿到产品外面去用**：一张打印页、一份纸样、一张买菜清单、一页递给别人的说明、
+一个讲完的故事、一本相册。这本来就是本板对"不收开发者工具"唯一的例外条款——
+*AI 直接产出人能拿在手上的成品*——现在把它升格为通用检验。
+
+被否的两条还同时栽在第二道检查上，值得单独写下来：**缺口经不起反查。** 一条是既有生态的插件级改良
+（Anki 加一个 TTS 插件；而且同一周就出了正面竞品 Linforge），另一条在位者早就做了（Fellow）。
+痛点验证过、但缺口一查就合上，这是归档条目，不是可做条目。
 
 ## 1b. 一种卡片格式，没有例外（2026-08-03 新增）
 
