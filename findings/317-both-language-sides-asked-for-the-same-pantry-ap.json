@@ -56,7 +56,11 @@
    "pain": "中英两侧同一天指到同一个「保质期 App」——而且都不是在要提醒功能，他们拒绝的是提醒之前那一步录入。",
    "kill": "在西方超市，条码扫描已经替包装食品解决了一半；愿意花两小时录 Excel 的人本来就少。而如果照片识别只有八成准，纠错负担又会精准落回弃用发生的那个点——这条对准确率的要求苛刻得不寻常。",
    "move": "不要做厨房系统。只做一张照片和一张表，而且只做两格：药箱和调味料格——东西寿命长、日期印得清楚、忘了代价真实。不做菜谱、不做采购清单、不碰生鲜。冷启动：中文＝小红书搜「囤货 过期」「药箱 整理」，以及那条 1.7 万赞「大家觉得市面上还缺哪种APP？」笔记的评论区；英文＝r/Cooking 与 r/organization 每隔几个月复现的 pantry-expiration 帖。",
-   "hook": "已经下过两个保质期 App、都在录到第七样时放弃的那个人——而家里每隔几个月照样扔掉一袋面粉。"
+   "hook": "已经下过两个保质期 App、都在录到第七样时放弃的那个人——而家里每隔几个月照样扔掉一袋面粉。",
+   "does": "对着一格拍一张——药箱、调料格——回来的是一张单子：上面有什么、各自什么时候过期，全程不打字。改错一下就好。提醒是附带的，不是产品。",
+   "consumer_angle": "一个普通家庭最后拿到的是一张单子：橱柜里这周得吃掉／用掉的那四样。不是一个还得他自己养着的数据库。",
+   "counter": "所有替代品都免费而且早就装好了——对着那一格拍张照、冰箱门上贴张纸、或者就靠自己记——而这个品类的坟场（Pantry Check、Grocy、Cooklist）已经证明人是会开始、然后停下的。他们停下的原因也许根本不是录入：知道面粉三月过期，并不会让谁在三月去烤面包。更何况从一格挤满东西、日期糊掉又被挡住的照片里读日期，恰恰是「自信地读错」比「读不出」更糟的地方——错一个日期，这个人就永远回到冰箱门那张纸了。",
+   "differentiator": "它拒绝掉整个品类默认你会做的那件事：进来的时候一个字都不用打，一次只管一格，交出的成品是「这周该用掉什么」而不是一份要你养着的库存。冷启动第一步：中文＝「大家觉得市面上还缺哪种APP？」底下那条 465 赞评论本身就是一份名单，外加小红书「囤货 过期」「药箱 整理」；英文＝r/Cooking 每隔几个月复现的 pantry-expiration 帖，以及 r/organization。"
   }
  },
  "id": "317-both-language-sides-asked-for-the-same-pantry-ap",
@@ -71,5 +75,9 @@
  "kill": "Barcode scanning already solves half of this for packaged goods in Western supermarkets, and the two-hour spreadsheet person is rare. If photo extraction is only 80% accurate the correction burden lands right back where the abandonment happens — the accuracy bar here is unusually unforgiving.",
  "move": "Do not build a kitchen system. Build one photo and one list, for two shelves only — the medicine box and the condiment shelf, where items are long-lived, dates are printed clearly, and forgetting is genuinely costly. No recipes, no shopping list, no fresh produce. Cold start CN = 小红书 搜「囤货 过期」「药箱 整理」, and the comment pane of the 17k-like 「大家觉得市面上还缺哪种APP？」 note; EN = the pantry-expiration thread that resurfaces in r/Cooking and r/organization every few months.",
  "hook": "The person who has already downloaded two pantry apps and abandoned both at item seven — and who still throws out a bag of flour every few months.",
- "wallet": "弱：保质期管理附近找不到成规模的付费行为，提醒类功能长期免费"
+ "wallet": "弱：保质期管理附近找不到成规模的付费行为，提醒类功能长期免费",
+ "does": "Photograph one shelf — the medicine box, the spice rack — and get back a list of what is on it and when each thing expires, with nothing typed. Corrections are one tap. The reminder is an afterthought, not the product.",
+ "consumer_angle": "An ordinary household ends up with one list: the four things in the cupboard to use up this week. Not a database they have to keep alive.",
+ "counter": "Every substitute is free and already installed — a photo of the shelf, a note on the fridge, the person's own memory — and the category's graveyard (Pantry Check, Grocy, Cooklist) proves people do start these and stop. The reason they stop may not be data entry at all: knowing the flour expires in March does not make anyone bake in March. And reading smudged, half-hidden dates off a crowded shelf is exactly the place where a confident wrong answer is worse than no answer — misread one date and the person is back to the fridge door for good.",
+ "differentiator": "It refuses the data entry the entire category assumes: zero typing on the way in, one shelf at a time, and the artefact is a this-week use-it-up list rather than an inventory to maintain. Cold start — Chinese: the 465-like comment under 「大家觉得市面上还缺哪种APP？」 is a name list on its own, plus 小红书 「囤货 过期」 and 「药箱 整理」; English: the r/Cooking pantry-expiration thread that recurs every few months, and r/organization."
 }
