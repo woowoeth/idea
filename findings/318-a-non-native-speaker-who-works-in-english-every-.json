@@ -42,7 +42,11 @@
    "pain": "每天用英语开会的人，写东西有 Grammarly 替他改，说出口的那半边却没人管——错在哪、该怎么说，从来没人告诉他。",
    "kill": "纠正很容易滑成挑口音，既伤人也搞错方向；而且把转写贴进任何通用助手，今天就能得到一个像样的版本。",
    "move": "不做会议录音：一个按钮、六十秒、只录自己、不出本机——避开录音授权的全部麻烦，也正好是唯一能天天用的形态。",
-   "hook": "一个英文写得没问题的非母语上班族：每次开站会都卡在同样三个句子上，却说不出是哪三个。"
+   "hook": "一个英文写得没问题的非母语上班族：每次开站会都卡在同样三个句子上，却说不出是哪三个。",
+   "does": "把你真正不得不开口的那两分钟录下来——早会、一个电话、一次预演——回来的是你自己的句子，旁边并排放着母语者会怎么说同一句，并点名你反复说错的那三句。",
+   "consumer_angle": "一个本来就用英文上班的成年人，周五拿到一页对照：他反复说砸的那三句话。材料全部来自他自己真实开的会，不是练习题。",
+   "counter": "本周就出了一个正面竞品：Linforge（Product Hunt 83 票），能同步你的 Anki 卡组，对每一句给出音素级发音与语法纠正——这已经很接近四年前那位提需求的人写下的规格，而且它已经上线了。它上面还压着平台方：「语音版 Grammarly」最该由 Grammarly 自己来做，而苹果和谷歌现在都在端侧免费转写语音。最扎的怀疑来自用户自己：一个每次早会都说砸同样三句话的人，未必想被点名。这批人悄悄回避的正是「被纠正」，这也正是那些从不纠正任何人的对话 App 反而留得住人的原因。",
+   "differentiator": "它从不跟你说话。它拿的是你现实里已经产生的录音，交回来的是一份对照——你的那句、母语者的那句、反复犯的那三处——而不是再开一段对话，也不是再给你一个分数。冷启动第一步：中文＝小红书「英文会议 说不出口」「口语 纠音」以及职场英语话题，免费给一段两分钟录音出一份对照；英文＝到那条 r/languagelearning 帖底下和 r/EnglishLearning 去回，一人一份免费对照。"
   }
  },
  "id": "318-a-non-native-speaker-who-works-in-english-every-",
@@ -56,5 +60,9 @@
  "pain": "A non-native speaker who works in English every day wrote the spec himself four years ago — 'like Grammarly but for voice' — and the category still splits into scoring apps and chat partners, with nobody occupying the sentence he actually said.",
  "kill": "Speech correction shades into accent judgement very fast, which is both alienating and the wrong target — plenty of the world's best English is heavily accented. And the general assistants can already do a decent version of this if you paste in a transcript, so the product has to be worth more than that habit.",
  "move": "Refuse the meeting recorder. One button, sixty seconds, your own voice only, nothing leaves unless the user sends it — that dodges the whole consent problem the call-recording products carry, and it is also the only version a person will use daily. Cold start CN = 小红书 「英语 口语 纠错」「外企 英语」 tags and the comment panes under IELTS-speaking prep notes; EN = the 16 replies on that r/languagelearning post, plus r/EnglishLearning's correct-my-speaking threads.",
- "hook": "A non-native professional who writes fine in English and still hears himself fumble the same three sentences in every standup — and has no idea which three they are."
+ "hook": "A non-native professional who writes fine in English and still hears himself fumble the same three sentences in every standup — and has no idea which three they are.",
+ "does": "Record the two minutes you actually have to speak — a standup, a call, a rehearsal — and get back your own sentences next to the native version of the same sentence, with the three you keep getting wrong named.",
+ "consumer_angle": "A working adult who already speaks English at work gets, on Friday, a one-page diff of the three sentences they keep fumbling — built out of their own real meetings, not out of an exercise.",
+ "counter": "A direct competitor shipped this week: Linforge (Product Hunt, 83 votes) syncs with your Anki decks and gives phoneme-level pronunciation and grammar correction on every sentence — close to the spec this commenter wrote four years ago, now with a launch behind it. Above that sit the platform owners: Grammarly is the obvious builder of 'Grammarly for voice', and Apple and Google now transcribe speech on-device for free. And the sharpest doubt is the user's own: someone who fumbles the same three sentences in every standup may not want them named. Correction is the thing this audience quietly avoids, which is exactly why the conversation apps that never correct anybody are the ones with retention.",
+ "differentiator": "It never talks to you. It takes audio you already produced in real life and returns a diff — your sentence, the native sentence, the three recurring errors — instead of starting another conversation or handing out a band score. Cold start — Chinese: 小红书 「英文会议 说不出口」 / 「口语 纠音」 and the 职场英语 tag, offering a free diff of one two-minute recording; English: reply under that r/languagelearning thread and in r/EnglishLearning, one free diff per person."
 }
