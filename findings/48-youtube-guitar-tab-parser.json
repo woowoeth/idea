@@ -29,7 +29,9 @@
    "move": "只做用户自己已经找到的那一个视频，永不托管、永不转发音频，并且把机器没把握的小节明确标出来——这样一个会弹的朋友五分钟能改掉十二小节，而不是从零扒。交付物是一页可打印的谱，加上他老是过不去那四小节的慢速练习循环。冷启动（中文）：B站 吉他翻弹底下的「求谱」评论，以及小红书「吉他 没有谱」；（英文）：r/Guitar 与 r/guitarlessons 里反复出现的 does anyone have a tab for this。",
    "hook": "一个学吉他的人，最想弹的那首歌全网没有谱，只有一个人在 YouTube 上弹。会听音记谱的人二十分钟就扒完了，其余所有人到这里就停住。这件事附近的付费行为很响：谱站在卖订阅，逐音扒谱的服务按首收钱。",
    "does": "从教学视频里把谱扒出来——那份谱其实就在画面里、也在声音里——而不是去一个从来没人上传过它的库里搜。",
-   "consumer_angle": "一个业余爱好者拿到他想弹那首歌的一页可打印谱，机器没把握的地方都标了出来，好让一个真人把它收尾。"
+   "consumer_angle": "一个业余爱好者拿到他想弹那首歌的一页可打印谱，机器没把握的地方都标了出来，好让一个真人把它收尾。",
+   "counter": "Ultimate Guitar 攒了二十年谱，一首歌在上面没有，很可能就是因为想要它的人不够多——长尾之所以是长尾，未必没有原因。更要命的是，这件事恰好需要机器转谱最不擅长的两样：从压缩过的视频帧里认出低分辨率的谱，以及从混音里把那一把吉他抠出来。而对谱不存在「九成对」——学的人分不清错的是哪一成，错一个小节整份就废了。再加上「从视频导入」是 Ultimate Guitar 下个季度就能加的一个功能，人还都在他们那儿。",
+   "differentiator": "不做谱库，只做「把他已经找到的那一个视频扒出来」：读的是教学视频里本来就出现在画面上的谱，而不是硬靠音频盲扒；机器没把握的小节一律留灰，绝不硬猜。冷启动第一步：中文＝B站翻弹底下常年不断的「求谱」评论区，挑十条最高赞的求谱，直接回一份可打印的谱；英文＝r/Guitar 与 r/guitarlessons 里「这首歌根本没有谱」那类帖，一帖免费出一份。"
   }
  },
  "voices": [
@@ -50,5 +52,7 @@
  "hook": "Someone learning guitar whose favourite song has no tab anywhere — there is only a person on YouTube playing it. People who can already transcribe do it by ear in twenty minutes; everybody else stops there. The nearby paying behaviour is loud: tab sites sell subscriptions and note-by-note transcription services charge per song.",
  "does": "Pulls a playable tab out of a lesson video — where the tab is already visible on screen and audible in the sound — instead of searching a library for one that was never uploaded.",
  "consumer_angle": "A hobbyist gets a printable tab for the one song they wanted, with the uncertain bars flagged so a human can finish it.",
- "backfilled_at": "2026-08-13"
+ "backfilled_at": "2026-08-13",
+ "counter": "Ultimate Guitar has twenty years of tabs, and a song missing from it may be missing because not enough people wanted it — the long tail can be a tail for a reason. Worse, this needs the two things machine transcription is still worst at: reading a low-resolution tab off a compressed video frame, and pulling one guitar out of a full mix. A tab that is 90% right is not 90% useful, because the learner cannot tell which 10% is wrong; one bad bar burns the whole file. And 'import from a video' is a feature Ultimate Guitar can ship next quarter — they already own the audience.",
+ "differentiator": "Not a tab library, a tab extractor pointed at the one video the learner already found: it reads the tab that is already visible on screen in the lesson video instead of transcribing blind from audio, and every bar the machine is unsure of is greyed out rather than guessed. Cold start — Chinese: the 求谱 ritual in the comment section under B站 covers, replying with a printable tab under the top 求谱 comment of ten covers; English: the r/Guitar and r/guitarlessons threads where someone says no tab exists for their song, one free tab per thread."
 }
