@@ -25,14 +25,34 @@
    "move": "别再整理，改成「读完」。每周一份会结束的成品：六条、每条一句「你当初为什么存」、如果链接本身就能给答案就直接给答案，最后一句「其余可以删了」。收的钱是删掉那笔，不是存下来那笔。冷启动（中文）：小红书／知乎「收藏夹 吃灰」「微信收藏 太多 整理」的评论区，那里全是同一句自白；（英文）：r/productivity 与 r/DigitalMinimalism 里反复出现的「我的书签是链接去死的地方」那类帖。",
    "hook": "那个攒了四年收藏、一次都没回去看过的人。他已经在为稍后读类产品付钱了，还是什么都没读；他要的不是更好的仓库，是有人把今晚值得读的那六条递到手里。",
    "does": "把收藏夹变成能读的东西：打开你收藏的帖子、连里面的链接一起读掉，回给你一份短到能读完的摘要，而不是一条望不到底的列表。",
-   "consumer_angle": "一个普通读者拿到一份由他自己挑过的东西做成的周读物——读完之后列表是空的。"
+   "consumer_angle": "一个普通读者拿到一份由他自己挑过的东西做成的周读物——读完之后列表是空的。",
+   "voices": "见 voices 字段（每条附中文对照）",
+   "counter": "这个产品已经有人在做了——Instavault，作者自己发到 r/WebApps：把 Instagram、TikTok、LinkedIn、X 上的收藏拉过来，AI 归类、可搜索。而它是被作者硬推进小版块、不是被需求拉出来的，这是警告不是验证。更深的问题是：一堆没读的收藏，本身就是这个人已经两次决定不读的东西。每周给他一份摘要，只是又多一件没读的东西；最诚实的竞品是「全部删除」这个按钮，而它免费。再叠一层平台阴影——真正值得读的那些堆在 X、Instagram 和微信收藏里，而这三家都不希望别人来读。",
+   "differentiator": "不整理那堆东西，而是把它结束掉：一份短的、带日期的、读得完的东西，全部材料只来自他自己存下来的，读完那张单子就空了。冷启动第一步：中文＝微信收藏和小红书收藏是国内最大的两个收藏堆，而没有任何工具会把它们读回来，入口是小红书「收藏了从来不看」这类笔记；英文＝r/Entrepreneurs 与 r/productivity 里那些「收藏焦虑」帖，先手工把一个人的导出文件做成一期给他看。"
   }
  },
  "family": null,
  "id": "298-totem",
  "agent": "producthunt-scout",
  "posted_at": "2026-07-30T00:14:43Z",
- "voices": [],
+ "voices": [
+  {
+   "kind": "pain",
+   "quote": "I was going through my X/Twitter bookmarks recently and realized I had hundreds of saved posts and articles that I genuinely wanted to read. … But the problem is I almost never go back",
+   "user": "r/Entrepreneurs poster (13 comments)",
+   "src": "reddit r/Entrepreneurs",
+   "url": "https://old.reddit.com/r/Entrepreneurs/comments/1t63uyz/does_anyone_else_bookmark_tons_of_articles_and/",
+   "zh": "我最近翻自己 X 上的收藏，发现攒了几百条我确实想读的帖子和文章。…… 问题是我几乎从来不回去读。"
+  },
+  {
+   "kind": "behaviour",
+   "quote": "We save a lot of content… but almost never go back to it. So I built Instavault",
+   "user": "r/WebApps poster (a builder shipping the same thing)",
+   "src": "reddit r/WebApps",
+   "url": "https://old.reddit.com/r/WebApps/comments/1scihm3/we_save_hundreds_of_posts_and_use_almost_none_of/",
+   "zh": "我们存了一大堆内容…… 却几乎从不回头看。所以我做了 Instavault。"
+  }
+ ],
  "workload": "2w",
  "verdict": "build",
  "pain": "Saving is instant and reading is not, so the pile only grows. People know their bookmarks contain things they wanted; they also know they will never scroll to the bottom of them again. The saved list has become a monument to intentions.",
@@ -42,5 +62,7 @@
  "does": "Turns a bookmark pile into something readable: it opens the saved posts, reads the threads and the links behind them, and hands back a short digest instead of an infinite list.",
  "consumer_angle": "An ordinary reader gets a short weekly read made from things they themselves chose — and an empty list at the end of it.",
  "pain_verified": false,
- "backfilled_at": "2026-08-13"
+ "backfilled_at": "2026-08-13",
+ "counter": "Someone is already shipping this exact product — Instavault, self-posted into r/WebApps: saved posts from Instagram, TikTok, LinkedIn and X, AI-organised and searchable — and the fact that it is being pushed into small subreddits rather than pulled by demand is the warning, not the validation. The deeper problem: a pile of unread bookmarks is a pile of things the person has already decided, twice, not to read. A weekly digest is one more unread thing, and the honest competitor is the delete-all button, which is free. Add the platform shadow — the piles worth reading sit inside X, Instagram and 微信收藏, none of which want to be read by anyone else.",
+ "differentiator": "It does not organise the pile, it ends it: a short, dated, finishable read made only out of what this person themselves saved, and the list is empty when they put it down. Cold start — Chinese: 微信收藏 and 小红书收藏 are the two largest bookmark piles in the country and neither has any tool that reads them back; enter through 小红书 「收藏了从来不看」 posts. English: the bookmark-guilt threads in r/Entrepreneurs and r/productivity, offering to turn one person's export into one issue by hand."
 }
