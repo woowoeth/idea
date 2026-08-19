@@ -23,10 +23,38 @@
    "move": "把「只在本地」做成产品本身而不是脚注：只读、不联网，交付物是一个能直接拖进手机相册的文件夹，外加一张可打印的「出现次数最多的十张脸」联系表——是成品，于是这件一次性的活儿以一件留得下来的东西结束。定价一次性，不做月费。冷启动（中文）：小红书／豆瓣「邮箱 老照片 找回」「换手机 照片丢了」；（英文）：r/DataHoarder 与 r/gmail 里反复出现的「怎么把十年的附件从 Gmail 里弄出来」那条帖。",
    "hook": "同一个邮箱用了十五年的人，刚意识到一场出生、一场葬礼、以及父亲当年扫描过来的一张纸，只存在于一个地方：邮件附件里。Google Takeout 回给他一个 .mbox，全家没人打得开。",
    "does": "在本地读你的邮箱，把里面的照片挑出来，排成一本真能打开的相册。",
-   "consumer_angle": "一个普通邮箱用户，最后手机里多了一个家庭照片文件夹，手上多了一张印出来的、最重要那几张脸的联系表。"
+   "consumer_angle": "一个普通邮箱用户，最后手机里多了一个家庭照片文件夹，手上多了一张印出来的、最重要那几张脸的联系表。",
+   "voices": "见 voices 字段（每条附中文对照）",
+   "counter": "帖子里几分钟内就被点出两个替代品：Google Takeout 加一段九年前的 gist 脚本（从 .mbox 里抽附件），以及 Unattach——它的创始人本人就在评论区，这件事早就在卖了。也就是说技术活已经干完了，剩下的只有「非技术用户」这一件，而这类用户恰恰是永远不会看 Show HN、也不会去装一个三十美元未签名桌面程序的人（另一条评论专门提醒它会触发 Windows 安全警告）。真正的难处是分发，不是抽取。而同一个帖子还顺手给出了更锋利的那个产品，且不是这一个：不是抢救，是抢救之后那本相册。",
+   "differentiator": "切口在最后一公里，不在导出：全程不让人碰 .mbox，跑完交出的是一家人真能看的东西——一本按日期排好的相册，愿意的话再印成书——而不是一堆文件。冷启动第一步：中文＝同样这些照片在中国是躺在 QQ邮箱和「微信文件传输助手」里，入口是小红书「老照片 找不到了」「微信 文件已过期」这类笔记；英文＝r/DataHoarder 与 r/gsuite 每隔一阵就出现的「怎么把照片从 Gmail 里弄出来」帖，前十个邮箱免费跑。"
   }
  },
- "voices": [],
+ "voices": [
+  {
+   "kind": "pain",
+   "quote": "I will tell you who this is for: my parents who “back up” their photos by emailing them to themselves, and finally get convinced to use a real cloud photo solution.",
+   "user": "Grombobulous",
+   "src": "Hacker News, Show HN thread (103 points / 58 comments)",
+   "url": "https://news.ycombinator.com/item?id=48762000",
+   "zh": "我告诉你这东西是给谁做的：给我爸妈——他们「备份」照片的方式就是把照片发邮件给自己，最后好不容易才被说服去用一个真正的云相册。"
+  },
+  {
+   "kind": "first-hand",
+   "quote": "It worked fist shot, and found 3k+ photos, which feels about right. … it's 3k+ more photos than I had before. So, I'm satisfied.",
+   "user": "baron3dl (a paying user, $30)",
+   "src": "Hacker News, same thread",
+   "url": "https://news.ycombinator.com/item?id=48762000",
+   "zh": "一次就跑通了，找出三千多张照片，数量大致对得上。…… 这比我原来手上多了三千多张。所以我很满意。"
+  },
+  {
+   "kind": "demand",
+   "quote": "I like the idea. Google Takeout works, but a focused app that helps you actually find and recover old photos could still be useful.",
+   "user": "murats",
+   "src": "Hacker News, same thread",
+   "url": "https://news.ycombinator.com/item?id=48762000",
+   "zh": "这个想法我喜欢。Google Takeout 确实能用，但一个专门帮你把老照片真正找出来、拿回来的小工具，还是有价值的。"
+  }
+ ],
  "verdict": "build",
  "workload": "2w",
  "pain_verified": false,
@@ -37,5 +65,7 @@
  "hook": "Someone who has used the same mailbox for fifteen years and has just realised that a birth, a funeral and a scan their father posted them exist in exactly one place: as email attachments. Google Takeout hands back a .mbox that nobody in the family can open.",
  "does": "Reads a mailbox locally and pulls out the photographs, sorting them into an album you can actually open.",
  "consumer_angle": "An ordinary mailbox owner ends up with a folder of family photographs on their phone and a printed sheet of the faces that mattered.",
- "backfilled_at": "2026-08-13"
+ "backfilled_at": "2026-08-13",
+ "counter": "Two substitutes were named in the thread within minutes: Google Takeout plus a nine-year-old gist that extracts attachments from an .mbox, and Unattach — whose founder turned up in the comments — which already sells this. So the technical job is done, and the only thing left is the non-technical user, who is exactly the person who will never read a Show HN or install a $30 unsigned desktop binary (another commenter had to point out it triggers a Windows security warning). Distribution, not extraction, is the whole problem. The same thread also supplies the sharper product and it is not this one: not the rescue, the album that comes after it.",
+ "differentiator": "The wedge is the last mile, not the export: the person never touches an .mbox, and the run ends at something a family can actually look at — a dated album, optionally a printed book — rather than a folder of files. Cold start — Chinese: the same photographs are in QQ邮箱 and 微信文件传输助手, entered through 小红书 「老照片 找不到了」 and 「微信 文件已过期」 posts; English: reply under the recurring r/DataHoarder and r/gsuite 'how do I get my photos out of Gmail' threads, first ten mailboxes free."
 }
