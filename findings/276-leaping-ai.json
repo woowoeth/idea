@@ -31,7 +31,9 @@
    "move": "永远不打那个电话。在承诺发生的那一秒把它接住——一条语音，手上还是脏的，不用打字——然后在第三天把跟进直接写好递回来：找谁、当时答应了什么、大概值多少、以及一条他自己按发送的消息。产品是那份记性和那份草稿，不是那张嘴。冷启动（中文）：小红书／抖音上装修师傅、上门维修类账号评论区里讲「没跟上就没了」的那批人，以及同城老板群；（英文）：r/smallbusiness、r/HVAC、r/Plumbing 里讲线索凉掉的帖子——板上已经有一条来自 r/smallbusiness 的逐字原声。",
    "hook": "因为第三天没人跟进而丢掉单子的装修师傅或单人诊所。他为这件事付钱的方式是最直接的一种：那张写完就再没跟过的报价，是他已经花了功夫挣到、又扔掉的钱。",
    "does": "外呼型 AI 跟单。值得做的版本比它小得多：给一个把约定记在脑子里的人，补上第三天那一下。",
-   "consumer_angle": "一个自己干活的师傅或诊所老板，在第三天拿到一条写好的跟进，只需要按一下发送。"
+   "consumer_angle": "一个自己干活的师傅或诊所老板，在第三天拿到一条写好的跟进，只需要按一下发送。",
+   "counter": "这是应用 AI 里最挤的一条道：整个 2026 年外呼语音 agent 一批批出货，而在位的 CRM 把「第三天跟进」当成一个勾选项加进去就完了。你要服务的这类客户又是最难碰到的——没有 CRM 就没有接入点、没有采购流程、没有渠道，线索是一个未接来电或者微信里一段语音。而且这个痛的老实版本可能根本用不上 AI：把预约记在脑子里的人，差的只是一条短信提醒，那是一个零元产品，他自己用手机闹钟就能做。",
+   "differentiator": "不做外呼。切口是「给没有 CRM 可掉出来的人补上第三天那一下」：报价可以是那张手写单子的照片，或者一段三十秒的语音；第三天回来的是一条写好的消息，他只需要按发送。冷启动第一步：中文＝小红书和抖音上那些自己接活的装修／维修／牙科个体，他们会晒手写报价单，免费替他们写第三天那条跟进；英文＝r/smallbusiness 与 r/Plumbing 里店主自述把活记在脑子里的那些帖。"
   }
  },
  "voices": [
@@ -54,5 +56,7 @@
  "hook": "The trades outfit or single-room clinic that loses the job because nobody chased the lead on day three. They already pay for this in the most direct way there is: the quote they wrote and never followed up is money they did the work to earn and then dropped.",
  "does": "Outbound AI calling for follow-ups. The version worth building is smaller: the day-three nudge for a person who keeps appointments in their head.",
  "consumer_angle": "A self-employed tradesperson or clinic owner gets, on day three, a written follow-up they only have to press send on.",
- "backfilled_at": "2026-08-13"
+ "backfilled_at": "2026-08-13",
+ "counter": "This is the most crowded lane in applied AI: outbound voice agents shipped all through 2026, and the incumbent CRMs are adding a day-three nudge as a checkbox. The customer you are aiming at is also the hardest to reach — no CRM means no integration point, no procurement, no channel, and the lead arrives as a missed call or a voice note in WeChat. And the honest version of the pain may not need AI at all: someone who keeps appointments in their head is one texted reminder away from fixed, which is a $0 product they can build out of their phone's alarm.",
+ "differentiator": "Not outbound calling. The wedge is the day-three follow-up for someone with no CRM to fall out of: the quote goes in as a photo of the handwritten note or a thirty-second voice memo, and on day three a written message comes back that they only have to press send. Cold start — Chinese: individual 装修 / 维修 / 牙科 operators on 小红书 and 抖音 who post photos of handwritten quotes, offering to write their day-three follow-up for free; English: the r/smallbusiness and r/Plumbing threads where owners describe keeping jobs in their head."
 }
