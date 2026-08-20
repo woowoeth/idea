@@ -26,7 +26,9 @@
    "move": "不要做前台，做「第二天早上」。她把昨晚没回的消息转到一个地方，回给她一张排好序的清单：谁问了什么、大概值多少钱、报价前必须先问的那一句、以及一条她自己一按就发出去的草稿。不自动发送、不托管账号、不在她没按下之前替她说话。冷启动（中文）：小红书「小店 打烊 消息回不过来」「接单 漏单」，以及同城生意号下面的老板评论区；（英文）：r/smallbusiness 与 r/Flipping 里讲「过了一夜线索就凉了」的帖子。",
    "hook": "十点拉下卷帘门，才发现有三条问价没回——而且知道其中至少一个已经去了隔壁。她现在是用丢掉的单子在为这件事付钱，那是最贵的一种付法。",
    "does": "在老板两只手都占着的时候，替她接住那些询价；而在这块板上真正值得做的版本是：第二天早上告诉她，昨晚哪条消息是真的值钱。",
-   "consumer_angle": "使用者是拿着一个本子的夫妻店，不是配了 CRM 的销售团队。成品是一张昨晚的钱的排序清单，和四条按一下就发的回复。"
+   "consumer_angle": "使用者是拿着一个本子的夫妻店，不是配了 CRM 的销售团队。成品是一张昨晚的钱的排序清单，和四条按一下就发的回复。",
+   "counter": "这是应用 AI 里最挤的一条道，胜负会由延迟和本地语言可靠性决定——那是拼资本，不是切口。中文侧更狠：诚实的版本连她想要的那件事都做不了——自动化操作个人微信同时违反平台规则和本板的完整性红线，所以回复必须留在她自己的手指底下。而以她的名义报错一个价，比一开始漏掉那条消息贵得多。",
+   "differentiator": "它不替任何人回话。它做的是第二天早上：她把昨晚没回的消息转进一个地方，拿回一张排序清单——谁问了什么、这单大概值多少、报价之前必须先问的那一句、以及一条按一下就发出去的草稿。不自动发送、不自动化账号、没有她的手指就不以她的口吻说话。冷启动英文：r/smallbusiness 与 r/Flipping 里聊「过夜就凉了的客户」的帖。中文：小红书「小店 打烊 消息回不过来」「接单 漏单」，以及同城生意账号下的老板评论区。"
   }
  },
  "voices": [],
@@ -40,5 +42,7 @@
  "hook": "A shop owner who pulled the shutter down at ten and finds three price enquiries she never answered — and knows at least one of them has already walked next door. She is currently paying for this with lost jobs, which is the most expensive way to pay.",
  "does": "Answers the enquiries that arrived while the owner had both hands full — and, in the version that matters here, tells her the next morning which of last night's messages was actually worth money.",
  "consumer_angle": "A two-person shop with a notebook, not a sales team with a CRM. The finished thing is a ranked list of last night's money and four replies ready to send.",
- "backfilled_at": "2026-08-13"
+ "backfilled_at": "2026-08-20",
+ "counter": "This is the most crowded lane in applied AI, and the winners will be decided by latency and local-language reliability — a capital race, not a wedge. On the Chinese side the honest version cannot even do the thing she is asking for: automating a personal WeChat account breaks both the platform's rules and this board's own integrity line, so the reply has to stay under her thumb. And a wrong quote sent in her name costs her more than the message she missed in the first place.",
+ "differentiator": "It answers nobody. It builds the morning after: she forwards last night's unanswered messages into one place and gets back a ranked list — who asked what, what it is plausibly worth, the one question she must ask before quoting, and a draft she sends herself with one tap. No autonomous sending, no account automation, nothing speaking in her voice without her thumb on it. Cold start EN: r/smallbusiness and r/Flipping threads about leads that went cold overnight. 中文冷启动：小红书「小店 打烊 消息回不过来」「接单 漏单」，以及同城生意账号下的老板评论区。"
 }
