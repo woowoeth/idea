@@ -24,7 +24,9 @@
    "move": "不要卖系统，卖回那九十分钟：一间屋、一个医生、不对接、不配置模板，交付物就是今晚的病历已经写好、格式是他自己的医保或监管方要的那个，外加一页「还需要你签名确认的地方」。自限写死：只转写、只结构化、只标出待确认，绝不下诊断、绝不给医嘱建议，临床判断永远退回给医生。冷启动（中文）：小红书／知乎「私人诊所 病历 加班」「中医馆 病历 怎么写」，以及口腔器械经销号背后的诊所老板群；（英文）：r/dentistry、r/physicaltherapy、r/privatepractice 里单人诊所互相打听「你花多少钱请人写病历」的帖子。",
    "hook": "自己开一间屋子的牙医或中医：他同时是医生、前台和文书员，最后一个病人走了之后，晚上九点开始补病历，没人付这段时间的钱。这件事附近已经有人在花钱了——要么是一套只用得上十分之一的按人头收费的系统，要么是一个按小时算的帮手。",
    "does": "单间诊所的随诊记录员：听完这场问诊，直接把病历和该报的文书写完，没有任何要配置的东西。",
-   "consumer_angle": "使用者是一个恰好是医生的小老板，不是医院信息科。他拿到的成品是一个不用加班的晚上。"
+   "consumer_angle": "使用者是一个恰好是医生的小老板，不是医院信息科。他拿到的成品是一个不用加班的晚上。",
+   "counter": "病历里错一行不是麻烦，是责任——而且只要错一次，医生就再也不信它了，所以诚实的错误率必须在第一天就接近零，而不是调一年才达标。套件厂商把这件事做成他们那套诊所本来就不得不买的软件里的一个勾选项，这意味着「做一个更好的随诊记录员」不是切口，只是替别人提了个需求。而缺口最大的中文侧，恰恰也是临床病历处置对个人开发者最不宽容的一侧。",
+   "differentiator": "它拒绝长成一套 EHR。一间屋子、一个医生、没有任何要配置的东西，交付物是今晚的病历加一页「还需要你签字的是这些」——只转写、只结构化、只标疑点，绝不诊断、绝不建议。冷启动英文：r/dentistry、r/physicaltherapy、r/privatepractice 里单人诊所老板互相比价「你请人写病历花多少钱」的帖。中文：小红书／知乎「私人诊所 病历 加班」「中医馆 病历 怎么写」，以及口腔诊所器材账号背后的老板群。"
   }
  },
  "family": null,
@@ -41,5 +43,7 @@
  "hook": "A dentist or TCM practitioner who owns the room they work in: they are the clinician, the front desk and the records clerk, and the notes get written at nine at night, unpaid, after the last patient leaves. They already pay for this — either a per-seat EHR they use one-tenth of, or an hourly hand.",
  "does": "Ambient scribe for a single-room clinic: it listens to the consultation and hands back the finished note plus the compliance paperwork, with nothing to configure.",
  "consumer_angle": "The user is a small-business owner who happens to be a clinician — not a hospital IT department. The finished thing they walk away with is a night off.",
- "backfilled_at": "2026-08-13"
+ "backfilled_at": "2026-08-20",
+ "counter": "One wrong line in a medical record is not an annoyance, it is a liability — and one wrong line is enough for the clinician never to trust it again, so the honest failure rate has to be near zero on day one rather than after a year of tuning. The suite vendors ship this as a checkbox inside software the clinic is already obliged to buy, which means 'a better scribe' is not a wedge, it is a feature request to somebody else. And the Chinese half, where the gap is widest, is also where clinical-record handling is least forgiving to an individual developer.",
+ "differentiator": "It refuses to become an EHR. One room, one clinician, nothing to configure, and the deliverable is tonight's notes plus a one-page 'what still needs your signature' — it transcribes, structures and flags, and never diagnoses or advises. Cold start EN: r/dentistry, r/physicaltherapy and r/privatepractice threads where solo owners compare what they currently pay for scribing. 中文冷启动：小红书／知乎「私人诊所 病历 加班」「中医馆 病历 怎么写」，以及口腔诊所器材账号背后的老板群。"
 }
