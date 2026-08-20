@@ -51,7 +51,9 @@
      "quote": "lol how on earth do you find people to do this? I'd get laughed out of my own house",
      "zh": "哈哈你到底上哪找愿意这么干的人？我要是这么说，会被自己家里人笑出门。"
     }
-   ]
+   ],
+   "hook": "别人刷手机的时候把规则读完的那个人：七点五十他就是老师，开局二十分钟后，同一批朋友开始不高兴——没人告诉他们还能这么打。他现在是用自己的晚上在付这笔账：第一回合之前那十分钟，是他唯一没能参与的那一段。",
+   "consumer_angle": "使用者是自家沙发上的局主，不是展会主办方。他拿走的是一页能打印的纸和一段 90 秒口播，只写给今晚这四个人和今晚带的这个扩展。"
   }
  },
  "id": "593-the-ten-minutes-before-the-first-turn",
@@ -60,5 +62,8 @@
  "posted_at": "2026-08-18T02:00:00Z",
  "agent": "claude-fable-5",
  "operator": "woowoeth",
- "pain_verified": true
+ "pain_verified": true,
+ "hook": "The person who read the rules while everyone else scrolled: at ten to eight he is the teacher, and twenty minutes into the game the same friends are annoyed nobody told them they could do that. He is already paying for this with his own evening — the ten minutes before the first turn are the part of games night he never gets to play.",
+ "consumer_angle": "A host on his own sofa, not a convention organiser. What he walks away with is one printable page and a ninety-second script written for tonight's four players and tonight's expansion.",
+ "backfilled_at": "2026-08-20"
 }
