@@ -43,7 +43,11 @@
    "pain": "想跟着唱一首歌，却找不到人声的谱。弹吉他的人二十年前就有免费谱用，唱歌的人至今每首歌卡在五美元的付费墙前。",
    "kill": "这条的证据最弱，开口问的人不多；编曲一厚旋律提取就明显退化；而且付费墙背后站着出版方，免费站容易吃下架函。",
    "move": "照抄吉他谱站：用户能纠错、一眼能读、免费。中文这边缝更宽——人声用简谱，本来就是业余歌者在读的格式。",
-   "hook": "一个看着吉他手免费用了二十年社区谱的业余歌手：轮到他，每首歌仍要付大约五美元，才知道那几个音落在哪。"
+   "hook": "一个看着吉他手免费用了二十年社区谱的业余歌手：轮到他，每首歌仍要付大约五美元，才知道那几个音落在哪。",
+   "does": "把一首歌贴进去，拿回最粗糙、最一眼能读的那种人声谱——哪个音、哪个八度、落在哪个字上，对齐排在歌词底下。免费、可被用户改、有些地方是错的、十秒钟读得懂：吉他谱赢的就是这个形态。",
+   "counter": "这是本族里证据最薄的一条——两条 r/singing 帖的互动几乎为零，所以这个缺口是推断出来的而不是喊出来的，而推断出来的缺口正是「两周做完发现没人在等」的标准死法。旋律提取在混音密集、人声处理重的歌上退化得很厉害；而那道付费墙不是意外：是出版方在执行，一个免费的人声谱站会招来当年塑造了所有吉他谱站的那种下架函。还有一种很实在的可能：唱歌的人其实并不想要记谱——想要的那批人早就去学钢琴了。",
+   "differentiator": "故意粗糙、故意免费，跟当年的吉他谱一样。所有扒谱产品都在做给乐手看的完整记谱，而完整记谱恰恰是它们谁也没能变成业余者真正在用的那件东西的原因。中文侧缺口更大、记谱也更友好：人声的简谱正是业余歌手本来就会读的格式，而现在的曲谱站要么收费要么根本是错的。中文冷启动：小红书／B站「简谱 求」「翻唱 找谱」评论区，以及合唱团与教会诗班群。英文：r/singing 与 r/karaoke，那条请求反复出现、安静地没人回。",
+   "consumer_angle": "使用者是业余歌手或者 KTV 常客——不是录音棚乐手。他拿走的是一页告诉他那几个音到底落在哪的纸，免费，跟吉他手二十年来一直有的那种一样。"
   }
  },
  "id": "321-guitar-and-ukulele-players-have-had-free-communi",
@@ -58,5 +62,10 @@
  "kill": "Weakest evidence of today's three: both posts are near-zero engagement, so this is an inferred gap, not a loud one. Melody extraction also degrades badly on dense mixes and heavy vocal processing. And the paywall exists partly because publishers enforce it — a free vocal-line product will draw the same takedowns that shaped the tab sites.",
  "move": "Copy what tab sites got right: user-corrected, crude, instantly readable, free. In Chinese the same gap is wider and the notation is friendlier — 简谱 for the vocal line is exactly the format amateur singers already read, and current 曲谱 sites are paywalled or wrong. Cold start CN = 小红书/B站「简谱 求」「翻唱 找谱」评论区与合唱团、教会诗班群; EN = r/singing and r/karaoke, where the request recurs quietly.",
  "hook": "An amateur singer who has watched guitarists use free community tabs for twenty years and still pays about five dollars a song to find out where the notes go.",
- "wallet": "极强：唱歌的人每首歌在付 5 美元买人声谱，钱已经在流动，只是流向付费墙"
+ "wallet": "极强：唱歌的人每首歌在付 5 美元买人声谱，钱已经在流动，只是流向付费墙",
+ "does": "Paste in a song and get the vocal line back in the crudest readable form there is — which note, which octave, on which syllable, lined up under the lyrics. Free, user-correctable, wrong in places, readable in ten seconds: the exact format guitar tabs won with.",
+ "counter": "This is the thinnest evidence of its family — both r/singing posts are near-zero engagement, so the gap is inferred rather than loud, and an inferred gap is how you spend two weeks on something nobody was waiting for. Melody extraction degrades badly on dense mixes and heavy vocal processing, and the paywall is not an accident: publishers enforce it, and a free vocal-line site draws exactly the takedowns that shaped every tab site. There is also a real possibility that singers do not want notation at all — the ones who wanted it went and learned piano.",
+ "differentiator": "Deliberately crude and free, the way tabs were. Every transcription product aims at full notation for musicians, and full notation is precisely why none of them ever became the thing amateurs actually use. In Chinese the gap is wider and the notation friendlier: 简谱 for the vocal line is the format amateur singers already read, while current 曲谱 sites are paywalled or simply wrong. Cold start CN: 小红书／B站「简谱 求」「翻唱 找谱」评论区，以及合唱团与教会诗班群。EN: r/singing and r/karaoke, where the request recurs quietly and goes unanswered.",
+ "consumer_angle": "An amateur singer or a karaoke regular — not a session musician. What they walk away with is one page telling them where the notes actually go, for free, the way a guitarist has had for twenty years.",
+ "backfilled_at": "2026-08-20"
 }
