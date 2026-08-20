@@ -55,7 +55,11 @@
    "pain": "手小的人弹钢琴，八度永远够得吃力——不是练得不够，是这台琴当初就不是照她的手设计的。约八成女性琴者卡在这里。",
    "kill": "改动和弦会被原教旨的人视为篡改原意，考级也未必认；改得不讲究一听就出戏，音乐上的门槛很高。",
    "move": "要动的是那张纸，不是那台琴：把曲子重排成小手够得着的版本，先从考级之外的自弹自唱曲目切进去。",
-   "hook": "一个够不到第三页那个和弦的成人钢琴学习者：别人告诉他解决办法是联署请雅马哈造窄键琴，于是他默默把这首曲子放弃了。"
+   "hook": "一个够不到第三页那个和弦的成人钢琴学习者：别人告诉他解决办法是联署请雅马哈造窄键琴，于是他默默把这首曲子放弃了。",
+   "does": "把曲子和你真实的手掌跨度给它。它把同一首曲子按这个手重排：只在必须的地方把和弦拆开或重新分配，声部关系保留，每一处改动都标出来，好让老师一处一处地否掉。",
+   "counter": "原教旨的人会说重排改动了作曲家的意图；而考级场合一份改过的谱子很可能根本不被接受——所以这件事永远不能当成「过英皇／Trinity 的路」来卖，而那恰恰是最有付费理由的一群人。音乐上的门槛也高得离谱：粗暴地把八度拆开，两小节之内就听得出不对，而这群人正是听得出来的那批人。再者，圈子里有一部分人认为该改的是琴不是谱——他们自己票数最高的答案是一场联署，不是一个文件。",
+   "differentiator": "它改的是便宜的那一头。现有的每一个答案改的都是贵的那一头——一台四五千美元的窄键琴，或者再练多少年也长不长的那只手——而谱子恰恰是那件改起来几乎不要钱、却谁都没在改的东西。冷启动英文：r/piano 那两条手掌跨度帖（502 分／275 评论，以及一条独立的 21 分帖），加上窄键琴联署社群——那本身就是一份已经自我标识过的人名单。中文：小红书／B站「手小 钢琴」「八度够不到」标签，以及琴童家长群。",
+   "consumer_angle": "使用者是成人学琴的人，或者手小的琴童家长——不是音乐会钢琴家。他拿走的是一份能打印的、他本来就想弹的那首曲子的谱，今晚就能不紧张地弹下来。"
   }
  },
  "id": "320-about-80-of-women-pianists-have-hands-smaller-th",
@@ -70,5 +74,10 @@
  "kill": "Purists will object that respacing changes the composer's intent, and for exam repertoire a modified version may not be accepted — so this cannot be sold as a route through ABRSM or Trinity. It also has to be genuinely musical: naive octave-splitting produces something that sounds wrong immediately, and that is a hard bar.",
  "move": "Do not sell an arranging tool. Sell one sentence: play the piece you actually want to play, at the hand you actually have. Scope to public-domain classical repertoire first, where both the demand and the legal position are cleanest. Cold start CN = 小红书/B站「手小 钢琴」「八度够不到」标签，以及琴童家长群; EN = the two r/piano hand-span threads (502 pts / 275 comments and 21 pts) plus the existing Donison-Steinbuhler petition community, which is a list of people who already self-identified.",
  "hook": "An adult learner whose hand cannot span the chord on page three, who has been told the fix is to petition Yamaha for a narrower keyboard, and who quietly drops the piece instead.",
- "wallet": "极强：为解决同一个问题，有人真的去买四五千美元的窄键钢琴——粗糙方案的价格已经摆在那里"
+ "wallet": "极强：为解决同一个问题，有人真的去买四五千美元的窄键钢琴——粗糙方案的价格已经摆在那里",
+ "does": "Give it the piece and your actual hand span. It returns the same music respaced for a hand that size — chords rolled or redistributed only where they have to be, the voicing preserved, and every changed bar marked so a teacher can veto it one bar at a time.",
+ "counter": "Purists will say respacing changes the composer's intent, and for graded exams a modified score may simply not be accepted — so this can never be sold as a route through ABRSM or Trinity, which removes the audience with the clearest reason to pay. The musical bar is also brutally high: naive octave-splitting sounds wrong within two bars, and this is precisely the audience that can hear it. And part of the community believes the instrument is the thing that should change, not the score — their own top-voted answer is a campaign, not a file.",
+ "differentiator": "It changes the cheap thing. Every existing answer changes an expensive one — a four-to-five-thousand-dollar narrow-key instrument, or years of practice that cannot lengthen a hand — while the score is the artefact that is trivially editable and nobody is editing it. Cold start EN: the two r/piano hand-span threads (502 points / 275 comments, and an independent 21-point one) plus the narrow-keyboard petition community, which is already a list of people who have self-identified. 中文冷启动：小红书／B站「手小 钢琴」「八度够不到」标签，以及琴童家长群。",
+ "consumer_angle": "An adult learner, or the parent of a small-handed child — not a concert pianist. What they walk away with is a printable score of the piece they actually wanted, playable tonight without tension.",
+ "backfilled_at": "2026-08-20"
 }
