@@ -27,7 +27,9 @@
    "move": "扔掉平台和市集，只出一件成品。一本短的、有插图的、可分支的故事，用孩子自己的名字和他自己的画，十分钟做完，能导成 PDF 或印成书——那才是家长真会付钱并且留下来的东西。形态上优先「念给他听」，不是「显示给他看」。冷启动（中文）：小红书「睡前故事 编不出来」「绘本 定制」的评论区，以及亲子共读号下面排队的那批人；（英文）：r/Parenting、r/daddit 里讲睡前故事讲干了的帖子，以及定制绘本相关版块里互相报价的人。",
    "hook": "晚上八点四十的家长，这一周同样三个故事已经讲完了，没词了——而孩子要求自己在故事里。这件事附近的付费行为本来就不小：定制儿童绘本是实打实要花钱的，印出来、寄到家。",
    "does": "生成式互动小说。真正值得做的版本是把同一套机器指向一件成品：今晚的睡前故事，里面有这个孩子，十分钟讲完。",
-   "consumer_angle": "家长拿走的是一本有自家孩子在里面、能打印的成品书——正是终端用户闸门明确留的那个例外：AI 直接产出人能拿在手上的成品。"
+   "consumer_angle": "家长拿走的是一本有自家孩子在里面、能打印的成品书——正是终端用户闸门明确留的那个例外：AI 直接产出人能拿在手上的成品。",
+   "counter": "睡前是家长刻意留出来不给屏幕的那一格，而「这是机器写的」会在唯一重要的那个评审面前当场失败——四岁的孩子两句话就听得出来。互动小说四十年来一直是个小而热的市场，AI 没有把它做大，只是把供给做成了无限，而这恰恰是市场最不需要的东西；愿意付钱的那批人早被角色聊天类产品占住了。印刷版真正的对手甚至不是软件——定制儿童绘本已经规模化卖了很多年，印出来寄到家，而那些公司早就知道怎么找到这批家长。",
+   "differentiator": "一件成品，而不是一台生成不完的机器：一个有自家孩子名字、有自家孩子画的短篇插画故事，十分钟做完，导成 PDF 或印成书，是拿来念的而不是拿来看屏幕的。这正是终端用户闸门明确留出的那个例外——AI 直接产出人能拿在手上的成品。冷启动英文：r/Parenting 与 r/daddit 里「睡前故事讲完了」的帖，以及定制绘本相关版块里家长报价的讨论。中文：小红书「睡前故事 编不出来」「绘本 定制」评论区，以及亲子共读账号下排队提问的家长。"
   }
  },
  "voices": [],
@@ -41,5 +43,7 @@
  "hook": "A parent at 20:40 who has told the same three stories all week and is out of material — and whose child wants to be in the story. The nearby paying behaviour is already large: personalised children's books sell for real money, printed and shipped.",
  "does": "Generative interactive fiction. The version worth building points the same machinery at one artefact instead: tonight's bedtime story, with this child in it, finished in ten minutes.",
  "consumer_angle": "A parent walks away with a finished, printable book their child is in — the one exception the end-user gate explicitly allows: AI producing a deliverable a person can hold.",
- "backfilled_at": "2026-08-13"
+ "backfilled_at": "2026-08-20",
+ "counter": "Bedtime is the one slot parents deliberately keep screen-free, and 'the machine wrote it' fails in front of the only critic who matters — a four-year-old notices within two sentences. Interactive fiction has been a small, passionate market for forty years and AI did not enlarge it, it made supply infinite, which is the opposite of what a marketplace needs; the character-chat apps already own the audience that pays. And the real competitor for the printed version is not software at all — personalised children's books have been sold at scale for years, printed and shipped, by companies that already know how to acquire these parents.",
+ "differentiator": "One finished artefact instead of an endless generator: a short illustrated story with this child's name and this child's own drawings in it, done in ten minutes, exported as a PDF or a printed book, meant to be read aloud rather than displayed. That is the one exception the end-user gate explicitly allows — AI producing something a person can hold. Cold start EN: r/Parenting and r/daddit threads about running out of bedtime stories, plus the personalised-book subreddits where parents say what they paid. 中文冷启动：小红书「睡前故事 编不出来」「绘本 定制」评论区，以及亲子共读账号下排队提问的家长。"
 }
