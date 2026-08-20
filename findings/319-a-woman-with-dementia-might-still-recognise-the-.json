@@ -66,7 +66,11 @@
    "pain": "老人也许还认得父亲当年写的那首曲子。可家里只剩一张皱巴巴的手写谱照片，扫谱 App 一个音都认不出来。",
    "kill": "手写谱千人千样，识别错一个音，弹出来就是另一首曲子；准确率不够高就没人敢用。",
    "move": "不追求全自动：先识别个大概，再让人花十分钟核对修正——把陌生人手动扒两小时的活，压到十分钟。",
-   "hook": "一个手里只有手写谱照片的曾孙：他不识谱，太奶奶有认知症，而目前唯一奏效的办法，是陌生人白花两小时替他扒下来。"
+   "hook": "一个手里只有手写谱照片的曾孙：他不识谱，太奶奶有认知症，而目前唯一奏效的办法，是陌生人白花两小时替他扒下来。",
+   "does": "拿手机对着那几页手写谱拍——皱的、蹭花的、原样就行——它先给声音：一段能放的旋律，凡是它不确定的小节都明确标出来，这样一个懂谱的朋友五分钟改十几处，而不必从零扒两个小时。",
+   "counter": "手写谱本身糊，识别一定会错音；而在一个认知症老人可能还认得的那首曲子里错一个音，比不放更糟——这条产品的失败模式是「造出一段假的回忆」，是这个品类里最狠的一种失败。改错的成本也不是假设：就在那条帖子里，两位懂行的读者为人工扒出来的谱子里十几个小节争执不下。而诚实的天花板很小——它面对的是一家人一个纸盒子，用一次，不是一份订阅。",
+   "differentiator": "它以声音收尾，不是以文件收尾。其他工具全都停在 PDF 或 MusicXML——那是只有乐手用得上的东西，所以那条帖子里一位职业乐手不得不明确告诉帖主：你真正需要的是一段音频导出，不是你开口要的那份 PDF。冷启动英文：r/piano 与 r/musictheory，每隔几周就会冒出一条「替我家扒一下这个」并稳定引来志愿者。中文：小红书／豆瓣「老乐谱」「爷爷的谱子」与家族记忆整理类笔记，以及简谱吧。",
+   "consumer_angle": "使用者是一个不识谱的曾孙——不是乐手，也不是档案员。他拿走的是一段这周末就能在养老院里放给太奶奶听的录音。"
   }
  },
  "id": "319-a-woman-with-dementia-might-still-recognise-the-",
@@ -80,5 +84,10 @@
  "pain": "A woman with dementia might still recognise the tune her father wrote. Her great-grandchild has photos of the handwritten score, cannot read music, and reports the scanning apps simply fail on it — 936 points and 108 comments later, the thing that worked was a stranger spending two hours by hand.",
  "kill": "OMR on degraded handwriting will get notes wrong, and a wrong note in a piece someone's grandmother might recognise is worse than no note. The thread shows the correction cost is real: two expert readers argued over a dozen specific bars in the human transcription. Any honest version has to show its uncertainty and make correction easy, which is a harder product than the demo.",
  "move": "Sell the playback, not the transcription, and scope to one folder of family paper rather than a general OMR engine. Ship the uncertain bars visibly marked so a musician friend can fix twelve of them in five minutes instead of transcribing from scratch for two hours. Cold start CN = 小红书/豆瓣 搜「老乐谱」「爷爷的谱子」与家族记忆整理类笔记，以及简谱吧; EN = r/piano and r/musictheory, where a transcribe-this-for-my-family request surfaces every few weeks and reliably draws volunteers.",
- "hook": "A great-grandchild holding phone photos of a handwritten score, who cannot read music, whose great-grandmother has dementia, and whose only working option so far was a stranger's two unpaid hours."
+ "hook": "A great-grandchild holding phone photos of a handwritten score, who cannot read music, whose great-grandmother has dementia, and whose only working option so far was a stranger's two unpaid hours.",
+ "does": "Point a phone at the handwritten pages — wrinkled, smudged, however they actually are — and it gives back the sound first: a playable rendition of the melody, with every bar it is unsure about visibly marked, so a musician friend can fix a dozen bars in five minutes instead of transcribing from scratch for two hours.",
+ "counter": "OMR on degraded handwriting gets notes wrong, and a wrong note in the one tune a woman with dementia might still recognise is worse than silence — the failure mode of this product is a false memory, which is the cruellest failure available in the category. The correction cost is not hypothetical either: two expert readers in that very thread argued over a dozen specific bars of the human transcription. And the honest ceiling is small — this is one folder of family paper, used once, not a subscription.",
+ "differentiator": "It ends in sound, not in a file. Every other tool stops at a PDF or MusicXML, an artefact only a musician can use — which is why a professional in the thread had to spell out to the original poster that what he actually needed was an audio export, not the PDF he had asked for. Cold start EN: r/piano and r/musictheory, where a 'transcribe this for my family' request surfaces every few weeks and reliably draws volunteers. 中文冷启动：小红书／豆瓣「老乐谱」「爷爷的谱子」与家族记忆整理类笔记，以及简谱吧。",
+ "consumer_angle": "A great-grandchild who cannot read music — not a musician, not an archivist. What they walk away with is a recording they can play in a care home this weekend.",
+ "backfilled_at": "2026-08-20"
 }
