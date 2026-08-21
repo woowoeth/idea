@@ -1,86 +1,96 @@
 {
- "id": "1786338564-dementia-repeat-calls-answer-not-block",
- "title": "Dementia repeat calls — the whole shelf blocks the call; nobody answers it",
- "domain": "pain-points",
- "verdict": "build",
- "workload": "2m",
- "pain_verified": true,
- "agent": "operator-session",
- "operator": "@ourword-ai",
- "method": "desk research, 2026-08-10 (the scouts are blocked on the model provider): dementia-care education sites, the App Store shelf, and two 2026 caregiver guides. The voices below are clinical/caregiver-education sources describing the behaviour, NOT mined first-hand posts — weaker evidence than a subreddit thread, and labelled as such.",
- "pain": "A parent with dementia calls again and again — 7am, 3am, mid-meeting — frightened, asking the same question every time, having forgotten they just called.",
- "gap": "Every product on this shelf blocks: teleCalm limits repeat dialling, RAZ swaps the phone, reminder boards replace the call. Care guidance says the call is separation anxiety — suppress it and the anxiety comes back as wandering, sundowning, faster decline. Nobody sells the other half: answering it.",
- "kill": "Answering in a cloned family voice is an ethical minefield — consent, deception, dignity, and clinicians split on therapeutic fibbing; a family that finds it creepy will never forgive it. Worse, an answering layer that misses a real emergency is not a bad product, it is a catastrophe.",
- "move": "Resolve the call instead of blocking it: pick up in a familiar recorded voice, give the reassurance that actually ends the call ('everything is fine, you are safe, I'll be home at six'), log it for the family, and escalate anything that is not the same old question. Cold start: Alzheimer's caregiver Facebook groups and r/dementia, where the 3am call is described weekly.",
- "voices": [
-  {
-   "kind": "secondary",
-   "quote": "no app that stops dementia phone calls without removing the parent's phone access",
-   "source": "KindredMind caregiver guide",
-   "url": "https://kindredmind.care/how-to-stop-dementia-patient-calling",
-   "zh": "没有一个 App 能在不没收老人手机的前提下，让这些电话停下来"
-  },
-  {
-   "kind": "secondary",
-   "quote": "they will forget that they called before or asked the same questions",
-   "source": "UCLA Health dementia care",
-   "url": "https://www.uclahealth.org/medical-services/geriatrics/dementia/caregiver-education/caregiver-training-videos/repetitive-phone-calls",
-   "zh": "他们会忘记自己刚打过电话、刚问过同样的问题"
-  },
-  {
-   "kind": "secondary",
-   "quote": "Sticky notes fall down. Whiteboards don't get updated. Text messages get missed.",
-   "source": "Parenting Aging Parents",
-   "url": "https://parentingagingparents.com/dementia-reminder-tool/",
-   "zh": "便利贴会掉、白板没人更新、短信没人看见"
-  }
- ],
- "evidence": [
-  "https://kindredmind.care/how-to-stop-dementia-patient-calling — 2026 guide: blocking treats the symptom; suppressed anxiety returns as wandering, sundowning, faster decline",
-  "https://kindredmind.care/dementia-caregiver-phone-management — the reassurance that ends the call is 'everything is fine, I love you, you are safe'",
-  "https://apps.apple.com/us/app/telecalm-caregiver/id1120083253 — the incumbent: repeat-dialling detection, quiet hours, blocking",
-  "https://www.uclahealth.org/medical-services/geriatrics/dementia/caregiver-education/caregiver-training-videos/repetitive-phone-calls — clinical description of the behaviour",
-  "https://parentingagingparents.com/dementia-reminder-tool/ — the reminder-board alternative, i.e. still not answering",
-  "Closest existing attempt: Alz Calls (family records a voice + photo to answer frequent questions) — the direction, from a 2023 roundup, before real-time voice was usable"
- ],
- "tags": [
-  "family:elder-care",
-  "user-voice",
-  "shelf:dementia-phone-calls"
- ],
- "_watch": {
-  "channel": "evidence-backed build (pain clinically documented; the answering approach unproven)",
-  "hypothesis": "family caregivers would pay for something that RESOLVES the repeat call rather than blocking it",
-  "why_now": "real-time conversational voice became good enough this year for a familiar voice to hold a 30-second reassurance loop — the 2023 attempts predate that",
-  "trigger": "a first-hand caregiver saying an answering (not blocking) tool ended the 3am calls; or an ethics read from a dementia clinician that families accept it",
-  "review_by": "2026-09-10",
-  "on_miss": "archive"
- },
- "posted_at": "2026-08-10T05:09:24Z",
- "i18n": {
-  "zh": {
-   "pain": "得了失智的父母一遍遍打电话来——早上七点、凌晨三点、你正在开会时。每次都害怕，每次问同一句话，因为他不记得刚打过。",
-   "gap": "货架上所有产品都在「拦」：teleCalm 限制重拨、RAZ 换一台老人机、提醒板干脆用屏幕代替通话。而照护指南说得很清楚，这些电话是分离焦虑——把它压下去，焦虑会换个出口回来：游走、日落综合征、衰退更快。没有人做另一半：把电话接起来。",
-   "kill": "用克隆的家人声音去接一位认知受损的老人，是道伦理雷区——知情、欺骗、尊严，连临床上对「善意的谎言」都没共识；家属一旦觉得瘆得慌，就再也回不来了。更要命的是，接电话的那一层若漏判了一次真的急事，那不叫产品失败，叫事故。",
-   "move": "不是拦，是把这通电话解决掉：用熟悉的声音接起来，给出真正能让电话挂断的那句话（「都好，你很安全，我六点就回来」），替家属留一条记录，只有不是那句老问题时才转给真人。冷启动：阿尔茨海默照护者的微信群与 Facebook 群、r/dementia——凌晨三点那通电话，那里每周都有人写。",
-   "voices": [
+  "id": "1786338564-dementia-repeat-calls-answer-not-block",
+  "title": "Dementia repeat calls — the whole shelf blocks the call; nobody answers it",
+  "domain": "pain-points",
+  "verdict": "build",
+  "workload": "2m",
+  "pain_verified": true,
+  "agent": "operator-session",
+  "operator": "@ourword-ai",
+  "method": "desk research, 2026-08-10 (the scouts are blocked on the model provider): dementia-care education sites, the App Store shelf, and two 2026 caregiver guides. The voices below are clinical/caregiver-education sources describing the behaviour, NOT mined first-hand posts — weaker evidence than a subreddit thread, and labelled as such.",
+  "pain": "A parent with dementia calls again and again — 7am, 3am, mid-meeting — frightened, asking the same question every time, having forgotten they just called.",
+  "gap": "Every product on this shelf blocks: teleCalm limits repeat dialling, RAZ swaps the phone, reminder boards replace the call. Care guidance says the call is separation anxiety — suppress it and the anxiety comes back as wandering, sundowning, faster decline. Nobody sells the other half: answering it.",
+  "kill": "Answering in a cloned family voice is an ethical minefield — consent, deception, dignity, and clinicians split on therapeutic fibbing; a family that finds it creepy will never forgive it. Worse, an answering layer that misses a real emergency is not a bad product, it is a catastrophe.",
+  "move": "Resolve the call instead of blocking it: pick up in a familiar recorded voice, give the reassurance that actually ends the call ('everything is fine, you are safe, I'll be home at six'), log it for the family, and escalate anything that is not the same old question. Cold start: Alzheimer's caregiver Facebook groups and r/dementia, where the 3am call is described weekly.",
+  "voices": [
     {
-     "quote": "no app that stops dementia phone calls without removing the parent's phone access",
-     "zh": "没有一个 App 能在不没收老人手机的前提下，让这些电话停下来",
-     "source": "KindredMind 照护指南"
+      "kind": "secondary",
+      "quote": "no app that stops dementia phone calls without removing the parent's phone access",
+      "source": "KindredMind caregiver guide",
+      "url": "https://kindredmind.care/how-to-stop-dementia-patient-calling",
+      "zh": "没有一个 App 能在不没收老人手机的前提下，让这些电话停下来"
     },
     {
-     "quote": "they will forget that they called before or asked the same questions",
-     "zh": "他们会忘记自己刚打过电话、刚问过同样的问题",
-     "source": "UCLA Health 失智照护"
+      "kind": "secondary",
+      "quote": "they will forget that they called before or asked the same questions",
+      "source": "UCLA Health dementia care",
+      "url": "https://www.uclahealth.org/medical-services/geriatrics/dementia/caregiver-education/caregiver-training-videos/repetitive-phone-calls",
+      "zh": "他们会忘记自己刚打过电话、刚问过同样的问题"
     },
     {
-     "quote": "Sticky notes fall down. Whiteboards don't get updated. Text messages get missed.",
-     "zh": "便利贴会掉、白板没人更新、短信没人看见",
-     "source": "Parenting Aging Parents"
+      "kind": "secondary",
+      "quote": "Sticky notes fall down. Whiteboards don't get updated. Text messages get missed.",
+      "source": "Parenting Aging Parents",
+      "url": "https://parentingagingparents.com/dementia-reminder-tool/",
+      "zh": "便利贴会掉、白板没人更新、短信没人看见"
     }
-   ]
-  }
- },
- "wallet": "有，但形状要看清：teleCalm 订阅与 RAZ 手机都在收钱，付费习惯成立；缺口在于收的钱都花在「拦」上，没人卖「接」"
+  ],
+  "evidence": [
+    "https://kindredmind.care/how-to-stop-dementia-patient-calling — 2026 guide: blocking treats the symptom; suppressed anxiety returns as wandering, sundowning, faster decline",
+    "https://kindredmind.care/dementia-caregiver-phone-management — the reassurance that ends the call is 'everything is fine, I love you, you are safe'",
+    "https://apps.apple.com/us/app/telecalm-caregiver/id1120083253 — the incumbent: repeat-dialling detection, quiet hours, blocking",
+    "https://www.uclahealth.org/medical-services/geriatrics/dementia/caregiver-education/caregiver-training-videos/repetitive-phone-calls — clinical description of the behaviour",
+    "https://parentingagingparents.com/dementia-reminder-tool/ — the reminder-board alternative, i.e. still not answering",
+    "Closest existing attempt: Alz Calls (family records a voice + photo to answer frequent questions) — the direction, from a 2023 roundup, before real-time voice was usable"
+  ],
+  "tags": [
+    "family:elder-care",
+    "user-voice",
+    "shelf:dementia-phone-calls"
+  ],
+  "_watch": {
+    "channel": "evidence-backed build (pain clinically documented; the answering approach unproven)",
+    "hypothesis": "family caregivers would pay for something that RESOLVES the repeat call rather than blocking it",
+    "why_now": "real-time conversational voice became good enough this year for a familiar voice to hold a 30-second reassurance loop — the 2023 attempts predate that",
+    "trigger": "a first-hand caregiver saying an answering (not blocking) tool ended the 3am calls; or an ethics read from a dementia clinician that families accept it",
+    "review_by": "2026-09-10",
+    "on_miss": "archive"
+  },
+  "posted_at": "2026-08-10T05:09:24Z",
+  "i18n": {
+    "zh": {
+      "pain": "得了失智的父母一遍遍打电话来——早上七点、凌晨三点、你正在开会时。每次都害怕，每次问同一句话，因为他不记得刚打过。",
+      "gap": "货架上所有产品都在「拦」：teleCalm 限制重拨、RAZ 换一台老人机、提醒板干脆用屏幕代替通话。而照护指南说得很清楚，这些电话是分离焦虑——把它压下去，焦虑会换个出口回来：游走、日落综合征、衰退更快。没有人做另一半：把电话接起来。",
+      "kill": "用克隆的家人声音去接一位认知受损的老人，是道伦理雷区——知情、欺骗、尊严，连临床上对「善意的谎言」都没共识；家属一旦觉得瘆得慌，就再也回不来了。更要命的是，接电话的那一层若漏判了一次真的急事，那不叫产品失败，叫事故。",
+      "move": "不是拦，是把这通电话解决掉：用熟悉的声音接起来，给出真正能让电话挂断的那句话（「都好，你很安全，我六点就回来」），替家属留一条记录，只有不是那句老问题时才转给真人。冷启动：阿尔茨海默照护者的微信群与 Facebook 群、r/dementia——凌晨三点那通电话，那里每周都有人写。",
+      "voices": [
+        {
+          "quote": "no app that stops dementia phone calls without removing the parent's phone access",
+          "zh": "没有一个 App 能在不没收老人手机的前提下，让这些电话停下来",
+          "source": "KindredMind 照护指南"
+        },
+        {
+          "quote": "they will forget that they called before or asked the same questions",
+          "zh": "他们会忘记自己刚打过电话、刚问过同样的问题",
+          "source": "UCLA Health 失智照护"
+        },
+        {
+          "quote": "Sticky notes fall down. Whiteboards don't get updated. Text messages get missed.",
+          "zh": "便利贴会掉、白板没人更新、短信没人看见",
+          "source": "Parenting Aging Parents"
+        }
+      ],
+      "hook": "凌晨三点接到第七个电话的照护者。这条线上钱早就在流动了——teleCalm 收订阅、RAZ 卖机器，家属正在为「让电话停下来」付钱。而他们真正想要的是另一半：把电话接起来。",
+      "does": "用家人事先录好的熟悉声音接起重复来电，给出真正能结束通话的那句安抚——「一切都好，你很安全，我六点就回来」——把每次通话记成给家属看的一行，并把任何不是「那句老问题」的内容立刻转给真人。",
+      "counter": "用家人的声音去接电话是伦理雷区——知情同意、欺骗、尊严，临床上对「善意的谎」本身就有分歧；一个觉得这事瘆人的家庭永远不会原谅它。更硬的一条：一个漏掉真实急救的接听层不是烂产品，是灾难。而且整个设计必须留在照护者自己这一侧——它不是用来管住老人的。",
+      "differentiator": "这排货架上所有产品都在拦——teleCalm 限重拨、RAZ 换一台老人机、提醒板干脆用屏幕代替通话——而照护指南说这些电话是分离焦虑，压下去会换个出口回来：游走、日落综合征、衰退更快。没有人做另一半。冷启动（英文）：Alzheimer's 照护者 Facebook 群与 r/dementia，那里每周都有人写凌晨三点那通电话。冷启动（中文）：小红书与微信里的「阿尔茨海默 照护」互助群。",
+      "consumer_angle": "家里有失智老人的普通子女。他拿走的是一通真的被接起来、被安抚下来的电话，和第二天早上一页「昨晚他问了什么」——不是一个更严的拦截规则。"
+    }
+  },
+  "wallet": "有，但形状要看清：teleCalm 订阅与 RAZ 手机都在收钱，付费习惯成立；缺口在于收的钱都花在「拦」上，没人卖「接」",
+  "hook": "The caregiver taking the seventh call at three in the morning. Money already moves on this line — teleCalm sells a subscription, RAZ sells a handset, and families are paying to make the calls stop. What they actually want is the other half: to have the call answered.",
+  "does": "Picks up the repeat call in a family voice recorded in advance, gives the reassurance that actually ends the call — 'everything is fine, you are safe, I'll be home at six' — logs each call as one line for the family, and escalates instantly anything that is not the same old question.",
+  "counter": "Answering in a family voice is an ethical minefield — consent, deception, dignity, and clinicians are split on therapeutic fibbing; a family that finds it creepy will never forgive it. Harder still: an answering layer that misses a real emergency is not a bad product, it is a catastrophe. And the whole design has to stay on the caregiver's own side of the line — it is not there to manage the parent.",
+  "differentiator": "Every product on this shelf blocks — teleCalm limits repeat dialling, RAZ swaps the phone, reminder boards replace the call — while care guidance says the call is separation anxiety, and suppressing it returns as wandering, sundowning, faster decline. Nobody sells the other half. Cold start (EN): Alzheimer's caregiver Facebook groups and r/dementia, where the 3am call is described weekly. Cold start (CN): 小红书与微信里的「阿尔茨海默 照护」互助群。",
+  "consumer_angle": "家里有失智老人的普通子女。他拿走的是一通真的被接起来、被安抚下来的电话，和第二天早上一页「昨晚他问了什么」——不是一个更严的拦截规则。"
 }
