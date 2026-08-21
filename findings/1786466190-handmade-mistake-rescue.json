@@ -1,96 +1,106 @@
 {
- "id": "1786466190-handmade-mistake-rescue",
- "title": "Twenty hours in, something is wrong, and nobody can tell you if it's saveable",
- "domain": "pain-points",
- "verdict": "build",
- "workload": "2w",
- "pain_verified": true,
- "agent": "mirror-scout+operator",
- "operator": "@ourword-ai",
- "method": "mirror-scout (public Reddit archive, no credentials) deepened to comment level and paginated history, then verified by hand: 4 pages each of r/knitting, r/crochet, r/Sewing, r/quilting filtered for mistake-rescue language — 13 hits in r/knitting alone, plus the community's own weekly beginner megathread as structural evidence of the volume.",
- "posted_at": "2026-08-11T16:36:30Z",
- "pain": "Twenty hours of knitting in, a row looks wrong. Is it a dropped stitch or the pattern? Can it be fixed in place, or does she have to unravel back to it? Nobody can tell her — so she photographs it and waits for a stranger to be kind.",
- "gap": "Pattern apps and row counters track where you are, never what went wrong. The real support desk is a photo posted to a subreddit — so central to the craft that r/knitting runs a standing weekly beginner megathread. It works, and it costs you hours of waiting, in public, on someone else's generosity.",
- "kill": "Reading stitch structure off an amateur photo of textured yarn is genuinely hard, and both failure modes are destructive: tell her to frog and she loses twenty hours she didn't need to lose; tell her it's fine and she finishes a ruined garment. And the incumbent isn't a product, it's kindness — people enjoy answering, which is a hard thing to beat and an easy thing to insult.",
- "move": "Never verdict-only: mark on her photo which row and stitch look off, name the most likely cause, and always lead with the reversible option (fix in place) before the destructive one — plus, when confidence is low, say so and hand her the exact photo angle and question to post. Cold start: 小红书 编织／拼布 tags and the megathreads themselves.",
- "voices": [
-  {
-   "kind": "first-hand",
-   "quote": "tearing a hole in the sleeve of a sweater I am working on",
-   "source": "r/knitting",
-   "url": "https://www.reddit.com/comments/1vl3xo8",
-   "zh": "狗把我正在织的毛衣袖子撕了个洞"
-  },
-  {
-   "kind": "first-hand",
-   "quote": "the brim ended up flaring out",
-   "source": "r/crochet",
-   "url": "https://www.reddit.com/comments/1vl8419",
-   "zh": "给外甥织的婴儿帽，帽檐翻出去了，成了渔夫帽"
-  },
-  {
-   "kind": "first-hand",
-   "quote": "I followed the instructions, I used pins",
-   "source": "r/quilting",
-   "url": "https://www.reddit.com/comments/1vk2vx3",
-   "zh": "我照着说明做的，别了针、画了斜线——13 块全是歪的"
-  },
-  {
-   "kind": "first-hand",
-   "quote": "making 2 memorial quilts from my husbands late grandfathers fishing shirts",
-   "source": "r/quilting",
-   "url": "https://www.reddit.com/comments/1vjdoo2",
-   "zh": "用先夫祖父留下的钓鱼衫做两条纪念被——布料剪坏了就再也没有了"
-  }
- ],
- "evidence": [
-  "https://www.reddit.com/comments/1vl3xo8 · https://www.reddit.com/comments/1vj8epd — r/knitting: 4 页历史里 13 条「做错了能不能救」，含新手求「帮我看看这几针对不对」",
-  "https://www.reddit.com/comments/1vl08fv — r/knitting 每周固定的新手求助大帖：社区自己被迫建制化，说明提问量之大",
-  "https://www.reddit.com/comments/1vl8419 — r/crochet；https://www.reddit.com/comments/1vk2vx3 与 https://www.reddit.com/comments/1vjdoo2 — r/quilting（含不可替代布料的纪念被）",
-  "Shelf check: Ravelry／各类计行器只管「你织到哪」；拆解教程只讲通用技法，不看你这张照片；同族已有卡 330（拼布找花样）与 327（缝纫），那两条是「找什么做」，这条是「做错了能不能救」"
- ],
- "tags": [
-  "family:handmade",
-  "user-voice",
-  "shelf:craft-mistake-rescue",
-  "mirror-scout"
- ],
- "_watch": {
-  "channel": "evidence-backed build (recurrence verified first-hand; the vision accuracy unproven)",
-  "hypothesis": "crafters mid-project would pay to know, in two minutes, whether twenty hours of work is saveable",
-  "why_now": "multimodal models can now be pointed at stitch-level structure in a phone photo; a year ago they could not",
-  "trigger": "accuracy check against a set of known-fault photos judged by an experienced knitter; then first-hand '救回来了' posts",
-  "review_by": "2026-09-11",
-  "on_miss": "archive"
- },
- "i18n": {
-  "zh": {
-   "pain": "织了二十个小时，忽然发现有一行不对。是掉针还是花样本来如此？能原地补，还是得拆回去？没有人能告诉她——于是她拍张照片发到网上，等一个陌生人心软。",
-   "gap": "计行器和花样 App 只管「你织到哪」，从不管「哪里错了」。真正的客服台是发到子版块的一张照片——这件事之于这门手艺已经重要到 r/knitting 常年挂着一个每周新手求助大帖。它有用，代价是公开、等几个小时、靠别人的善意。",
-   "kill": "从业余手机照片里读出针法结构，真的难；而两种判错都是毁灭性的：让她拆，她白丢二十小时；说没事，她织完一件废品。更棘手的是，在位者不是产品，是善意——大家乐意回答，这东西既难打败，又很容易被得罪。",
-   "move": "绝不只给结论：在她的照片上标出哪一行、哪一针不对，说出最可能的原因，并且永远先给可逆的那条路（原地补），再说破坏性的那条（拆几行）。没把握就直说没把握，顺手把该拍的角度和该问的话写好给她。冷启动：小红书「编织」「拼布」标签，以及那些大帖本身。",
-   "voices": [
+  "id": "1786466190-handmade-mistake-rescue",
+  "title": "Twenty hours in, something is wrong, and nobody can tell you if it's saveable",
+  "domain": "pain-points",
+  "verdict": "build",
+  "workload": "2w",
+  "pain_verified": true,
+  "agent": "mirror-scout+operator",
+  "operator": "@ourword-ai",
+  "method": "mirror-scout (public Reddit archive, no credentials) deepened to comment level and paginated history, then verified by hand: 4 pages each of r/knitting, r/crochet, r/Sewing, r/quilting filtered for mistake-rescue language — 13 hits in r/knitting alone, plus the community's own weekly beginner megathread as structural evidence of the volume.",
+  "posted_at": "2026-08-11T16:36:30Z",
+  "pain": "Twenty hours of knitting in, a row looks wrong. Is it a dropped stitch or the pattern? Can it be fixed in place, or does she have to unravel back to it? Nobody can tell her — so she photographs it and waits for a stranger to be kind.",
+  "gap": "Pattern apps and row counters track where you are, never what went wrong. The real support desk is a photo posted to a subreddit — so central to the craft that r/knitting runs a standing weekly beginner megathread. It works, and it costs you hours of waiting, in public, on someone else's generosity.",
+  "kill": "Reading stitch structure off an amateur photo of textured yarn is genuinely hard, and both failure modes are destructive: tell her to frog and she loses twenty hours she didn't need to lose; tell her it's fine and she finishes a ruined garment. And the incumbent isn't a product, it's kindness — people enjoy answering, which is a hard thing to beat and an easy thing to insult.",
+  "move": "Never verdict-only: mark on her photo which row and stitch look off, name the most likely cause, and always lead with the reversible option (fix in place) before the destructive one — plus, when confidence is low, say so and hand her the exact photo angle and question to post. Cold start: 小红书 编织／拼布 tags and the megathreads themselves.",
+  "voices": [
     {
-     "quote": "tearing a hole in the sleeve of a sweater I am working on",
-     "zh": "狗把我正在织的毛衣袖子撕了个洞",
-     "source": "r/knitting"
+      "kind": "first-hand",
+      "quote": "tearing a hole in the sleeve of a sweater I am working on",
+      "source": "r/knitting",
+      "url": "https://www.reddit.com/comments/1vl3xo8",
+      "zh": "狗把我正在织的毛衣袖子撕了个洞"
     },
     {
-     "quote": "the brim ended up flaring out",
-     "zh": "给外甥织的婴儿帽，帽檐翻出去了，成了渔夫帽",
-     "source": "r/crochet"
+      "kind": "first-hand",
+      "quote": "the brim ended up flaring out",
+      "source": "r/crochet",
+      "url": "https://www.reddit.com/comments/1vl8419",
+      "zh": "给外甥织的婴儿帽，帽檐翻出去了，成了渔夫帽"
     },
     {
-     "quote": "I followed the instructions, I used pins",
-     "zh": "我照着说明做的，别了针、画了斜线——13 块全是歪的",
-     "source": "r/quilting"
+      "kind": "first-hand",
+      "quote": "I followed the instructions, I used pins",
+      "source": "r/quilting",
+      "url": "https://www.reddit.com/comments/1vk2vx3",
+      "zh": "我照着说明做的，别了针、画了斜线——13 块全是歪的"
     },
     {
-     "quote": "making 2 memorial quilts from my husbands late grandfathers fishing shirts",
-     "zh": "用先夫祖父留下的钓鱼衫做两条纪念被——布料剪坏了就再也没有了",
-     "source": "r/quilting"
+      "kind": "first-hand",
+      "quote": "making 2 memorial quilts from my husbands late grandfathers fishing shirts",
+      "source": "r/quilting",
+      "url": "https://www.reddit.com/comments/1vjdoo2",
+      "zh": "用先夫祖父留下的钓鱼衫做两条纪念被——布料剪坏了就再也没有了"
     }
-   ]
-  }
- }
+  ],
+  "evidence": [
+    "https://www.reddit.com/comments/1vl3xo8 · https://www.reddit.com/comments/1vj8epd — r/knitting: 4 页历史里 13 条「做错了能不能救」，含新手求「帮我看看这几针对不对」",
+    "https://www.reddit.com/comments/1vl08fv — r/knitting 每周固定的新手求助大帖：社区自己被迫建制化，说明提问量之大",
+    "https://www.reddit.com/comments/1vl8419 — r/crochet；https://www.reddit.com/comments/1vk2vx3 与 https://www.reddit.com/comments/1vjdoo2 — r/quilting（含不可替代布料的纪念被）",
+    "Shelf check: Ravelry／各类计行器只管「你织到哪」；拆解教程只讲通用技法，不看你这张照片；同族已有卡 330（拼布找花样）与 327（缝纫），那两条是「找什么做」，这条是「做错了能不能救」"
+  ],
+  "tags": [
+    "family:handmade",
+    "user-voice",
+    "shelf:craft-mistake-rescue",
+    "mirror-scout"
+  ],
+  "_watch": {
+    "channel": "evidence-backed build (recurrence verified first-hand; the vision accuracy unproven)",
+    "hypothesis": "crafters mid-project would pay to know, in two minutes, whether twenty hours of work is saveable",
+    "why_now": "multimodal models can now be pointed at stitch-level structure in a phone photo; a year ago they could not",
+    "trigger": "accuracy check against a set of known-fault photos judged by an experienced knitter; then first-hand '救回来了' posts",
+    "review_by": "2026-09-11",
+    "on_miss": "archive"
+  },
+  "i18n": {
+    "zh": {
+      "pain": "织了二十个小时，忽然发现有一行不对。是掉针还是花样本来如此？能原地补，还是得拆回去？没有人能告诉她——于是她拍张照片发到网上，等一个陌生人心软。",
+      "gap": "计行器和花样 App 只管「你织到哪」，从不管「哪里错了」。真正的客服台是发到子版块的一张照片——这件事之于这门手艺已经重要到 r/knitting 常年挂着一个每周新手求助大帖。它有用，代价是公开、等几个小时、靠别人的善意。",
+      "kill": "从业余手机照片里读出针法结构，真的难；而两种判错都是毁灭性的：让她拆，她白丢二十小时；说没事，她织完一件废品。更棘手的是，在位者不是产品，是善意——大家乐意回答，这东西既难打败，又很容易被得罪。",
+      "move": "绝不只给结论：在她的照片上标出哪一行、哪一针不对，说出最可能的原因，并且永远先给可逆的那条路（原地补），再说破坏性的那条（拆几行）。没把握就直说没把握，顺手把该拍的角度和该问的话写好给她。冷启动：小红书「编织」「拼布」标签，以及那些大帖本身。",
+      "voices": [
+        {
+          "quote": "tearing a hole in the sleeve of a sweater I am working on",
+          "zh": "狗把我正在织的毛衣袖子撕了个洞",
+          "source": "r/knitting"
+        },
+        {
+          "quote": "the brim ended up flaring out",
+          "zh": "给外甥织的婴儿帽，帽檐翻出去了，成了渔夫帽",
+          "source": "r/crochet"
+        },
+        {
+          "quote": "I followed the instructions, I used pins",
+          "zh": "我照着说明做的，别了针、画了斜线——13 块全是歪的",
+          "source": "r/quilting"
+        },
+        {
+          "quote": "making 2 memorial quilts from my husbands late grandfathers fishing shirts",
+          "zh": "用先夫祖父留下的钓鱼衫做两条纪念被——布料剪坏了就再也没有了",
+          "source": "r/quilting"
+        }
+      ],
+      "hook": "织了二十个小时，忽然有一行不对。她已经把二十小时和一团不便宜的线押在上面了。她要的不是教程，是一句话——这个能不能原地补；而现在要拿到这句话，得公开发帖，等一个陌生人心软。",
+      "does": "拍下出错的那一段。它在你自己的照片上标出可疑的行和针，说出最可能的成因，并且永远先给可逆方案（原地补）再给破坏性方案（拆）——把握不大时直接说不确定，并给出该拍哪个角度、该怎么问的原话。",
+      "counter": "在毛茸茸的业余照片上读针法结构本来就难，而两种错法都是破坏性的：说该拆，她白丢二十小时；说没事，她织完一件废衣服。更难的一条是在位者不是产品而是善意——版上的人乐意回答，这既难打败，又极容易被得罪。",
+      "differentiator": "花样 App 和计行器只管「你织到哪」，从不管「哪里错了」；真正的客服台是发到子版块的一张照片——这件事重要到 r/knitting 常年挂着一个每周新手求助大帖。冷启动（中文）：小红书「编织」「拼布」标签下贴照片问「这样对不对／能不能救」的人。冷启动（英文）：那些每周大帖本身，以及 r/crochet 与 r/quilting 的求助帖。",
+      "consumer_angle": "手上正织着一件东西的普通人。她拿走的是今晚这一段该怎么处理的一句结论，加一个可逆的步骤——不是一份技法教程。"
+    }
+  },
+  "hook": "Twenty hours of knitting in, one row looks wrong. She has already staked twenty hours and a not-cheap ball of yarn on it. She does not want a tutorial — she wants one sentence, can this be fixed in place, and right now getting it means posting in public and waiting for a stranger to be kind.",
+  "does": "Photograph the section that went wrong. It marks on your own photo which row and stitch look off, names the most likely cause, and always leads with the reversible option (fix in place) before the destructive one (frog) — and when confidence is low it says so, and hands you the exact photo angle and the exact question to post.",
+  "counter": "Reading stitch structure off an amateur photo of textured yarn is genuinely hard, and both failure modes are destructive: tell her to frog and she loses twenty hours she did not need to lose; tell her it is fine and she finishes a ruined garment. Harder still, the incumbent is not a product but kindness — people enjoy answering, which is difficult to beat and very easy to insult.",
+  "differentiator": "Pattern apps and row counters track where you are and never what went wrong; the actual support desk is a photo posted to a subreddit, so central to the craft that r/knitting runs a standing weekly beginner megathread. Cold start (CN): 小红书「编织」「拼布」标签下贴照片问「这样对不对／能不能救」的人。Cold start (EN): those weekly megathreads themselves, plus r/crochet and r/quilting help posts.",
+  "consumer_angle": "手上正织着一件东西的普通人。她拿走的是今晚这一段该怎么处理的一句结论，加一个可逆的步骤——不是一份技法教程。"
 }
