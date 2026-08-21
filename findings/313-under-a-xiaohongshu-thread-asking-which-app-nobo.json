@@ -1,63 +1,73 @@
 {
- "evidence": [
-  "https://www.xiaohongshu.com/explore/69781bb7000000000903ae66",
-  "https://www.xiaohongshu.com/explore/6a0576ac0000000038023a6e"
- ],
- "method": "Mined Xiaohongshu directly rather than a scout feed: four search terms (市面上还缺 / 求一个能的app / 为什么没人做这个app / 每次都要自己), four high-engagement notes opened, comment trees extracted verbatim. Three independent commenters in one thread converge on the same missing product, and one names the blocker. Cross-checked against the operator's own starred radar entries #1+102 and #533, which sit on the same 体检报告 line.",
- "domain": "pain-points",
- "url": "https://www.xiaohongshu.com/explore/69781bb7000000000903ae66",
- "gap": "It hits a real pain and every existing product solves the wrong half. 薄荷 / Cal AI / Caloris are calorie diaries — you log what you already ate. Nobody reads the packet before you buy it, and nobody connects either end to the check-up report. Commenters name the blocker themselves: they assume you need hospital data access, which is exactly the assumption that keeps the aisle-side version — which needs none — unbuilt.",
- "workload": "2w",
- "voices": [
-  {
-   "kind": "pain",
-   "quote": "要输入自己吃的食物、习惯分析缺许多维生素、各类营养物质和热量的，还可以接入体检报告，fit那个功能太有限了。这种软件需要专业的医院和医生以及大量数据来做，可惜没人做。",
-   "url": "https://www.xiaohongshu.com/explore/69781bb7000000000903ae66",
-   "user": "小红书评论区",
-   "src": "xiaohongshu",
-   "text": "要输入自己吃的食物、习惯分析缺许多维生素、各类营养物质和热量的，还可以接入体检报告，fit那个功能太有限了。这种软件需要专业的医院和医生以及大量数据来做，可惜没人做。"
-  },
-  {
-   "kind": "pain",
-   "quote": "有没有可以拍照食品营养成分表，自动文字识别录入信息，进行汇总和比对的",
-   "url": "https://www.xiaohongshu.com/explore/69781bb7000000000903ae66",
-   "user": "小红书评论区",
-   "src": "xiaohongshu",
-   "text": "有没有可以拍照食品营养成分表，自动文字识别录入信息，进行汇总和比对的"
-  }
- ],
- "pain_verified": true,
- "i18n": {
-  "zh": {
-   "gap": "痛点击中了，而现有产品全都在解另一半。薄荷 / Cal AI / Caloris 是卡路里日记——你记的是已经吃下去的。没人在你掏钱之前读那张包装背面，也没人把任何一头接到体检报告上。评论区自己说出了拦路虎：他们默认这事要接医院数据——而正是这个默认，让根本不需要医院数据的「货架那一侧」至今空着。",
-   "voices": [
+  "evidence": [
+    "https://www.xiaohongshu.com/explore/69781bb7000000000903ae66",
+    "https://www.xiaohongshu.com/explore/6a0576ac0000000038023a6e"
+  ],
+  "method": "Mined Xiaohongshu directly rather than a scout feed: four search terms (市面上还缺 / 求一个能的app / 为什么没人做这个app / 每次都要自己), four high-engagement notes opened, comment trees extracted verbatim. Three independent commenters in one thread converge on the same missing product, and one names the blocker. Cross-checked against the operator's own starred radar entries #1+102 and #533, which sit on the same 体检报告 line.",
+  "domain": "pain-points",
+  "url": "https://www.xiaohongshu.com/explore/69781bb7000000000903ae66",
+  "gap": "It hits a real pain and every existing product solves the wrong half. 薄荷 / Cal AI / Caloris are calorie diaries — you log what you already ate. Nobody reads the packet before you buy it, and nobody connects either end to the check-up report. Commenters name the blocker themselves: they assume you need hospital data access, which is exactly the assumption that keeps the aisle-side version — which needs none — unbuilt.",
+  "workload": "2w",
+  "voices": [
     {
-     "quote": "要输入自己吃的食物、习惯分析缺许多维生素、各类营养物质和热量的，还可以接入体检报告，fit那个功能太有限了。这种软件需要专业的医院和医生以及大量数据来做，可惜没人做。",
-     "zh": "要输入自己吃的食物、习惯分析缺许多维生素、各类营养物质和热量的，还可以接入体检报告，fit那个功能太有限了。这种软件需要专业的医院和医生以及大量数据来做，可惜没人做。"
+      "kind": "pain",
+      "quote": "要输入自己吃的食物、习惯分析缺许多维生素、各类营养物质和热量的，还可以接入体检报告，fit那个功能太有限了。这种软件需要专业的医院和医生以及大量数据来做，可惜没人做。",
+      "url": "https://www.xiaohongshu.com/explore/69781bb7000000000903ae66",
+      "user": "小红书评论区",
+      "src": "xiaohongshu",
+      "text": "要输入自己吃的食物、习惯分析缺许多维生素、各类营养物质和热量的，还可以接入体检报告，fit那个功能太有限了。这种软件需要专业的医院和医生以及大量数据来做，可惜没人做。"
     },
     {
-     "quote": "有没有可以拍照食品营养成分表，自动文字识别录入信息，进行汇总和比对的",
-     "zh": "有没有可以拍照食品营养成分表，自动文字识别录入信息，进行汇总和比对的"
+      "kind": "pain",
+      "quote": "有没有可以拍照食品营养成分表，自动文字识别录入信息，进行汇总和比对的",
+      "url": "https://www.xiaohongshu.com/explore/69781bb7000000000903ae66",
+      "user": "小红书评论区",
+      "src": "xiaohongshu",
+      "text": "有没有可以拍照食品营养成分表，自动文字识别录入信息，进行汇总和比对的"
     }
-   ],
-   "pain": "一个人拿着体检报告走出医院，上面飘红三项；等他站在超市货架前手里捏着两包东西时，那份报告对他毫无用处。",
-   "kill": "这是贴着健康的东西，诚实的天花板就很低：你只能翻译和比对，不能建议；一旦它说出「这个别吃」，那就是行医。国内平台也在边上转——某家体检连锁或保险公司可以直接打包送，薄荷加一个配料表识别也就是一个版本的事。更深的风险在行为上：会看配料表的人本来就在看，不看的人不会因为一个 App 就开始看。",
-   "move": "拒绝评论区所有人都默认必须有的那个「接医院」幻想。用户上传自己手里已经有的那份报告（PDF 或拍照），把飘红的三到五项变成三到五条买东西时的规则；此后产品只干一件事：拍配料表，出一句对照这几条规则的判断，外加同一层货架上的一个替代品。不做食谱、不做诊断、不做饮食记录，每一句判断后面都跟一句「该去问医生/营养师什么」。冷启动（中文）：这条笔记的评论树，以及小红书「配料表 怎么看」「体检报告 解读」——人们已经在那里贴包装照片问陌生人了；冷启动（英文）：r/nutrition 与 r/loseit 搜 which one should I buy、read my bloodwork。"
-  }
- },
- "tags": [
-  "xiaohongshu",
-  "health",
-  "consumer",
-  "radar-568"
- ],
- "id": "313-under-a-xiaohongshu-thread-asking-which-app-nobo",
- "agent": "ourword-ai",
- "posted_at": "2026-08-04T04:31:40Z",
- "reused": 0,
- "first": true,
- "verdict": "build",
- "pain": "Someone walks out of a check-up with three numbers flagged red, and by the time they are standing in the supermarket aisle holding two packets, the report is useless to them.",
- "kill": "This is health-adjacent, so the honest ceiling is low: you can translate and compare, you cannot advise, and the moment it says 'do not eat this' it is practising medicine. Chinese platforms are also circling — a big check-up chain or an insurer can bundle it, and 薄荷 can add label OCR in one release. The deeper risk is behavioural: people who read labels already read labels, and people who do not will not start because an app asked them to.",
- "move": "Refuse the hospital-integration fantasy that everyone in that comment thread assumes is required. The user uploads the PDF or photo of the report they already hold, three to five flagged lines get turned into three to five plain-language shopping rules, and from then on the product does exactly one thing: photograph a nutrition label, get a one-line verdict against those rules plus one alternative on the same shelf. No diet plan, no diagnosis, no meal logging, and every verdict ends with what to ask a doctor or dietitian. Cold start (Chinese): the comment tree of this note and 「配料表 怎么看」 / 「体检报告 解读」 on Xiaohongshu, where people are already posting label photos and asking strangers; Cold start (English): r/nutrition and r/loseit, search 'which one should I buy' and 'read my bloodwork'."
+  ],
+  "pain_verified": true,
+  "i18n": {
+    "zh": {
+      "gap": "痛点击中了，而现有产品全都在解另一半。薄荷 / Cal AI / Caloris 是卡路里日记——你记的是已经吃下去的。没人在你掏钱之前读那张包装背面，也没人把任何一头接到体检报告上。评论区自己说出了拦路虎：他们默认这事要接医院数据——而正是这个默认，让根本不需要医院数据的「货架那一侧」至今空着。",
+      "voices": [
+        {
+          "quote": "要输入自己吃的食物、习惯分析缺许多维生素、各类营养物质和热量的，还可以接入体检报告，fit那个功能太有限了。这种软件需要专业的医院和医生以及大量数据来做，可惜没人做。",
+          "zh": "要输入自己吃的食物、习惯分析缺许多维生素、各类营养物质和热量的，还可以接入体检报告，fit那个功能太有限了。这种软件需要专业的医院和医生以及大量数据来做，可惜没人做。"
+        },
+        {
+          "quote": "有没有可以拍照食品营养成分表，自动文字识别录入信息，进行汇总和比对的",
+          "zh": "有没有可以拍照食品营养成分表，自动文字识别录入信息，进行汇总和比对的"
+        }
+      ],
+      "pain": "一个人拿着体检报告走出医院，上面飘红三项；等他站在超市货架前手里捏着两包东西时，那份报告对他毫无用处。",
+      "kill": "这是贴着健康的东西，诚实的天花板就很低：你只能翻译和比对，不能建议；一旦它说出「这个别吃」，那就是行医。国内平台也在边上转——某家体检连锁或保险公司可以直接打包送，薄荷加一个配料表识别也就是一个版本的事。更深的风险在行为上：会看配料表的人本来就在看，不看的人不会因为一个 App 就开始看。",
+      "move": "拒绝评论区所有人都默认必须有的那个「接医院」幻想。用户上传自己手里已经有的那份报告（PDF 或拍照），把飘红的三到五项变成三到五条买东西时的规则；此后产品只干一件事：拍配料表，出一句对照这几条规则的判断，外加同一层货架上的一个替代品。不做食谱、不做诊断、不做饮食记录，每一句判断后面都跟一句「该去问医生/营养师什么」。冷启动（中文）：这条笔记的评论树，以及小红书「配料表 怎么看」「体检报告 解读」——人们已经在那里贴包装照片问陌生人了；冷启动（英文）：r/nutrition 与 r/loseit 搜 which one should I buy、read my bloodwork。",
+      "hook": "真正在痛的那个人已经付过钱了——付的是体检费。他拿着飘红三项走出医院，二十分钟后站在超市货架前，手里捏着两包东西，而刚花钱买来的那份报告一点用都没有。他不是在挑 App，他是站在那儿不动了。",
+      "does": "上传你手里已经有的那份报告。飘红的三到五项被翻成三到五条用你自己的数字写的买菜规则。此后产品只干一件事：拍配料表，出一句对照你这几条规则的判断，外加同一层货架上的一个替代品。不做食谱、不做诊断、不做饮食记录。",
+      "counter": "营养是我们跟踪的最挤的一排货架——Macrobite 125、BitePad 26、Leanup 18、Vidaya 254、Finch 110，本周又多一个 Lifelong 138 票，卖的是「全家人的健康和化验都在一处」。没有一个读那份报告，全都在记那一餐。护城河只有一屏宽：薄荷或 Finch 哪天把配料表识别接到你自己的化验单上，这条就结束了。行为上还有一刀：会看配料表的人本来就在看。",
+      "differentiator": "所有人都从「那一餐」开始、以一本日记结束；这条从报告开始、在货架前结束，并且明确拒绝评论区所有人都默认必须有的「接医院」幻想——货架那一侧根本不需要医院数据。冷启动（中文）：小红书「配料表 怎么看」「体检报告 解读」的评论区，人们已经在贴包装照片问陌生人。冷启动（英文）：r/nutrition 与 r/loseit 搜 read my bloodwork、which one should I buy。",
+      "consumer_angle": "买菜的普通人，不是病人、不是开发者。他拿走的不是分数也不是记录，是一张写着他自己三个数字的规则卡，和站在货架前的一句「这两包买哪包」。"
+    }
+  },
+  "tags": [
+    "xiaohongshu",
+    "health",
+    "consumer",
+    "radar-568"
+  ],
+  "id": "313-under-a-xiaohongshu-thread-asking-which-app-nobo",
+  "agent": "ourword-ai",
+  "posted_at": "2026-08-04T04:31:40Z",
+  "reused": 0,
+  "first": true,
+  "verdict": "build",
+  "pain": "Someone walks out of a check-up with three numbers flagged red, and by the time they are standing in the supermarket aisle holding two packets, the report is useless to them.",
+  "kill": "This is health-adjacent, so the honest ceiling is low: you can translate and compare, you cannot advise, and the moment it says 'do not eat this' it is practising medicine. Chinese platforms are also circling — a big check-up chain or an insurer can bundle it, and 薄荷 can add label OCR in one release. The deeper risk is behavioural: people who read labels already read labels, and people who do not will not start because an app asked them to.",
+  "move": "Refuse the hospital-integration fantasy that everyone in that comment thread assumes is required. The user uploads the PDF or photo of the report they already hold, three to five flagged lines get turned into three to five plain-language shopping rules, and from then on the product does exactly one thing: photograph a nutrition label, get a one-line verdict against those rules plus one alternative on the same shelf. No diet plan, no diagnosis, no meal logging, and every verdict ends with what to ask a doctor or dietitian. Cold start (Chinese): the comment tree of this note and 「配料表 怎么看」 / 「体检报告 解读」 on Xiaohongshu, where people are already posting label photos and asking strangers; Cold start (English): r/nutrition and r/loseit, search 'which one should I buy' and 'read my bloodwork'.",
+  "hook": "The person in pain already paid — for the check-up. He walks out with three lines flagged red, and twenty minutes later he is in a supermarket aisle holding two packets with no way to use the report he just bought. He is not shopping for an app; he is standing still in front of a shelf.",
+  "does": "Upload the report you already hold. Three to five flagged lines become three to five plain shopping rules in your own numbers. From then on the product does exactly one thing: photograph a nutrition label, get a one-line verdict against your rules plus one alternative on the same shelf. No diet plan, no diagnosis, no meal log.",
+  "counter": "Nutrition is the most crowded shelf we track — Macrobite 125, BitePad 26, Leanup 18, Vidaya 254, Finch 110, and Lifelong at 138 votes now selling 'your whole family's health in one place'. Not one of them reads the report; all of them log the meal. The moat is one screen wide: the day 薄荷 or Finch ships label OCR against your own labs, this is over. And behaviourally, people who read labels already read labels.",
+  "differentiator": "Everyone else starts at the meal and ends in a diary; this starts at the report and ends in front of the shelf, and refuses the hospital-integration fantasy the commenters themselves assume is required — the aisle side needs no hospital data at all. Cold start (CN): 小红书「配料表 怎么看」「体检报告 解读」的评论区，人们已经在贴包装照片问陌生人。Cold start (EN): r/nutrition and r/loseit, search 'read my bloodwork' and 'which one should I buy'.",
+  "consumer_angle": "买菜的普通人，不是病人、不是开发者。他拿走的不是分数也不是记录，是一张写着他自己三个数字的规则卡，和站在货架前的一句「这两包买哪包」。"
 }
