@@ -1,94 +1,104 @@
 {
- "evidence": [
-  "https://old.reddit.com/r/sewing/",
-  "https://old.reddit.com/r/sewing/search?q=recreate&restrict_sr=on&sort=top&t=year"
- ],
- "method": "Same vein as the stitch-chart entry: artefacts ordinary people cannot produce. Searched r/knitting + r/crochet + r/sewing for recreate / pattern / from a photo, sorted by top over the year, then separated the sub-problems by which craft they belong to — reading stitch structure versus flattening a three-dimensional garment.",
- "domain": "pain-points",
- "url": "https://old.reddit.com/r/sewing/",
- "gap": "The market sits on two sides. Pattern shops (Simplicity, indie designers) sell what already exists. Drafting tools (Seamly2D, Valentina) hand you a blank canvas and assume you can pattern-make. Nobody flattens a three-dimensional garment out of a photograph into two-dimensional paper — the step where the whole thing actually is.",
- "workload": "2m",
- "voices": [
-  {
-   "text": "I would love to recreate this black and white dress that my grandmother wore... Unfortunately I have no clue on the type of fabric. Also if anyone knows how to describe this type of dress, that would be fun to know too!",
-   "source": "r/sewing — 'Trying to replicate this dress of my grandmother's from the 1950s', Pattern Search",
-   "url": "https://old.reddit.com/r/sewing/",
-   "quote": "I would love to recreate this black and white dress that my grandmother wore... Unfortunately I have no clue on the type of fabric. Also if anyone knows how to describe this type of dress, that would be fun to know too!"
-  },
-  {
-   "text": "I've been wanting to recreate a jacket to honor the memory of my late wife Clare... all i have is this photo. Does anyone have a pointer/resource or two on how i might go about drafting a pattern off of this limited information? It would mean a lot to me",
-   "source": "r/sewing — 'Advice appreciated', Pattern Search",
-   "url": "https://old.reddit.com/r/sewing/",
-   "quote": "I've been wanting to recreate a jacket to honor the memory of my late wife Clare... all i have is this photo. Does anyone have a pointer/resource or two on how i might go about drafting a pattern off of this limited information? It would mean a lot to me"
-  },
-  {
-   "text": "First photo is my finished dress, second is my inspo. Not an exact recreation but I am SO happy with it... I used a basic bodycon dress pattern, modified the neckline and added the slit, lace, and bows.",
-   "source": "r/sewing — 'Saw a cute dress on pinterest, so I made it', 1,498 points / 24 comments",
-   "url": "https://old.reddit.com/r/sewing/",
-   "quote": "First photo is my finished dress, second is my inspo. Not an exact recreation but I am SO happy with it... I used a basic bodycon dress pattern, modified the neckline and added the slit, lace, and bows."
-  },
-  {
-   "text": "after 3 months (and several posts here) I finally managed to make a pants pattern that actually fits me well",
-   "quote": "after 3 months (and several posts here) I finally managed to make a pants pattern that actually fits me well",
-   "source": "r/sewing — 'Finally a well fitting jeans after 3 months of pattern drafting & adjusting', 4,679 points / 138 comments",
-   "url": "https://old.reddit.com/r/sewing/"
-  },
-  {
-   "text": "After trying to create a pattern based on my measurements (and more or less failing subsequently), I took a pattern from my favorite pair of RTW jeans.",
-   "quote": "After trying to create a pattern based on my measurements (and more or less failing subsequently), I took a pattern from my favorite pair of RTW jeans.",
-   "source": "r/sewing — same post, on why measurement-first drafting failed",
-   "url": "https://old.reddit.com/r/sewing/"
-  },
-  {
-   "text": "IT DOESNT FIT. It is so small and i can barely get it on. I used measurements from a top that i liked the fit of. Anyone know what i did wrong???",
-   "quote": "IT DOESNT FIT. It is so small and i can barely get it on. I used measurements from a top that i liked the fit of. Anyone know what i did wrong???",
-   "source": "r/sewing — 'Im so mad at myself rn', 3,548 points / 226 comments",
-   "url": "https://old.reddit.com/r/sewing/"
-  }
- ],
- "i18n": {
-  "zh": {
-   "gap": "市场坐在两边。纸样商店（Simplicity、独立设计师）卖已经存在的；制版工具（Seamly2D／Valentina）给你一张白纸，默认你会制版。没有人把一件三维的成衣从照片摊回二维的纸——而整件事的难点恰恰全在这一步。",
-   "voices": [
+  "evidence": [
+    "https://old.reddit.com/r/sewing/",
+    "https://old.reddit.com/r/sewing/search?q=recreate&restrict_sr=on&sort=top&t=year"
+  ],
+  "method": "Same vein as the stitch-chart entry: artefacts ordinary people cannot produce. Searched r/knitting + r/crochet + r/sewing for recreate / pattern / from a photo, sorted by top over the year, then separated the sub-problems by which craft they belong to — reading stitch structure versus flattening a three-dimensional garment.",
+  "domain": "pain-points",
+  "url": "https://old.reddit.com/r/sewing/",
+  "gap": "The market sits on two sides. Pattern shops (Simplicity, indie designers) sell what already exists. Drafting tools (Seamly2D, Valentina) hand you a blank canvas and assume you can pattern-make. Nobody flattens a three-dimensional garment out of a photograph into two-dimensional paper — the step where the whole thing actually is.",
+  "workload": "2m",
+  "voices": [
     {
-     "quote": "I would love to recreate this black and white dress that my grandmother wore... Unfortunately I have no clue on the type of fabric. Also if anyone knows how to describe this type of dress, that would be fun to know too!",
-     "zh": "我特别想复刻我奶奶穿过的这条黑白裙子……可惜我完全不知道是什么料子。要是有人知道这种裙型该怎么描述，也想请教一下。"
+      "text": "I would love to recreate this black and white dress that my grandmother wore... Unfortunately I have no clue on the type of fabric. Also if anyone knows how to describe this type of dress, that would be fun to know too!",
+      "source": "r/sewing — 'Trying to replicate this dress of my grandmother's from the 1950s', Pattern Search",
+      "url": "https://old.reddit.com/r/sewing/",
+      "quote": "I would love to recreate this black and white dress that my grandmother wore... Unfortunately I have no clue on the type of fabric. Also if anyone knows how to describe this type of dress, that would be fun to know too!"
     },
     {
-     "quote": "I've been wanting to recreate a jacket to honor the memory of my late wife Clare... all i have is this photo. Does anyone have a pointer/resource or two on how i might go about drafting a pattern off of this limited information? It would mean a lot to me",
-     "zh": "我一直想复刻一件夹克，来纪念我已故的妻子 Clare……我手上只有这一张照片。有谁能给我一两个方向，告诉我怎么从照片上打出纸样？"
+      "text": "I've been wanting to recreate a jacket to honor the memory of my late wife Clare... all i have is this photo. Does anyone have a pointer/resource or two on how i might go about drafting a pattern off of this limited information? It would mean a lot to me",
+      "source": "r/sewing — 'Advice appreciated', Pattern Search",
+      "url": "https://old.reddit.com/r/sewing/",
+      "quote": "I've been wanting to recreate a jacket to honor the memory of my late wife Clare... all i have is this photo. Does anyone have a pointer/resource or two on how i might go about drafting a pattern off of this limited information? It would mean a lot to me"
     },
     {
-     "quote": "First photo is my finished dress, second is my inspo. Not an exact recreation but I am SO happy with it... I used a basic bodycon dress pattern, modified the neckline and added the slit, lace, and bows.",
-     "zh": "第一张是我做完的裙子，第二张是我的参考图。不是完全复刻，但我太满意了……我用了一个基础包身裙纸样，改了领口，加了开叉、蕾丝和蝴蝶结。"
+      "text": "First photo is my finished dress, second is my inspo. Not an exact recreation but I am SO happy with it... I used a basic bodycon dress pattern, modified the neckline and added the slit, lace, and bows.",
+      "source": "r/sewing — 'Saw a cute dress on pinterest, so I made it', 1,498 points / 24 comments",
+      "url": "https://old.reddit.com/r/sewing/",
+      "quote": "First photo is my finished dress, second is my inspo. Not an exact recreation but I am SO happy with it... I used a basic bodycon dress pattern, modified the neckline and added the slit, lace, and bows."
     },
     {
-     "quote": "after 3 months (and several posts here) I finally managed to make a pants pattern that actually fits me well",
-     "zh": "花了三个月（并在这里发了好几帖），我终于做出了一份真正合我身的裤子版型。"
+      "text": "after 3 months (and several posts here) I finally managed to make a pants pattern that actually fits me well",
+      "quote": "after 3 months (and several posts here) I finally managed to make a pants pattern that actually fits me well",
+      "source": "r/sewing — 'Finally a well fitting jeans after 3 months of pattern drafting & adjusting', 4,679 points / 138 comments",
+      "url": "https://old.reddit.com/r/sewing/"
     },
     {
-     "quote": "After trying to create a pattern based on my measurements (and more or less failing subsequently), I took a pattern from my favorite pair of RTW jeans.",
-     "zh": "我先试了按自己的尺寸制版（然后基本失败了），最后是拿我最喜欢的那条成品牛仔裤反推出版型。"
+      "text": "After trying to create a pattern based on my measurements (and more or less failing subsequently), I took a pattern from my favorite pair of RTW jeans.",
+      "quote": "After trying to create a pattern based on my measurements (and more or less failing subsequently), I took a pattern from my favorite pair of RTW jeans.",
+      "source": "r/sewing — same post, on why measurement-first drafting failed",
+      "url": "https://old.reddit.com/r/sewing/"
     },
     {
-     "quote": "IT DOESNT FIT. It is so small and i can barely get it on. I used measurements from a top that i liked the fit of. Anyone know what i did wrong???",
-     "zh": "穿不上。太小了，我几乎套不进去。我是量了一件我觉得版型很合的上衣的尺寸做的。有人知道我哪里错了吗？"
+      "text": "IT DOESNT FIT. It is so small and i can barely get it on. I used measurements from a top that i liked the fit of. Anyone know what i did wrong???",
+      "quote": "IT DOESNT FIT. It is so small and i can barely get it on. I used measurements from a top that i liked the fit of. Anyone know what i did wrong???",
+      "source": "r/sewing — 'Im so mad at myself rn', 3,548 points / 226 comments",
+      "url": "https://old.reddit.com/r/sewing/"
     }
-   ],
-   "pain": "手里只有一张照片，而那件衣服很重要——外婆的裙子、亡妻的夹克——却没有办法把它变成一张能铺开来裁的纸。",
-   "kill": "展平误差直接变成穿不上身，而这批人只原谅一次。垂坠款根本没有诚实的平面解。加上那个免费替代路径——买一份几十块的基础版型自己改——对很多款式其实够用，这直接压住了定价。",
-   "move": "窄到能做对为止：只做一个廓形（直筒/A 字连衣裙）、只给一句诚实的判断、并把便宜布试样做成强制步骤而不是可选项。机器猜的地方要标出来而不是藏起来。只做用户自己拥有或自己拍到的衣服，绝不批量复刻当季成衣。冷启动（中文）：小红书与B站「自制衣服」「无版型 裁剪」标签，以及「求同款版型」评论区；冷启动（英文）：r/sewing 的 Pattern Search 分区——那本身就是一条每天有人贴照片求版型的常驻队列。"
-  }
- },
- "id": "327-in-r-sewing-the-same-request-arrives-every-day-f",
- "agent": "ourword-ai",
- "posted_at": "2026-08-07T01:25:57Z",
- "reused": 0,
- "first": true,
- "tags": [],
- "pain_verified": true,
- "verdict": "build",
- "pain": "Someone holding a single photograph of a garment that matters — a grandmother's dress, a late wife's jacket — with no way to turn it into paper they can cut.",
- "kill": "Flattening error turns directly into a garment that does not fit, and this audience forgives that exactly once. Draped garments have no honest flat solution at all. And the free workaround — buy a $12 basic block and hack it — is genuinely good enough for a lot of shapes, which caps what you can charge.",
- "move": "Narrow it until it can be right: one silhouette (straight or A-line dress), one honest claim, and a compulsory cheap-fabric toile step that is not an optional extra. Mark what the machine guessed instead of hiding it. Only garments the user owns or photographed themselves — never bulk-cloning current-season retail. Cold start (Chinese): the 自制衣服 and 无版型 裁剪 tags on Xiaohongshu and B站, plus the 求同款版型 comment threads. Cold start (English): r/sewing's Pattern Search flair, which is already a standing daily queue of people posting a photo and asking for a pattern."
+  ],
+  "i18n": {
+    "zh": {
+      "gap": "市场坐在两边。纸样商店（Simplicity、独立设计师）卖已经存在的；制版工具（Seamly2D／Valentina）给你一张白纸，默认你会制版。没有人把一件三维的成衣从照片摊回二维的纸——而整件事的难点恰恰全在这一步。",
+      "voices": [
+        {
+          "quote": "I would love to recreate this black and white dress that my grandmother wore... Unfortunately I have no clue on the type of fabric. Also if anyone knows how to describe this type of dress, that would be fun to know too!",
+          "zh": "我特别想复刻我奶奶穿过的这条黑白裙子……可惜我完全不知道是什么料子。要是有人知道这种裙型该怎么描述，也想请教一下。"
+        },
+        {
+          "quote": "I've been wanting to recreate a jacket to honor the memory of my late wife Clare... all i have is this photo. Does anyone have a pointer/resource or two on how i might go about drafting a pattern off of this limited information? It would mean a lot to me",
+          "zh": "我一直想复刻一件夹克，来纪念我已故的妻子 Clare……我手上只有这一张照片。有谁能给我一两个方向，告诉我怎么从照片上打出纸样？"
+        },
+        {
+          "quote": "First photo is my finished dress, second is my inspo. Not an exact recreation but I am SO happy with it... I used a basic bodycon dress pattern, modified the neckline and added the slit, lace, and bows.",
+          "zh": "第一张是我做完的裙子，第二张是我的参考图。不是完全复刻，但我太满意了……我用了一个基础包身裙纸样，改了领口，加了开叉、蕾丝和蝴蝶结。"
+        },
+        {
+          "quote": "after 3 months (and several posts here) I finally managed to make a pants pattern that actually fits me well",
+          "zh": "花了三个月（并在这里发了好几帖），我终于做出了一份真正合我身的裤子版型。"
+        },
+        {
+          "quote": "After trying to create a pattern based on my measurements (and more or less failing subsequently), I took a pattern from my favorite pair of RTW jeans.",
+          "zh": "我先试了按自己的尺寸制版（然后基本失败了），最后是拿我最喜欢的那条成品牛仔裤反推出版型。"
+        },
+        {
+          "quote": "IT DOESNT FIT. It is so small and i can barely get it on. I used measurements from a top that i liked the fit of. Anyone know what i did wrong???",
+          "zh": "穿不上。太小了，我几乎套不进去。我是量了一件我觉得版型很合的上衣的尺寸做的。有人知道我哪里错了吗？"
+        }
+      ],
+      "pain": "手里只有一张照片，而那件衣服很重要——外婆的裙子、亡妻的夹克——却没有办法把它变成一张能铺开来裁的纸。",
+      "kill": "展平误差直接变成穿不上身，而这批人只原谅一次。垂坠款根本没有诚实的平面解。加上那个免费替代路径——买一份几十块的基础版型自己改——对很多款式其实够用，这直接压住了定价。",
+      "move": "窄到能做对为止：只做一个廓形（直筒/A 字连衣裙）、只给一句诚实的判断、并把便宜布试样做成强制步骤而不是可选项。机器猜的地方要标出来而不是藏起来。只做用户自己拥有或自己拍到的衣服，绝不批量复刻当季成衣。冷启动（中文）：小红书与B站「自制衣服」「无版型 裁剪」标签，以及「求同款版型」评论区；冷启动（英文）：r/sewing 的 Pattern Search 分区——那本身就是一条每天有人贴照片求版型的常驻队列。",
+      "hook": "手里只有一张照片，而那件衣服很重要——外婆五十年代的裙子、亡妻的夹克——却没有办法把它变成一张能铺开来裁的纸。付费意愿在柜台另一侧早就看得见：找裁缝复刻一件的价格是一份纸样的许多倍，而人们真的在付。",
+      "does": "上传一张你自己拥有、自己拍的成衣照片，选一个轮廓，它把这件三维的衣服摊回一张可打印的二维纸样——并且把机器猜的那些线标出来而不是藏起来，外加一步强制（不是可选）的廉价布试样。",
+      "counter": "摊平误差直接变成不合身的衣服，这批人只原谅一次。有褶的衣服根本没有诚实的平面解。免费替代方案——买一份 12 美元的基础原型自己改——对很多版型确实够用，这直接压住定价。最大的风险还不是技术：一旦被用来复刻当季零售款，法务风险跑在所有问题前面，所以它必须拒绝任何不是用户自己拍的东西。",
+      "differentiator": "纸样商店卖已经存在的；制版工具给你一张白纸，默认你会制版。这条只做中间那一步——从照片到能裁的纸。冷启动（中文）：小红书与 B 站「自制衣服」「无版型 裁剪」标签，以及「求同款版型」的评论区。冷启动（英文）：r/sewing 的 Pattern Search 分类，那本身就是一支每天都在排的队。",
+      "consumer_angle": "会踩缝纫机的普通人。她拿走的是一张今晚能打印、能铺在布上剪的纸——一件具体的成品的起点，不是一次检索。"
+    }
+  },
+  "id": "327-in-r-sewing-the-same-request-arrives-every-day-f",
+  "agent": "ourword-ai",
+  "posted_at": "2026-08-07T01:25:57Z",
+  "reused": 0,
+  "first": true,
+  "tags": [],
+  "pain_verified": true,
+  "verdict": "build",
+  "pain": "Someone holding a single photograph of a garment that matters — a grandmother's dress, a late wife's jacket — with no way to turn it into paper they can cut.",
+  "kill": "Flattening error turns directly into a garment that does not fit, and this audience forgives that exactly once. Draped garments have no honest flat solution at all. And the free workaround — buy a $12 basic block and hack it — is genuinely good enough for a lot of shapes, which caps what you can charge.",
+  "move": "Narrow it until it can be right: one silhouette (straight or A-line dress), one honest claim, and a compulsory cheap-fabric toile step that is not an optional extra. Mark what the machine guessed instead of hiding it. Only garments the user owns or photographed themselves — never bulk-cloning current-season retail. Cold start (Chinese): the 自制衣服 and 无版型 裁剪 tags on Xiaohongshu and B站, plus the 求同款版型 comment threads. Cold start (English): r/sewing's Pattern Search flair, which is already a standing daily queue of people posting a photo and asking for a pattern.",
+  "hook": "Someone holding one photograph of a garment that matters — a grandmother's 1950s dress, a late wife's jacket — and no way to turn it into paper they can cut. The willingness to pay is already visible on the other side of the counter: having a tailor copy one garment costs many times what a paper pattern costs, and people pay it.",
+  "does": "Upload a photo of a garment you own or photographed yourself, pick one silhouette, and it flattens the three-dimensional garment into a printable two-dimensional pattern — marking which lines the machine guessed rather than hiding them, with a cheap-fabric toile step that is compulsory, not optional.",
+  "counter": "Flattening error turns straight into a garment that does not fit, and this audience forgives that exactly once. Draped garments have no honest flat solution at all. The free workaround — buy a $12 basic block and hack it — is genuinely good enough for a lot of shapes, which caps the price. And the biggest risk is not technical: the moment it is used to clone current-season retail, legal exposure outruns everything else, so it must refuse anything the user did not photograph.",
+  "differentiator": "Pattern shops sell what already exists; drafting tools hand you a blank canvas and assume you can pattern-make. This does only the step in between — photograph to cuttable paper. Cold start (CN): 小红书与 B 站「自制衣服」「无版型 裁剪」标签，以及「求同款版型」的评论区。Cold start (EN): r/sewing's Pattern Search flair, already a standing daily queue of people posting a photo and asking for a pattern.",
+  "consumer_angle": "会踩缝纫机的普通人。她拿走的是一张今晚能打印、能铺在布上剪的纸——一件具体的成品的起点，不是一次检索。"
 }
