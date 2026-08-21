@@ -1,73 +1,83 @@
 {
- "operator": "@ourword-ai",
- "agent": "operator-session",
- "domain": "pain-points",
- "pain_verified": true,
- "id": "1786348220-home-repair-second-opinion",
- "title": "The repairman is standing in your kitchen saying 800 — home-repair second opinion",
- "verdict": "build",
- "workload": "2w",
- "method": "desk research 2026-08-10: 2026 consumer-press investigations (山西日报, 新华日报, 福州日报/智电网) plus a 黑猫投诉 keyword count. Voices are consumers quoted in those investigations, not mined posts — labelled as such.",
- "posted_at": "2026-08-10T07:50:19Z",
- "pain": "The repairman is already in your kitchen. He says the main board is dead, 800 yuan, and it's 35 degrees outside. You have no way on earth to know whether that's true.",
- "gap": "Everything on offer is either a booking platform — which is where the mark-ups come from — or after-the-fact complaint channels. Nothing helps in the ninety seconds when the quote is being said out loud and you can't evaluate it.",
- "kill": "Get it wrong in the other direction and you talk someone out of a repair they needed. And the honest limit is data: nobody publishes real per-city part and labour prices, so any 'fair price range' would be invented — a hallucinated price anchor is worse than no product. Platforms won't cooperate either; the opacity is their margin.",
- "move": "Don't price it, arm the question. Model plus symptom plus what he just said, and back come the two or three cheapest common causes and the exact sentences a layman can say out loud — 'could it be the capacitor rather than the compressor, can we try that first?' Prices only where they can be checked: the manufacturer's own hotline quote. Cold start: 黑猫投诉 and 小红书 '家电维修 被宰' threads, plus renter groups.",
- "voices": [
-  {
-   "kind": "secondary",
-   "quote": "换完还是不制冷，再次检查才发现只是电容故障",
-   "source": "山西日报 · 太原赵先生（被报 1800 元换压缩机）",
-   "url": "http://epaper.sxrb.com/shtml/sxscdb/20260315/1156219.shtml",
-   "zh": "换完还是不制冷，再次检查才发现只是电容故障（几十块钱的事）"
-  },
-  {
-   "kind": "secondary",
-   "quote": "普通家庭对于空调维修具体的零部件价格不甚了解，处于信息获取弱势一方",
-   "source": "新华日报 · 上海消保委相关报道",
-   "url": "https://www.xhby.net/content/s66d4f532e4b00cab55aa98e4.html",
-   "zh": "普通家庭根本不了解空调零部件的价格，处在信息弱势的一方"
-  }
- ],
- "evidence": [
-  "http://epaper.sxrb.com/shtml/sxscdb/20260315/1156219.shtml — 2026-03: 空调「压缩机损坏」报价 1800，实为电容；洗衣机「主板损坏」收 800，实为水管松动；窗户「要换部件」300+，实为上点润滑油",
-  "http://news.zdwang.com/a/202605/0699213.html — 2026-05: 黑猫投诉搜「家电维修」1720 条；行业无准入门槛、注册地与施工地分离",
-  "https://www.xhby.net/content/s66d4f532e4b00cab55aa98e4.html — 上门后的情境压力：天热着急用，消费者没有时间权衡",
-  "https://m.fznews.com.cn/fzyw/20260506/47PVT77r33.shtml — 2026-05: 地漏疏通报价 836 元；官方建议是核对机身上的原厂热线",
-  "Shelf check: 平台（美团/京东到家/啄木鸟）本身是乱象来源；12315 与黑猫是事后维权；没有产品站在报价被说出口的那 90 秒"
- ],
- "tags": [
-  "family:information-asymmetry",
-  "user-voice",
-  "shelf:home-repair"
- ],
- "_watch": {
-  "channel": "evidence-backed build (pain heavily documented; the in-the-moment format unproven)",
-  "hypothesis": "a homeowner facing a quote would use a 90-second second opinion — and share it after it saves them 700 yuan",
-  "why_now": "multimodal models can read a model plate and an error code from a photo, and repair knowledge (teardown videos, forum threads) is thick in public data",
-  "trigger": "first-hand '按这个问了师傅，最后只花了 XX' posts, or a repair professional willing to vet the question lists",
-  "review_by": "2026-09-10",
-  "on_miss": "archive"
- },
- "i18n": {
-  "zh": {
-   "pain": "师傅已经站在你厨房里了。他说主板坏了，八百，外面 35 度。你根本没有任何办法判断这句话是真是假。",
-   "gap": "市面上要么是下单平台——加价本身就出自那里，要么是事后投诉维权。报价被说出口的那九十秒里，没有任何东西帮得上你。",
-   "kill": "反过来判错，就会劝人放弃一次本该做的维修。而最诚实的天花板是数据：各城市真实的配件和工时价格没人公开，任何「合理价位区间」都只能是编的——一个幻觉出来的价格锚，比没有产品更糟。平台也不会配合，那份不透明就是它们的毛利。",
-   "move": "不估价，只递话。输入机型、症状和师傅刚说的那句，返回两三个最便宜的常见原因，以及外行也说得出口的那两句话——「会不会是电容不是压缩机？能不能先换电容试试？」价格只给能核对的锚：机身上那个原厂售后热线的报价。冷启动：黑猫投诉与小红书「家电维修 被宰」，以及租房群。",
-   "voices": [
+  "operator": "@ourword-ai",
+  "agent": "operator-session",
+  "domain": "pain-points",
+  "pain_verified": true,
+  "id": "1786348220-home-repair-second-opinion",
+  "title": "The repairman is standing in your kitchen saying 800 — home-repair second opinion",
+  "verdict": "build",
+  "workload": "2w",
+  "method": "desk research 2026-08-10: 2026 consumer-press investigations (山西日报, 新华日报, 福州日报/智电网) plus a 黑猫投诉 keyword count. Voices are consumers quoted in those investigations, not mined posts — labelled as such.",
+  "posted_at": "2026-08-10T07:50:19Z",
+  "pain": "The repairman is already in your kitchen. He says the main board is dead, 800 yuan, and it's 35 degrees outside. You have no way on earth to know whether that's true.",
+  "gap": "Everything on offer is either a booking platform — which is where the mark-ups come from — or after-the-fact complaint channels. Nothing helps in the ninety seconds when the quote is being said out loud and you can't evaluate it.",
+  "kill": "Get it wrong in the other direction and you talk someone out of a repair they needed. And the honest limit is data: nobody publishes real per-city part and labour prices, so any 'fair price range' would be invented — a hallucinated price anchor is worse than no product. Platforms won't cooperate either; the opacity is their margin.",
+  "move": "Don't price it, arm the question. Model plus symptom plus what he just said, and back come the two or three cheapest common causes and the exact sentences a layman can say out loud — 'could it be the capacitor rather than the compressor, can we try that first?' Prices only where they can be checked: the manufacturer's own hotline quote. Cold start: 黑猫投诉 and 小红书 '家电维修 被宰' threads, plus renter groups.",
+  "voices": [
     {
-     "quote": "换完还是不制冷，再次检查才发现只是电容故障",
-     "zh": "换完还是不制冷，再次检查才发现只是电容故障（几十块钱的事）",
-     "source": "山西日报 · 太原赵先生"
+      "kind": "secondary",
+      "quote": "换完还是不制冷，再次检查才发现只是电容故障",
+      "source": "山西日报 · 太原赵先生（被报 1800 元换压缩机）",
+      "url": "http://epaper.sxrb.com/shtml/sxscdb/20260315/1156219.shtml",
+      "zh": "换完还是不制冷，再次检查才发现只是电容故障（几十块钱的事）"
     },
     {
-     "quote": "普通家庭对于空调维修具体的零部件价格不甚了解，处于信息获取弱势一方",
-     "zh": "普通家庭根本不了解空调零部件的价格，处在信息弱势的一方",
-     "source": "新华日报"
+      "kind": "secondary",
+      "quote": "普通家庭对于空调维修具体的零部件价格不甚了解，处于信息获取弱势一方",
+      "source": "新华日报 · 上海消保委相关报道",
+      "url": "https://www.xhby.net/content/s66d4f532e4b00cab55aa98e4.html",
+      "zh": "普通家庭根本不了解空调零部件的价格，处在信息弱势的一方"
     }
-   ]
-  }
- },
- "wallet": "极强：维修本身就是付费行为，那张 800 元的单子就是价格证据"
+  ],
+  "evidence": [
+    "http://epaper.sxrb.com/shtml/sxscdb/20260315/1156219.shtml — 2026-03: 空调「压缩机损坏」报价 1800，实为电容；洗衣机「主板损坏」收 800，实为水管松动；窗户「要换部件」300+，实为上点润滑油",
+    "http://news.zdwang.com/a/202605/0699213.html — 2026-05: 黑猫投诉搜「家电维修」1720 条；行业无准入门槛、注册地与施工地分离",
+    "https://www.xhby.net/content/s66d4f532e4b00cab55aa98e4.html — 上门后的情境压力：天热着急用，消费者没有时间权衡",
+    "https://m.fznews.com.cn/fzyw/20260506/47PVT77r33.shtml — 2026-05: 地漏疏通报价 836 元；官方建议是核对机身上的原厂热线",
+    "Shelf check: 平台（美团/京东到家/啄木鸟）本身是乱象来源；12315 与黑猫是事后维权；没有产品站在报价被说出口的那 90 秒"
+  ],
+  "tags": [
+    "family:information-asymmetry",
+    "user-voice",
+    "shelf:home-repair"
+  ],
+  "_watch": {
+    "channel": "evidence-backed build (pain heavily documented; the in-the-moment format unproven)",
+    "hypothesis": "a homeowner facing a quote would use a 90-second second opinion — and share it after it saves them 700 yuan",
+    "why_now": "multimodal models can read a model plate and an error code from a photo, and repair knowledge (teardown videos, forum threads) is thick in public data",
+    "trigger": "first-hand '按这个问了师傅，最后只花了 XX' posts, or a repair professional willing to vet the question lists",
+    "review_by": "2026-09-10",
+    "on_miss": "archive"
+  },
+  "i18n": {
+    "zh": {
+      "pain": "师傅已经站在你厨房里了。他说主板坏了，八百，外面 35 度。你根本没有任何办法判断这句话是真是假。",
+      "gap": "市面上要么是下单平台——加价本身就出自那里，要么是事后投诉维权。报价被说出口的那九十秒里，没有任何东西帮得上你。",
+      "kill": "反过来判错，就会劝人放弃一次本该做的维修。而最诚实的天花板是数据：各城市真实的配件和工时价格没人公开，任何「合理价位区间」都只能是编的——一个幻觉出来的价格锚，比没有产品更糟。平台也不会配合，那份不透明就是它们的毛利。",
+      "move": "不估价，只递话。输入机型、症状和师傅刚说的那句，返回两三个最便宜的常见原因，以及外行也说得出口的那两句话——「会不会是电容不是压缩机？能不能先换电容试试？」价格只给能核对的锚：机身上那个原厂售后热线的报价。冷启动：黑猫投诉与小红书「家电维修 被宰」，以及租房群。",
+      "voices": [
+        {
+          "quote": "换完还是不制冷，再次检查才发现只是电容故障",
+          "zh": "换完还是不制冷，再次检查才发现只是电容故障（几十块钱的事）",
+          "source": "山西日报 · 太原赵先生"
+        },
+        {
+          "quote": "普通家庭对于空调维修具体的零部件价格不甚了解，处于信息获取弱势一方",
+          "zh": "普通家庭根本不了解空调零部件的价格，处在信息弱势的一方",
+          "source": "新华日报"
+        }
+      ],
+      "hook": "在痛的那个人正站在自己厨房里，而报价刚刚被说出口。他正伸手去掏那八百块现金——钱包信号不用论证：山西日报那批案例里，1800 换压缩机和 800 换主板都是真付了的。",
+      "does": "输入机型＋症状＋师傅刚说的那句话，返回两三个最便宜的常见成因，以及一个外行能当场说出口的原话——「会不会是电容而不是压缩机？能不能先换那个试试？」价格只给可核对的那一种：机身上印的厂家官方热线报价。",
+      "counter": "反向错一次更糟：把该修的劝退了。诚实的上限在数据——没人公开各城市真实的配件与工时价，任何「合理区间」都是编的，而一个编出来的价格锚点比没有产品更坏。平台也不会配合：不透明就是它们的毛利。",
+      "differentiator": "货架上要么是下单平台——加价本身就出自那里——要么是事后投诉维权。报价被说出口的那九十秒里没有任何东西陪着你，所以这条不给活儿定价，只武装那一个问句。冷启动（中文）：黑猫投诉与小红书「家电维修 被宰」，以及租房群。冷启动（英文）：r/appliancerepair 搜 is this quote fair。",
+      "consumer_angle": "家里电器坏了、师傅已经上门的普通人。他拿走的是当场能说出口的两句话——不是一份事后维权材料。"
+    }
+  },
+  "wallet": "极强：维修本身就是付费行为，那张 800 元的单子就是价格证据",
+  "hook": "The person in pain is standing in his own kitchen while the quote is being said out loud. He is reaching for 800 yuan in cash — the wallet signal needs no argument: in the Shanxi Daily cases the 1,800 compressor and the 800 mainboard were both actually paid.",
+  "does": "Model plus symptom plus the sentence he just said, and back come the two or three cheapest common causes plus the exact words a layman can say out loud — 'could it be the capacitor rather than the compressor, can we try that first?' Prices only where they are checkable: the manufacturer's own hotline quote printed on the machine.",
+  "counter": "Wrong in the other direction is worse: you talk someone out of a repair they needed. The honest limit is data — nobody publishes real per-city part and labour prices, so any 'fair price range' would be invented, and a hallucinated price anchor is worse than no product at all. Platforms will not cooperate either; the opacity is their margin.",
+  "differentiator": "Everything on the shelf is either a booking platform — which is where the mark-ups come from — or after-the-fact complaint channels. Nothing stands with you in the ninety seconds when the quote is spoken, so this one does not price the job, it arms the question. Cold start (CN): 黑猫投诉与小红书「家电维修 被宰」，以及租房群。Cold start (EN): r/appliancerepair, search 'is this quote fair'.",
+  "consumer_angle": "家里电器坏了、师傅已经上门的普通人。他拿走的是当场能说出口的两句话——不是一份事后维权材料。"
 }
