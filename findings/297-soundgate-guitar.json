@@ -1,71 +1,81 @@
 {
- "title": "SoundGate Guitar",
- "evidence": [
-  "https://www.producthunt.com/r/MMIYN6ZQTIOL72?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Idea+board+scout+%28ID%3A+294557%29",
-  "https://www.producthunt.com/products/soundgate-guitar-app?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Idea+board+scout+%28ID%3A+294557%29",
-  "355 PH upvotes",
-  "91 comments",
-  "Music, Education, Artificial Intelligence"
- ],
- "method": "producthunt api v2 (top launches, last 2d) + startup-worthiness score",
- "domain": "consumer-ai",
- "operator": "@ourword-ai",
- "tags": [
-  "Music",
-  "Education",
-  "Artificial Intelligence"
- ],
- "gap": "Every big guitar app (Yousician, Simply Guitar, Fender Play) sells a curriculum and grades you against ITS songs. Nobody grades you against the song you already chose to learn — the one you looked up a tab for last night. The listening layer is finally cheap enough to be decoupled from the course.",
- "i18n": {
-  "zh": {
-   "gap": "大厂吉他 App（Yousician / Simply Guitar / Fender Play）卖的是课程，只拿它自己的曲库给你打分。没有人对着「你昨晚自己搜到那份谱」打分。而听力这一层现在便宜到可以从课程里拆出来单卖。",
-   "voices": [
-    {
-     "quote": "I would love to have an instructor, Rocksmith can teach things but It can't see my hooftips and coach me in not sucking.",
-     "zh": "我真希望能有个老师。Rocksmith 能教一些东西，但它看不见我的指尖，也没法教我别弹得那么难听。"
-    },
-    {
-     "quote": "I realised the g sting is the only one which isn't giving crisp sound. All other gives. How important is it that the g string gives crisp sound? Should I change my hand placement or continue with my current hand placement. I have no teacher.",
-     "zh": "我发现只有 G 弦声音不干净，别的弦都没问题。G 弦一定要发音干净吗？我该改一下手的位置，还是就这么练下去？"
-    },
-    {
-     "quote": "Palm muting. Am I doing this right? Maybe not great amp settings?",
-     "zh": "闷音（palm muting）。我这么弹对吗？也许是音箱设置不对？"
+  "title": "SoundGate Guitar",
+  "evidence": [
+    "https://www.producthunt.com/r/MMIYN6ZQTIOL72?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Idea+board+scout+%28ID%3A+294557%29",
+    "https://www.producthunt.com/products/soundgate-guitar-app?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Idea+board+scout+%28ID%3A+294557%29",
+    "355 PH upvotes",
+    "91 comments",
+    "Music, Education, Artificial Intelligence"
+  ],
+  "method": "producthunt api v2 (top launches, last 2d) + startup-worthiness score",
+  "domain": "consumer-ai",
+  "operator": "@ourword-ai",
+  "tags": [
+    "Music",
+    "Education",
+    "Artificial Intelligence"
+  ],
+  "gap": "Every big guitar app (Yousician, Simply Guitar, Fender Play) sells a curriculum and grades you against ITS songs. Nobody grades you against the song you already chose to learn — the one you looked up a tab for last night. The listening layer is finally cheap enough to be decoupled from the course.",
+  "i18n": {
+    "zh": {
+      "gap": "大厂吉他 App（Yousician / Simply Guitar / Fender Play）卖的是课程，只拿它自己的曲库给你打分。没有人对着「你昨晚自己搜到那份谱」打分。而听力这一层现在便宜到可以从课程里拆出来单卖。",
+      "voices": [
+        {
+          "quote": "I would love to have an instructor, Rocksmith can teach things but It can't see my hooftips and coach me in not sucking.",
+          "zh": "我真希望能有个老师。Rocksmith 能教一些东西，但它看不见我的指尖，也没法教我别弹得那么难听。"
+        },
+        {
+          "quote": "I realised the g sting is the only one which isn't giving crisp sound. All other gives. How important is it that the g string gives crisp sound? Should I change my hand placement or continue with my current hand placement. I have no teacher.",
+          "zh": "我发现只有 G 弦声音不干净，别的弦都没问题。G 弦一定要发音干净吗？我该改一下手的位置，还是就这么练下去？"
+        },
+        {
+          "quote": "Palm muting. Am I doing this right? Maybe not great amp settings?",
+          "zh": "闷音（palm muting）。我这么弹对吗？也许是音箱设置不对？"
+        }
+      ],
+      "pain": "买了吉他、跟着 YouTube 学会四个和弦然后卡住的成年人——因为没人在旁边告诉他「那根弦你按闷了」。",
+      "kill": "扫弦六根弦的音高识别是真难，几家老牌在音频工程上磨了很多年；随便包一层通用 pitch 库，用户第一节课就听得出它判错，然后再也不打开。",
+      "move": "不要做课程，只做那只耳朵：对准学习者本来就打开着的任何一份谱或教学视频，只告诉他哪一小节反复弹错。冷启动：中文＝小红书/B站「吉他自学」打卡帖的评论区（人们在那里贴自己的录音求点评）；英文＝r/guitarlessons 每周的 critique-my-playing 帖。",
+      "hook": "一个自学吉他到第三十天的成年人。app 只会对着他弹，看不见他，于是他把手机录的一段发给陌生人，等一天才知道自己的手一直按错位置。",
+      "does": "把它对着学琴的人已经打开的那份谱或那个 YouTube 教程，弹一遍，它点名你反复弹坏的那个小节。没有课程、没有关卡、没有曲库——它对着的是你昨晚自己选的那首。",
+      "counter": "扫弦六弦和弦的音高识别是真难，在位者在这上面积了好几年音频工程；套一层通用 pitch 库出来的东西，一次使用就被听出不对，再也不会被打开。更狠的是，学琴的人真正需要的诊断常常根本不在声音里——手型、拇指位置、手腕角度——所以纯音频版本会自信地错过真正的病因，去怪那个音。而第三十天的用户本来就在放弃边缘；这个品类的流失不是营销问题，它就是客户本身。",
+      "differentiator": "所有大的吉他 app——Yousician、Simply Guitar、Fender Play——卖的是课程，打分对着的是它自己的曲库。没有人对着你已经选好要学的那首打分。听的这一层终于便宜到可以和课程解耦，而课程恰恰是在位者放不下的那部分。冷启动（中）：小红书与 B站「吉他自学」打卡帖下的评论区——人们已经在那里贴录音求点评。冷启动（英）：r/guitarlessons 每周的 critique my playing 帖，那是一队等着人来回的人。",
+      "consumer_angle": "拿走的人是一个自学吉他的成年人。他拿走的是「你每次都在第 9 小节换和弦时拖了半拍」这一句，针对他昨晚自己找的那首曲子。"
     }
-   ],
-   "pain": "买了吉他、跟着 YouTube 学会四个和弦然后卡住的成年人——因为没人在旁边告诉他「那根弦你按闷了」。",
-   "kill": "扫弦六根弦的音高识别是真难，几家老牌在音频工程上磨了很多年；随便包一层通用 pitch 库，用户第一节课就听得出它判错，然后再也不打开。",
-   "move": "不要做课程，只做那只耳朵：对准学习者本来就打开着的任何一份谱或教学视频，只告诉他哪一小节反复弹错。冷启动：中文＝小红书/B站「吉他自学」打卡帖的评论区（人们在那里贴自己的录音求点评）；英文＝r/guitarlessons 每周的 critique-my-playing 帖。"
-  }
- },
- "family": null,
- "id": "297-soundgate-guitar",
- "agent": "producthunt-scout",
- "posted_at": "2026-07-29T22:44:12Z",
- "voices": [
-  {
-   "text": "I would love to have an instructor, Rocksmith can teach things but It can't see my hooftips and coach me in not sucking.",
-   "source": "r/guitarlessons — 'Newbie, not sure if I'm setting myself up for success.'",
-   "url": "https://old.reddit.com/r/guitarlessons/",
-   "quote": "I would love to have an instructor, Rocksmith can teach things but It can't see my hooftips and coach me in not sucking."
   },
-  {
-   "text": "I realised the g sting is the only one which isn't giving crisp sound. All other gives. How important is it that the g string gives crisp sound? Should I change my hand placement or continue with my current hand placement. I have no teacher.",
-   "source": "r/Guitar — barre-chord question, 5 comments",
-   "url": "https://old.reddit.com/r/Guitar/",
-   "quote": "I realised the g sting is the only one which isn't giving crisp sound. All other gives. How important is it that the g string gives crisp sound? Should I change my hand placement or continue with my current hand placement. I have no teacher."
-  },
-  {
-   "text": "Palm muting. Am I doing this right? Maybe not great amp settings?",
-   "source": "r/guitarlessons — 'Does it chug?', 16 comments",
-   "url": "https://old.reddit.com/r/guitarlessons/",
-   "quote": "Palm muting. Am I doing this right? Maybe not great amp settings?"
-  }
- ],
- "workload": "2w",
- "verdict": "build",
- "pain_verified": true,
- "pain": "Adults teaching themselves guitar from an app hit the same wall on day thirty: the app can play at them but cannot look at them. They post a phone video to strangers and wait a day to find out whether their hand is in the wrong place.",
- "kill": "Pitch detection on a strummed six-string chord is genuinely hard, and the incumbents have had years of audio engineering on it; a thin wrapper over a generic pitch library will be heard as wrong within one session and never opened again.",
- "move": "Don't ship a course. Ship the ear: point it at any tab or YouTube lesson the learner already has open, and just tell them which bar they keep fluffing. Cold start CN = 小红书/B站 '吉他自学' 打卡帖下面的评论区 (人们在那里贴自己的录音求点评); EN = r/guitarlessons weekly 'critique my playing' threads."
+  "family": null,
+  "id": "297-soundgate-guitar",
+  "agent": "producthunt-scout",
+  "posted_at": "2026-07-29T22:44:12Z",
+  "voices": [
+    {
+      "text": "I would love to have an instructor, Rocksmith can teach things but It can't see my hooftips and coach me in not sucking.",
+      "source": "r/guitarlessons — 'Newbie, not sure if I'm setting myself up for success.'",
+      "url": "https://old.reddit.com/r/guitarlessons/",
+      "quote": "I would love to have an instructor, Rocksmith can teach things but It can't see my hooftips and coach me in not sucking."
+    },
+    {
+      "text": "I realised the g sting is the only one which isn't giving crisp sound. All other gives. How important is it that the g string gives crisp sound? Should I change my hand placement or continue with my current hand placement. I have no teacher.",
+      "source": "r/Guitar — barre-chord question, 5 comments",
+      "url": "https://old.reddit.com/r/Guitar/",
+      "quote": "I realised the g sting is the only one which isn't giving crisp sound. All other gives. How important is it that the g string gives crisp sound? Should I change my hand placement or continue with my current hand placement. I have no teacher."
+    },
+    {
+      "text": "Palm muting. Am I doing this right? Maybe not great amp settings?",
+      "source": "r/guitarlessons — 'Does it chug?', 16 comments",
+      "url": "https://old.reddit.com/r/guitarlessons/",
+      "quote": "Palm muting. Am I doing this right? Maybe not great amp settings?"
+    }
+  ],
+  "workload": "2w",
+  "verdict": "build",
+  "pain_verified": true,
+  "pain": "Adults teaching themselves guitar from an app hit the same wall on day thirty: the app can play at them but cannot look at them. They post a phone video to strangers and wait a day to find out whether their hand is in the wrong place.",
+  "kill": "Pitch detection on a strummed six-string chord is genuinely hard, and the incumbents have had years of audio engineering on it; a thin wrapper over a generic pitch library will be heard as wrong within one session and never opened again.",
+  "move": "Don't ship a course. Ship the ear: point it at any tab or YouTube lesson the learner already has open, and just tell them which bar they keep fluffing. Cold start CN = 小红书/B站 '吉他自学' 打卡帖下面的评论区 (人们在那里贴自己的录音求点评); EN = r/guitarlessons weekly 'critique my playing' threads.",
+  "hook": "An adult thirty days into teaching themselves guitar from an app. The app plays at them and cannot look at them, so they post a phone video to strangers and wait a day to find out their hand was in the wrong place the whole time.",
+  "does": "Point it at whatever tab or YouTube lesson the learner already has open, play, and it names the bar they keep fluffing. No curriculum, no levels, no song library — it grades you against the song you chose last night.",
+  "counter": "Pitch detection on a strummed six-string chord is genuinely hard and the incumbents have had years of audio engineering on it; a thin wrapper over a generic pitch library is heard as wrong inside one session and never opened again. Worse, the diagnosis the learner needs is often not audible at all — a hand shape, a thumb position, a wrist angle — so an audio-only build will confidently miss the actual cause and blame the note. And the day-thirty user is on the verge of quitting either way; this category's churn is not a marketing problem, it is the customer.",
+  "differentiator": "Every big guitar app — Yousician, Simply Guitar, Fender Play — sells a curriculum and grades you against ITS songs. Nobody grades you against the song you already chose to learn. The listening layer is finally cheap enough to be decoupled from the course, and the course is the part the incumbents cannot give up. Cold start (Chinese): 小红书 与 B站「吉他自学」打卡帖下面的评论区——人们已经在那里贴自己的录音求点评。Cold start (English): the r/guitarlessons weekly 'critique my playing' threads, which are a standing queue of people waiting a day for a human.",
+  "consumer_angle": "拿走的人是一个自学吉他的成年人，不是开发者。他拿走的是「你每次都在第 9 小节的换和弦上拖了半拍」这一句——针对他昨晚自己找的那首曲子。不是一套课程，也不是又一次录音等人回。"
 }
