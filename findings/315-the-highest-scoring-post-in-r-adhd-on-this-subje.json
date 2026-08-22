@@ -1,80 +1,90 @@
 {
- "evidence": [
-  "https://old.reddit.com/r/ADHD/search?q=%22wish+there+was+an+app%22",
-  "https://www.xiaohongshu.com/explore/6a4cf22a000000001603e42b",
-  "2,411 points / 205 comments (r/ADHD, 10 months)",
-  "7,327 likes / 236 comments (Xiaohongshu, 07-16)",
-  "同族仍在补员 2026-08-13：Task Gremlin（PH 当日榜）——「一堆 AI 小工把乱七八糟的任务拆成能做的小步」，与本卡「买过又扔掉十几个日程工具」构成一组：货架每周补新，痛却没被解决"
- ],
- "method": "Cross-language convergence, found by re-running a rejection. This family was killed earlier today on the grounds that the operator's July pass marked 成人ADHD生活外挂 (#505) and the reminder-sentinel entries (#428/#429/#388) with ❌ — but STANDARD.md 5 says historical marks are a reference, not a rule. Re-checked, and the evidence is different from what was rejected: the ❌ pile is lists-and-alerts; this thread's whole content is that lists-and-alerts is the thing that does not work. Then confirmed the same complaint independently on Xiaohongshu under a Chinese Tiimo review.",
- "domain": "pain-points",
- "url": "https://old.reddit.com/r/ADHD/",
- "gap": "It hits a real pain and solves it imperfectly, in the same way, everywhere. The whole category — Todoist, Tiimo, Structured, 滴答清单 — ends at a push notification, and the notification is the exact step these users report ignoring. Nobody has moved the last mile to a different channel. On the Chinese side there is a second, separate gap: the reviewer with 7,327 likes says the best tool in this category has mediocre Chinese support.",
- "workload": "2m",
- "voices": [
-  {
-   "kind": "pain",
-   "quote": "I've tried a billion reminder and task management apps and literally ignore every push notification. Rich people don't even have to remember everything, they have personal assistants on staff who help them every day all year with remembering. If only there was app that would call me like a personal assistant would and take the mental load of having to remember everything…. When are they gonna build that??",
-   "url": "https://old.reddit.com/r/ADHD/",
-   "user": "MajorDescription8675",
-   "src": "reddit",
-   "text": "I've tried a billion reminder and task management apps and literally ignore every push notification. Rich people don't even have to remember everything, they have personal assistants on staff who help them every day all year with remembering. If only there was app that would call me like a personal assistant would and take the mental load of having to remember everything…. When are they gonna build that??"
-  },
-  {
-   "kind": "pain",
-   "quote": "主要是整理逻辑 完全不按plan行动但是需要有plan。没有计划我能躺尸一整天",
-   "url": "https://www.xiaohongshu.com/explore/6a4cf22a000000001603e42b",
-   "user": "小红书评论区",
-   "src": "xiaohongshu",
-   "text": "主要是整理逻辑 完全不按plan行动但是需要有plan。没有计划我能躺尸一整天"
-  },
-  {
-   "kind": "pain",
-   "quote": "但是整体上对中文的支持，以及国内优化做的一般",
-   "url": "https://www.xiaohongshu.com/explore/6a4cf22a000000001603e42b",
-   "user": "马古",
-   "src": "xiaohongshu",
-   "text": "但是整体上对中文的支持，以及国内优化做的一般"
-  }
- ],
- "pain_verified": true,
- "i18n": {
-  "zh": {
-   "gap": "痛点击中了，而且在所有地方都以同一种方式解错。这个品类——Todoist、Tiimo、Structured、滴答清单——全都停在一条推送通知上，而这条通知正是这批用户明说自己会无视的那一步。没有人把最后一公里换掉。中文侧还有第二个独立的缺口：那位 7327 赞的测评者直说这个品类里最好的工具「对中文的支持，以及国内优化做的一般」。",
-   "voices": [
+  "evidence": [
+    "https://old.reddit.com/r/ADHD/search?q=%22wish+there+was+an+app%22",
+    "https://www.xiaohongshu.com/explore/6a4cf22a000000001603e42b",
+    "2,411 points / 205 comments (r/ADHD, 10 months)",
+    "7,327 likes / 236 comments (Xiaohongshu, 07-16)",
+    "同族仍在补员 2026-08-13：Task Gremlin（PH 当日榜）——「一堆 AI 小工把乱七八糟的任务拆成能做的小步」，与本卡「买过又扔掉十几个日程工具」构成一组：货架每周补新，痛却没被解决"
+  ],
+  "method": "Cross-language convergence, found by re-running a rejection. This family was killed earlier today on the grounds that the operator's July pass marked 成人ADHD生活外挂 (#505) and the reminder-sentinel entries (#428/#429/#388) with ❌ — but STANDARD.md 5 says historical marks are a reference, not a rule. Re-checked, and the evidence is different from what was rejected: the ❌ pile is lists-and-alerts; this thread's whole content is that lists-and-alerts is the thing that does not work. Then confirmed the same complaint independently on Xiaohongshu under a Chinese Tiimo review.",
+  "domain": "pain-points",
+  "url": "https://old.reddit.com/r/ADHD/",
+  "gap": "It hits a real pain and solves it imperfectly, in the same way, everywhere. The whole category — Todoist, Tiimo, Structured, 滴答清单 — ends at a push notification, and the notification is the exact step these users report ignoring. Nobody has moved the last mile to a different channel. On the Chinese side there is a second, separate gap: the reviewer with 7,327 likes says the best tool in this category has mediocre Chinese support.",
+  "workload": "2m",
+  "voices": [
     {
-     "quote": "I've tried a billion reminder and task management apps and literally ignore every push notification. Rich people don't even have to remember everything, they have personal assistants on staff who help them every day all year with remembering. If only there was app that would call me like a personal assistant would and take the mental load of having to remember everything…. When are they gonna build that??",
-     "zh": "提醒和待办类 App 我试过一万个，每一条推送通知我都会直接无视。有钱人根本不用记这些事，他们身边有真人助理帮着记……什么时候才有人做这个东西？"
+      "kind": "pain",
+      "quote": "I've tried a billion reminder and task management apps and literally ignore every push notification. Rich people don't even have to remember everything, they have personal assistants on staff who help them every day all year with remembering. If only there was app that would call me like a personal assistant would and take the mental load of having to remember everything…. When are they gonna build that??",
+      "url": "https://old.reddit.com/r/ADHD/",
+      "user": "MajorDescription8675",
+      "src": "reddit",
+      "text": "I've tried a billion reminder and task management apps and literally ignore every push notification. Rich people don't even have to remember everything, they have personal assistants on staff who help them every day all year with remembering. If only there was app that would call me like a personal assistant would and take the mental load of having to remember everything…. When are they gonna build that??"
     },
     {
-     "quote": "主要是整理逻辑 完全不按plan行动但是需要有plan。没有计划我能躺尸一整天",
-     "zh": "主要是整理逻辑 完全不按plan行动但是需要有plan。没有计划我能躺尸一整天"
+      "kind": "pain",
+      "quote": "主要是整理逻辑 完全不按plan行动但是需要有plan。没有计划我能躺尸一整天",
+      "url": "https://www.xiaohongshu.com/explore/6a4cf22a000000001603e42b",
+      "user": "小红书评论区",
+      "src": "xiaohongshu",
+      "text": "主要是整理逻辑 完全不按plan行动但是需要有plan。没有计划我能躺尸一整天"
     },
     {
-     "quote": "但是整体上对中文的支持，以及国内优化做的一般",
-     "zh": "但是整体上对中文的支持，以及国内优化做的一般"
+      "kind": "pain",
+      "quote": "但是整体上对中文的支持，以及国内优化做的一般",
+      "url": "https://www.xiaohongshu.com/explore/6a4cf22a000000001603e42b",
+      "user": "马古",
+      "src": "xiaohongshu",
+      "text": "但是整体上对中文的支持，以及国内优化做的一般"
     }
-   ],
-   "pain": "一个已经买过又扔掉十几个日程工具的人，而且他说得出为什么：通知弹出来，他看都没看就划掉了。",
-   "kill": "「打电话给我」是人们嘴上要的，往往不是他们受得了的：每天一通不请自来的电话，是产品能设计出的最容易流失的交互；那个无视通知的人，第三周同样会挂断电话。苹果和谷歌一个系统版本就能加一个会说话的提醒。而且这是一个临床人群——任何从「换一种被提醒的方式」漂移到「管理一种状况」的东西，既是责任也不是一个人该碰的。明说：用户 7 月把这一族标了 ❌；这张卡存在，是因为证据不一样了，不是因为那次判断错了。",
-   "move": "别做日程工具——日程工具正是那个已经存在、且已经输掉的部分。只做投递这一段：每天一通外呼，时间由用户自己定，最多念三件事、用语音接住回答；清单不是让他填表填出来的，是从他随口说过的话里攒出来的。中文版先做，那里最好的工具被公开说成本地化一般。不诊断、不做疗效声称、不做教练——只是把提醒换一个通道，遇到明显困难就指向专业人士。冷启动（中文）：那条 7327 赞 Tiimo 测评的评论区，以及小红书 成人adhd / adhd工具 标签，人们在那里点名自己扔掉的工具；冷启动（英文）：r/ADHD 那个帖子本身和它的 205 条评论，加 r/adhdwomen。"
-  }
- },
- "tags": [
-  "reddit",
-  "xiaohongshu",
-  "consumer",
-  "radar-570",
-  "revisited-rejection"
- ],
- "id": "315-the-highest-scoring-post-in-r-adhd-on-this-subje",
- "agent": "ourword-ai",
- "posted_at": "2026-08-04T07:01:10Z",
- "reused": 0,
- "first": true,
- "verdict": "build",
- "pain": "Someone who has already bought and abandoned a dozen planners, and can tell you exactly why: the notification arrives, and they swipe it away without reading it.",
- "kill": "'Call me' is what people say they want and very often not what they tolerate: an unsolicited daily phone call is among the most churn-prone interactions a product can have, and the same person who ignores notifications may decline the call by week three. Apple and Google can add a spoken reminder in one OS release. And this is a clinical population — anything that drifts from 'a different way to be reminded' into managing a condition is both a liability and outside what a solo builder should touch. Worth stating plainly: the operator marked this family ❌ in July; this card exists because the evidence is different, not because the judgement was wrong.",
- "move": "Do not build a planner — the planner is the part that already exists and already lost. Build only the delivery: one outbound voice call a day at a time the user picks, reading back at most three things and taking the answer by voice, with the list assembled from whatever they said in passing rather than from a form they have to maintain. Ship the Chinese version first, where the leading tool is openly described as poorly localised. No diagnosis, no treatment claims, no coaching — a different channel for a reminder, and a line pointing to a professional when someone is clearly struggling. Cold start (Chinese): the comment section of the Tiimo review (7,327 likes) and the 成人adhd / adhd工具 tags on Xiaohongshu, where people name the tools they abandoned; Cold start (English): the r/ADHD thread itself and its 205 comments, plus r/adhdwomen.",
- "wallet": "强：这个人自己说买过又扔掉十几个日程工具——付费习惯不用验证"
+  ],
+  "pain_verified": true,
+  "i18n": {
+    "zh": {
+      "gap": "痛点击中了，而且在所有地方都以同一种方式解错。这个品类——Todoist、Tiimo、Structured、滴答清单——全都停在一条推送通知上，而这条通知正是这批用户明说自己会无视的那一步。没有人把最后一公里换掉。中文侧还有第二个独立的缺口：那位 7327 赞的测评者直说这个品类里最好的工具「对中文的支持，以及国内优化做的一般」。",
+      "voices": [
+        {
+          "quote": "I've tried a billion reminder and task management apps and literally ignore every push notification. Rich people don't even have to remember everything, they have personal assistants on staff who help them every day all year with remembering. If only there was app that would call me like a personal assistant would and take the mental load of having to remember everything…. When are they gonna build that??",
+          "zh": "提醒和待办类 App 我试过一万个，每一条推送通知我都会直接无视。有钱人根本不用记这些事，他们身边有真人助理帮着记……什么时候才有人做这个东西？"
+        },
+        {
+          "quote": "主要是整理逻辑 完全不按plan行动但是需要有plan。没有计划我能躺尸一整天",
+          "zh": "主要是整理逻辑 完全不按plan行动但是需要有plan。没有计划我能躺尸一整天"
+        },
+        {
+          "quote": "但是整体上对中文的支持，以及国内优化做的一般",
+          "zh": "但是整体上对中文的支持，以及国内优化做的一般"
+        }
+      ],
+      "pain": "一个已经买过又扔掉十几个日程工具的人，而且他说得出为什么：通知弹出来，他看都没看就划掉了。",
+      "kill": "「打电话给我」是人们嘴上要的，往往不是他们受得了的：每天一通不请自来的电话，是产品能设计出的最容易流失的交互；那个无视通知的人，第三周同样会挂断电话。苹果和谷歌一个系统版本就能加一个会说话的提醒。而且这是一个临床人群——任何从「换一种被提醒的方式」漂移到「管理一种状况」的东西，既是责任也不是一个人该碰的。明说：用户 7 月把这一族标了 ❌；这张卡存在，是因为证据不一样了，不是因为那次判断错了。",
+      "move": "别做日程工具——日程工具正是那个已经存在、且已经输掉的部分。只做投递这一段：每天一通外呼，时间由用户自己定，最多念三件事、用语音接住回答；清单不是让他填表填出来的，是从他随口说过的话里攒出来的。中文版先做，那里最好的工具被公开说成本地化一般。不诊断、不做疗效声称、不做教练——只是把提醒换一个通道，遇到明显困难就指向专业人士。冷启动（中文）：那条 7327 赞 Tiimo 测评的评论区，以及小红书 成人adhd / adhd工具 标签，人们在那里点名自己扔掉的工具；冷启动（英文）：r/ADHD 那个帖子本身和它的 205 条评论，加 r/adhdwomen。",
+      "hook": "一个已经买过又扔掉十几个日程工具的人，而且说得出为什么：推送弹出来，他没看就划掉了。钱包信号不用论证——他已经为这类东西付过十二次钱。",
+      "does": "每天一通打出去的语音电话，时间他自己定。最多念三件事，他口头回答。清单是从他随口说过的话里攒起来的，不是从一张他得一直填的表里。",
+      "counter": "「打电话给我」是人们嘴上想要、身体常常受不了的东西：每天一通不请自来的电话，是消费软件里最容易流失的交互之一，同一个划掉推送的人到第三周很可能开始拒接。Apple 和 Google 一个系统版本就能加个语音提醒。这还是一个临床人群，从「换一条送达通道」漂到「管理你的病」就踩进医疗声明。诚实地读一遍 ❌ 堆：这一族里「清单＋提醒」已经被用户否掉过两次。",
+      "differentiator": "整个品类——Todoist、Tiimo、Structured、滴答清单——都停在一条推送上，而推送正是这些用户说自己会忽略的那一步。没有人把最后一公里换到另一条通道上。只做送达，绝不做日程本身。冷启动（中）：那条 7,327 赞的小红书测评说这个品类最好的工具只有英文——先出中文版，落进那个评论区。冷启动（英）：r/ADHD 那条 2,411 分 / 205 评的帖子本身就是一队已经写好需求的人。",
+      "consumer_angle": "拿走的人是一个买过又扔掉十几个日程工具的普通人。他拿走的是今天早上那一通电话，不是又一个待办清单。"
+    }
+  },
+  "tags": [
+    "reddit",
+    "xiaohongshu",
+    "consumer",
+    "radar-570",
+    "revisited-rejection"
+  ],
+  "id": "315-the-highest-scoring-post-in-r-adhd-on-this-subje",
+  "agent": "ourword-ai",
+  "posted_at": "2026-08-04T07:01:10Z",
+  "reused": 0,
+  "first": true,
+  "verdict": "build",
+  "pain": "Someone who has already bought and abandoned a dozen planners, and can tell you exactly why: the notification arrives, and they swipe it away without reading it.",
+  "kill": "'Call me' is what people say they want and very often not what they tolerate: an unsolicited daily phone call is among the most churn-prone interactions a product can have, and the same person who ignores notifications may decline the call by week three. Apple and Google can add a spoken reminder in one OS release. And this is a clinical population — anything that drifts from 'a different way to be reminded' into managing a condition is both a liability and outside what a solo builder should touch. Worth stating plainly: the operator marked this family ❌ in July; this card exists because the evidence is different, not because the judgement was wrong.",
+  "move": "Do not build a planner — the planner is the part that already exists and already lost. Build only the delivery: one outbound voice call a day at a time the user picks, reading back at most three things and taking the answer by voice, with the list assembled from whatever they said in passing rather than from a form they have to maintain. Ship the Chinese version first, where the leading tool is openly described as poorly localised. No diagnosis, no treatment claims, no coaching — a different channel for a reminder, and a line pointing to a professional when someone is clearly struggling. Cold start (Chinese): the comment section of the Tiimo review (7,327 likes) and the 成人adhd / adhd工具 tags on Xiaohongshu, where people name the tools they abandoned; Cold start (English): the r/ADHD thread itself and its 205 comments, plus r/adhdwomen.",
+  "wallet": "强：这个人自己说买过又扔掉十几个日程工具——付费习惯不用验证",
+  "hook": "Someone who has already bought and abandoned a dozen planners and can tell you exactly why: the notification arrives and they swipe it away without reading it. The wallet signal needs no argument — they have paid for twelve of these already.",
+  "does": "One outbound voice call a day, at a time they pick. It reads back at most three things and takes the answer by voice. The list is assembled from whatever they said in passing, not from a form they have to keep filling in.",
+  "counter": "'Call me' is what people say they want and frequently not what they tolerate: an unsolicited daily phone call is among the most churn-prone interactions in consumer software, and the same person who ignores notifications may be declining the call by week three. Apple and Google can add a spoken reminder in one OS release. This is also a clinical population, so anything that drifts from 'a different delivery channel' toward 'managing your condition' walks into medical claims. And the honest read on the ❌ pile: the operator has already rejected lists-and-alerts twice in this family.",
+  "differentiator": "The whole category — Todoist, Tiimo, Structured, 滴答清单 — ends at a push notification, and the push notification is the exact step these users report ignoring. Nobody has moved the last mile to a different channel. Build only the delivery, never the planner. Cold start (Chinese): the 小红书 review with 7,327 likes says the best tool in this category is English-only — ship Chinese first and land in that comment section. Cold start (English): the r/ADHD thread itself, 2,411 points / 205 comments, is a queue of people who wrote the spec.",
+  "consumer_angle": "拿走的人是一个买过又扔掉十几个日程工具的普通人。他拿走的是今天早上那一通电话——念三件事、他口头回一句，就完了。不是又一个待办清单，也不是又一条推送。"
 }
