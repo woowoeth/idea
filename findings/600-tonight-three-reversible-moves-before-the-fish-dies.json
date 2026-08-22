@@ -1,0 +1,87 @@
+{
+  "id": "600-tonight-three-reversible-moves-before-the-fish-dies",
+  "agent": "operator-session",
+  "operator": "@woowoeth",
+  "model": "claude-fable-5",
+  "domain": "pain-points",
+  "posted_at": "2026-08-22T00:00:00Z",
+  "verdict": "build",
+  "workload": "2w",
+  "pain_verified": true,
+  "confidence": "medium-high",
+  "title": "Tonight's three reversible moves, in order, before the fish dies",
+  "claim": "Search r/Aquariums for 'what do I do' and you get a column of unrelated panic posts in one identical form: 2,580p/193c, 839p/292c, 790p/188c, 614p/151c, 554p/72c, 282p/156c, 253p/91c, 231p/39c, 213p/70c, and on down through 153, 138, 115, 81, 63, 54, 52, 47. The crowd answers with parallel guesses, never an order — and the one answer that actually worked was phrased as a reversible test, not a diagnosis.",
+  "hook": "Someone standing in front of a tank at eleven at night watching a fish gasp at the surface. There is no vet open, no vet for fish at all, and the first thing he does will either fix it or kill it. He is not short of advice — a Reddit post gets him five answers in twenty minutes. He is short of which one to do first.",
+  "does": "One ten-second video of the fish, one photo of the test strip, and three facts (tank size, how long it has been running, what went in most recently). It returns three reversible moves in order — the fastest way to rule out the most lethal cause first — each with the line that tells you whether it worked: do this, wait twenty minutes, if he is still doing it, it was not this. It also names the two things not to do tonight, because both are irreversible.",
+  "edge": "The output is an ordered elimination sequence, not a diagnosis and not a log. Every step must be undoable, and every step must carry its own read-out line.",
+  "why_use": "Because at eleven at night, five parallel guesses are worse than one wrong answer — you cannot try them all at once on a living system, and trying them in the wrong order is how the fish dies.",
+  "gap": "Everything on this shelf is a logbook. Aquarium apps record parameters and remind you to change water; strip-reader apps turn a photo into numbers and stop. Disease pages are reference content — pick your symptom from a grid. Nobody takes the state of one specific tank and returns an order of operations, and nobody is willing to say 'do not do that tonight'. That refusal to sequence is the whole gap, and it is why the useful Reddit answer had to be volunteered by a stranger who happened to have seen it before.",
+  "counter": "Five ways this dies. (1) Frequency: a keeper panics maybe twice a life — the paying window is the first six months, and beginners churn out of the hobby entirely, so this is close to a one-use product. (2) The honest answer is often 'this tank is too small' or 'you bought the wrong fish' — the top comments say exactly that — and that is not an action for tonight, so the product must sometimes disappoint by design. (3) Reading a test strip from a phone photo is the input to the whole chain and white balance makes it unreliable; get the nitrite wrong and every step below it is wrong. (4) Anything that says 'dose this' walks into veterinary advice, so it has to stay at 'change this much water, unplug this, stop feeding' and hand off. (5) The strongest incumbent is free and human: post a photo and 800 people answer. The only reason that is beatable is the thing this round actually observed — when the asker did everything right and posted full parameters, the top answer with 30 points was three words, 'more plants buddy', and the second-highest was a joke.",
+  "differentiator": "Not a tracker and not a symptom encyclopedia — a sequence with a stop condition on each step. The two competitors it has to beat are a notebook (which never advises) and a forum (which advises in parallel). Cold start (English): the r/Aquariums 'what do I do' column itself is a standing queue — answer three of them publicly with an ordered plan and link nothing. Cold start (Chinese): 小红书与 B站「鱼缸 白浊」「新鱼 缸 翻缸」「鱼浮头」标签下的评论区，以及淘宝水族店铺问答区里「试纸测出来这样怎么办」的追问。",
+  "value": "The keeper stops paying the beginner's tax — the two or three full tank restarts and the dead stock that every forum treats as a rite of passage.",
+  "risk": "Give one wrong first step and something dies, and it is visible. Must hard-limit to reversible environmental moves plus 'ask a shop or an aquatic vet about medication', and must refuse to name a disease.",
+  "consumer_angle": "拿走的人是一个晚上十一点站在自家鱼缸前的普通人，不是开发者、不是任何 agent。他拿走的是「今晚按这个顺序做三件事」——每一件都能撤回，每一件后面跟着一句「二十分钟后还这样，就说明不是这个」。不是又一条水质记录，不是又一份病症图鉴。",
+  "voices": [
+    {
+      "kind": "pain",
+      "quote": "I keep the filter on at all times, making sure it agitates the surface, the temperature is fine, they're fed regularly and I tested the water it looks okay. It's horrible seeing him like this I don't know what else to do.",
+      "user": "Greedy-Dinosaur",
+      "src": "reddit r/Aquariums 《Fish is super stressed, what do I do》790 points / 188 comments",
+      "url": "https://old.reddit.com/comments/1t3xjle/"
+    },
+    {
+      "kind": "gap",
+      "quote": "Not sure why no one is asking what your water parameters are yet. What are the parameters?",
+      "user": "top comment (44 points)",
+      "src": "same thread — the crowd cannot answer because the asker does not know what to show",
+      "url": "https://old.reddit.com/comments/1t3xjle/"
+    },
+    {
+      "kind": "shape",
+      "quote": "The last time I saw a fish do this, it was being electrocuted by the heater. Please unplug your heater and see whether he settles down",
+      "user": "second-highest comment (493 points)",
+      "src": "same thread — the most useful answer in the thread is a reversible test, not a diagnosis",
+      "url": "https://old.reddit.com/comments/1t3xjle/"
+    },
+    {
+      "kind": "counter-to-the-incumbent",
+      "quote": "more plants buddy",
+      "user": "top comment (30 points)",
+      "src": "reddit r/Aquariums 《My 75 gal Help!! Cloudy/Algae》54 points / 48 comments — the asker supplied full parameters, temp, stocking, filtration and light schedule; the top answer is three words and the second-highest is a joke",
+      "url": "https://old.reddit.com/comments/1nfkm58/"
+    }
+  ],
+  "evidence": [
+    "https://old.reddit.com/r/Aquariums/search?q=%22what+do+I+do%22&restrict_sr=on&sort=top&t=year — one identical form repeated down a whole column: 2580p/193c, 839p/292c, 790p/188c, 614p/151c, 554p/72c, 282p/156c, 253p/91c, 231p/39c, 213p/70c, 153p/41c, 138p/85c, 115p/38c, 81p/36c, 63p/85c, 54p/48c, 52p/48c, 47p/35c",
+    "https://old.reddit.com/comments/1t3xjle/ — five mutually exclusive top answers on one thread: needs oxygenation / heater is electrocuting the fish / ammonia spike / tank too small / wrong species bought. None ordered.",
+    "https://old.reddit.com/comments/1nfkm58/ — asker posts full parameters; top answer is 'more plants buddy' (30 points), second is a joke (15 points)",
+    "Product Hunt 2026-08 消费向 topic 扫描：health-fitness / home 两个 topic 里没有一条做处置排序的水族条目；同期 BellyMystery（10票，Food Intolerance Tracker）与 Etuda（7票，Strava for musicians）再次确认这排货架出的都是记录型产品"
+  ],
+  "method": "Zero-coverage domain selected first (「鱼缸/水族」in RADAR-INDEX #1-599 = 0 hits), then symptom-phrase search inside r/Aquariums via same-origin JSON fetch in the browser; comment trees pulled for the two strongest threads and quoted verbatim. Cross-checked Product Hunt consumer topics (health-fitness / parenting / home / education / travel, posted after 2026-08-15) and HN Algolia for an incumbent; none found. 小红书 login unavailable this round, so no Chinese voice — flagged.",
+  "kill": "See counter. The load-bearing risk is frequency, not competition.",
+  "move": "Ship one screen: video in, three ordered reversible moves out, each with its own twenty-minute read-out line, plus two 'not tonight' items. Refuse to name a disease.",
+  "url": "https://old.reddit.com/r/Aquariums/search?q=%22what+do+I+do%22&restrict_sr=on&sort=top&t=year",
+  "tags": [
+    "reddit",
+    "user-voice",
+    "consumer",
+    "zero-coverage-domain",
+    "shelf:living-system-triage"
+  ],
+  "i18n": {
+    "zh": {
+      "claim": "在 r/Aquariums 搜「what do I do」，出来的是一整列互不相干、形式完全相同的慌乱帖：2580分/193评、839/292、790/188、614/151、554/72、282/156、253/91、231/39、213/70，再往下 153、138、115、81、63、54、52、47。评论区给的是几个并列的猜测，从来不给顺序——而真正管用的那一条，是以「可撤回的试验」而不是「诊断」的形式说出来的。",
+      "hook": "一个晚上十一点站在自家鱼缸前的人，看着鱼在水面上张嘴。没有开着的诊所，鱼本来也没有诊所，而他做的第一件事要么救回来要么弄死。他不缺建议——发个帖二十分钟就有五个答案。他缺的是先做哪一个。",
+      "does": "一段十秒的鱼的视频、一张试纸照片、三个事实（缸多大、开了多久、最近往里加过什么）。它回你今晚按顺序的三件可撤回的动作——用最快的方式先排掉最致命的那个可能——每一件后面跟着一句判读线：做这个，等二十分钟，如果他还这样，就说明不是这个。它还点名今晚不要做的两件事，因为那两件撤不回来。",
+      "edge": "产物是一条排除序列，不是诊断也不是记录。每一步必须能撤回，每一步必须自带判读线。",
+      "why_use": "因为晚上十一点，五个并列的猜测比一个错答案更糟——一个活的系统你不能同时试五件事，而顺序错了正是鱼死的那条路。",
+      "gap": "这排货架上全是记事本。水族 app 记参数、提醒你换水；试纸读色 app 把照片变成数字就停了；病症页是参考内容——从一张表里挑你的症状。没有人拿着某一个具体缸的当前状态给出一个执行顺序，也没有人愿意说「今晚这件别做」。不肯排序就是那个缺口，也正因如此，那条真正有用的答案只能靠一个恰好见过的陌生人自愿贡献。",
+      "counter": "五种死法。①频率：一个人一辈子大概只慌两次——付费窗口是头六个月，而新手会整批退出这个爱好，所以这接近一个一次性产品。②诚实的答案常常是「你这缸太小了」或者「你买错鱼了」——顶评说的就是这两句——而这不是今晚能做的动作，所以产品按设计就必须有时候让人失望。③用手机拍试纸是整条链的输入，白平衡让它极不可靠；亚硝酸读错，下面每一步都错。④凡是说「下这个药」的就走进兽医建议，所以只能停在「换这么多水、拔这个、停喂几天」然后交出去。⑤最强的在位者是免费的人：发张照片，八百个人回你。唯一还能打的理由正是本轮实测到的那件事——当提问者什么都做对了、参数全给了，30 分的顶评是三个字「more plants buddy」，第二高的是个玩笑。",
+      "differentiator": "不是记录器，也不是症状百科——是一条每步都带停止条件的序列。要打的两个对手是一个本子（永远不给建议）和一个论坛（并列地给建议）。冷启动（英）：r/Aquariums 那一列「what do I do」本身就是一队人——公开回三条，给出有顺序的方案，什么也不链接。冷启动（中）：小红书与 B站「鱼缸 白浊」「新鱼 缸 翻缸」「鱼浮头」标签下的评论区，以及淘宝水族店铺问答区里「试纸测出来这样怎么办」的追问。",
+      "value": "养鱼的人不用再交新手税——那两三次整缸重开和那些死掉的鱼，论坛把它们当成必经的成人礼。",
+      "risk": "第一步给错就有东西死，而且看得见。必须硬限制在可撤回的环境动作，加一句「用药去问店家或水生动物兽医」，并且拒绝说出病名。",
+      "consumer_angle": "拿走的人是一个晚上十一点站在自家鱼缸前的普通人。他拿走的是「今晚按这个顺序做三件事」——每一件都能撤回，每一件后面跟着一句判读线。不是又一条水质记录。",
+      "workload": "两周单点闭环"
+    }
+  }
+}
