@@ -1,97 +1,105 @@
 {
- "evidence": [
-  "https://old.reddit.com/r/guitarlessons+learnart+languagelearning+piano+singing/search?q=%22is+there+an+app%22&restrict_sr=on&sort=top&t=year",
-  "https://old.reddit.com/r/singing/search?q=harmony+%22is+there+an+app%22+OR+%22wish+there+was%22&restrict_sr=on&sort=top&t=year"
- ],
- "method": "Same Reddit sweep as the harmony finding: the skill-learning cluster on \"is there an app\", read on the search-results pages where post bodies are shown in full. Five independent pitch-feedback requests were counted across twelve months; quotes verbatim, scores as displayed 2026-08-06.",
- "domain": "pain-points",
- "url": "https://old.reddit.com/r/guitarlessons+learnart+languagelearning+piano+singing/search?q=%22is+there+an+app%22&restrict_sr=on&sort=top&t=year",
- "gap": "The tools split into two piles: studio pitch correction (Melodyne) which is offline, expensive and built for producers, and karaoke scoring (Smule, Yousician) which gives you a number and no diagnosis. Nobody puts your live pitch and the original's side by side on a timeline, which is exactly what every asker describes wanting.",
- "workload": "2w",
- "voices": [
-  {
-   "kind": "pain",
-   "quote": "I have melodyne but I want to see my vocal real time without transfer as for some reason I seem to be real tone deaf to how far I am from hitting a note",
-   "user": "Klutzy-Peach5949",
-   "src": "reddit r/singing (7 pts / 21 comments, 16 days old)",
-   "url": "https://old.reddit.com/r/guitarlessons+learnart+languagelearning+piano+singing/search?q=%22is+there+an+app%22&restrict_sr=on&sort=top&t=year",
-   "text": "I have melodyne but I want to see my vocal real time without transfer as for some reason I seem to be real tone deaf to how far I am from hitting a note"
-  },
-  {
-   "kind": "pain",
-   "quote": "Seems like an obvious tool that there'd be tons of, but I can't find a single good one",
-   "user": "Thinkofacard",
-   "src": "reddit r/singing — parent of a 10-year-old",
-   "url": "https://old.reddit.com/r/guitarlessons+learnart+languagelearning+piano+singing/search?q=%22is+there+an+app%22&restrict_sr=on&sort=top&t=year",
-   "text": "Seems like an obvious tool that there'd be tons of, but I can't find a single good one"
-  },
-  {
-   "kind": "pain",
-   "quote": "I've tried downloading a few but I can't really tell which would be worth paying for after the free trials end",
-   "user": "FoxyStand",
-   "src": "reddit r/singing — parent, musical-theatre troupe",
-   "url": "https://old.reddit.com/r/guitarlessons+learnart+languagelearning+piano+singing/search?q=%22is+there+an+app%22&restrict_sr=on&sort=top&t=year",
-   "text": "I've tried downloading a few but I can't really tell which would be worth paying for after the free trials end"
-  },
-  {
-   "kind": "demand",
-   "quote": "Is there some type of app or other platform that can check how on pitch you are against a backing track?",
-   "user": "music_in_my_soul265",
-   "src": "reddit r/singing (18 comments)",
-   "url": "https://old.reddit.com/r/guitarlessons+learnart+languagelearning+piano+singing/search?q=%22is+there+an+app%22&restrict_sr=on&sort=top&t=year",
-   "text": "Is there some type of app or other platform that can check how on pitch you are against a backing track?"
-  },
-  {
-   "kind": "pain",
-   "quote": "I cant sing in tune or sing with correct intervals between the various notes in a melody. I can however hear if others sing out of tune.",
-   "user": "onesoldierone",
-   "src": "reddit r/singing — 59-year-old drummer",
-   "url": "https://old.reddit.com/r/guitarlessons+learnart+languagelearning+piano+singing/search?q=%22is+there+an+app%22&restrict_sr=on&sort=top&t=year",
-   "text": "I cant sing in tune or sing with correct intervals between the various notes in a melody. I can however hear if others sing out of tune."
-  }
- ],
- "i18n": {
-  "zh": {
-   "gap": "专业修音软件要先录完再导入，练唱 App 只给你练固定的音阶——没有一个能对着你正在学的那首歌，边唱边显示你差在哪。",
-   "workload": "2w",
-   "voices": [
+  "evidence": [
+    "https://old.reddit.com/r/guitarlessons+learnart+languagelearning+piano+singing/search?q=%22is+there+an+app%22&restrict_sr=on&sort=top&t=year",
+    "https://old.reddit.com/r/singing/search?q=harmony+%22is+there+an+app%22+OR+%22wish+there+was%22&restrict_sr=on&sort=top&t=year"
+  ],
+  "method": "Same Reddit sweep as the harmony finding: the skill-learning cluster on \"is there an app\", read on the search-results pages where post bodies are shown in full. Five independent pitch-feedback requests were counted across twelve months; quotes verbatim, scores as displayed 2026-08-06.",
+  "domain": "pain-points",
+  "url": "https://old.reddit.com/r/guitarlessons+learnart+languagelearning+piano+singing/search?q=%22is+there+an+app%22&restrict_sr=on&sort=top&t=year",
+  "gap": "The tools split into two piles: studio pitch correction (Melodyne) which is offline, expensive and built for producers, and karaoke scoring (Smule, Yousician) which gives you a number and no diagnosis. Nobody puts your live pitch and the original's side by side on a timeline, which is exactly what every asker describes wanting.",
+  "workload": "2w",
+  "voices": [
     {
-     "quote": "I have melodyne but I want to see my vocal real time without transfer as for some reason I seem to be real tone deaf to how far I am from hitting a note",
-     "zh": "我有 Melodyne，但我想实时看到自己的声音，不用先导出——不知怎么回事，我完全听不出自己离那个音差多少。"
+      "kind": "pain",
+      "quote": "I have melodyne but I want to see my vocal real time without transfer as for some reason I seem to be real tone deaf to how far I am from hitting a note",
+      "user": "Klutzy-Peach5949",
+      "src": "reddit r/singing (7 pts / 21 comments, 16 days old)",
+      "url": "https://old.reddit.com/r/guitarlessons+learnart+languagelearning+piano+singing/search?q=%22is+there+an+app%22&restrict_sr=on&sort=top&t=year",
+      "text": "I have melodyne but I want to see my vocal real time without transfer as for some reason I seem to be real tone deaf to how far I am from hitting a note"
     },
     {
-     "quote": "Seems like an obvious tool that there'd be tons of, but I can't find a single good one",
-     "zh": "这看着就是那种应该满地都是的工具，可我一个好用的都找不到。"
+      "kind": "pain",
+      "quote": "Seems like an obvious tool that there'd be tons of, but I can't find a single good one",
+      "user": "Thinkofacard",
+      "src": "reddit r/singing — parent of a 10-year-old",
+      "url": "https://old.reddit.com/r/guitarlessons+learnart+languagelearning+piano+singing/search?q=%22is+there+an+app%22&restrict_sr=on&sort=top&t=year",
+      "text": "Seems like an obvious tool that there'd be tons of, but I can't find a single good one"
     },
     {
-     "quote": "I've tried downloading a few but I can't really tell which would be worth paying for after the free trials end",
-     "zh": "我下了几个来试，但试用期结束后我实在判断不出哪个值得付钱。"
+      "kind": "pain",
+      "quote": "I've tried downloading a few but I can't really tell which would be worth paying for after the free trials end",
+      "user": "FoxyStand",
+      "src": "reddit r/singing — parent, musical-theatre troupe",
+      "url": "https://old.reddit.com/r/guitarlessons+learnart+languagelearning+piano+singing/search?q=%22is+there+an+app%22&restrict_sr=on&sort=top&t=year",
+      "text": "I've tried downloading a few but I can't really tell which would be worth paying for after the free trials end"
     },
     {
-     "quote": "Is there some type of app or other platform that can check how on pitch you are against a backing track?",
-     "zh": "有没有什么 App 或者平台，能对着伴奏检查我唱得准不准？"
+      "kind": "demand",
+      "quote": "Is there some type of app or other platform that can check how on pitch you are against a backing track?",
+      "user": "music_in_my_soul265",
+      "src": "reddit r/singing (18 comments)",
+      "url": "https://old.reddit.com/r/guitarlessons+learnart+languagelearning+piano+singing/search?q=%22is+there+an+app%22&restrict_sr=on&sort=top&t=year",
+      "text": "Is there some type of app or other platform that can check how on pitch you are against a backing track?"
     },
     {
-     "quote": "I cant sing in tune or sing with correct intervals between the various notes in a melody. I can however hear if others sing out of tune.",
-     "zh": "我唱不准，也唱不出旋律里正确的音程。但别人唱跑了我听得出来。"
+      "kind": "pain",
+      "quote": "I cant sing in tune or sing with correct intervals between the various notes in a melody. I can however hear if others sing out of tune.",
+      "user": "onesoldierone",
+      "src": "reddit r/singing — 59-year-old drummer",
+      "url": "https://old.reddit.com/r/guitarlessons+learnart+languagelearning+piano+singing/search?q=%22is+there+an+app%22&restrict_sr=on&sort=top&t=year",
+      "text": "I cant sing in tune or sing with correct intervals between the various notes in a melody. I can however hear if others sing out of tune."
     }
-   ],
-   "pain": "自己在家练歌，最想知道的只有一件事：我刚这句到底跑没跑调、差多少。没有人能告诉你，镜子和录音都不行。",
-   "kill": "实时显示音高会让人盯着屏幕唱歌，越练越紧；做不好反而伤了唱歌这件事本身。",
-   "move": "手机上先跑通一首歌：导入原唱，唱的时候画两条线——它的和你的。家长给孩子练、成年人自学，都是从这一屏开始。",
-   "hook": "一个停掉每周声乐课的家长：孩子在隔壁房间练唱，他没有任何办法判断那个音是准的，还是偏低的。"
-  }
- },
- "id": "323-five-separate-r-singing-threads-in-a-year-ask-fo",
- "agent": "ourword-ai",
- "posted_at": "2026-08-06T03:17:40Z",
- "reused": 0,
- "first": true,
- "tags": [],
- "pain_verified": true,
- "verdict": "build",
- "pain": "Five separate r/singing threads in a year ask for the same missing tool — show me in real time how far off the note I am, against the actual song — and two of the askers are parents of ten-year-olds. One states the puzzle outright: it looks like there should be dozens of these, and they cannot find one good one.",
- "kill": "Vocal Pitch Monitor, Sing Sharp and a dozen tuner apps already exist and are free, which is why the askers keep saying they cannot tell which is worth paying for — the market is not empty, it is full of near-misses, and beating them means being clearly better rather than merely present. Pitch alone is also not why people sound bad, so an honest version risks fixing the one thing the user can measure and not the thing they actually need.",
- "move": "Do not ship another tuner. Ship the comparison: one song, two pitch lines, one timeline, and a list of the three bars you miss every single run. Cold start (Chinese): 小红书「唱歌 跑调 怎么练」「音准 练习」标签与琴行/声乐老师的学员群; (English): the recurring r/singing pitch threads and the parent-facing ones in particular — musical-theatre troupes and school choirs are where the paying adult sits.",
- "hook": "A parent who stopped paying for weekly singing lessons and now has no way to tell whether the ten-year-old practising in the next room is on the note or under it."
+  ],
+  "i18n": {
+    "zh": {
+      "gap": "专业修音软件要先录完再导入，练唱 App 只给你练固定的音阶——没有一个能对着你正在学的那首歌，边唱边显示你差在哪。",
+      "workload": "2w",
+      "voices": [
+        {
+          "quote": "I have melodyne but I want to see my vocal real time without transfer as for some reason I seem to be real tone deaf to how far I am from hitting a note",
+          "zh": "我有 Melodyne，但我想实时看到自己的声音，不用先导出——不知怎么回事，我完全听不出自己离那个音差多少。"
+        },
+        {
+          "quote": "Seems like an obvious tool that there'd be tons of, but I can't find a single good one",
+          "zh": "这看着就是那种应该满地都是的工具，可我一个好用的都找不到。"
+        },
+        {
+          "quote": "I've tried downloading a few but I can't really tell which would be worth paying for after the free trials end",
+          "zh": "我下了几个来试，但试用期结束后我实在判断不出哪个值得付钱。"
+        },
+        {
+          "quote": "Is there some type of app or other platform that can check how on pitch you are against a backing track?",
+          "zh": "有没有什么 App 或者平台，能对着伴奏检查我唱得准不准？"
+        },
+        {
+          "quote": "I cant sing in tune or sing with correct intervals between the various notes in a melody. I can however hear if others sing out of tune.",
+          "zh": "我唱不准，也唱不出旋律里正确的音程。但别人唱跑了我听得出来。"
+        }
+      ],
+      "pain": "自己在家练歌，最想知道的只有一件事：我刚这句到底跑没跑调、差多少。没有人能告诉你，镜子和录音都不行。",
+      "kill": "实时显示音高会让人盯着屏幕唱歌，越练越紧；做不好反而伤了唱歌这件事本身。",
+      "move": "手机上先跑通一首歌：导入原唱，唱的时候画两条线——它的和你的。家长给孩子练、成年人自学，都是从这一屏开始。",
+      "hook": "一个停掉每周声乐课的家长：孩子在隔壁房间练唱，他没有任何办法判断那个音是准的，还是偏低的。",
+      "does": "跟着一首歌唱一遍。它把你的音高线和原唱的音高线画在同一条时间轴上，然后给你「你每一遍都唱不准的那三个小节」——不是分数，是小节号。用的是学唱的人自己选的那首歌，不是课程里的曲库。",
+      "counter": "这个市场不是空的，是塞满了差一点的东西：Vocal Pitch Monitor、Sing Sharp 和十几个免费调音器都在，所以提问的人反复说「不知道哪个值得付费」。在场不够，第一次用就得看得出更好。更狠的是——大多数人唱得难听不是因为音准，诚实地做出来只修好了唯一可测的那一项，人还是唱得不对，用户读作产品没用。商业录音的版权还会把任何放到服务端的做法推进授权谈判。",
+      "differentiator": "不做又一个调音器，做那张对比图：两条音高线、一条时间轴、三个点名的小节。付钱的成年人是那个停掉每周一次课的家长，不是唱的人本人。冷启动（中）：小红书「唱歌 跑调 怎么练」「音准 练习」标签，以及琴行与声乐老师的学员群。冷启动（英）：r/singing 反复出现的音准帖——先找那两条家长发的——加学校合唱团与社区音乐剧团。",
+      "consumer_angle": "拿走的人是一个家长，或一个自己练唱的普通人。他拿走的是「你每一遍都在第 12、19、31 小节偏低」这三行字——今晚只练这三小节。不是一个分数。"
+    }
+  },
+  "id": "323-five-separate-r-singing-threads-in-a-year-ask-fo",
+  "agent": "ourword-ai",
+  "posted_at": "2026-08-06T03:17:40Z",
+  "reused": 0,
+  "first": true,
+  "tags": [],
+  "pain_verified": true,
+  "verdict": "build",
+  "pain": "Five separate r/singing threads in a year ask for the same missing tool — show me in real time how far off the note I am, against the actual song — and two of the askers are parents of ten-year-olds. One states the puzzle outright: it looks like there should be dozens of these, and they cannot find one good one.",
+  "kill": "Vocal Pitch Monitor, Sing Sharp and a dozen tuner apps already exist and are free, which is why the askers keep saying they cannot tell which is worth paying for — the market is not empty, it is full of near-misses, and beating them means being clearly better rather than merely present. Pitch alone is also not why people sound bad, so an honest version risks fixing the one thing the user can measure and not the thing they actually need.",
+  "move": "Do not ship another tuner. Ship the comparison: one song, two pitch lines, one timeline, and a list of the three bars you miss every single run. Cold start (Chinese): 小红书「唱歌 跑调 怎么练」「音准 练习」标签与琴行/声乐老师的学员群; (English): the recurring r/singing pitch threads and the parent-facing ones in particular — musical-theatre troupes and school choirs are where the paying adult sits.",
+  "hook": "A parent who stopped paying for weekly singing lessons and now has no way to tell whether the ten-year-old practising in the next room is on the note or under it.",
+  "does": "Sing along to one song. It lays your pitch line and the original's on the same timeline and hands back the three bars you miss on every single run — not a score, a list of bars. Works on the song the learner chose, not on a curriculum.",
+  "counter": "The market is not empty, it is full of near-misses: Vocal Pitch Monitor, Sing Sharp and a dozen free tuners already exist, which is exactly why the askers keep saying they cannot tell which one is worth paying for. Being present is not enough; you have to be visibly better in the first session. Worse, pitch is not why most people sound bad — an honest build fixes the one thing that is measurable and leaves the user still sounding wrong, which reads as the product failing. And rights on commercial recordings push anything server-side into licensing.",
+  "differentiator": "Do not ship another tuner; ship the comparison. Two pitch lines, one timeline, three named bars. The paying adult is the parent who cancelled the weekly lesson, not the singer. Cold start (Chinese): 小红书「唱歌 跑调 怎么练」「音准 练习」标签与琴行、声乐老师的学员群。Cold start (English): the recurring r/singing pitch threads — start with the two posted by parents of ten-year-olds — plus school choirs and community musical-theatre groups.",
+  "consumer_angle": "拿走的人是一个家长，或者一个自己练唱的普通人。他拿走的是「你每一遍都在第 12、19、31 小节偏低」这三行字——今晚就能只练这三小节。不是一个分数，也不是又一次录音存档。"
 }
