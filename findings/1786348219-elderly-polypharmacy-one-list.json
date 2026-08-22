@@ -1,73 +1,74 @@
 {
- "operator": "@ourword-ai",
- "agent": "operator-session",
- "domain": "pain-points",
- "pain_verified": true,
- "id": "1786348219-elderly-polypharmacy-one-list",
- "title": "The medicine cabinet nobody has a full list of — elderly polypharmacy",
- "verdict": "build",
- "workload": "2m",
- "method": "desk research 2026-08-10 (scouts blocked on the model provider): Chinese health press, pharmacy-society explainers and a 2026 provincial report. Voices are quoted ordinary people inside those reports, not mined posts — weaker than a forum thread, labelled as such.",
- "posted_at": "2026-08-10T07:50:19Z",
- "pain": "A daughter opens her parent's drawer: pills from three hospitals, plus calcium, plus a herbal powder someone recommended. Nobody — not her, not any one doctor — has ever seen the whole list at once.",
- "gap": "Interaction checkers exist, for doctors. What no product owns is the step before: assembling one complete list. Prescriptions come from different departments and hospitals that don't see each other's records, and the supplements and herbal remedies — the ones that actually collide with warfarin and blood-pressure drugs — appear in no system at all, because nobody told the doctor about them.",
- "kill": "This sits one inch from practising medicine. Say 'these two are fine together' once, wrongly, and someone bleeds. It only survives as an organiser that ends in 'ask the pharmacist about these two', never as a verdict — and that discipline is also what makes it easy for a hospital app to copy.",
- "move": "Don't judge, assemble. Photograph every box in the drawer, including the supplements and the herbal packets, and produce one page: what is being taken, when, which pairs are worth asking a pharmacist about, and what to hand the doctor at the next visit. Cold start: 小红书 '给爸妈整理药' notes and 中老年 family groups, where the drawer photo is already being posted.",
- "voices": [
-  {
-   "kind": "secondary",
-   "quote": "每天要吃一大把，有时候真记不清有没有吃过",
-   "source": "南方+ 报道中的老人自述",
-   "url": "https://static.nfnews.com/content/202601/05/c12051834.html",
-   "zh": "每天要吃一大把，有时候真记不清有没有吃过"
-  },
-  {
-   "kind": "secondary",
-   "quote": "很多老人自行购买保健品或中药调理，但这些可能与西药相互作用",
-   "source": "大众健康报 · 多重用药科普",
-   "url": "https://www.dzjkb.org.cn/dazhongkepu/dazhongkepu/99b0c4466b5fd7f86ca796f9c2f867a8.html",
-   "zh": "很多老人自行买保健品或中药「调理身体」，而这些恰恰可能和西药打架"
-  }
- ],
- "evidence": [
-  "https://static.nfnews.com/content/202601/05/c12051834.html — 2026-01: 我国 60 岁以上老人多重用药率 70.8%，平均每天 8.6 种药，药物不良反应发生率 29%",
-  "https://www.thepaper.cn/newsDetail_forward_29178976 — 澎湃: 华法林与常见抗生素、止痛药合用增加出血风险；氯吡格雷与奥美拉唑等 PPI 合用可能减弱药效",
-  "https://www.dzjkb.org.cn/dazhongkepu/dazhongkepu/99b0c4466b5fd7f86ca796f9c2f867a8.html — 保健品/中药（甘草、银杏、三七）与西药的相互作用，且从不进入医院系统",
-  "https://health.people.com.cn/n1/2019/1016/c14739-31402255.html — 人民网: 老年人药物不良反应发生率是中青年的 2~3 倍",
-  "Shelf check: 用药助手/UpToDate 面向医师；医院 App 只看得见本院处方；消费级用药提醒 App 只做闹钟，不做清单"
- ],
- "tags": [
-  "family:household-health-translation",
-  "user-voice",
-  "shelf:elderly-medication"
- ],
- "_watch": {
-  "channel": "evidence-backed build (pain quantified; the assemble-not-judge product unproven)",
-  "hypothesis": "adult children managing a parent's medication would pay for one complete list — including the supplements no doctor knows about",
-  "why_now": "phone cameras plus multimodal reading make box-by-box capture a 5-minute job instead of an hour of typing",
-  "trigger": "first-hand '我给我妈整理了一张表' posts adopting a tool, or a pharmacist willing to stand behind the ask-list format",
-  "review_by": "2026-09-10",
-  "on_miss": "archive"
- },
- "i18n": {
-  "zh": {
-   "pain": "女儿打开父母的抽屉：三家医院开的药，加钙片，加别人推荐的一包中药粉。没有任何一个人——包括每一位医生——完整看过这一整份清单。",
-   "gap": "相互作用检查是有的，给医生用。没人占住它前面那一步：把清单先拼齐。药来自不同科室、不同医院，彼此看不见对方的处方；而真正会和华法林、降压药打架的保健品和中药，压根不在任何系统里——因为没人跟医生提过。",
-   "kill": "这事离行医只差一寸。「这两种一起吃没事」说错一次，就可能出血。它只能活成一个整理工具，结尾永远是「这两样去问药师」，绝不能给结论——而这份克制，恰恰也让医院 App 很容易照抄。",
-   "move": "不判断，只归拢。把抽屉里每一盒都拍下来，连保健品和中药袋一起，输出一页纸：在吃什么、什么时候吃、哪几对值得问药师、下次看病该把哪张纸递给医生。冷启动：小红书「给爸妈整理药」笔记，以及中老年家庭群——抽屉照片本来就在那里发。",
-   "voices": [
+  "operator": "@ourword-ai",
+  "agent": "operator-session",
+  "domain": "pain-points",
+  "pain_verified": true,
+  "id": "1786348219-elderly-polypharmacy-one-list",
+  "title": "The medicine cabinet nobody has a full list of — elderly polypharmacy",
+  "verdict": "archive",
+  "workload": "2m",
+  "method": "desk research 2026-08-10 (scouts blocked on the model provider): Chinese health press, pharmacy-society explainers and a 2026 provincial report. Voices are quoted ordinary people inside those reports, not mined posts — weaker than a forum thread, labelled as such.",
+  "posted_at": "2026-08-10T07:50:19Z",
+  "pain": "A daughter opens her parent's drawer: pills from three hospitals, plus calcium, plus a herbal powder someone recommended. Nobody — not her, not any one doctor — has ever seen the whole list at once.",
+  "gap": "Interaction checkers exist, for doctors. What no product owns is the step before: assembling one complete list. Prescriptions come from different departments and hospitals that don't see each other's records, and the supplements and herbal remedies — the ones that actually collide with warfarin and blood-pressure drugs — appear in no system at all, because nobody told the doctor about them.",
+  "kill": "This sits one inch from practising medicine. Say 'these two are fine together' once, wrongly, and someone bleeds. It only survives as an organiser that ends in 'ask the pharmacist about these two', never as a verdict — and that discipline is also what makes it easy for a hospital app to copy.",
+  "move": "Don't judge, assemble. Photograph every box in the drawer, including the supplements and the herbal packets, and produce one page: what is being taken, when, which pairs are worth asking a pharmacist about, and what to hand the doctor at the next visit. Cold start: 小红书 '给爸妈整理药' notes and 中老年 family groups, where the drawer photo is already being posted.",
+  "voices": [
     {
-     "quote": "每天要吃一大把，有时候真记不清有没有吃过",
-     "zh": "每天要吃一大把，有时候真记不清有没有吃过",
-     "source": "南方+ 报道中的老人自述"
+      "kind": "secondary",
+      "quote": "每天要吃一大把，有时候真记不清有没有吃过",
+      "source": "南方+ 报道中的老人自述",
+      "url": "https://static.nfnews.com/content/202601/05/c12051834.html",
+      "zh": "每天要吃一大把，有时候真记不清有没有吃过"
     },
     {
-     "quote": "很多老人自行购买保健品或中药调理，但这些可能与西药相互作用",
-     "zh": "很多老人自行买保健品或中药「调理身体」，而这些恰恰可能和西药打架",
-     "source": "大众健康报"
+      "kind": "secondary",
+      "quote": "很多老人自行购买保健品或中药调理，但这些可能与西药相互作用",
+      "source": "大众健康报 · 多重用药科普",
+      "url": "https://www.dzjkb.org.cn/dazhongkepu/dazhongkepu/99b0c4466b5fd7f86ca796f9c2f867a8.html",
+      "zh": "很多老人自行买保健品或中药「调理身体」，而这些恰恰可能和西药打架"
     }
-   ]
-  }
- },
- "wallet": "中等：药师咨询与体检套餐有人付费，但「整理清单」这件事本身还没人收过钱"
+  ],
+  "evidence": [
+    "https://static.nfnews.com/content/202601/05/c12051834.html — 2026-01: 我国 60 岁以上老人多重用药率 70.8%，平均每天 8.6 种药，药物不良反应发生率 29%",
+    "https://www.thepaper.cn/newsDetail_forward_29178976 — 澎湃: 华法林与常见抗生素、止痛药合用增加出血风险；氯吡格雷与奥美拉唑等 PPI 合用可能减弱药效",
+    "https://www.dzjkb.org.cn/dazhongkepu/dazhongkepu/99b0c4466b5fd7f86ca796f9c2f867a8.html — 保健品/中药（甘草、银杏、三七）与西药的相互作用，且从不进入医院系统",
+    "https://health.people.com.cn/n1/2019/1016/c14739-31402255.html — 人民网: 老年人药物不良反应发生率是中青年的 2~3 倍",
+    "Shelf check: 用药助手/UpToDate 面向医师；医院 App 只看得见本院处方；消费级用药提醒 App 只做闹钟，不做清单"
+  ],
+  "tags": [
+    "family:household-health-translation",
+    "user-voice",
+    "shelf:elderly-medication"
+  ],
+  "_watch": {
+    "channel": "evidence-backed build (pain quantified; the assemble-not-judge product unproven)",
+    "hypothesis": "adult children managing a parent's medication would pay for one complete list — including the supplements no doctor knows about",
+    "why_now": "phone cameras plus multimodal reading make box-by-box capture a 5-minute job instead of an hour of typing",
+    "trigger": "first-hand '我给我妈整理了一张表' posts adopting a tool, or a pharmacist willing to stand behind the ask-list format",
+    "review_by": "2026-09-10",
+    "on_miss": "archive"
+  },
+  "i18n": {
+    "zh": {
+      "pain": "女儿打开父母的抽屉：三家医院开的药，加钙片，加别人推荐的一包中药粉。没有任何一个人——包括每一位医生——完整看过这一整份清单。",
+      "gap": "相互作用检查是有的，给医生用。没人占住它前面那一步：把清单先拼齐。药来自不同科室、不同医院，彼此看不见对方的处方；而真正会和华法林、降压药打架的保健品和中药，压根不在任何系统里——因为没人跟医生提过。",
+      "kill": "这事离行医只差一寸。「这两种一起吃没事」说错一次，就可能出血。它只能活成一个整理工具，结尾永远是「这两样去问药师」，绝不能给结论——而这份克制，恰恰也让医院 App 很容易照抄。",
+      "move": "不判断，只归拢。把抽屉里每一盒都拍下来，连保健品和中药袋一起，输出一页纸：在吃什么、什么时候吃、哪几对值得问药师、下次看病该把哪张纸递给医生。冷启动：小红书「给爸妈整理药」笔记，以及中老年家庭群——抽屉照片本来就在那里发。",
+      "voices": [
+        {
+          "quote": "每天要吃一大把，有时候真记不清有没有吃过",
+          "zh": "每天要吃一大把，有时候真记不清有没有吃过",
+          "source": "南方+ 报道中的老人自述"
+        },
+        {
+          "quote": "很多老人自行购买保健品或中药调理，但这些可能与西药相互作用",
+          "zh": "很多老人自行买保健品或中药「调理身体」，而这些恰恰可能和西药打架",
+          "source": "大众健康报"
+        }
+      ]
+    }
+  },
+  "wallet": "中等：药师咨询与体检套餐有人付费，但「整理清单」这件事本身还没人收过钱",
+  "archive_reason": "R5 硬排除区「代际代劳」：拿走成品的人是女儿而非用药的老人；且与用户 2026-07-07 大标记 ❌103 老人用药管家同族。按「标准是文件不是你的观点」降档，不删（不触完整性红线）。"
 }
