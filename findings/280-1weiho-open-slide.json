@@ -1,40 +1,50 @@
 {
- "title": "1weiho/open-slide",
- "evidence": [
-  "https://github.com/1weiho/open-slide",
-  "6,038★",
-  "420 forks",
-  "17 contributors",
-  "65 commits/30d",
-  "created 2026-04-26"
- ],
- "method": "discovery + usage signals (forks/contributors/commits/downloads)",
- "domain": "agent-infra",
- "operator": "@ourword-ai",
- "tags": [
-  "agent",
-  "react",
-  "slides"
- ],
- "i18n": {
-  "zh": {
-   "gap": "只有极客用得了：它是个 React 框架，交付物停在源码。真正需要一份 PPT 的是老师、销售、学生——他们要的是站在会议室里能打开的文件，而且上面得是公司规定的字体。",
-   "pain": "给幻灯片管道 6000 星，说明片子早就在被生成了——只是没人做出普通人打开它的那个地方。",
-   "kill": "这是个功能不是公司。Gamma、Canva、微软都在发 agent 写片子，模板库和渠道本来就在他们手上；一个 MIT 框架一个版本就被吸收掉。真正会累积的资产属于握着助手的那一方，不属于握着渲染器的这一方。",
-   "move": "跳过框架，去做没有框架肯做的最后一公里：品牌锁定。拿公司现成的 PPTX 模板，学会它的母版，让 AI 生成的每一份片子一出来就已经长在里面——字体解析好、logo 放好、导出成同事能直接改的 PPTX。只干一件事：「我的片子看上去就是我们公司的片子」。冷启动（中文）：小红书、知乎上「PPT 模板 公司规范」的帖子与秋叶PPT 评论区，打工人在那里讲自己手动套版套到几点；冷启动（英文）：r/powerpoint 与 r/consulting 搜 brand template deck reformat。"
-  }
- },
- "pick_reason": "The project addresses a specific need for coding agents to create slide decks, but its market potential may be limited.",
- "id": "280-1weiho-open-slide",
- "agent": "gh-scout",
- "posted_at": "2026-07-29T06:40:06Z",
- "voices": [],
- "gap": "Only geeks can use it: it is a React framework, so the deliverable stops at source code. The person who needs a deck is a teacher, a salesperson, a student — they need a file that opens in the room they are standing in, with their employer's fonts on it.",
- "workload": "2m",
- "pain_verified": false,
- "verdict": "build",
- "pain": "6k stars for slide plumbing means the decks are already being generated — and nobody has built the place an ordinary person opens them.",
- "kill": "This is a feature, not a company. Gamma, Canva and Microsoft are all shipping agent-authored decks with the template library and the distribution already in place, and an MIT framework is absorbed in one release. The durable asset here belongs to whoever owns the assistant, not to whoever owns the renderer.",
- "move": "Skip the framework and sell the last mile that no framework does: brand lock-in. Take a company's existing PPTX template, learn its masters, and make every AI-generated deck come out already inside it — fonts resolved, logo placed, exportable to PPTX that a colleague can edit. One job: 'my deck already looks like our deck'. Cold start (Chinese): 小红书 and 知乎 threads on 「PPT 模板 公司规范」and 秋叶PPT's comment sections, where office workers describe re-formatting decks by hand; Cold start (English): r/powerpoint and r/consulting, search 'brand template deck reformat'.",
- "operator_mark": "star"
+  "title": "1weiho/open-slide",
+  "evidence": [
+    "https://github.com/1weiho/open-slide",
+    "6,038★",
+    "420 forks",
+    "17 contributors",
+    "65 commits/30d",
+    "created 2026-04-26"
+  ],
+  "method": "discovery + usage signals (forks/contributors/commits/downloads)",
+  "domain": "agent-infra",
+  "operator": "@ourword-ai",
+  "tags": [
+    "agent",
+    "react",
+    "slides"
+  ],
+  "i18n": {
+    "zh": {
+      "gap": "只有极客用得了：它是个 React 框架，交付物停在源码。真正需要一份 PPT 的是老师、销售、学生——他们要的是站在会议室里能打开的文件，而且上面得是公司规定的字体。",
+      "pain": "给幻灯片管道 6000 星，说明片子早就在被生成了——只是没人做出普通人打开它的那个地方。",
+      "kill": "这是个功能不是公司。Gamma、Canva、微软都在发 agent 写片子，模板库和渠道本来就在他们手上；一个 MIT 框架一个版本就被吸收掉。真正会累积的资产属于握着助手的那一方，不属于握着渲染器的这一方。",
+      "move": "跳过框架，去做没有框架肯做的最后一公里：品牌锁定。拿公司现成的 PPTX 模板，学会它的母版，让 AI 生成的每一份片子一出来就已经长在里面——字体解析好、logo 放好、导出成同事能直接改的 PPTX。只干一件事：「我的片子看上去就是我们公司的片子」。冷启动（中文）：小红书、知乎上「PPT 模板 公司规范」的帖子与秋叶PPT 评论区，打工人在那里讲自己手动套版套到几点；冷启动（英文）：r/powerpoint 与 r/consulting 搜 brand template deck reformat。",
+      "hook": "一个老师、一个销售、一个学生——周四要站在会议室里讲，而公司有一套带字体和 logo 的模板。AI 已经把稿子写好了，但它不像公司的稿子，于是他花一整个晚上手工返工。",
+      "does": "把你单位现成的那份 PPTX 模板喂进去。它学会里面的母版，然后让每一份 AI 生成的稿子直接长在那个模板里——字体解析好、logo 放到位、导出成同事打开就能改的 .pptx。只干一件事：「我的稿子已经像我们的稿子了」。",
+      "counter": "这是一个功能，不是一家公司，而且是三家巨头正在出的功能：Gamma、Canva、Microsoft 都已经有 agent 写稿加模板库加分发。PPTX 母版继承本身是个泥潭——主题色、占位符覆盖、审稿人机器上没有的字体——所以失败形态是「在你屏幕上对、在会议室里错」，对这个用户来说这是最糟的一种结果。而且谁握着那个助手谁就握着这件事，一个渲染器一个版本就被吸收掉。",
+      "differentiator": "这个方向上所有东西都停在「生成幻灯片」。没人卖的最后一公里是对着公司已有模板的品牌锁定——而这恰恰是用户做错了要挨骂的那一段。冷启动（中）：小红书与知乎「PPT 模板 公司规范」的讨论，以及秋叶PPT 评论区里描述手工返工的上班族。冷启动（英）：r/powerpoint 与咨询、销售类版块，「照我们的模板改一版」是反复出现的付费活。",
+      "consumer_angle": "拿走的人是周四要站在会议室里讲的老师、销售、学生。他拿走的是一个 .pptx——字体对了、logo 在位、同事打开就能改。这正是标准里那条唯一例外：AI 直接产出人能用的成品。"
+    }
+  },
+  "pick_reason": "The project addresses a specific need for coding agents to create slide decks, but its market potential may be limited.",
+  "id": "280-1weiho-open-slide",
+  "agent": "gh-scout",
+  "posted_at": "2026-07-29T06:40:06Z",
+  "voices": [],
+  "gap": "Only geeks can use it: it is a React framework, so the deliverable stops at source code. The person who needs a deck is a teacher, a salesperson, a student — they need a file that opens in the room they are standing in, with their employer's fonts on it.",
+  "workload": "2m",
+  "pain_verified": false,
+  "verdict": "build",
+  "pain": "6k stars for slide plumbing means the decks are already being generated — and nobody has built the place an ordinary person opens them.",
+  "kill": "This is a feature, not a company. Gamma, Canva and Microsoft are all shipping agent-authored decks with the template library and the distribution already in place, and an MIT framework is absorbed in one release. The durable asset here belongs to whoever owns the assistant, not to whoever owns the renderer.",
+  "move": "Skip the framework and sell the last mile that no framework does: brand lock-in. Take a company's existing PPTX template, learn its masters, and make every AI-generated deck come out already inside it — fonts resolved, logo placed, exportable to PPTX that a colleague can edit. One job: 'my deck already looks like our deck'. Cold start (Chinese): 小红书 and 知乎 threads on 「PPT 模板 公司规范」and 秋叶PPT's comment sections, where office workers describe re-formatting decks by hand; Cold start (English): r/powerpoint and r/consulting, search 'brand template deck reformat'.",
+  "operator_mark": "star",
+  "hook": "A teacher, a salesperson, a student — someone who has to stand up in a room on Thursday and whose employer has a template with fonts and a logo in it. The AI wrote them a deck. The deck does not look like their company's decks, so they spend the evening re-formatting it by hand.",
+  "does": "Feed it your organisation's existing PPTX template. It learns the masters, then makes every AI-generated deck come out already inside that template — fonts resolved, logo placed, exported as a PPTX a colleague can open and edit. One job: 'my deck already looks like our deck'.",
+  "counter": "This is a feature, not a company, and it is a feature three giants are actively shipping: Gamma, Canva and Microsoft all have agent-authored decks with the template library and the distribution already in place. PPTX master inheritance is also a swamp — theme colours, placeholder overrides, fonts that do not exist on the reviewer's machine — so the failure mode is a deck that looks right on your screen and wrong in the room, which is the single worst outcome for this user. And whoever owns the assistant owns this; a renderer is absorbed in one release.",
+  "differentiator": "Everything in this space stops at generating slides. The last mile nobody sells is brand lock-in against a template the company already has — and it is the only part the user is punished for getting wrong. Cold start (Chinese): 小红书 与 知乎 上「PPT 模板 公司规范」的讨论，以及秋叶PPT 的评论区，那里全是描述手工返工的上班族。Cold start (English): r/powerpoint and the consulting/sales subreddits, where 'make it match our deck template' is a recurring paid task.",
+  "consumer_angle": "拿走的人是周四要站在会议室里讲的老师、销售、学生——不是开发者，不是任何 agent。他拿走的是一个 .pptx 文件：字体对了、logo 在位、同事打开就能改。这正是标准里那条唯一例外——AI 直接产出人能用的成品。"
 }
